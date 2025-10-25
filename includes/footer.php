@@ -50,10 +50,11 @@
                 <div class="single-footer-widget tp_widgets">
                     <h6 class="footer_title">Quick Links</h6>
                     <ul class="list">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="#">Admissions</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about-us.php">About</a></li>
+                        <li><a href="contact.php">Courses</a></li>
+                        <li><a href="elements.php">Academy</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>

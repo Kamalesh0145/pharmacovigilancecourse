@@ -138,6 +138,7 @@ button:focus {
         padding: 0px;
         display: inline-block; 
         color: white;
+        font-size:15px;
       }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }

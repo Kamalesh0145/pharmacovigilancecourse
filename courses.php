@@ -34,7 +34,8 @@
                 <div class="courses_item">
                     <img src="img/courses/course-1.jpg" alt="Professional Certificate in Pharmacovigilance">
                     <div class="hover_text">
-                        <a class="cat" href="#">Free</a>
+                        <!-- <a class="cat" href="#">Free</a> -->
+                        <a class="cat" href="#"></a>
                         <a href="#"><h4>Professional Certificate in Pharmacovigilance</h4></a>
                         <ul class="list">
                             <li><a href="#"><i class="lnr lnr-users"></i> 420</a></li>
@@ -50,7 +51,8 @@
                 <div class="courses_item">
                     <img src="img/courses/course-2.jpg" alt="Clinical Trial Management">
                     <div class="hover_text">
-                        <a class="cat" href="#">Free</a>
+                        <!-- <a class="cat" href="#">Free</a> -->
+                        <a class="cat" href="#"></a>
                         <a href="#"><h4>Clinical Trial Management</h4></a>
                         <ul class="list">
                             <li><a href="#"><i class="lnr lnr-users"></i> 380</a></li>
@@ -66,7 +68,8 @@
                 <div class="courses_item">
                     <img src="img/courses/course-4.jpg" alt="Project Management in Clinical Research">
                     <div class="hover_text">
-                        <a class="cat" href="#">Free</a>
+                        <!-- <a class="cat" href="#">Free</a> -->
+                        <a class="cat" href="#"></a>
                         <a href="#"><h4>Project Management in Clinical Research</h4></a>
                         <ul class="list">
                             <li><a href="#"><i class="lnr lnr-users"></i> 295</a></li>
@@ -82,7 +85,8 @@
                 <div class="courses_item">
                     <img src="img/courses/course-5.jpg" alt="Scientific Writing in Pharma">
                     <div class="hover_text">
-                        <a class="cat" href="#">Free</a>
+                        <!-- <a class="cat" href="#">Free</a> -->
+                        <a class="cat" href="#"></a>
                         <a href="#"><h4>Scientific Writing in Pharma</h4></a>
                         <ul class="list">
                             <li><a href="#"><i class="lnr lnr-users"></i> 310</a></li>

@@ -1,21 +1,21 @@
 <?php include 'includes/header.php'; ?>
-        
-        <!--================Home Banner Area =================-->
-        <section class="home_banner_area">
-            <div class="banner_inner d-flex align-items-center">
-            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-				<div class="container">
-					<div class="banner_content text-center">
-                     <h3>Building Strong Foundations <br />for a Smarter and Healthier World</h3>
-					<p>True progress in healthcare begins with knowledge — and at Cynture Global, we turn learning into meaningful impact through expert-led, hands-on training.</p>
-						<a class="main_btn" href="#">Get Started</a>
-					</div>
-				</div>
+
+<!--================Home Banner Area =================-->
+<section class="home_banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center">
+                <h3>Building Strong Foundations <br />for a Smarter and Healthier World</h3>
+                <p>True progress in healthcare begins with knowledge — and at Cynture Global, we turn learning into meaningful impact through expert-led, hands-on training.</p>
+                <a class="main_btn" href="#">Get Started</a>
             </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-        
-        <!--================Finance Area =================-->
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+
+<!--================Finance Area =================-->
 <section class="finance_area">
     <div class="container">
         <div class="finance_inner row">
@@ -84,108 +84,123 @@
     </div>
 </section>
 
-        <!--================End Finance Area =================-->
-        
-        <!--================Courses Area =================-->
-        <section class="courses_area p_120">
-        	<div class="container">
-        	<div class="main_title">
-          <h2>Build Your Career with These Free Courses</h2>
-          <p>Explore our most sought-after training programs designed to build practical skills and industry-ready knowledge in pharmaceutical and clinical research.</p>
-</div>
+<!--================End Finance Area =================-->
 
-<div class="row courses_inner">
-    <div class="col-lg-9">
-        <div class="grid_inner">
-
-            <!-- Course 1 -->
-            <div class="grid_item wd55">
-                <div class="courses_item">
-                    <img src="img/courses/course-1.jpg" alt="Professional Certificate in Pharmacovigilance">
-                    <div class="hover_text">
-                        <a class="cat" href="#">Free</a>
-                        <a href="#"><h4>Professional Certificate in Pharmacovigilance</h4></a>
-                        <ul class="list">
-                            <li><a href="#"><i class="lnr lnr-users"></i> 420</a></li>
-                            <li><a href="#"><i class="lnr lnr-bubble"></i> 40</a></li>
-                            <li><a href="#"><i class="lnr lnr-user"></i> Dr. K. Sharma</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Course 2 -->
-            <div class="grid_item wd44">
-                <div class="courses_item">
-                    <img src="img/courses/course-2.jpg" alt="Clinical Trial Management">
-                    <div class="hover_text">
-                        <a class="cat" href="#">Free</a>
-                        <a href="#"><h4>Clinical Trial Management</h4></a>
-                        <ul class="list">
-                            <li><a href="#"><i class="lnr lnr-users"></i> 380</a></li>
-                            <li><a href="#"><i class="lnr lnr-bubble"></i> 30</a></li>
-                            <li><a href="#"><i class="lnr lnr-user"></i> Dr. S. Reddy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Course 3 -->
-            <div class="grid_item wd44">
-                <div class="courses_item">
-                    <img src="img/courses/course-4.jpg" alt="Project Management in Clinical Research">
-                    <div class="hover_text">
-                        <a class="cat" href="#">Free</a>
-                        <a href="#"><h4>Project Management in Clinical Research</h4></a>
-                        <ul class="list">
-                            <li><a href="#"><i class="lnr lnr-users"></i> 295</a></li>
-                            <li><a href="#"><i class="lnr lnr-bubble"></i> 25</a></li>
-                            <li><a href="#"><i class="lnr lnr-user"></i> Ms. R. Verma</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Course 4 -->
-            <div class="grid_item wd55">
-                <div class="courses_item">
-                    <img src="img/courses/course-5.jpg" alt="Scientific Writing in Pharma">
-                    <div class="hover_text">
-                        <a class="cat" href="#">Free</a>
-                        <a href="#"><h4>Scientific Writing in Pharma</h4></a>
-                        <ul class="list">
-                            <li><a href="#"><i class="lnr lnr-users"></i> 310</a></li>
-                            <li><a href="#"><i class="lnr lnr-bubble"></i> 28</a></li>
-                            <li><a href="#"><i class="lnr lnr-user"></i> Dr. M. Iyer</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+<!--================Courses Area =================-->
+<section class="courses_area p_120">
+    <div class="container">
+        <div class="main_title">
+            <h2>Build Your Career with These Free Courses</h2>
+            <p>Explore our most sought-after training programs designed to build practical skills and industry-ready knowledge in pharmaceutical and clinical research.</p>
         </div>
-    </div>
 
-    <!-- Side Course -->
-    <div class="col-lg-3">
-        <div class="course_item">
-            <img src="img/courses/course-3.jpg" alt="Professional Diploma in Clinical Research">
-            <div class="hover_text">
-                <a class="cat" href="#">Free</a>
-                <a href="#"><h4>Professional Diploma in Clinical Research</h4></a>
-                <ul class="list">
-                    <li><a href="#"><i class="lnr lnr-users"></i> 360</a></li>
-                    <li><a href="#"><i class="lnr lnr-bubble"></i> 32</a></li>
-                    <li><a href="#"><i class="lnr lnr-user"></i> Dr. P. Kumar</a></li>
-                </ul>
+        <div class="row courses_inner">
+            <div class="col-lg-9">
+                <div class="grid_inner">
+
+                    <!-- Course 1 -->
+                    <div class="grid_item wd55">
+                        <div class="courses_item">
+                            <img src="img/courses/course-1.jpg" alt="Professional Certificate in Pharmacovigilance">
+                            <div class="hover_text">
+                                <!-- <a class="cat" href="#">Free</a> -->
+                                <a class="cat" href="#"></a>
+                                <a href="#">
+                                    <h4>Professional Certificate in Pharmacovigilance</h4>
+                                </a>
+                                <ul class="list">
+                                    <li><a href="#"><i class="lnr lnr-users"></i> 420</a></li>
+                                    <li><a href="#"><i class="lnr lnr-bubble"></i> 40</a></li>
+                                    <li><a href="#"><i class="lnr lnr-user"></i> Dr. K. Sharma</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course 2 -->
+                    <div class="grid_item wd44">
+                        <div class="courses_item">
+                            <img src="img/courses/course-2.jpg" alt="Clinical Trial Management">
+                            <div class="hover_text">
+                                <!-- <a class="cat" href="#">Free</a> -->
+                                <a class="cat" href="#"></a>
+                                <a href="#">
+                                    <h4>Clinical Trial Management</h4>
+                                </a>
+                                <ul class="list">
+                                    <li><a href="#"><i class="lnr lnr-users"></i> 380</a></li>
+                                    <li><a href="#"><i class="lnr lnr-bubble"></i> 30</a></li>
+                                    <li><a href="#"><i class="lnr lnr-user"></i> Dr. S. Reddy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course 3 -->
+                    <div class="grid_item wd44">
+                        <div class="courses_item">
+                            <img src="img/courses/course-4.jpg" alt="Project Management in Clinical Research">
+                            <div class="hover_text">
+                                <!-- <a class="cat" href="#">Free</a> -->
+                                <a class="cat" href="#"></a>
+                                <a href="#">
+                                    <h4>Project Management in Clinical Research</h4>
+                                </a>
+                                <ul class="list">
+                                    <li><a href="#"><i class="lnr lnr-users"></i> 295</a></li>
+                                    <li><a href="#"><i class="lnr lnr-bubble"></i> 25</a></li>
+                                    <li><a href="#"><i class="lnr lnr-user"></i> Ms. R. Verma</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course 4 -->
+                    <div class="grid_item wd55">
+                        <div class="courses_item">
+                            <img src="img/courses/course-5.jpg" alt="Scientific Writing in Pharma">
+                            <div class="hover_text">
+                                <!-- <a class="cat" href="#">Free</a> -->
+                                <a class="cat" href="#"></a>
+                                <a href="#">
+                                    <h4>Scientific Writing in Pharma</h4>
+                                </a>
+                                <ul class="list">
+                                    <li><a href="#"><i class="lnr lnr-users"></i> 310</a></li>
+                                    <li><a href="#"><i class="lnr lnr-bubble"></i> 28</a></li>
+                                    <li><a href="#"><i class="lnr lnr-user"></i> Dr. M. Iyer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Side Course -->
+            <div class="col-lg-3">
+                <div class="course_item">
+                    <img src="img/courses/course-3.jpg" alt="Professional Diploma in Clinical Research">
+                    <div class="hover_text">
+                        <!-- <a class="cat" href="#">Free</a> -->
+                        <a class="cat" href="#"></a>
+                        <a href="#">
+                            <h4>Professional Diploma in Clinical Research</h4>
+                        </a>
+                        <ul class="list">
+                            <li><a href="#"><i class="lnr lnr-users"></i> 360</a></li>
+                            <li><a href="#"><i class="lnr lnr-bubble"></i> 32</a></li>
+                            <li><a href="#"><i class="lnr lnr-user"></i> Dr. P. Kumar</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
-        	</div>
-        </section>
-        <!--================End Courses Area =================-->
-       <!--================Team Area =================-->
+    </div>
+</section>
+<!--================End Courses Area =================-->
+<!--================Team Area =================-->
 <section class="team_area p_120">
     <div class="container">
         <div class="main_title">
@@ -272,7 +287,7 @@
 </section>
 <!--================End Team Area =================-->
 
-        
+
 <!--================Testimonials Area =================-->
 <section class="testimonials_area p_120">
     <div class="container">
@@ -336,7 +351,7 @@
 </section>
 <!--================End Testimonials Area =================-->
 
-        
+
 <!--================Packages Area =================-->
 <section class="packages_area p_120">
     <div class="container">
@@ -399,7 +414,7 @@
 </section>
 <!--================End Packages Area =================-->
 
-        
+
 <!--================Latest Blog Area =================-->
 <section class="latest_blog_area p_120">
     <div class="container">
@@ -414,8 +429,10 @@
             <div class="col-lg-3 col-md-6">
                 <div class="l_blog_item">
                     <img class="img-fluid" src="img/latest-blog/l-blog-1.jpg" alt="Understanding Pharmacovigilance">
-                    <a class="date" href="#">10 October, 2025  |  By Dr. S. Kumar</a>
-                    <a href="single-blog.php"><h4>Understanding Pharmacovigilance: Key Concepts & Practices</h4></a>
+                    <a class="date" href="#">10 October, 2025 | By Dr. S. Kumar</a>
+                    <a href="single-blog.php">
+                        <h4>Understanding Pharmacovigilance: Key Concepts & Practices</h4>
+                    </a>
                     <p>Explore the essentials of drug safety monitoring, adverse event reporting, and risk management in the pharmaceutical industry.</p>
                 </div>
             </div>
@@ -424,8 +441,10 @@
             <div class="col-lg-3 col-md-6">
                 <div class="l_blog_item">
                     <img class="img-fluid" src="img/latest-blog/l-blog-2.jpg" alt="Clinical Trial Best Practices">
-                    <a class="date" href="#">15 October, 2025  |  By Dr. A. Mehta</a>
-                    <a href="single-blog.php"><h4>Clinical Trial Best Practices for Aspiring CRAs</h4></a>
+                    <a class="date" href="#">15 October, 2025 | By Dr. A. Mehta</a>
+                    <a href="single-blog.php">
+                        <h4>Clinical Trial Best Practices for Aspiring CRAs</h4>
+                    </a>
                     <p>Learn effective trial planning, site management, and regulatory compliance tips to succeed in clinical research projects.</p>
                 </div>
             </div>
@@ -434,8 +453,10 @@
             <div class="col-lg-3 col-md-6">
                 <div class="l_blog_item">
                     <img class="img-fluid" src="img/latest-blog/l-blog-3.jpg" alt="Scientific Writing Tips">
-                    <a class="date" href="#">18 October, 2025  |  By Dr. P. Nair</a>
-                    <a href="single-blog.php"><h4>Scientific Writing Tips for Regulatory Documents</h4></a>
+                    <a class="date" href="#">18 October, 2025 | By Dr. P. Nair</a>
+                    <a href="single-blog.php">
+                        <h4>Scientific Writing Tips for Regulatory Documents</h4>
+                    </a>
                     <p>Enhance your scientific writing skills to create accurate study reports, safety narratives, and regulatory submissions.</p>
                 </div>
             </div>
@@ -444,8 +465,10 @@
             <div class="col-lg-3 col-md-6">
                 <div class="l_blog_item">
                     <img class="img-fluid" src="img/latest-blog/l-blog-4.jpg" alt="Career Growth in Clinical Research">
-                    <a class="date" href="#">20 October, 2025  |  By Dr. R. Sharma</a>
-                    <a href="single-blog.php"><h4>Career Growth Strategies in Clinical Research</h4></a>
+                    <a class="date" href="#">20 October, 2025 | By Dr. R. Sharma</a>
+                    <a href="single-blog.php">
+                        <h4>Career Growth Strategies in Clinical Research</h4>
+                    </a>
                     <p>Discover how to advance your career in the clinical research industry with certifications, practical experience, and mentorship.</p>
                 </div>
             </div>
@@ -455,8 +478,8 @@
 </section>
 <!--================End Latest Blog Area =================-->
 
-        
-        <!--================Impress Area =================-->
+
+<!--================Impress Area =================-->
 <section class="impress_area p_120">
     <div class="container">
         <div class="impress_inner text-center">
@@ -467,6 +490,6 @@
     </div>
 </section>
 
-        <!--================End Impress Area =================-->
-        
+<!--================End Impress Area =================-->
+
 <?php include 'includes/footer.php'; ?>
