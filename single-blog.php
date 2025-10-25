@@ -1,385 +1,241 @@
 <?php include 'includes/header.php'; ?>
-        
-        <!--================Home Banner Area =================-->
-        <section class="banner_area">
-            <div class="banner_inner d-flex align-items-center">
-            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-				<div class="container">
-					<div class="banner_content text-center">
-						<h2>Blog Details</h2>
-						<div class="page_link">
-							<a href="index.php">Home</a>
-							<a href="blog.php">Blog</a>
-							<a href="single-blog.php">Blog Details</a>
-						</div>
-					</div>
-				</div>
+
+<?php
+$post = $_GET['post'] ?? '';
+
+switch ($post) {
+
+    // 1️⃣ PHARMACOVIGILANCE
+    case 'pharmacovigilance':
+        $title = "Understanding Pharmacovigilance: Key Concepts, Practices & Global Impact";
+        $author = "Dr. S. Kumar";
+        $date = "10 October, 2025";
+        $image = "img/latest-blog/l-blog-1.jpg";
+        $content = "
+        <p>Pharmacovigilance (PV) is the foundation of patient safety in modern medicine. It ensures that every medicine, from clinical trials to post-marketing stages, is constantly evaluated for its safety, quality, and efficacy. The goal is not only to detect adverse events but also to understand their causes and prevent future harm.</p>
+
+        <h4>Step 1: What is Pharmacovigilance?</h4>
+        <p>Pharmacovigilance, as defined by the WHO, is the science and activities related to detecting, assessing, understanding, and preventing adverse effects or any other drug-related problems. In short, it ensures that benefits of medicines outweigh their risks.</p>
+
+        <h4>Step 2: Core Components of Pharmacovigilance</h4>
+        <ul>
+            <li><b>Adverse Event Reporting:</b> Collection of information on suspected drug reactions from healthcare professionals, patients, and pharmaceutical companies.</li>
+            <li><b>Case Processing:</b> Recording, validating, and coding adverse event cases using standard medical dictionaries like MedDRA.</li>
+            <li><b>Signal Detection:</b> Identifying new potential risks through statistical analysis and clinical evaluation of safety data.</li>
+            <li><b>Risk Management:</b> Developing action plans to minimize risks, update product labels, and communicate findings globally.</li>
+        </ul>
+
+        <h4>Step 3: Pharmacovigilance Workflow in the Industry</h4>
+        <ol>
+            <li>Data entry of reported cases in the safety database.</li>
+            <li>Medical review by qualified personnel.</li>
+            <li>Submission of reports to regulatory authorities like EMA, USFDA, and CDSCO.</li>
+            <li>Signal tracking and periodic safety report generation (PSUR/DSUR).</li>
+        </ol>
+
+        <h4>Step 4: Global Regulations and Authorities</h4>
+        <p>Pharmacovigilance is governed by strict global regulations. Key agencies include:</p>
+        <ul>
+            <li><b>EMA (Europe):</b> Requires companies to submit EudraVigilance reports.</li>
+            <li><b>USFDA (USA):</b> Focuses on post-marketing safety through MedWatch and FAERS.</li>
+            <li><b>MHRA (UK):</b> Oversees Yellow Card Scheme for ADR reporting.</li>
+            <li><b>WHO (Global):</b> Maintains the global pharmacovigilance database – VigiBase.</li>
+        </ul>
+
+        <h4>Step 5: Emerging Trends in Pharmacovigilance</h4>
+        <ul>
+            <li>Artificial Intelligence in adverse event prediction.</li>
+            <li>Automation of case intake and literature screening.</li>
+            <li>Real-world evidence collection through EHRs and social media analytics.</li>
+        </ul>
+
+        <h4>Step 6: Career Opportunities in PV</h4>
+        <p>Entry-level roles include Drug Safety Associate, PV Data Analyst, and Case Processor. With experience, professionals can grow into Safety Scientists, PV Leads, or Global Safety Managers. Continuous learning and global certification programs play a key role in advancement.</p>
+
+        <p>Pharmacovigilance is not just a regulatory function—it’s a life-saving discipline that bridges science, data, and patient care.</p>";
+        break;
+
+
+    // 2️⃣ CLINICAL TRIAL
+    case 'clinical-trial':
+        $title = "Clinical Trial Excellence: Best Practices, Monitoring, and Global Compliance";
+        $author = "Dr. A. Mehta";
+        $date = "15 October, 2025";
+        $image = "img/latest-blog/l-blog-2.jpg";
+        $content = "
+        <p>Clinical trials are the cornerstone of medical innovation. Every approved medicine undergoes rigorous testing to prove its safety and efficacy. For Clinical Research Associates (CRAs), mastering clinical trial management is key to career success.</p>
+
+        <h4>Step 1: Understanding the Clinical Trial Lifecycle</h4>
+        <ul>
+            <li><b>Pre-Clinical Stage:</b> Animal and laboratory testing for safety.</li>
+            <li><b>Phase I:</b> Tests drug safety in a small group of healthy volunteers.</li>
+            <li><b>Phase II:</b> Evaluates therapeutic effectiveness in patients.</li>
+            <li><b>Phase III:</b> Confirms results on large populations globally.</li>
+            <li><b>Phase IV:</b> Post-marketing surveillance for long-term safety.</li>
+        </ul>
+
+        <h4>Step 2: Role of a CRA in Clinical Trials</h4>
+        <p>The CRA acts as the link between the sponsor and the trial site. They ensure compliance, ethical conduct, and data quality. Their daily tasks include:</p>
+        <ul>
+            <li>Conducting pre-study visits and site initiation meetings.</li>
+            <li>Monitoring patient recruitment and informed consent.</li>
+            <li>Verifying data accuracy against source documents.</li>
+            <li>Ensuring regulatory documentation is complete and current.</li>
+        </ul>
+
+        <h4>Step 3: Regulatory Compliance and GCP</h4>
+        <p>Clinical trials must adhere to ICH-GCP (Good Clinical Practice) guidelines. These principles ensure ethical and scientific integrity, protecting human rights and data reliability.</p>
+
+        <h4>Step 4: Common Challenges and Solutions</h4>
+        <ul>
+            <li><b>Challenge:</b> Low patient enrollment.<br><b>Solution:</b> Improve outreach, offer telemedicine follow-ups.</li>
+            <li><b>Challenge:</b> Protocol deviations.<br><b>Solution:</b> Conduct periodic site training and audits.</li>
+            <li><b>Challenge:</b> Data inconsistency.<br><b>Solution:</b> Implement EDC systems and real-time validation.</li>
+        </ul>
+
+        <h4>Step 5: Future of Clinical Trials</h4>
+        <p>Virtual trials, AI-based site monitoring, and patient-centric study designs are shaping the future. The next generation of CRAs must embrace technology and cross-functional collaboration.</p>
+
+        <p>Strong clinical trial management skills are vital for ensuring ethical, safe, and successful studies that shape the medicines of tomorrow.</p>";
+        break;
+
+
+    // 3️⃣ SCIENTIFIC WRITING
+    case 'scientific-writing':
+        $title = "Scientific Writing for Regulatory Success: Skills, Structure & Best Practices";
+        $author = "Dr. P. Nair";
+        $date = "18 October, 2025";
+        $image = "img/latest-blog/l-blog-3.jpg";
+        $content = "
+        <p>Scientific writing is more than words—it’s the backbone of clear, compliant communication in research and drug development. Accurate writing ensures transparency and credibility with regulators and healthcare professionals.</p>
+
+        <h4>Step 1: What is Scientific Writing?</h4>
+        <p>Scientific writing involves documenting complex research data into structured, concise, and readable formats for regulators, sponsors, and the scientific community. It transforms raw data into meaningful conclusions.</p>
+
+        <h4>Step 2: Types of Regulatory Documents</h4>
+        <ul>
+            <li>Clinical Study Reports (CSR)</li>
+            <li>Investigator’s Brochures (IB)</li>
+            <li>Periodic Safety Update Reports (PSUR)</li>
+            <li>Risk Management Plans (RMP)</li>
+            <li>Safety Narratives and Medical Summaries</li>
+        </ul>
+
+        <h4>Step 3: Structure of a Scientific Document</h4>
+        <ul>
+            <li><b>Title & Abstract:</b> Summarizes objectives and findings.</li>
+            <li><b>Introduction:</b> Provides background and rationale.</li>
+            <li><b>Methods:</b> Describes research design, procedures, and data collection.</li>
+            <li><b>Results:</b> Presents findings with tables and figures.</li>
+            <li><b>Discussion:</b> Interprets results and implications.</li>
+            <li><b>References:</b> Lists cited studies following standard formats.</li>
+        </ul>
+
+        <h4>Step 4: Writing Techniques</h4>
+        <ul>
+            <li>Use simple, precise, and active language.</li>
+            <li>Maintain logical flow and factual accuracy.</li>
+            <li>Follow standard style guides like AMA or ICMJE.</li>
+            <li>Ensure data integrity and ethical compliance.</li>
+        </ul>
+
+        <h4>Step 5: Tools & Resources</h4>
+        <p>Writers use software like EndNote for references, Grammarly for grammar checks, and regulatory templates for document consistency. AI tools now assist in report automation and template-based drafting.</p>
+
+        <p>Effective scientific writing is the voice of research — it brings scientific truth to light while meeting regulatory excellence.</p>";
+        break;
+
+
+    // 4️⃣ CAREER GROWTH
+    case 'career-growth':
+        $title = "Career Growth Strategies in Clinical Research & Pharmacovigilance";
+        $author = "Dr. R. Sharma";
+        $date = "20 October, 2025";
+        $image = "img/latest-blog/l-blog-4.jpg";
+        $content = "
+        <p>The pharmaceutical and clinical research industry is evolving rapidly, offering exceptional opportunities for professionals. A strong strategy and continuous learning can propel your career to new heights.</p>
+
+        <h4>Step 1: Know the Industry Landscape</h4>
+        <p>Clinical Research Organizations (CROs), pharma companies, and regulatory agencies seek trained professionals across areas like pharmacovigilance, data management, and scientific writing. Understanding these functions helps you choose your career track wisely.</p>
+
+        <h4>Step 2: Build a Strong Educational Foundation</h4>
+        <p>Pursue programs like PDCR, PCPV, or CTM that combine theoretical learning with practical exposure. Cynture Global’s industry-aligned curriculum ensures you gain hands-on knowledge with real-world tools.</p>
+
+        <h4>Step 3: Develop Technical & Soft Skills</h4>
+        <ul>
+            <li>Technical: GCP, ICH guidelines, clinical databases (Oracle Clinical, Argus, MedDRA).</li>
+            <li>Soft: Communication, presentation, and analytical thinking.</li>
+        </ul>
+
+        <h4>Step 4: Build Professional Connections</h4>
+        <p>Attend seminars, webinars, and online forums to connect with industry mentors. A strong LinkedIn presence and networking help discover hidden opportunities.</p>
+
+        <h4>Step 5: Plan Your Growth Path</h4>
+        <ul>
+            <li><b>Entry-level:</b> Clinical Data Coordinator, PV Associate, or CRA Trainee.</li>
+            <li><b>Mid-level:</b> Safety Scientist, Trial Manager, or Regulatory Specialist.</li>
+            <li><b>Senior-level:</b> PV Lead, Clinical Operations Head, or Regulatory Affairs Director.</li>
+        </ul>
+
+        <h4>Step 6: Continuous Learning & Certification</h4>
+        <p>The pharma industry values certified professionals. Regularly update your profile with certifications and skill upgrades to remain competitive in global markets.</p>
+
+        <p>With dedication and guidance, a career in clinical research can be both financially rewarding and socially impactful.</p>";
+        break;
+
+
+    // ❌ DEFAULT CASE
+    default:
+        $title = "Blog Post Not Found";
+        $author = "";
+        $date = "";
+        $image = "img/blog/feature-img1.jpg";
+        $content = "<p>Sorry, the blog post you’re looking for doesn’t exist or has been removed.</p>";
+        break;
+}
+?>
+
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+  <div class="banner_inner d-flex align-items-center">
+    <div class="overlay bg-parallax" data-stellar-ratio='0.9'></div>
+    <div class="container">
+      <div class="banner_content text-center">
+        <h2>Insights & Knowledge Hub</h2>
+        <div class="page_link">
+          <a href='index.php'>Home</a>
+          <a href='blog.php'>Insights</a>
+          <a href='single-blog.php?post=<?php echo $post; ?>'><?php echo $title; ?></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--================Blog Area =================-->
+<section class='blog_area single-post-area p_120'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-8 posts-list'>
+        <div class='single-post row'>
+          <div class='col-lg-12'>
+            <div class='feature-img'>
+              <img class='img-fluid' src='<?php echo $image; ?>' alt='<?php echo $title; ?>'>
             </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-        
-        <!--================Blog Area =================-->
-        <section class="blog_area single-post-area p_120">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 posts-list">
-                        <div class="single-post row">
-                            <div class="col-lg-12">
-                                <div class="feature-img">
-                                    <img class="img-fluid" src="img/blog/feature-img1.jpg" alt="">
-                                </div>									
-                            </div>
-                            <div class="col-lg-3  col-md-3">
-                                <div class="blog_info text-right">
-                                    <div class="post_tag">
-                                        <a href="#">Food,</a>
-                                        <a class="active" href="#">Technology,</a>
-                                        <a href="#">Politics,</a>
-                                        <a href="#">Lifestyle</a>
-                                    </div>
-                                    <ul class="blog_meta list">
-                                        <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
-                                        <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
-                                        <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
-                                        <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
-                                    </ul>
-                                    <ul class="social-links">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-9 col-md-9 blog_details">
-                                <h2>Astronomy Binoculars A Great Alternative</h2>
-                                <p class="excert">
-                                    MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.
-                                </p>
-                                <p>
-                                    Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed
-                                </p>
-                                <p>
-                                    Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually sit through a self-imposed
-                                </p>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="quotes">
-                                    MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.										
-                                </div>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <img class="img-fluid" src="img/blog/post-img1.jpg" alt="">
-                                    </div>
-                                    <div class="col-6">
-                                        <img class="img-fluid" src="img/blog/post-img2.jpg" alt="">
-                                    </div>	
-                                    <div class="col-lg-12 mt-25">
-                                        <p>
-                                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower.
-                                        </p>
-                                        <p>
-                                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower.
-                                        </p>											
-                                    </div>									
-                                </div>
-                            </div>
-                        </div>
-                        <div class="navigation-area">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
-                                    <div class="thumb">
-                                        <a href="#"><img class="img-fluid" src="img/blog/prev.jpg" alt=""></a>
-                                    </div>
-                                    <div class="arrow">
-                                        <a href="#"><span class="lnr text-white lnr-arrow-left"></span></a>
-                                    </div>
-                                    <div class="detials">
-                                        <p>Prev Post</p>
-                                        <a href="#"><h4>Space The Final Frontier</h4></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
-                                    <div class="detials">
-                                        <p>Next Post</p>
-                                        <a href="#"><h4>Telescopes 101</h4></a>
-                                    </div>
-                                    <div class="arrow">
-                                        <a href="#"><span class="lnr text-white lnr-arrow-right"></span></a>
-                                    </div>
-                                    <div class="thumb">
-                                        <a href="#"><img class="img-fluid" src="img/blog/next.jpg" alt=""></a>
-                                    </div>										
-                                </div>									
-                            </div>
-                        </div>
-                        <div class="comments-area">
-                            <h4>05 Comments</h4>
-                            <div class="comment-list">
-                                <div class="single-comment justify-content-between d-flex">
-                                    <div class="user justify-content-between d-flex">
-                                        <div class="thumb">
-                                            <img src="img/blog/c1.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h5><a href="#">Emilly Blunt</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
-                                            <p class="comment">
-                                                Never say goodbye till the end comes!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
-                                    </div>
-                                </div>
-                            </div>	
-                            <div class="comment-list left-padding">
-                                <div class="single-comment justify-content-between d-flex">
-                                    <div class="user justify-content-between d-flex">
-                                        <div class="thumb">
-                                            <img src="img/blog/c2.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h5><a href="#">Elsie Cunningham</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
-                                            <p class="comment">
-                                                Never say goodbye till the end comes!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
-                                    </div>
-                                </div>
-                            </div>	
-                            <div class="comment-list left-padding">
-                                <div class="single-comment justify-content-between d-flex">
-                                    <div class="user justify-content-between d-flex">
-                                        <div class="thumb">
-                                            <img src="img/blog/c3.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h5><a href="#">Annie Stephens</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
-                                            <p class="comment">
-                                                Never say goodbye till the end comes!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
-                                    </div>
-                                </div>
-                            </div>	
-                            <div class="comment-list">
-                                <div class="single-comment justify-content-between d-flex">
-                                    <div class="user justify-content-between d-flex">
-                                        <div class="thumb">
-                                            <img src="img/blog/c4.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h5><a href="#">Maria Luna</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
-                                            <p class="comment">
-                                                Never say goodbye till the end comes!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
-                                    </div>
-                                </div>
-                            </div>	
-                            <div class="comment-list">
-                                <div class="single-comment justify-content-between d-flex">
-                                    <div class="user justify-content-between d-flex">
-                                        <div class="thumb">
-                                            <img src="img/blog/c5.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h5><a href="#">Ina Hayes</a></h5>
-                                            <p class="date">December 4, 2017 at 3:12 pm </p>
-                                            <p class="comment">
-                                                Never say goodbye till the end comes!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="reply-btn">
-                                           <a href="" class="btn-reply text-uppercase">reply</a> 
-                                    </div>
-                                </div>
-                            </div>	                                             				
-                        </div>
-                        <div class="comment-form">
-                            <h4>Leave a Reply</h4>
-                            <form>
-                                <div class="form-group form-inline">
-                                  <div class="form-group col-lg-6 col-md-6 name">
-                                    <input type="text" class="form-control" id="name" placeholder="Enter Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'">
-                                  </div>
-                                  <div class="form-group col-lg-6 col-md-6 email">
-                                    <input type="email" class="form-control" id="email" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'">
-                                  </div>										
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'">
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control mb-10" rows="5" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-                                </div>
-                                <a href="#" class="primary-btn submit_btn">Post Comment</a>	
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog_right_sidebar">
-                            <aside class="single_sidebar_widget search_widget">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search Posts">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-default" type="button"><i class="lnr lnr-magnifier"></i></button>
-                                    </span>
-                                </div><!-- /input-group -->
-                                <div class="br"></div>
-                            </aside>
-                            <aside class="single_sidebar_widget author_widget">
-                                <img class="author_img rounded-circle" src="img/blog/author.png" alt="">
-                                <h4>Charlie Barber</h4>
-                                <p>Senior blog writer</p>
-                                <div class="social_icon">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                    <a href="#"><i class="fa fa-behance"></i></a>
-                                </div>
-                                <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.</p>
-                                <div class="br"></div>
-                            </aside>
-                            <aside class="single_sidebar_widget popular_post_widget">
-                                <h3 class="widget_title">Popular Posts</h3>
-                                <div class="media post_item">
-                                    <img src="img/blog/popular-post/post1.jpg" alt="post">
-                                    <div class="media-body">
-                                        <a href="single-blog.php"><h3>Space The Final Frontier</h3></a>
-                                        <p>02 Hours ago</p>
-                                    </div>
-                                </div>
-                                <div class="media post_item">
-                                    <img src="img/blog/popular-post/post2.jpg" alt="post">
-                                    <div class="media-body">
-                                        <a href="single-blog.php"><h3>The Amazing Hubble</h3></a>
-                                        <p>02 Hours ago</p>
-                                    </div>
-                                </div>
-                                <div class="media post_item">
-                                    <img src="img/blog/popular-post/post3.jpg" alt="post">
-                                    <div class="media-body">
-                                        <a href="single-blog.php"><h3>Astronomy Or Astrology</h3></a>
-                                        <p>03 Hours ago</p>
-                                    </div>
-                                </div>
-                                <div class="media post_item">
-                                    <img src="img/blog/popular-post/post4.jpg" alt="post">
-                                    <div class="media-body">
-                                        <a href="single-blog.php"><h3>Asteroids telescope</h3></a>
-                                        <p>01 Hours ago</p>
-                                    </div>
-                                </div>
-                                <div class="br"></div>
-                            </aside>
-                            <aside class="single_sidebar_widget ads_widget">
-                                <a href="#"><img class="img-fluid" src="img/blog/add.jpg" alt=""></a>
-                                <div class="br"></div>
-                            </aside>
-                            <aside class="single_sidebar_widget post_category_widget">
-                                <h4 class="widget_title">Post Catgories</h4>
-                                <ul class="list cat-list">
-                                    <li>
-                                        <a href="#" class="d-flex justify-content-between">
-                                            <p>Technology</p>
-                                            <p>37</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex justify-content-between">
-                                            <p>Lifestyle</p>
-                                            <p>24</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex justify-content-between">
-                                            <p>Fashion</p>
-                                            <p>59</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex justify-content-between">
-                                            <p>Art</p>
-                                            <p>29</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex justify-content-between">
-                                            <p>Food</p>
-                                            <p>15</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex justify-content-between">
-                                            <p>Architecture</p>
-                                            <p>09</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex justify-content-between">
-                                            <p>Adventure</p>
-                                            <p>44</p>
-                                        </a>
-                                    </li>															
-                                </ul>
-                                <div class="br"></div>
-                            </aside>
-                            <aside class="single-sidebar-widget newsletter_widget">
-                                <h4 class="widget_title">Newsletter</h4>
-                                <p>
-                                Here, I focus on a range of items and features that we use in life without
-                                giving them a second thought.
-                                </p>
-                                <div class="form-group d-flex flex-row">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                                        </div>
-                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'">
-                                    </div>
-                                    <a href="#" class="bbtns">Subcribe</a>
-                                </div>	
-                                <p class="text-bottom">You can unsubscribe at any time</p>	
-                                <div class="br"></div>							
-                            </aside>
-                            <aside class="single-sidebar-widget tag_cloud_widget">
-                                <h4 class="widget_title">Tag Clouds</h4>
-                                <ul class="list">
-                                    <li><a href="#">Technology</a></li>
-                                    <li><a href="#">Fashion</a></li>
-                                    <li><a href="#">Architecture</a></li>
-                                    <li><a href="#">Fashion</a></li>
-                                    <li><a href="#">Food</a></li>
-                                    <li><a href="#">Technology</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                    <li><a href="#">Art</a></li>
-                                    <li><a href="#">Adventure</a></li>
-                                    <li><a href="#">Food</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                    <li><a href="#">Adventure</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================Blog Area =================-->
-        
+          </div>
+          <div class='col-lg-9 col-md-9 blog_details'>
+            <h2><?php echo $title; ?></h2>
+            <ul class='blog_meta list'>
+              <li><a href='#'><?php echo $author; ?><i class='lnr lnr-user'></i></a></li>
+              <li><a href='#'><?php echo $date; ?><i class='lnr lnr-calendar-full'></i></a></li>
+            </ul>
+            <?php echo $content; ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <?php include 'includes/footer.php'; ?>

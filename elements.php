@@ -88,7 +88,7 @@
   <h3 class="mb-30 title_color">Empowering Future Pharma Professionals</h3>
   <div class="row">
     <div class="col-md-3">
-				<img src="img/elements/d.jpg" alt="" class="img-fluid">
+				<img src="img/Empowering_Future .png" alt="" class="img-fluid">
     </div>
     <div class="col-md-9 mt-sm-20 left-align-p">
       <p>
@@ -124,7 +124,7 @@
       </p>
     </div>
     <div class="col-md-3">
-<img src="img/elements/d.jpg" alt="" class="img-fluid">
+<img src="img/Our Vision.png" alt="" class="img-fluid">
     </div>
   </div>
 </div>
