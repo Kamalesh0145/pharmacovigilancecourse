@@ -45,49 +45,33 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a href="index.php" class="navbar-brand">
+					<a href="index.php" class="navbar-brand d-flex align-items-center">
 						<img src="img/cynture_global.png" style="height:50px; width:50px; margin-right: 10px;">
 						<span class="logo-text">CYNTURE GLOBAL</span>
-					</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					</a> 
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'index.php') ? 'active' : ''; ?>"><a class="nav-link" href="index.php">Home</a></li>
-							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'about-us.php') ? 'active' : ''; ?>"><a class="nav-link" href="about-us.php">About</a></li>
-							<!-- <li class="nav-item submenu dropdown <?php echo (basename($_SERVER['PHP_SELF']) == 'courses.php' || basename($_SERVER['PHP_SELF']) == 'course-details.php') ? 'active' : ''; ?>">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="courses.php">Courses</a>
-									<li class="nav-item"><a class="nav-link" href="course-details.php">Course Details</a></li>
-								</ul>
-							</li> -->
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'index.php') ? 'active' : ''; ?>">
+								<a class="nav-link" href="index.php">Home</a>
+							</li>
+							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'about-us.php') ? 'active' : ''; ?>">
+								<a class="nav-link" href="about-us.php">About</a>
+							</li>
 							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'courses.php' || basename($_SERVER['PHP_SELF']) == 'course-details.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="courses.php">Courses</a>
 							</li>
-
-							<!-- <li class="nav-item submenu dropdown <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="elements.php">Elements</a></li>
-								</ul>
-							</li>  -->
-
 							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="elements.php">Academy</a>
 							</li>
-
-							<!-- <li class="nav-item submenu dropdown <?php echo (basename($_SERVER['PHP_SELF']) == 'blog.php' || basename($_SERVER['PHP_SELF']) == 'single-blog.php') ? 'active' : ''; ?>">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.php">Blog Details</a></li>
-								</ul>
-							</li>  -->
-							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'contact.php') ? 'active' : ''; ?>"><a class="nav-link" href="contact.php">Contact</a></li>
+							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'contact.php') ? 'active' : ''; ?>">
+								<a class="nav-link" href="contact.php">Contact</a>
+							</li>
 						</ul>
 					</div>
 				</div>

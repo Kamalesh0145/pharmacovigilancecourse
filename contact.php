@@ -1,31 +1,31 @@
 <?php include 'includes/header.php'; ?>
-        
-        <!--================Home Banner Area =================-->
-        <section class="banner_area">
-            <div class="banner_inner d-flex align-items-center">
-            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-				<div class="container">
-					<div class="banner_content text-center">
-						<h2>Contact Us</h2>
-						<div class="page_link">
-							<a href="index.php">Home</a>
-							<a href="contact.php">Contact</a>
-						</div>
-					</div>
-				</div>
-            </div>
-        </section>
-        <!--================End Home Banner Area =================-->
+
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+  <div class="banner_inner d-flex align-items-center">
+    <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+    <div class="container">
+      <div class="banner_content text-center">
+        <h2>Contact Us</h2>
+        <div class="page_link">
+          <a href="index.php">Home</a>
+          <a href="contact.php">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--================End Home Banner Area =================-->
 <!--================Contact Area =================-->
 <section class="contact_area p_120">
   <div class="container">
-    <div id="mapBox" class="mapBox" 
-        data-lat="19.0760" 
-        data-lon="72.8777" 
-        data-zoom="12" 
-        data-info="Cynture Global Pvt Ltd, Andheri East, Mumbai, India."
-        data-mlat="19.0760"
-        data-mlon="72.8777">
+    <div id="mapBox" class="mapBox"
+      data-lat="19.0760"
+      data-lon="72.8777"
+      data-zoom="12"
+      data-info="Cynture Global Pvt Ltd, Andheri East, Mumbai, India."
+      data-mlat="19.0760"
+      data-mlon="72.8777">
     </div>
 
     <div class="row">
@@ -34,12 +34,14 @@
         <div class="contact_info">
           <div class="info_item">
             <i class="lnr lnr-home"></i>
-            <h6>Mumbai, India</h6>
-            <p>Andheri East, Maharashtra 400069</p>
+            <h6>Cynture Global Pvt. LTD.</h6>
+            <p>W-126, 3rd Floor, 3rd Avenue, Anna Nagar, Chennai - 600040.</p>
           </div>
           <div class="info_item">
             <i class="lnr lnr-phone-handset"></i>
-            <h6><a href="tel:+919876543210">+91 93854 60145</a></h6>
+            <div class="phone-number">
+              <a href="tel:+919385460145" style="color:#222222 !important; text-decoration:none !important; font-weight:bold !important;font-size:15px !important">+91 93854 60145</a>
+            </div>
             <p>Mon – Sat, 9:00 AM to 6:00 PM</p>
           </div>
           <div class="info_item">
@@ -79,38 +81,38 @@
 </section>
 <!--================Contact Area =================-->
 
-        
-        
-        <!--================Contact Success and Error message Area =================-->
-        <div id="success" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Thank you</h2>
-                        <p>Your message is successfully sent...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Modals error -->
 
-        <div id="error" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Sorry !</h2>
-                        <p> Something went wrong </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--================End Contact Success and Error message Area =================-->
-        
+<!--================Contact Success and Error message Area =================-->
+<div id="success" class="modal modal-message fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fa fa-close"></i>
+        </button>
+        <h2>Thank you</h2>
+        <p>Your message is successfully sent...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modals error -->
+
+<div id="error" class="modal modal-message fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fa fa-close"></i>
+        </button>
+        <h2>Sorry !</h2>
+        <p> Something went wrong </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--================End Contact Success and Error message Area =================-->
+
 <?php include 'includes/footer.php'; ?>

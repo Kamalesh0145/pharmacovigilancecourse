@@ -139,7 +139,74 @@ button:focus {
         display: inline-block; 
         color: white;
         font-size:15px;
+        transition: all 0.3s ease;
       }
+
+/* Logo Text Responsive Styles */
+.logo-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 991px) {
+  .logo-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .logo-text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text {
+    font-size: 12px;
+  }
+}
+
+/* Top Menu Contact Info Responsive Styles */
+@media (max-width: 767px) {
+  .top_menu .dn_btn {
+    font-size: 11px;
+    padding: 5px 10px;
+    background: rgba(77, 191, 28, 0.1);
+    border-radius: 15px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  .top_menu .dn_btn:hover {
+    background: #4dbf1c;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .top_menu .dn_btn:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .top_menu .dn_btn {
+    font-size: 10px;
+    padding: 4px 8px;
+    margin-right: 6px;
+  }
+}
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
@@ -3122,7 +3189,31 @@ h6 {
       .footer-bottom .footer-social a:hover {
         color: #fff;
         background: #4dbf1c; }
+/* WhatsApp Floating Button */
+.whatsapp_float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.whatsapp-icon {
+  font-size: 24px;
+  line-height: 1;
+}
 
-/*---------------------------------------------------- */
+/*---Whatsapp Ending--- */
 
 /*# sourceMappingURL=style.css.map */

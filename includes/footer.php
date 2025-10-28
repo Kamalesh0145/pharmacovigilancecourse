@@ -116,8 +116,21 @@
                 <a href="#"><i class="fa fa-linkedin"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
+                <!-- <a href="#"><i class="fab fa-whatsapp"></i></a> -->
+
+                
+            
             </div>
+            
+           <!-- WhatsApp Floating Button -->
+          <a href="https://wa.me/919876543210" class="whatsapp_float" target="_blank">
+  <i class="fa fa-whatsapp whatsapp-icon"></i>
+</a>
+
         </div>
+        
     </div>
+
 </footer>
+
 <!--================ End Footer Area =================-->
