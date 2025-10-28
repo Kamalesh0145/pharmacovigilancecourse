@@ -60,7 +60,7 @@ a {
   margin: 0px; }
 
 body {
-  line-height: 24px;
+  line-height: 20px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -640,11 +640,11 @@ button:focus {
   .blog_details h2 {
     font-size: 24px;
     line-height: 36px;
-    color: #222222;
+    color: rgb(21, 141, 216);
     font-weight: 600;
     transition: all 0.3s linear; }
     .blog_details h2:hover {
-      color: #4dbf1c; }
+      color: blue; }
   .blog_details p {
     margin-bottom: 26px; }
 

@@ -105,7 +105,7 @@
                     <div class="course_content">
                         <h4>Professional Certificate in Pharmacovigilance (PCPV)</h4>
                         <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p>
-                        <div class="course_price">₹9,999/-</div>
+                        <!-- <div class="course_price">₹9,999/-</div> -->
                         <a href="course-pharmacovigilance.php" class="course_btn">Register Now</a>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                     <div class="course_content">
                         <h4>Professional Diploma in Clinical Research (PDCR)</h4>
                         <p>Comprehensive training in clinical trial design, conduct, and management for aspiring clinical research professionals.</p>
-                        <div class="course_price">₹9,999/-</div>
+                        <!-- <div class="course_price">₹9,999/-</div> -->
                         <a href="course-clinical-research-diploma.php" class="course_btn">Register Now</a>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                     <div class="course_content">
                         <h4>Advanced Certificate Program in Scientific Writing (SW)</h4>
                         <p>Develop skills to create precise clinical study reports, regulatory submissions, and pharmacovigilance narratives.</p>
-                        <div class="course_price">₹11,999/-</div>
+                        <!-- <div class="course_price">₹11,999/-</div> -->
                         <a href="course-scientific-writing.php" class="course_btn">Register Now</a>
                     </div>
                 </div>

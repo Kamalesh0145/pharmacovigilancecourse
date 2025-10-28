@@ -12,53 +12,11 @@
 					</div>
 				</div>
             </div>
-        </section>
+        </section><br><br>
+
         <!--================End Home Banner Area =================-->
         
-        <!--================Research Categories Area =================-->
-        <section class="blog_categorie_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="categories_post">
-                            <img src="img/Pharmacovigilance.png" alt="Pharmacovigilance Research">
-                            <div class="categories_details">
-                                <div class="categories_text">
-                                    <a href="#pharmacovigilance-research"><h5>Pharmacovigilance</h5></a>
-                                    <div class="border_line"></div>
-                                    <p>Drug Safety & Risk Management</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="categories_post">
-                            <img src="img/Clinical_Trial.png" alt="Clinical Research">
-                            <div class="categories_details">
-                                <div class="categories_text">
-                                    <a href="#clinical-research"><h5>Clinical Research</h5></a>
-                                    <div class="border_line"></div>
-                                    <p>Trial Design & Management</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="categories_post">
-                            <img src="img/Scientific_Writing.png" alt="Regulatory Affairs">
-                            <div class="categories_details">
-                                <div class="categories_text">
-                                    <a href="#regulatory-affairs"><h5>Regulatory Affairs</h5></a>
-                                    <div class="border_line"></div>
-                                    <p>Compliance & Submissions</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================Blog Categorie Area =================-->
+
         
         <!--================Research Publications Area =================-->
         <section class="blog_area" id="research-content">
@@ -72,22 +30,15 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Pharmacovigilance,</a>
-                                            <a class="active" href="#">Drug Safety,</a>
-                                            <a href="#">Risk Management,</a>
-                                            <a href="#">Regulatory</a>
+                                         
                                         </div>
-                                        <ul class="blog_meta list">
-                                            <li><a href="#">Dr. S. Kumar<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">15 Nov, 2024<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">2.5K Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">12 Citations<i class="lnr lnr-bubble"></i></a></li>
-                                        </ul>
+                                     
                                     </div>
                                </div>
+                             
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/Pharmacovigilance.png" alt="Pharmacovigilance Research">
+                                        <img src="img/Pharmacovigilance.png" alt="Pharmacovigilance Research" width="350px" height="250px" bottom="-100px">
                                         <div class="blog_details">
                                             <a href="single-blog.php?post=pharmacovigilance"><h2>Advanced Signal Detection Methods in Pharmacovigilance: A Comprehensive Review</h2></a>
                                             <p>This comprehensive review examines the latest methodologies in pharmacovigilance signal detection, including machine learning approaches, disproportionality analysis, and real-world evidence integration. The study presents findings from over 50 clinical trials and provides insights into improving drug safety monitoring systems.</p>
@@ -106,22 +57,14 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Clinical Trials,</a>
-                                            <a class="active" href="#">GCP Compliance,</a>
-                                            <a href="#">Monitoring,</a>
-                                            <a href="#">Quality Assurance</a>
+                                   
                                         </div>
-                                        <ul class="blog_meta list">
-                                            <li><a href="#">Dr. A. Mehta<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">08 Nov, 2024<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">1.8K Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">8 Citations<i class="lnr lnr-bubble"></i></a></li>
-                                        </ul>
+                                      
                                     </div>
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/Clinical_Trial.png" alt="Clinical Trial Research">
+                                        <img src="img/Clinical_Trial.png" alt="Clinical Trial Research" width="350px" height="250px">
                                         <div class="blog_details">
                                             <a href="single-blog.php?post=clinical-trial"><h2>Digital Transformation in Clinical Trial Monitoring: Impact on Data Quality and Patient Safety</h2></a>
                                             <p>This study investigates the implementation of digital monitoring technologies in clinical trials across 25 research sites. Results show 40% improvement in data quality and 30% reduction in monitoring costs while maintaining patient safety standards. The research provides practical guidelines for CROs implementing digital monitoring solutions.</p>
@@ -140,22 +83,14 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Scientific Writing,</a>
-                                            <a class="active" href="#">Regulatory Documents,</a>
-                                            <a href="#">Medical Writing,</a>
-                                            <a href="#">Compliance</a>
+                                         
                                         </div>
-                                        <ul class="blog_meta list">
-                                            <li><a href="#">Dr. P. Nair<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">02 Nov, 2024<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">1.2K Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">5 Citations<i class="lnr lnr-bubble"></i></a></li>
-                                        </ul>
+                                  
                                     </div>
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/Scientific_Writing.png" alt="Scientific Writing Research">
+                                        <img src="img/Scientific_Writing.png" alt="Scientific Writing Research" width="350px" height="250px">
                                         <div class="blog_details">
                                             <a href="single-blog.php?post=scientific-writing"><h2>Standardization of Safety Narratives in Clinical Study Reports: A Multi-Center Analysis</h2></a>
                                             <p>This multi-center study analyzes the consistency and quality of safety narratives across 100 clinical study reports. The research identifies key factors affecting narrative quality and proposes standardized templates for improved regulatory compliance and patient safety communication.</p>
@@ -174,22 +109,15 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Career Development,</a>
-                                            <a class="active" href="#">Training Programs,</a>
-                                            <a href="#">Industry Trends,</a>
-                                            <a href="#">Professional Growth</a>
+                                
                                         </div>
-                                        <ul class="blog_meta list">
-                                            <li><a href="#">Dr. R. Sharma<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">28 Oct, 2024<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">3.1K Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">15 Citations<i class="lnr lnr-bubble"></i></a></li>
+                                   
                                         </ul>
                                     </div>
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/Career_Growth.png" alt="Career Growth Research">
+                                        <img src="img/Career_Growth.png" alt="Career Growth Research" width="350px" height="250px">
                                         <div class="blog_details">
                                             <a href="single-blog.php?post=career-growth"><h2>Impact of Professional Certification Programs on Career Advancement in Clinical Research</h2></a>
                                             <p>A longitudinal study tracking 500 clinical research professionals over 3 years reveals that certified professionals experience 60% faster career progression and 35% higher salary growth. The research validates the effectiveness of structured training programs in the pharmaceutical industry.</p>
@@ -208,17 +136,9 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Regulatory Affairs,</a>
-                                            <a class="active" href="#">FDA Guidelines,</a>
-                                            <a href="#">EMA Regulations,</a>
-                                            <a href="#">Compliance</a>
+                                      
                                         </div>
-                                        <ul class="blog_meta list">
-                                            <li><a href="#">Dr. M. Patel<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">20 Oct, 2024<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">2.2K Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">9 Citations<i class="lnr lnr-bubble"></i></a></li>
-                                        </ul>
+                                      
                                     </div>
                                </div>
                                 <div class="col-md-9">
@@ -242,17 +162,9 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Data Management,</a>
-                                            <a class="active" href="#">Clinical Data,</a>
-                                            <a href="#">Quality Control,</a>
-                                            <a href="#">Technology</a>
+                                         
                                         </div>
-                                        <ul class="blog_meta list">
-                                            <li><a href="#">Dr. K. Singh<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">15 Oct, 2024<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">1.5K Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">6 Citations<i class="lnr lnr-bubble"></i></a></li>
-                                        </ul>
+                                    
                                     </div>
                                </div>
                                 <div class="col-md-9">
@@ -271,7 +183,7 @@
                                 </div>
                             </article>
 
-                            <nav class="blog-pagination justify-content-center d-flex">
+                            <!-- <nav class="blog-pagination justify-content-center d-flex">
 		                        <ul class="pagination">
 		                            <li class="page-item">
 		                                <a href="#" class="page-link" aria-label="Previous">
@@ -293,7 +205,7 @@
 		                                </a>
 		                            </li>
 		                        </ul>
-		                    </nav>
+		                    </nav> -->
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -419,23 +331,7 @@
                                 <p class="text-bottom">You can unsubscribe at any time</p>	
                                 <div class="br"></div>							
                             </aside>
-                            <aside class="single-sidebar-widget tag_cloud_widget">
-                                <h4 class="widget_title">Research Tags</h4>
-                                <ul class="list">
-                                    <li><a href="#">Pharmacovigilance</a></li>
-                                    <li><a href="#">Clinical Trials</a></li>
-                                    <li><a href="#">Drug Safety</a></li>
-                                    <li><a href="#">Regulatory Affairs</a></li>
-                                    <li><a href="#">GCP Compliance</a></li>
-                                    <li><a href="#">Scientific Writing</a></li>
-                                    <li><a href="#">Data Management</a></li>
-                                    <li><a href="#">Risk Management</a></li>
-                                    <li><a href="#">Quality Assurance</a></li>
-                                    <li><a href="#">Career Development</a></li>
-                                    <li><a href="#">Training Programs</a></li>
-                                    <li><a href="#">Industry Trends</a></li>
-                                </ul>
-                            </aside>
+                        
                         </div>
                     </div>
                 </div>

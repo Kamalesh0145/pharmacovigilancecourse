@@ -76,10 +76,10 @@
 										<a class="nav-link" href="course-scientific-writing.php">Advanced Certificate in Scientific Writing</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="course-project-management.php">Advanced Certificate in Project Management</a>
+										<a class="nav-link" href="course-project-management.php">Project Management for Clinical Research</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="course-clinical-trial-management.php">Advanced Certificate in Clinical Trial Monitoring</a>
+										<a class="nav-link" href="course-clinical-trial-management.php">Clinical Trial Management (CTM</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="course-regulatory-affairs.php">Regulatory Affairs in Pharma</a>
