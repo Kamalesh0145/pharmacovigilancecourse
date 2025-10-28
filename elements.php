@@ -177,7 +177,7 @@
   </div>
 </div>
 
-					<div class="section-top-border">
+					<!-- <div class="section-top-border">
 						<h3 class="mb-30 title_color">Table</h3>
 						<div class="progress-table-wrap">
 							<div class="progress-table">
@@ -269,8 +269,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="section-top-border">
+					</div> -->
+					<!-- <div class="section-top-border">
 						<h3 class="title_color">Image Gallery</h3>
 						<div class="row gallery-item">
 							<div class="col-md-4">
@@ -298,7 +298,7 @@
 								<a href="img/elements/g8.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(img/elements/g8.jpg);"></div></a>
 							</div>
 						</div>
-					</div>
+					</div> -->
 <div class="section-top-border">
     <div class="row">
 

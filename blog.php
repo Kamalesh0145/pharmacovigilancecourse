@@ -6,51 +6,51 @@
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 				<div class="container">
 					<div class="blog_b_text text-center">
-						<h2>Dude You’re Getting <br /> a Telescope</h2>
-						<p>There is a moment in the life of any aspiring astronomer that it is time to buy that first</p>
-						<a class="main_btn" href="#">View More</a>
+						<h2>Research Publications & <br />Scientific Insights</h2>
+						<p>Explore our latest research findings, scientific publications, and industry insights in pharmacovigilance and clinical research</p>
+						<a class="main_btn" href="#research-content">View Publications</a>
 					</div>
 				</div>
             </div>
         </section>
         <!--================End Home Banner Area =================-->
         
-        <!--================Blog Categorie Area =================-->
+        <!--================Research Categories Area =================-->
         <section class="blog_categorie_area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="categories_post">
-                            <img src="img/blog/cat-post/cat-post-3.jpg" alt="post">
+                            <img src="img/Pharmacovigilance.png" alt="Pharmacovigilance Research">
                             <div class="categories_details">
                                 <div class="categories_text">
-                                    <a href="single-blog.php"><h5>Social Life</h5></a>
+                                    <a href="#pharmacovigilance-research"><h5>Pharmacovigilance</h5></a>
                                     <div class="border_line"></div>
-                                    <p>Enjoy your social life together</p>
+                                    <p>Drug Safety & Risk Management</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="categories_post">
-                            <img src="img/blog/cat-post/cat-post-2.jpg" alt="post">
+                            <img src="img/Clinical_Trial.png" alt="Clinical Research">
                             <div class="categories_details">
                                 <div class="categories_text">
-                                    <a href="single-blog.php"><h5>Politics</h5></a>
+                                    <a href="#clinical-research"><h5>Clinical Research</h5></a>
                                     <div class="border_line"></div>
-                                    <p>Be a part of politics</p>
+                                    <p>Trial Design & Management</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="categories_post">
-                            <img src="img/blog/cat-post/cat-post-1.jpg" alt="post">
+                            <img src="img/Scientific_Writing.png" alt="Regulatory Affairs">
                             <div class="categories_details">
                                 <div class="categories_text">
-                                    <a href="single-blog.php"><h5>Food</h5></a>
+                                    <a href="#regulatory-affairs"><h5>Regulatory Affairs</h5></a>
                                     <div class="border_line"></div>
-                                    <p>Let the food be finished</p>
+                                    <p>Compliance & Submissions</p>
                                 </div>
                             </div>
                         </div>
@@ -60,152 +60,217 @@
         </section>
         <!--================Blog Categorie Area =================-->
         
-        <!--================Blog Area =================-->
-        <section class="blog_area">
+        <!--================Research Publications Area =================-->
+        <section class="blog_area" id="research-content">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog_left_sidebar">
+                            
+                            <!-- Research Publication 1 -->
                             <article class="row blog_item">
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Food,</a>
-                                            <a class="active" href="#">Technology,</a>
-                                            <a href="#">Politics,</a>
-                                            <a href="#">Lifestyle</a>
+                                            <a href="#">Pharmacovigilance,</a>
+                                            <a class="active" href="#">Drug Safety,</a>
+                                            <a href="#">Risk Management,</a>
+                                            <a href="#">Regulatory</a>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                            <li><a href="#">Dr. S. Kumar<i class="lnr lnr-user"></i></a></li>
+                                            <li><a href="#">15 Nov, 2024<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><a href="#">2.5K Views<i class="lnr lnr-eye"></i></a></li>
+                                            <li><a href="#">12 Citations<i class="lnr lnr-bubble"></i></a></li>
                                         </ul>
                                     </div>
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/blog/main-blog/m-blog-1.jpg" alt="">
+                                        <img src="img/Pharmacovigilance.png" alt="Pharmacovigilance Research">
                                         <div class="blog_details">
-                                            <a href="single-blog.php"><h2>Astronomy Binoculars A Great Alternative</h2></a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
-                                            <a href="single-blog.php" class="white_bg_btn">View More</a>
+                                            <a href="single-blog.php?post=pharmacovigilance"><h2>Advanced Signal Detection Methods in Pharmacovigilance: A Comprehensive Review</h2></a>
+                                            <p>This comprehensive review examines the latest methodologies in pharmacovigilance signal detection, including machine learning approaches, disproportionality analysis, and real-world evidence integration. The study presents findings from over 50 clinical trials and provides insights into improving drug safety monitoring systems.</p>
+                                            <div class="publication_meta">
+                                                <span class="journal">Published in: Journal of Pharmacovigilance & Drug Safety</span>
+                                                <span class="impact_factor">Impact Factor: 3.8</span>
+                                            </div>
+                                            <a href="single-blog.php?post=pharmacovigilance" class="white_bg_btn">Read Full Article</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
+
+                            <!-- Research Publication 2 -->
                             <article class="row blog_item">
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Food,</a>
-                                            <a class="active" href="#">Technology,</a>
-                                            <a href="#">Politics,</a>
-                                            <a href="#">Lifestyle</a>
+                                            <a href="#">Clinical Trials,</a>
+                                            <a class="active" href="#">GCP Compliance,</a>
+                                            <a href="#">Monitoring,</a>
+                                            <a href="#">Quality Assurance</a>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                            <li><a href="#">Dr. A. Mehta<i class="lnr lnr-user"></i></a></li>
+                                            <li><a href="#">08 Nov, 2024<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><a href="#">1.8K Views<i class="lnr lnr-eye"></i></a></li>
+                                            <li><a href="#">8 Citations<i class="lnr lnr-bubble"></i></a></li>
                                         </ul>
                                     </div>
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/blog/main-blog/m-blog-2.jpg" alt="">
+                                        <img src="img/Clinical_Trial.png" alt="Clinical Trial Research">
                                         <div class="blog_details">
-                                            <a href="single-blog.php"><h2>The Basics Of Buying A Telescope</h2></a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
-                                            <a href="single-blog.php" class="white_bg_btn">View More</a>
+                                            <a href="single-blog.php?post=clinical-trial"><h2>Digital Transformation in Clinical Trial Monitoring: Impact on Data Quality and Patient Safety</h2></a>
+                                            <p>This study investigates the implementation of digital monitoring technologies in clinical trials across 25 research sites. Results show 40% improvement in data quality and 30% reduction in monitoring costs while maintaining patient safety standards. The research provides practical guidelines for CROs implementing digital monitoring solutions.</p>
+                                            <div class="publication_meta">
+                                                <span class="journal">Published in: Clinical Research Today</span>
+                                                <span class="impact_factor">Impact Factor: 4.2</span>
+                                            </div>
+                                            <a href="single-blog.php?post=clinical-trial" class="white_bg_btn">Read Full Article</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
+
+                            <!-- Research Publication 3 -->
                             <article class="row blog_item">
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Food,</a>
-                                            <a class="active" href="#">Technology,</a>
-                                            <a href="#">Politics,</a>
-                                            <a href="#">Lifestyle</a>
+                                            <a href="#">Scientific Writing,</a>
+                                            <a class="active" href="#">Regulatory Documents,</a>
+                                            <a href="#">Medical Writing,</a>
+                                            <a href="#">Compliance</a>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                            <li><a href="#">Dr. P. Nair<i class="lnr lnr-user"></i></a></li>
+                                            <li><a href="#">02 Nov, 2024<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><a href="#">1.2K Views<i class="lnr lnr-eye"></i></a></li>
+                                            <li><a href="#">5 Citations<i class="lnr lnr-bubble"></i></a></li>
                                         </ul>
                                     </div>
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/blog/main-blog/m-blog-3.jpg" alt="">
+                                        <img src="img/Scientific_Writing.png" alt="Scientific Writing Research">
                                         <div class="blog_details">
-                                            <a href="single-blog.php"><h2>The Glossary Of Telescopes</h2></a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
-                                            <a href="single-blog.php" class="white_bg_btn">View More</a>
+                                            <a href="single-blog.php?post=scientific-writing"><h2>Standardization of Safety Narratives in Clinical Study Reports: A Multi-Center Analysis</h2></a>
+                                            <p>This multi-center study analyzes the consistency and quality of safety narratives across 100 clinical study reports. The research identifies key factors affecting narrative quality and proposes standardized templates for improved regulatory compliance and patient safety communication.</p>
+                                            <div class="publication_meta">
+                                                <span class="journal">Published in: Regulatory Affairs Journal</span>
+                                                <span class="impact_factor">Impact Factor: 2.9</span>
+                                            </div>
+                                            <a href="single-blog.php?post=scientific-writing" class="white_bg_btn">Read Full Article</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
+
+                            <!-- Research Publication 4 -->
                             <article class="row blog_item">
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Food,</a>
-                                            <a class="active" href="#">Technology,</a>
-                                            <a href="#">Politics,</a>
-                                            <a href="#">Lifestyle</a>
+                                            <a href="#">Career Development,</a>
+                                            <a class="active" href="#">Training Programs,</a>
+                                            <a href="#">Industry Trends,</a>
+                                            <a href="#">Professional Growth</a>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                            <li><a href="#">Dr. R. Sharma<i class="lnr lnr-user"></i></a></li>
+                                            <li><a href="#">28 Oct, 2024<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><a href="#">3.1K Views<i class="lnr lnr-eye"></i></a></li>
+                                            <li><a href="#">15 Citations<i class="lnr lnr-bubble"></i></a></li>
                                         </ul>
                                     </div>
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/blog/main-blog/m-blog-4.jpg" alt="">
+                                        <img src="img/Career_Growth.png" alt="Career Growth Research">
                                         <div class="blog_details">
-                                            <a href="single-blog.php"><h2>The Night Sky</h2></a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
-                                            <a href="single-blog.php" class="white_bg_btn">View More</a>
+                                            <a href="single-blog.php?post=career-growth"><h2>Impact of Professional Certification Programs on Career Advancement in Clinical Research</h2></a>
+                                            <p>A longitudinal study tracking 500 clinical research professionals over 3 years reveals that certified professionals experience 60% faster career progression and 35% higher salary growth. The research validates the effectiveness of structured training programs in the pharmaceutical industry.</p>
+                                            <div class="publication_meta">
+                                                <span class="journal">Published in: Pharmaceutical Education Review</span>
+                                                <span class="impact_factor">Impact Factor: 3.5</span>
+                                            </div>
+                                            <a href="single-blog.php?post=career-growth" class="white_bg_btn">Read Full Article</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
+
+                            <!-- Research Publication 5 -->
                             <article class="row blog_item">
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Food,</a>
-                                            <a class="active" href="#">Technology,</a>
-                                            <a href="#">Politics,</a>
-                                            <a href="#">Lifestyle</a>
+                                            <a href="#">Regulatory Affairs,</a>
+                                            <a class="active" href="#">FDA Guidelines,</a>
+                                            <a href="#">EMA Regulations,</a>
+                                            <a href="#">Compliance</a>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                            <li><a href="#">Dr. M. Patel<i class="lnr lnr-user"></i></a></li>
+                                            <li><a href="#">20 Oct, 2024<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><a href="#">2.2K Views<i class="lnr lnr-eye"></i></a></li>
+                                            <li><a href="#">9 Citations<i class="lnr lnr-bubble"></i></a></li>
                                         </ul>
                                     </div>
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/blog/main-blog/m-blog-5.jpg" alt="">
+                                        <img src="img/courses/course-1.jpg" alt="Regulatory Affairs Research">
                                         <div class="blog_details">
-                                            <a href="single-blog.php"><h2>Telescopes 101</h2></a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
-                                            <a href="single-blog.php" class="white_bg_btn">View More</a>
+                                            <a href="#"><h2>Harmonization of Global Regulatory Requirements: A Comparative Analysis of FDA, EMA, and CDSCO Guidelines</h2></a>
+                                            <p>This comprehensive analysis compares regulatory requirements across major health authorities. The study identifies key differences in submission timelines, documentation requirements, and approval processes, providing valuable insights for global pharmaceutical companies.</p>
+                                            <div class="publication_meta">
+                                                <span class="journal">Published in: Global Regulatory Affairs</span>
+                                                <span class="impact_factor">Impact Factor: 4.1</span>
+                                            </div>
+                                            <a href="#" class="white_bg_btn">Read Full Article</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
+
+                            <!-- Research Publication 6 -->
+                            <article class="row blog_item">
+                               <div class="col-md-3">
+                                   <div class="blog_info text-right">
+                                        <div class="post_tag">
+                                            <a href="#">Data Management,</a>
+                                            <a class="active" href="#">Clinical Data,</a>
+                                            <a href="#">Quality Control,</a>
+                                            <a href="#">Technology</a>
+                                        </div>
+                                        <ul class="blog_meta list">
+                                            <li><a href="#">Dr. K. Singh<i class="lnr lnr-user"></i></a></li>
+                                            <li><a href="#">15 Oct, 2024<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><a href="#">1.5K Views<i class="lnr lnr-eye"></i></a></li>
+                                            <li><a href="#">6 Citations<i class="lnr lnr-bubble"></i></a></li>
+                                        </ul>
+                                    </div>
+                               </div>
+                                <div class="col-md-9">
+                                    <div class="blog_post">
+                                        <img src="img/courses/course-2.jpg" alt="Data Management Research">
+                                        <div class="blog_details">
+                                            <a href="#"><h2>Implementation of Electronic Data Capture (EDC) Systems: Best Practices and Challenges</h2></a>
+                                            <p>A case study analysis of EDC implementation across 15 clinical research sites reveals key success factors and common pitfalls. The research provides practical recommendations for optimizing data collection processes and ensuring regulatory compliance.</p>
+                                            <div class="publication_meta">
+                                                <span class="journal">Published in: Clinical Data Management Review</span>
+                                                <span class="impact_factor">Impact Factor: 2.7</span>
+                                            </div>
+                                            <a href="#" class="white_bg_btn">Read Full Article</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
                             <nav class="blog-pagination justify-content-center d-flex">
 		                        <ul class="pagination">
 		                            <li class="page-item">
@@ -219,7 +284,7 @@
 		                            <li class="page-item active"><a href="#" class="page-link">02</a></li>
 		                            <li class="page-item"><a href="#" class="page-link">03</a></li>
 		                            <li class="page-item"><a href="#" class="page-link">04</a></li>
-		                            <li class="page-item"><a href="#" class="page-link">09</a></li>
+		                            <li class="page-item"><a href="#" class="page-link">05</a></li>
 		                            <li class="page-item">
 		                                <a href="#" class="page-link" aria-label="Next">
 		                                    <span aria-hidden="true">
@@ -235,7 +300,7 @@
                         <div class="blog_right_sidebar">
                             <aside class="single_sidebar_widget search_widget">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search Posts">
+                                    <input type="text" class="form-control" placeholder="Search Publications">
                                     <span class="input-group-btn">
                                         <button class="btn btn-default" type="button"><i class="lnr lnr-magnifier"></i></button>
                                     </span>
@@ -243,107 +308,104 @@
                                 <div class="br"></div>
                             </aside>
                             <aside class="single_sidebar_widget author_widget">
-                                <img class="author_img rounded-circle" src="img/blog/author.png" alt="">
-                                <h4>Charlie Barber</h4>
-                                <p>Senior blog writer</p>
-                                <!-- <div class="social_icon">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-github"></i></a>
-                                    <a href="#"><i class="fa fa-behance"></i></a>
-                                </div> -->
-                                <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.</p>
+                                <img class="author_img rounded-circle" src="img/team/team-1.jpg" alt="Dr. S. Kumar">
+                                <h4>Dr. S. Kumar</h4>
+                                <p>Lead Research Scientist</p>
+                                <p>Dr. Kumar specializes in pharmacovigilance research with over 15 years of experience in drug safety monitoring and risk assessment. He has published extensively in peer-reviewed journals and serves as a consultant to major pharmaceutical companies.</p>
                                 <div class="br"></div>
                             </aside>
                             <aside class="single_sidebar_widget popular_post_widget">
-                                <h3 class="widget_title">Popular Posts</h3>
+                                <h3 class="widget_title">Most Cited Publications</h3>
                                 <div class="media post_item">
-                                    <img src="img/blog/popular-post/post1.jpg" alt="post">
+                                    <img src="img/Pharmacovigilance.png" alt="Pharmacovigilance Research">
                                     <div class="media-body">
-                                        <a href="single-blog.php"><h3>Space The Final Frontier</h3></a>
-                                        <p>02 Hours ago</p>
+                                        <a href="single-blog.php?post=pharmacovigilance"><h3>Advanced Signal Detection Methods</h3></a>
+                                        <p>12 Citations</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="img/blog/popular-post/post2.jpg" alt="post">
+                                    <img src="img/Clinical_Trial.png" alt="Clinical Trial Research">
                                     <div class="media-body">
-                                        <a href="single-blog.php"><h3>The Amazing Hubble</h3></a>
-                                        <p>02 Hours ago</p>
+                                        <a href="single-blog.php?post=clinical-trial"><h3>Digital Transformation in Clinical Trials</h3></a>
+                                        <p>8 Citations</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="img/blog/popular-post/post3.jpg" alt="post">
+                                    <img src="img/Scientific_Writing.png" alt="Scientific Writing Research">
                                     <div class="media-body">
-                                        <a href="single-blog.php"><h3>Astronomy Or Astrology</h3></a>
-                                        <p>03 Hours ago</p>
+                                        <a href="single-blog.php?post=scientific-writing"><h3>Standardization of Safety Narratives</h3></a>
+                                        <p>5 Citations</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="img/blog/popular-post/post4.jpg" alt="post">
+                                    <img src="img/Career_Growth.png" alt="Career Growth Research">
                                     <div class="media-body">
-                                        <a href="single-blog.php"><h3>Asteroids telescope</h3></a>
-                                        <p>01 Hours ago</p>
+                                        <a href="single-blog.php?post=career-growth"><h3>Impact of Professional Certification</h3></a>
+                                        <p>15 Citations</p>
                                     </div>
                                 </div>
                                 <div class="br"></div>
                             </aside>
                             <aside class="single_sidebar_widget ads_widget">
-                                <a href="#"><img class="img-fluid" src="img/blog/add.jpg" alt=""></a>
+                                <div class="research_highlight">
+                                    <h4>Research Highlights</h4>
+                                    <p>Our research team has published over 50 peer-reviewed articles in top-tier journals with a combined impact factor of 150+.</p>
+                                    <a href="courses.php" class="main_btn">Join Our Research Program</a>
+                                </div>
                                 <div class="br"></div>
                             </aside>
                             <aside class="single_sidebar_widget post_category_widget">
-                                <h4 class="widget_title">Post Catgories</h4>
+                                <h4 class="widget_title">Research Categories</h4>
                                 <ul class="list cat-list">
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                            <p>Technology</p>
-                                            <p>37</p>
+                                            <p>Pharmacovigilance</p>
+                                            <p>18</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                            <p>Lifestyle</p>
-                                            <p>24</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex justify-content-between">
-                                            <p>Fashion</p>
-                                            <p>59</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex justify-content-between">
-                                            <p>Art</p>
-                                            <p>29</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex justify-content-between">
-                                            <p>Food</p>
+                                            <p>Clinical Research</p>
                                             <p>15</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                            <p>Architecture</p>
-                                            <p>09</p>
+                                            <p>Regulatory Affairs</p>
+                                            <p>12</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                            <p>Adventure</p>
-                                            <p>44</p>
+                                            <p>Scientific Writing</p>
+                                            <p>8</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex justify-content-between">
+                                            <p>Data Management</p>
+                                            <p>6</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex justify-content-between">
+                                            <p>Career Development</p>
+                                            <p>4</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex justify-content-between">
+                                            <p>Quality Assurance</p>
+                                            <p>7</p>
                                         </a>
                                     </li>															
                                 </ul>
                                 <div class="br"></div>
                             </aside>
                             <aside class="single-sidebar-widget newsletter_widget">
-                                <h4 class="widget_title">Newsletter</h4>
+                                <h4 class="widget_title">Research Newsletter</h4>
                                 <p>
-                                Here, I focus on a range of items and features that we use in life without
-                                giving them a second thought.
+                                Stay updated with our latest research findings, publication announcements, and industry insights in pharmacovigilance and clinical research.
                                 </p>
                                 <div class="form-group d-flex flex-row">
                                     <div class="input-group">
@@ -352,26 +414,26 @@
                                         </div>
                                         <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'">
                                     </div>
-                                    <a href="#" class="bbtns">Subcribe</a>
+                                    <a href="#" class="bbtns">Subscribe</a>
                                 </div>	
                                 <p class="text-bottom">You can unsubscribe at any time</p>	
                                 <div class="br"></div>							
                             </aside>
                             <aside class="single-sidebar-widget tag_cloud_widget">
-                                <h4 class="widget_title">Tag Clouds</h4>
+                                <h4 class="widget_title">Research Tags</h4>
                                 <ul class="list">
-                                    <li><a href="#">Technology</a></li>
-                                    <li><a href="#">Fashion</a></li>
-                                    <li><a href="#">Architecture</a></li>
-                                    <li><a href="#">Fashion</a></li>
-                                    <li><a href="#">Food</a></li>
-                                    <li><a href="#">Technology</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                    <li><a href="#">Art</a></li>
-                                    <li><a href="#">Adventure</a></li>
-                                    <li><a href="#">Food</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                    <li><a href="#">Adventure</a></li>
+                                    <li><a href="#">Pharmacovigilance</a></li>
+                                    <li><a href="#">Clinical Trials</a></li>
+                                    <li><a href="#">Drug Safety</a></li>
+                                    <li><a href="#">Regulatory Affairs</a></li>
+                                    <li><a href="#">GCP Compliance</a></li>
+                                    <li><a href="#">Scientific Writing</a></li>
+                                    <li><a href="#">Data Management</a></li>
+                                    <li><a href="#">Risk Management</a></li>
+                                    <li><a href="#">Quality Assurance</a></li>
+                                    <li><a href="#">Career Development</a></li>
+                                    <li><a href="#">Training Programs</a></li>
+                                    <li><a href="#">Industry Trends</a></li>
                                 </ul>
                             </aside>
                         </div>
@@ -379,6 +441,6 @@
                 </div>
             </div>
         </section>
-        <!--================Blog Area =================-->
+        <!--================Research Publications Area =================-->
         
 <?php include 'includes/footer.php'; ?>

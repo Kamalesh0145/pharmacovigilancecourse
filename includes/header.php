@@ -61,16 +61,39 @@
 								<a class="nav-link" href="index.php">Home</a>
 							</li>
 							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'about-us.php') ? 'active' : ''; ?>">
-								<a class="nav-link" href="about-us.php">About</a>
+								<a class="nav-link" href="about-us.php">About Us</a>
 							</li>
-							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'courses.php' || basename($_SERVER['PHP_SELF']) == 'course-details.php') ? 'active' : ''; ?>">
+							<li class="nav-item submenu <?php echo (basename($_SERVER['PHP_SELF']) == 'courses.php' || basename($_SERVER['PHP_SELF']) == 'course-details.php' || strpos(basename($_SERVER['PHP_SELF']), 'course-') === 0) ? 'active' : ''; ?>">
 								<a class="nav-link" href="courses.php">Courses</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item">
+										<a class="nav-link" href="course-pharmacovigilance.php">Professional Certificate in Pharmacovigilance</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="course-clinical-research-diploma.php">Professional Diploma in Clinical Research</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="course-scientific-writing.php">Advanced Certificate in Scientific Writing</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="course-project-management.php">Advanced Certificate in Project Management</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="course-clinical-trial-management.php">Advanced Certificate in Clinical Trial Monitoring</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="course-regulatory-affairs.php">Regulatory Affairs in Pharma</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'blog.php') ? 'active' : ''; ?>">
+								<a class="nav-link" href="blog.php">Research Publications</a>
 							</li>
 							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
-								<a class="nav-link" href="elements.php">Academy</a>
+								<a class="nav-link" href="elements.php">Career</a>
 							</li>
 							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'contact.php') ? 'active' : ''; ?>">
-								<a class="nav-link" href="contact.php">Contact</a>
+								<a class="nav-link" href="contact.php">Contact Us</a>
 							</li>
 						</ul>
 					</div>

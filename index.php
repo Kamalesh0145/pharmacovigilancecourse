@@ -86,6 +86,105 @@
 
 <!--================End Finance Area =================-->
 
+<!--================Courses Preview Area =================-->
+<section class="courses_preview_area p_120">
+    <div class="container">
+        <div class="main_title">
+            <h2>SPECIALIZED CLINICAL RESEARCH, GCP & PHARMACOVIGILANCE COURSES</h2>
+            <p>India's largest Clinical Research & PVG Training Providers</p>
+        </div>
+
+        <div class="row courses_preview_inner">
+            <!-- Course 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="course_card">
+                    <div class="course_image">
+                        <img src="img/Professional Certificate1 .png" alt="Professional Certificate in Pharmacovigilance">
+                        <div class="course_badge">Basic Course</div>
+                    </div>
+                    <div class="course_content">
+                        <h4>Professional Certificate in Pharmacovigilance (PCPV)</h4>
+                        <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p>
+                        <div class="course_price">₹9,999/-</div>
+                        <a href="course-pharmacovigilance.php" class="course_btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="course_card">
+                    <div class="course_image">
+                        <img src="img/courses/course-3.jpg" alt="Professional Diploma in Clinical Research">
+                        <div class="course_badge">Basic Course</div>
+                    </div>
+                    <div class="course_content">
+                        <h4>Professional Diploma in Clinical Research (PDCR)</h4>
+                        <p>Comprehensive training in clinical trial design, conduct, and management for aspiring clinical research professionals.</p>
+                        <div class="course_price">₹9,999/-</div>
+                        <a href="course-clinical-research-diploma.php" class="course_btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="course_card">
+                    <div class="course_image">
+                        <img src="img/Scientific_Writing.png" alt="Advanced Certificate in Scientific Writing">
+                        <div class="course_badge advanced">Advanced Course</div>
+                    </div>
+                    <div class="course_content">
+                        <h4>Advanced Certificate Program in Scientific Writing (SW)</h4>
+                        <p>Develop skills to create precise clinical study reports, regulatory submissions, and pharmacovigilance narratives.</p>
+                        <div class="course_price">₹11,999/-</div>
+                        <a href="course-scientific-writing.php" class="course_btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="courses.php" class="main_btn">View All Courses</a>
+        </div>
+    </div>
+</section>
+<!--================End Courses Preview Area =================-->
+
+<!--================Statistics Area =================-->
+<section class="stats_section">
+    <div class="container">
+        <div class="stats_inner">
+            <h2 class="stats_title">Our Fact</h2>
+            <p class="stats_subtitle">India's largest Clinical Research & PVG Training Providers</p>
+            
+            <div class="stats_grid">
+                <div class="stat_item">
+                    <div class="stat_number">12000+</div>
+                    <div class="stat_label">Participants</div>
+                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Doctors, Pharma & Life-science Professionals</p>
+                </div>
+                <div class="stat_item">
+                    <div class="stat_number">200+</div>
+                    <div class="stat_label">Cities</div>
+                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Across India & Other Countries</p>
+                </div>
+                <div class="stat_item">
+                    <div class="stat_number">30+</div>
+                    <div class="stat_label">Countries & Counting</div>
+                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Global Outreach</p>
+                </div>
+                <div class="stat_item">
+                    <div class="stat_number">20+</div>
+                    <div class="stat_label">Years Of Excellence</div>
+                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Pioneers of CR & PVG Training in India</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Statistics Area =================-->
+
 <!--================Courses Area =================-->
 
 

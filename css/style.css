@@ -3247,3 +3247,483 @@ h6 {
 }
 /* Achievements & Placements Logos End */
 
+/* Modern Course Cards */
+.course_card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.course_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.course_image {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+
+.course_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.course_card:hover .course_image img {
+    transform: scale(1.1);
+}
+
+.course_badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #4dbf1c;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.course_badge.advanced {
+    background: #ff6b35;
+}
+
+.course_badge.specialty {
+    background: #8e44ad;
+}
+
+.course_content {
+    padding: 25px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.course_content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-family: "Playfair Display", serif;
+}
+
+.course_content p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.course_price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4dbf1c;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.course_btn {
+    background: #4dbf1c;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: 2px solid #4dbf1c;
+}
+
+.course_btn:hover {
+    background: transparent;
+    color: #4dbf1c;
+    text-decoration: none;
+}
+
+/* Statistics Section */
+.stats_section {
+    background: linear-gradient(135deg, #4dbf1c 0%, #2e7d32 100%);
+    color: #fff;
+    padding: 80px 0;
+    margin: 60px 0;
+}
+
+.stats_inner {
+    text-align: center;
+}
+
+.stats_title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+.stats_subtitle {
+    font-size: 18px;
+    margin-bottom: 50px;
+    opacity: 0.9;
+}
+
+.stats_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.stat_item {
+    text-align: center;
+}
+
+.stat_number {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.stat_label {
+    font-size: 16px;
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Enhanced Navigation */
+.navbar-nav .nav-item {
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #4dbf1c;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-item:hover .nav-link:after,
+.navbar-nav .nav-item.active .nav-link:after {
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .course_card {
+        margin-bottom: 30px;
+    }
+    
+    .stats_title {
+        font-size: 28px;
+    }
+    
+    .stat_number {
+        font-size: 36px;
+    }
+    
+    .stats_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .stats_grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .course_content {
+        padding: 20px;
+    }
+    
+    .course_content h4 {
+        font-size: 16px;
+    }
+    
+    .course_price {
+        font-size: 20px;
+    }
+}
+
+/* Research Publications Styles */
+.publication_meta {
+    margin: 15px 0;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.publication_meta .journal {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.publication_meta .impact_factor {
+    display: inline-block;
+    background: #4dbf1c;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.research_highlight {
+    background: linear-gradient(135deg, #4dbf1c 0%, #2e7d32 100%);
+    color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.research_highlight h4 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.research_highlight p {
+    color: #fff;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.research_highlight .main_btn {
+    background: #fff;
+    color: #4dbf1c;
+    border-color: #fff;
+}
+
+.research_highlight .main_btn:hover {
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+/* Enhanced Blog Meta */
+.blog_meta .lnr {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+/* Research Categories Hover Effects */
+.categories_post:hover .categories_details {
+    background: rgba(77, 191, 28, 0.9);
+}
+
+.categories_post .categories_details h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.categories_post .categories_details p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Enhanced Blog Item Styling */
+.blog_item {
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+}
+
+.blog_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.blog_post img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.blog_item:hover .blog_post img {
+    transform: scale(1.05);
+}
+
+/* Research Tags Styling */
+.post_tag a {
+    background: #f8f9fa;
+    color: #666;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+
+.post_tag a.active,
+.post_tag a:hover {
+    background: #4dbf1c;
+    color: #fff;
+}
+
+/* Sidebar Enhancements */
+.blog_right_sidebar .widget_title {
+    background: #4dbf1c;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.author_widget .author_img {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #4dbf1c;
+}
+
+.author_widget h4 {
+    color: #222;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.author_widget p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Popular Posts Enhancement */
+.popular_post_widget .post_item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.popular_post_widget .post_item:last-child {
+    border-bottom: none;
+}
+
+.popular_post_widget .post_item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.popular_post_widget .media-body h3 {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.popular_post_widget .media-body p {
+    font-size: 12px;
+    color: #999;
+    margin: 0;
+}
+
+/* Category List Enhancement */
+.post_category_widget .cat-list li {
+    padding: 8px 0;
+    border-bottom: 1px dotted #eee;
+    transition: all 0.3s ease;
+}
+
+.post_category_widget .cat-list li:hover {
+    background: #f8f9fa;
+    padding-left: 10px;
+}
+
+.post_category_widget .cat-list li a {
+    color: #666;
+    font-size: 14px;
+}
+
+.post_category_widget .cat-list li:hover a {
+    color: #4dbf1c;
+}
+
+/* Newsletter Widget Enhancement */
+.newsletter_widget {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.newsletter_widget .widget_title {
+    background: #4dbf1c;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Tag Cloud Enhancement */
+.tag_cloud_widget ul li a {
+    background: #f8f9fa;
+    color: #666;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin: 3px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.tag_cloud_widget ul li a:hover {
+    background: #4dbf1c;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+    .blog_item {
+        margin-bottom: 30px;
+    }
+    
+    .blog_info {
+        text-align: left !important;
+        margin-bottom: 20px;
+    }
+    
+    .publication_meta {
+        margin: 10px 0;
+    }
+    
+    .research_highlight {
+        padding: 20px;
+    }
+    
+    .blog_right_sidebar {
+        margin-top: 40px;
+    }
+}
+
