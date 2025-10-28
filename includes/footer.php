@@ -52,7 +52,7 @@
                     <ul class="list">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about-us.php">About</a></li>
-                        <li><a href="contact.php">Courses</a></li>
+                        <li><a href="courses.php">Courses</a></li>
                         <li><a href="elements.php">Academy</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
@@ -116,7 +116,6 @@
                 <a href="#"><i class="fa fa-linkedin"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
-                <!-- <a href="#"><i class="fab fa-whatsapp"></i></a> -->
 
                 
             

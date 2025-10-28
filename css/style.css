@@ -3213,7 +3213,37 @@ h6 {
   font-size: 24px;
   line-height: 1;
 }
-
 /*---Whatsapp Ending--- */
+/* Achievements & Placements Logos Start */
+.logo_slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
 
-/*# sourceMappingURL=style.css.map */
+.logo_track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* evenly distribute logos */
+  gap: 160px; /* space between each logo */
+  width: max-content;
+  animation: scroll 100s linear infinite;
+}
+
+.logo_track img {
+  width: 120px;
+  height: 120px;
+  filter: grayscale(0%); /* show color by default */
+  transition: all 0.3s ease;
+}
+
+.logo_track img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+/* Achievements & Placements Logos End */
+

@@ -35,12 +35,12 @@
           <div class="info_item">
             <i class="lnr lnr-home"></i>
             <h6>Cynture Global Pvt. LTD.</h6>
-            <p>W-126, 3rd Floor, 3rd Avenue, Anna Nagar, Chennai - 600040.</p>
+            <p>W-126 3rd Floor,<br> 3rd Avenue,<br> Anna Nagar,<br> Chennai - 600040.</p>
           </div>
           <div class="info_item">
             <i class="lnr lnr-phone-handset"></i>
             <div class="phone-number">
-              <a href="tel:+919385460145" style="color:#222222 !important; text-decoration:none !important; font-weight:bold !important;font-size:15px !important">+91 93854 60145</a>
+              <a href="tel:+919385460145" style="color:#222222 !important; text-decoration:none !important; font-weight:bold !important;font-size:15px !important">+91 73388 99156</a>
             </div>
             <p>Mon – Sat, 9:00 AM to 6:00 PM</p>
           </div>

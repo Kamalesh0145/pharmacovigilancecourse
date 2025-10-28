@@ -36,7 +36,7 @@
 					</ul>
 				</div>
 				<div class="float-right">
-					<a class="dn_btn" href="tel:+4400123654896">+91 93854 60145</a>
+					<a class="dn_btn" href="tel:+4400123654896">+91 73388 99156</a>
 					<a class="dn_btn" href="mailto: info@cyntureglobal.com">info@cyntureglobal.com</a>
 				</div>
 			</div>

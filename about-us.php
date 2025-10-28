@@ -24,7 +24,6 @@
             <h2>Our Vision and Training Goals</h2>
             <p>At Cynture Global, we aim to empower aspiring professionals with practical skills and industry knowledge in pharmaceutical and clinical research.</p>
         </div>
-
         <div class="row about_inner">
             <!-- Accordion with Goals -->	
             <div class="col-lg-6">
@@ -109,158 +108,8 @@
         </div>
     </div>
 </section>
-
-<!--================End About Area =================-->
-
 <!--================Team Area =================-->
-<section class="team_area p_120">
-	<div class="container">
-<div class="main_title">
-    <h2>Guidance from Clinical Research Experts</h2>
-    <p>Learn from experienced professionals and industry experts who bring real-world knowledge, hands-on experience, and mentorship to guide your journey in pharmaceutical and clinical research.</p>
-</div>
 
-      <div class="row team_inner">
-
-            <!-- Faculty 1 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="team_item">
-                    <div class="team_img">
-                        <img class="rounded-circle" src="img/team/team-1.jpg" alt="Dr. S. Kumar">
-                        <div class="hover">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team_name">
-                        <h4>Dr. S. Kumar</h4>
-                        <p>Pharmacovigilance Expert</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Faculty 2 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="team_item">
-                    <div class="team_img">
-                        <img class="rounded-circle" src="img/team/team-2.jpg" alt="Dr. A. Mehta">
-                        <div class="hover">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team_name">
-                        <h4>Dr. A. Mehta</h4>
-                        <p>Clinical Trial Management Specialist</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Faculty 3 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="team_item">
-                    <div class="team_img">
-                        <img class="rounded-circle" src="img/team/team-3.jpg" alt="Dr. R. Sharma">
-                        <div class="hover">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team_name">
-                        <h4>Dr. R. Sharma</h4>
-                        <p>Project Management Trainer</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Faculty 4 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="team_item">
-                    <div class="team_img">
-                        <img class="rounded-circle" src="img/team/team-4.jpg" alt="Dr. P. Nair">
-                        <div class="hover">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team_name">
-                        <h4>Dr. P. Nair</h4>
-                        <p>Scientific Writing Mentor</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-	</div>
-</section>
-<!--================End Team Area =================-->
-
-<!--================Testimonials Area =================-->
-<section class="testimonials_area p_120">
-    <div class="container">
-        <div class="main_title">
-            <h2>What Our Students Say</h2>
-            <p>Hear from learners who have gained skills and confidence through our practical, industry-focused training programs.</p>
-        </div>
-
-        <div class="testi_slider owl-carousel">
-
-            <!-- Testimonial 1 -->
-            <div class="item">
-                <div class="testi_item">
-                    <img src="img/testimonials/testi-1.png" alt="Anita Verma">
-                    <h4>Anita Verma</h4>
-                    <ul class="list">
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                    </ul>
-                    <p>The Pharmacovigilance course helped me understand drug safety monitoring in real-world scenarios. The hands-on training and mentorship were excellent.</p>
-                </div>
-            </div>
-
-            <!-- Testimonial 2 -->
-            <div class="item">
-                <div class="testi_item">
-                    <img src="img/testimonials/testi-2.png" alt="Rahul Singh">
-                    <h4>Rahul Singh</h4>
-                    <ul class="list">
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                    </ul>
-                    <p>The Clinical Trial Management course gave me confidence to manage trials efficiently. The trainers shared real case studies which were very helpful.</p>
-                </div>
-            </div>
-
-            <!-- Testimonial 3 -->
-            <div class="item">
-                <div class="testi_item">
-                    <img src="img/testimonials/testi-3.png" alt="Priya Nair">
-                    <h4>Priya Nair</h4>
-                    <ul class="list">
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                    </ul>
-                    <p>The Scientific Writing course improved my ability to create accurate study reports and regulatory documents. The guidance from experts was invaluable.</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!--================End Testimonials Area =================-->
 <!--================ Course Details Area =================-->
 <section class="course_details_area p_120">
   <div class="container">
@@ -285,7 +134,6 @@
             <a class="nav-link" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments" aria-selected="false">Reviews</a>
           </li>
         </ul>
-
         <div class="tab-content" id="myTabContent">
           <!-- Objectives -->
           <div class="tab-pane fade show active" id="objectives" role="tabpanel" aria-labelledby="objectives-tab">
@@ -299,7 +147,6 @@
               </p>
             </div>
           </div>
-
           <!-- Eligibility -->
           <div class="tab-pane fade" id="eligibility" role="tabpanel" aria-labelledby="eligibility-tab">
             <div class="objctive_text">
@@ -310,7 +157,6 @@
               </ul>
             </div>
           </div>
-
           <!-- Course Outline -->
           <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
             <div class="objctive_text">
@@ -326,7 +172,6 @@
               </ul>
             </div>
           </div>
-
           <!-- Comments / Reviews -->
           <div class="tab-pane fade" id="comments" role="tabpanel" aria-labelledby="comments-tab">
             <div class="comments-area">
@@ -383,7 +228,6 @@
           </div>
         </div>
       </div>
-
       <!-- Right Section -->
       <div class="col-lg-4">
         <div class="c_details_list">
@@ -413,8 +257,60 @@
     </div>
 </section>
 
+<!--================ Achievements Area =================-->
+<section class="achievements_area p_120">
+  <div class="container">
+    <div class="main_title text-center">
+      <h2>Our Achievements</h2>
+      <p>We’re proud of our continuous growth, milestones, and recognition in training and development.</p>
+    </div>
+
+    <div class="logo_slider">
+      <div class="logo_track">
+        <img src="img/Achive_img1.jpg" alt="Achievement 1">
+        <img src="img/Achive_img2.jpg" alt="Achievement 2">
+        <img src="img/Achive_img3.jpg" alt="Achievement 3">`
+        <img src="img/Achive_img4.jpg" alt="Achievement 4">
+        <img src="img/Achive_img5.jpg" alt="Achievement 5">
+        <img src="img/Achive_img1.jpg" alt="Achievement 6">
+        <img src="img/Achive_img2.jpg" alt="Achievement 7">
+        <img src="img/Achive_img3.jpg" alt="Achievement 7">
+        <img src="img/Achive_img4.jpg" alt="Achievement 7">
+        <img src="img/Achive_img5.jpg" alt="Achievement 7">
+
+      </div>
+    </div>
+  </div>
+</section>
+<!--================ End Achievements Area =================-->
+
+
+<!--================ Placement Partners Area =================-->
+<section class="clients_area p_120">
+  <div class="container">
+    <div class="main_title text-center">
+      <h2>Our Placement Partners</h2>
+      <p>Our students have been placed with top pharmaceutical and healthcare organizations worldwide.</p>
+    </div>
+
+    <div class="logo_slider">
+      <div class="logo_track">
+        <img src="img/Achive_img1.jpg" alt="Company 1">
+        <img src="img/Achive_img2.jpg" alt="Company 2">
+        <img src="img/Achive_img3.jpg" alt="Company 3">
+        <img src="img/Achive_img4.jpg" alt="Company 4">
+        <img src="img/Achive_img5.jpg" alt="Company 5">
+        <img src="img/Achive_img1.jpg" alt="Company 6">
+        <img src="img/Achive_img2.jpg" alt="Company 7">
+        <img src="img/Achive_img3.jpg" alt="Company 8">
+        <img src="img/Achive_img4.jpg" alt="Company 8">
+        <img src="img/Achive_img4.jpg" alt="Company 8">
+
+      </div>
+    </div>
+  </div>
+</section>
+<!--================ End Placement Partners Area =================-->
+
 <!--================End Impress Area =================-->
-
-
-
 <?php include 'includes/footer.php'; ?>

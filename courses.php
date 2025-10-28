@@ -40,11 +40,11 @@
                                 <a href="course-pharmacovigilance.php">
                                     <h4>Professional Certificate in Pharmacovigilance</h4>
                                 </a>
-                                <ul class="list">
+                                <!-- <ul class="list">
                                     <li><a href="#"><i class="lnr lnr-users"></i> 420</a></li>
                                     <li><a href="#"><i class="lnr lnr-bubble"></i> 40</a></li>
                                     <li><a href="#"><i class="lnr lnr-user"></i> Dr. K. Sharma</a></li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -59,11 +59,11 @@
                                 <a href="course-clinical-trial-management.php">
                                     <h4>Clinical Trial Management</h4>
                                 </a>
-                                <ul class="list">
+                                <!-- <ul class="list">
                                     <li><a href="#"><i class="lnr lnr-users"></i> 380</a></li>
                                     <li><a href="#"><i class="lnr lnr-bubble"></i> 30</a></li>
                                     <li><a href="#"><i class="lnr lnr-user"></i> Dr. S. Reddy</a></li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -78,11 +78,11 @@
                                 <a href="course-project-management.php">
                                     <h4>Project Management in Clinical Research</h4>
                                 </a>
-                                <ul class="list">
+                                <!-- <ul class="list">
                                     <li><a href="#"><i class="lnr lnr-users"></i> 295</a></li>
                                     <li><a href="#"><i class="lnr lnr-bubble"></i> 25</a></li>
                                     <li><a href="#"><i class="lnr lnr-user"></i> Ms. R. Verma</a></li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -97,11 +97,11 @@
                                 <a href="course-scientific-writing.php">
                                     <h4>Scientific Writing in Pharma</h4>
                                 </a>
-                                <ul class="list">
+                                <!-- <ul class="list">
                                     <li><a href="#"><i class="lnr lnr-users"></i> 310</a></li>
                                     <li><a href="#"><i class="lnr lnr-bubble"></i> 28</a></li>
                                     <li><a href="#"><i class="lnr lnr-user"></i> Dr. M. Iyer</a></li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -116,11 +116,11 @@
                                 <a href="course-regulatory-affairs.php">
                                     <h4>Regulatory Affairs in Pharma</h4>
                                 </a>
-                                <ul class="list">
+                                <!-- <ul class="list">
                                     <li><a href="#"><i class="lnr lnr-users"></i> 280</a></li>
                                     <li><a href="#"><i class="lnr lnr-bubble"></i> 22</a></li>
                                     <li><a href="#"><i class="lnr lnr-user"></i> Dr. A. Patel</a></li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -133,15 +133,16 @@
                 <div class="course_item">
                     <img src="img/courses/course-3.jpg" alt="Professional Diploma in Clinical Research">
                     <div class="hover_text">
-                        <a class="cat" href="#">Free</a>
+                        <!-- <a class="cat" href="#">Free</a> -->
+                        <a class="cat" href="#"></a>
                         <a href="course-clinical-research-diploma.php">
                             <h4>Professional Diploma in Clinical Research</h4>
                         </a>
-                        <ul class="list">
+                        <!-- <ul class="list">
                             <li><a href="#"><i class="lnr lnr-users"></i> 360</a></li>
                             <li><a href="#"><i class="lnr lnr-bubble"></i> 32</a></li>
                             <li><a href="#"><i class="lnr lnr-user"></i> Dr. P. Kumar</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
