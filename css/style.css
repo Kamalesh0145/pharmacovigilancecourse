@@ -510,7 +510,7 @@ button:focus {
   .l_blog_item h4 {
     font-size: 18px;
     line-height: 24px;
-    color: #222222;
+    color: rgb(55, 121, 206);
     border-bottom: 1px solid #eeeeee;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -518,7 +518,7 @@ button:focus {
   .l_blog_item p {
     margin-bottom: 0px; }
   .l_blog_item:hover h4 {
-    color: #4dbf1c; }
+    color:blue; }
 
 /* End Latest Blog Area css
 ============================================================================================ */

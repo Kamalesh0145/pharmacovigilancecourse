@@ -175,78 +175,11 @@
 </section>
 <!--================End Team Area =================-->
 
-
-<!--================Testimonials Area =================-->
-<section class="testimonials_area p_120">
-    <div class="container">
-        <div class="main_title">
-            <h2>What Our Students Say</h2>
-            <p>Hear from learners who have gained skills and confidence through our practical, industry-focused training programs.</p>
-        </div>
-
-        <div class="testi_slider owl-carousel">
-
-            <!-- Testimonial 1 -->
-            <div class="item">
-                <div class="testi_item">
-                    <img src="img/testimonials/testi-1.png" alt="Anita Verma">
-                    <h4>Anita Verma</h4>
-                    <ul class="list">
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                    </ul>
-                    <p>The Pharmacovigilance course helped me understand drug safety monitoring in real-world scenarios. The hands-on training and mentorship were excellent.</p>
-                </div>
-            </div>
-
-            <!-- Testimonial 2 -->
-            <div class="item">
-                <div class="testi_item">
-                    <img src="img/testimonials/testi-2.png" alt="Rahul Singh">
-                    <h4>Rahul Singh</h4>
-                    <ul class="list">
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                    </ul>
-                    <p>The Clinical Trial Management course gave me confidence to manage trials efficiently. The trainers shared real case studies which were very helpful.</p>
-                </div>
-            </div>
-
-            <!-- Testimonial 3 -->
-            <div class="item">
-                <div class="testi_item">
-                    <img src="img/testimonials/testi-3.png" alt="Priya Nair">
-                    <h4>Priya Nair</h4>
-                    <ul class="list">
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                    </ul>
-                    <p>The Scientific Writing course improved my ability to create accurate study reports and regulatory documents. The guidance from experts was invaluable.</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!--================End Testimonials Area =================-->
-
-
-
-
 <!--================Latest Cynture Global =================-->
 <section class="latest_blog_area p_120">
     <div class="container">
         <div class="main_title">
-            <h2>Insights & Updates from Cynture Global</h2>
+            <h2>Essential Knowledge Areas in Pharmacovigilance and Clinical Research</h2>
             <p>Stay informed with the latest trends, expert insights, and practical guidance in pharmaceutical and clinical research from Cynture Global’s knowledge hub.</p>
         </div>
 
@@ -311,7 +244,68 @@
 </section>
 <!--================End Latest Cynture Global =================-->
 
+<!--================Testimonials Area =================-->
+<section class="testimonials_area p_120">
+    <div class="container">
+        <div class="main_title">
+            <h2>What Our Students Say</h2>
+            <p>Hear from learners who have gained skills and confidence through our practical, industry-focused training programs.</p>
+        </div>
 
+        <div class="testi_slider owl-carousel">
+
+            <!-- Testimonial 1 -->
+            <div class="item">
+                <div class="testi_item">
+                    <img src="img/testimonials/testi-1.png" alt="Anita Verma">
+                    <h4>Anita Verma</h4>
+                    <ul class="list">
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                    </ul>
+                    <p>The Pharmacovigilance course helped me understand drug safety monitoring in real-world scenarios. The hands-on training and mentorship were excellent.</p>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="item">
+                <div class="testi_item">
+                    <img src="img/testimonials/testi-2.png" alt="Rahul Singh">
+                    <h4>Rahul Singh</h4>
+                    <ul class="list">
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                    </ul>
+                    <p>The Clinical Trial Management course gave me confidence to manage trials efficiently. The trainers shared real case studies which were very helpful.</p>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="item">
+                <div class="testi_item">
+                    <img src="img/testimonials/testi-3.png" alt="Priya Nair">
+                    <h4>Priya Nair</h4>
+                    <ul class="list">
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                    </ul>
+                    <p>The Scientific Writing course improved my ability to create accurate study reports and regulatory documents. The guidance from experts was invaluable.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--================End Testimonials Area =================-->
 <!--================Impress Area =================-->
 <section class="impress_area p_120">
     <div class="container">
