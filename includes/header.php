@@ -86,9 +86,9 @@
 									</li>
 								</ul>
 							</li>
-							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'blog.php') ? 'active' : ''; ?>">
+							<!-- <li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'blog.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="blog.php">Research Publications</a>
-							</li>
+							</li> -->
 							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="elements.php">Career</a>
 							</li>

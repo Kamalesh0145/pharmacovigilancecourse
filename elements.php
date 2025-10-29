@@ -6,10 +6,11 @@
     <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
     <div class="container">
       <div class="banner_content text-center">
-        <h2>Elements</h2>
+        <h2>Career Development Programs</h2>
+        <p class="banner-subtitle">Transform Your Future in Pharmaceutical & Clinical Research</p>
         <div class="page_link">
           <a href="index.php">Home</a>
-          <a href="elements.php">Elements</a>
+          <a href="elements.php">Career Programs</a>
         </div>
       </div>
     </div>
@@ -18,64 +19,136 @@
 <!--================End Home Banner Area =================-->
 
 
-<!--================ About Our Programs Section ================-->
+<!--================ Career Opportunities Section ================-->
 <section class="sample-text-area">
   <div class="container">
-    <h3 class="text-heading title_color">About Our Training Programs</h3>
+    <h3 class="text-heading title_color">Launch Your Career in Pharmaceutical Excellence</h3>
     <p class="sample-text">
-      At <b>Cynture Global Pvt Ltd</b>, we are committed to building strong careers in the pharmaceutical
-      and clinical research industries. Our training programs are carefully crafted by experienced professionals
-      to ensure that every learner gains both <i>theoretical knowledge</i> and <i>practical experience</i>.
+      At <b>Cynture Global Pvt Ltd</b>, we don't just offer training programs – we build careers. Our comprehensive 
+      career development initiatives are designed to transform ambitious professionals into industry leaders in 
+      pharmaceutical sciences, clinical research, and regulatory affairs.
       <br><br>
-      We provide globally recognized professional certifications that enable our students to enter the industry
-      with <b>confidence, competence, and credibility</b>. Each module is designed to meet current regulatory standards
-      and industry expectations, ensuring our learners stay ahead in their careers.
+      With over <b>500+ successful placements</b> and partnerships with leading pharmaceutical companies worldwide, 
+      we provide the perfect launchpad for your career in this rapidly growing industry. Our programs combine 
+      <i>cutting-edge curriculum</i>, <i>hands-on experience</i>, and <i>industry mentorship</i> to ensure your success.
     </p>
-  </div>
-</section>
-<!--================ End About Our Programs Section ================-->
-
-
-<!--================ Why Choose Us Section ================-->
-<section class="button-area">
-  <div class="container border-top-generic">
-    <h3 class="text-heading title_color">Why Choose Cynture Global?</h3>
-    <div class="row">
-      <div class="col-lg-6 col-md-6">
-        <ul class="list">
-          <li>✔ Industry-Driven Curriculum</li>
-          <li>✔ Hands-on Training with Real Case Studies</li>
-          <li>✔ 100% Placement Assistance</li>
-          <li>✔ Live Projects and Practical Workshops</li>
-          <li>✔ Flexible Online and Offline Learning Options</li>
-        </ul>
+    
+    <!-- Career Statistics -->
+    <div class="row mt-5">
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="single-defination text-center">
+          <h4 class="mb-20 text-primary">500+</h4>
+          <p>Successful Placements</p>
+        </div>
       </div>
-      <div class="col-lg-6 col-md-6">
-        <ul class="list">
-          <li>✔ Expert Faculty from Top Pharma Companies</li>
-          <li>✔ Globally Recognized Certification</li>
-          <li>✔ Personalized Mentorship and Career Guidance</li>
-          <li>✔ Affordable Fee Structure</li>
-          <li>✔ Continuous Learning Support</li>
-        </ul>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="single-defination text-center">
+          <h4 class="mb-20 text-primary">95%</h4>
+          <p>Job Placement Rate</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="single-defination text-center">
+          <h4 class="mb-20 text-primary">50+</h4>
+          <p>Industry Partners</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="single-defination text-center">
+          <h4 class="mb-20 text-primary">15+</h4>
+          <p>Years Experience</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<!--================ End Why Choose Us Section ================-->
+<!--================ End Career Opportunities Section ================-->
+
+
+<!--================ Career Benefits Section ================-->
+<section class="button-area">
+  <div class="container border-top-generic">
+    <h3 class="text-heading title_color">Why Choose Cynture Global for Your Career?</h3>
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="career-benefits">
+          <h4 class="mb-3">🎯 Career-Focused Training</h4>
+          <ul class="list">
+            <li>✔ Industry-Driven Curriculum with Real-World Applications</li>
+            <li>✔ Hands-on Training with Live Case Studies</li>
+            <li>✔ 100% Placement Assistance & Job Guarantee</li>
+            <li>✔ Live Projects and Industry Workshops</li>
+            <li>✔ Flexible Online and Offline Learning Options</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="career-benefits">
+          <h4 class="mb-3">🚀 Professional Excellence</h4>
+          <ul class="list">
+            <li>✔ Expert Faculty from Top Pharma Companies</li>
+            <li>✔ Globally Recognized Certification Programs</li>
+            <li>✔ Personalized Mentorship and Career Guidance</li>
+            <li>✔ Competitive Salary Packages Post-Training</li>
+            <li>✔ Lifetime Learning Support & Alumni Network</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Career Paths -->
+    <div class="row mt-5">
+      <div class="col-lg-12">
+        <h3 class="mb-4 text-center">Career Paths We Offer</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="career-path-card text-center p-4 border rounded">
+              <img src="img/Pharmacovigilance.png" alt="Pharmacovigilance" class="img-fluid mb-3" style="height: 80px;">
+              <h5>Pharmacovigilance Specialist</h5>PCPV – Professional Certificate in Pharmacovigilance
+              <p class="text-muted">Drug Safety & Risk Management</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="career-path-card text-center p-4 border rounded">
+              <img src="img/Clinical_Trial.png" alt="Clinical Research" class="img-fluid mb-3" style="height: 80px;">
+              <h5>Clinical Research Associate</h5>CTM – Clinical Trial Management
+              <p class="text-muted">Clinical Trial Management</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="career-path-card text-center p-4 border rounded">
+              <img src="img/Scientific_Writing.png" alt="Regulatory Affairs" class="img-fluid mb-3" style="height: 80px;">
+              <h5>Regulatory Affairs Manager</h5>Project Management for Clinical Research
+              <p class="text-muted">Compliance & Documentation</p>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--================ End Career Benefits Section ================-->
 
 
 <!--================ Call to Action Section ================-->
 <section class="cta-area section_gap">
   <div class="container text-center">
-    <h2 class="mb-4 title_color">Ready to Build Your Career in Clinical Research?</h2>
+    <h2 class="mb-4 title_color">Ready to Launch Your Pharmaceutical Career?</h2>
     <p class="mb-4">
-      Join Cynture Global today and step confidently into the pharmaceutical and life sciences industry.
-      Learn from experts, gain real-world skills, and achieve your career goals.
+      Join thousands of successful professionals who have transformed their careers with Cynture Global. 
+      Get industry-ready skills, expert mentorship, and guaranteed job placement assistance.
     </p>
-    <a href="contact.php" class="genric-btn primary e-large">
-      Contact Us </span>
-    </a>
+    <div class="cta-buttons">
+      <a href="courses.php" class="genric-btn primary e-large mr-3">
+        Explore Programs
+      </a>
+      <a href="contact.php" class="genric-btn success e-large">
+        Get Career Guidance
+      </a>
+    </div>
   </div>
 </section>
 <!--================ End Call to Action Section ================-->
@@ -130,52 +203,223 @@
     </div>
     <!--================ End Vision Section ================-->
 
+    <!--================ Success Stories Section ================-->
     <div class="section-top-border">
-      <h3 class="mb-30 title_color">Key Concepts in Pharma & Clinical Research</h3>
+      <h3 class="mb-30 title_color">Success Stories from Our Alumni</h3>
       <div class="row">
-        <div class="col-md-4">
-          <div class="single-defination">
-            <h4 class="mb-20">Pharmacovigilance</h4>
-            <p>
-              Pharmacovigilance is the science and activities related to the detection, assessment, understanding, and prevention
-              of adverse effects or any other drug-related problems. It ensures patient safety and improves public health outcomes.
-            </p>
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card p-4 border rounded h-100">
+            <div class="testimonial-content">
+              <p class="mb-3">
+                "Cynture Global's pharmacovigilance program gave me the exact skills I needed. 
+                Within 3 months of completion, I landed a role at a leading pharma company with a 40% salary increase."
+              </p>
+              <div class="testimonial-author">
+                <strong>Priya Sharma</strong><br>
+                <small class="text-muted">Pharmacovigilance Specialist, Sun Pharma</small>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="single-defination">
-            <h4 class="mb-20">Clinical Trials</h4>
-            <p>
-              Clinical trials are structured research studies conducted to evaluate the efficacy and safety of new drugs, treatments,
-              or medical devices in human participants, following strict regulatory guidelines and ethical standards.
-            </p>
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card p-4 border rounded h-100">
+            <div class="testimonial-content">
+              <p class="mb-3">
+                "The clinical research training was exceptional. The hands-on approach and industry mentors 
+                helped me transition from a biology graduate to a successful CRA in just 6 months."
+              </p>
+              <div class="testimonial-author">
+                <strong>Rajesh Kumar</strong><br>
+                <small class="text-muted">Clinical Research Associate, Dr. Reddy's</small>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="single-defination">
-            <h4 class="mb-20">Regulatory Compliance</h4>
-            <p>
-              Regulatory compliance in pharmaceuticals ensures that all drug development, manufacturing, and marketing activities
-              meet local and international legal requirements. This guarantees that medicines are safe, effective, and of high quality.
-            </p>
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card p-4 border rounded h-100">
+            <div class="testimonial-content">
+              <p class="mb-3">
+                "The regulatory affairs program opened doors I never knew existed. Now I'm working with 
+                international clients and earning 3x my previous salary. Thank you, Cynture Global!"
+              </p>
+              <div class="testimonial-author">
+                <strong>Anita Patel</strong><br>
+                <small class="text-muted">Regulatory Affairs Manager, Cipla</small>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!--================ End Success Stories Section ================-->
 
+    <!--================ Industry Insights Section ================-->
     <div class="section-top-border">
-      <h3 class="mb-30 title_color">Expert Insight</h3>
+      <h3 class="mb-30 title_color">Industry Insights & Career Opportunities</h3>
       <div class="row">
-        <div class="col-lg-12">
-          <blockquote class="generic-blockquote">
-            “Pharmacovigilance plays a crucial role in ensuring the safety and effectiveness of medicines throughout their lifecycle.
-            By carefully monitoring, analyzing, and reporting adverse drug reactions, healthcare professionals and regulatory authorities
-            can protect patients, improve treatment outcomes, and maintain public trust in healthcare systems. Continuous training
-            and awareness are essential to keep professionals updated with global regulatory standards and best practices.”
-          </blockquote>
+        <div class="col-md-4">
+          <div class="single-defination">
+            <h4 class="mb-20">📈 Market Growth</h4>
+            <p>
+              The pharmaceutical industry is projected to grow at 6.1% CAGR, creating over 2 million new jobs 
+              globally by 2025. Pharmacovigilance and clinical research roles are among the fastest-growing positions.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-defination">
+            <h4 class="mb-20">💰 Salary Potential</h4>
+            <p>
+              Entry-level positions start at ₹4-6 LPA, with experienced professionals earning ₹12-25 LPA. 
+              Senior roles in regulatory affairs and clinical research can command ₹30+ LPA.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-defination">
+            <h4 class="mb-20">🌍 Global Opportunities</h4>
+            <p>
+              Our certifications are recognized worldwide, opening doors to international careers in the US, 
+              Europe, and Asia-Pacific regions. Many of our alumni work with Fortune 500 companies.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+    <!--================ End Industry Insights Section ================-->
+
+<!--================ Application Process Section ================-->
+<div class="section-top-border">
+  <h3 class="mb-30 title_color text-center">How to Start Your Career Journey</h3>
+
+  <div class="process_slider">
+    <div class="process_track">
+
+      <!-- Step 1 -->
+      <div class="process-step text-center p-4">
+        <div class="step-number bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+          style="width: 60px; height: 60px;">
+          <span class="h4 mb-0">1</span>
+        </div>
+        <h5>Submit Application</h5>
+        <p class="text-muted">Fill in the online form and upload your resume to get started.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="process-step text-center p-4">
+        <div class="step-number bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+          style="width: 60px; height: 60px;">
+          <span class="h4 mb-0">2</span>
+        </div>
+        <h5>Career Counseling</h5>
+        <p class="text-muted">Discuss your goals with our expert counselors.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="process-step text-center p-4">
+        <div class="step-number bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+          style="width: 60px; height: 60px;">
+          <span class="h4 mb-0">3</span>
+        </div>
+        <h5>Confirm Admission</h5>
+        <p class="text-muted">Complete enrollment and secure your seat for the program.</p>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="process-step text-center p-4">
+        <div class="step-number bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+          style="width: 60px; height: 60px;">
+          <span class="h4 mb-0">4</span>
+        </div>
+        <h5>Start Training</h5>
+        <p class="text-muted">Begin your learning with practical and interactive sessions.</p>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="process-step text-center p-4">
+        <div class="step-number bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+          style="width: 60px; height: 60px;">
+          <span class="h4 mb-0">5</span>
+        </div>
+        <h5>Internship / Live Project</h5>
+        <p class="text-muted">Work on real projects and gain industry exposure.</p>
+      </div>
+
+      <!-- Step 6 -->
+      <div class="process-step text-center p-4">
+        <div class="step-number bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+          style="width: 60px; height: 60px;">
+          <span class="h4 mb-0">6</span>
+        </div>
+        <h5>Placement Assistance</h5>
+        <p class="text-muted">Get placed with top organizations through our career support team.</p>
+      </div>
+
+
+      <div class="process-step text-center p-4">
+        <div class="step-number bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+          style="width: 60px; height: 60px;">
+          <span class="h4 mb-0">2</span>
+        </div>
+        <h5>Career Counseling</h5>
+        <p class="text-muted">Discuss your goals with our expert counselors.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--================ End Application Process Section ================-->
+
+<!--========== CSS ==========-->
+<style>
+.process_slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* animation + pause on hover */
+.process_track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  width: max-content;
+  animation: processScroll 50s linear infinite;
+  animation-play-state: running;
+}
+
+/* Pause the animation when hovered */
+.process_slider:hover .process_track {
+  animation-play-state: paused;
+}
+
+.process-step {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  min-width: 250px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.process-step:hover {
+  transform: scale(1.05);
+}
+
+@keyframes processScroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+</style>
+
   </div>
 </div>
 <!-- End Align Area -->

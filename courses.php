@@ -162,7 +162,7 @@
       </div>
 
       <!-- ==================== CLIENT EXTRA COURSES START ==================== -->
-      <div class="col-lg-4 col-md-6 mb-4">
+      <!-- <div class="col-lg-4 col-md-6 mb-4">
         <div class="course_card">
           <div class="course_image">
             <img src="img/Professional Certificate1 .png" alt="Professional Certificate in Pharmacovigilance">
@@ -235,7 +235,7 @@
             <a href="course-scientific-writing.php" class="course_btn">Register Now</a>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- ==================== CLIENT EXTRA COURSES END ==================== -->
 
     </div>
