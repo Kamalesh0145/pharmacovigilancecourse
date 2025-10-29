@@ -1590,13 +1590,15 @@ h6 {
   border: 1px solid transparent; }
 
 .genric-btn.primary {
+  border-radius: 25px;
   color: #fff;
-  background: #f8b600;
+  background: #4dbf1c;
+  font-size:large;
   border: 1px solid transparent; }
 
 .genric-btn.primary:hover {
-  color: #f8b600;
-  border: 1px solid #f8b600;
+  color: #4dbf1c;
+  border: 1px solid #4dbf1c;
   background: #fff; }
 
 .genric-btn.primary-border {
