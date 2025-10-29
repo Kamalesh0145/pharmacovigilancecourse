@@ -8,7 +8,7 @@
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
-    --purple: #6f42c1;
+    --purple: #7b2cbf;
     --pink: #e83e8c;
     --red: #dc3545;
     --orange: #fd7e14;
@@ -19,7 +19,7 @@
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #007bff;
+    --primary: #7b2cbf;
     --secondary: #6c757d;
     --success: #28a745;
     --info: #17a2b8;
@@ -1677,7 +1677,7 @@ pre code {
 }
 
 .table-hover .table-primary:hover {
-    background-color: #9fcdff
+    background-color: #ff9fba
 }
 
 .table-hover .table-primary:hover>td,
@@ -4516,7 +4516,7 @@ input[type=submit].btn-block {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #4dbf1c
+    color:blue
 }
 
 .navbar-light .navbar-toggler {
@@ -6344,14 +6344,14 @@ button.close {
 }
 
 .bg-primary {
-    background-color: #007bff !important
+    background-color: #7b2cbf !important
 }
 
 a.bg-primary:focus,
 a.bg-primary:hover,
 button.bg-primary:focus,
 button.bg-primary:hover {
-    background-color: #0062cc !important
+    background-color: #5a1d91 !important
 }
 
 .bg-secondary {
@@ -9134,12 +9134,12 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-    color: #007bff !important
+    color: #7b2cbf !important
 }
 
 a.text-primary:focus,
 a.text-primary:hover {
-    color: #0062cc !important
+    color: #5a1d91 !important
 }
 
 .text-secondary {

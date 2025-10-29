@@ -92,7 +92,7 @@
 		display: block;
 		width: 25px;
 		height: 3px;
-		background: #4dbf1c;
+		background: #7b2cbf;
 		margin: auto;
 		margin-bottom: 4px;
 		transition: all 400ms linear;
@@ -134,7 +134,7 @@
     }
     .header_area .navbar .navbar-nav .nav-item .nav-link:hover,
     .header_area .navbar .navbar-nav .nav-item.active .nav-link {
-        color: #4dbf1c;
+        color: #7b2cbf;
         background-color: rgba(77, 191, 28, 0.1);
     }
 	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
@@ -370,7 +370,7 @@
 		white-space: nowrap;
 	}
 	.top_menu .dn_btn:hover {
-		background: #4dbf1c;
+		background: #7b2cbf;
 		color: #fff;
 		text-decoration: none;
 	}

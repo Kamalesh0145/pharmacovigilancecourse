@@ -1,6 +1,6 @@
 /*============== footer-area css ===============*/
 .footer-area{
-    background: #04091e;
+    background: #fff;
 }
 .single-footer-widget{
     p{
@@ -22,14 +22,14 @@
     input{
         max-width: 340px;
 		width: 80%;
-        border: 1px solid #333333;
+        border: 1px solid #eeeeee;
         font-size: 13px;
         line-height: 40px;
 		padding-right: 40px;
 		height: 40px;
-        color: #999999;
+        color: $pfont;
 		border-radius: 20px;
-		background: #fff;
+		background: #f9f9ff;
         padding-left: 20px;
         @include placeholder{
             color: #999999;
@@ -97,7 +97,7 @@
 			}
 			&:hover{
 				a{
-					color: #fff;
+					color: $baseColor;
 				}
 			}
 		}
@@ -149,20 +149,20 @@
     line-height: 24px;
     font-weight: bold;
 	font-family: $play;
-    color: #fff;
+    color: $dip;
     margin-bottom: 28px;
 }
 .border_line{
     width: 100%;
     height: 1px;
-    background: #333333;
+    background: #eeeeee;
     margin-top: 30px;
 }
 .footer-bottom{
     padding-top: 85px;
     .footer-text{
-		color: #fff;
-		opacity: .6;
+		color: $pfont;
+		opacity: 1;
 		i{
 			color: $baseColor;
 			opacity: 1;
@@ -177,10 +177,10 @@
         a{
             font-size: 14px;
             line-height: 30px;
-            color: #fff;
+            color: $pfont;
             margin-left: 6px;
             transition: all 0.3s linear;
-			background: #1e2235;
+			background: #f9f9ff;
 			height: 30px;
 			width: 30px;
 			text-align: center;
