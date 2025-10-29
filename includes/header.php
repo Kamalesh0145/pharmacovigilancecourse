@@ -37,7 +37,7 @@
 				</div>
 				<div class="float-right">
 					<a class="dn_btn" href="tel:+4400123654896">+91 73388 99156</a>
-					<a class="dn_btn" href="mailto: info@cyntureglobal.com">info@cyntureglobal.com</a>
+					<a class="dn_btn" href="mailto: cyntureglobal@gmail.com">cyntureglobal@gmail.com</a>
 				</div>
 			</div>
 		</div>
@@ -85,10 +85,10 @@
 										<a class="nav-link" href="course-regulatory-affairs.php">Regulatory Affairs in Pharma</a>
 									</li>
 								</ul>
-							</li>
-							<!-- <li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'blog.php') ? 'active' : ''; ?>">
+							</li>	
+							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'blog.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="blog.php">Research Publications</a>
-							</li> -->
+							</li>
 							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="elements.php">Career</a>
 							</li>

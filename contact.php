@@ -46,7 +46,7 @@
           </div>
           <div class="info_item">
             <i class="lnr lnr-envelope"></i>
-            <h6><a href="mailto: info@cyntureglobal.com"> info@cyntureglobal.com</a></h6>
+            <h6><a href="mailto: cyntureglobal@gmail.com"> cyntureglobal@gmail.com</a></h6>
             <p>We respond within 24 hours!</p>
           </div>
         </div>
