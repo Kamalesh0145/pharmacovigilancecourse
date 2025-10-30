@@ -40,7 +40,7 @@
 .blink-phone {
   background-color: #7b2cbf;
   color: white;
-  border-radius: 0;
+  border-radius:0px;
   padding: 0px 0px;
   animation: blink-bg 1s infinite;
   text-decoration: none;

@@ -403,7 +403,9 @@
 
 @media (max-width:575px){
 	.top_menu {
-		display: none;
+		display: block;
+		padding: 8px 0;
+		background: #f8f9fa;
 	}
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 71px;
