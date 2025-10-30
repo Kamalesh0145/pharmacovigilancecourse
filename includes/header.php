@@ -36,7 +36,7 @@
 					</ul>
 				</div>
 		<style>
-/* Blink purple background for phone section */
+/* Blink purple background for phone section Start*/
 .blink-phone {
   background-color: #7b2cbf;
   color: white;
@@ -52,7 +52,7 @@
 /* Blink animation for icon and text */
 @keyframes blink-bg {
   0% {
-    background-color: #7b2cbf;
+    background-color: #7b2cbf ;
     color: black;
   }
   50% {
