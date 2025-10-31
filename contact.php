@@ -29,7 +29,7 @@
     </div>
 
     <div class="row">
-      <!-- Contact Info -->
+      <!-- Contact Info NO email-->
       <div class="col-lg-3">
         <div class="contact_info">
           <div class="info_item">
@@ -45,7 +45,7 @@
             <p>Mon – Sat, 9:00 AM to 6:00 PM</p>
           </div>
           <div class="info_item">
-            <i class="lnr lnr-envelope"></i>
+            <i class="lnr lnr-envelope"></i> 
             <h6><a href="mailto: cyntureglobal@gmail.com"> cyntureglobal@gmail.com</a></h6>
             <p>We respond within 24 hours!</p>
           </div>
