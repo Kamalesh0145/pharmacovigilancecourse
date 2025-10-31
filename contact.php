@@ -29,7 +29,7 @@
     </div>
 
     <div class="row">
-      <!-- Contact Info NO email-->
+      <!-- Contact -->
       <div class="col-lg-3">
         <div class="contact_info">
           <div class="info_item">
