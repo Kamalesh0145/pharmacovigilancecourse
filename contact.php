@@ -15,7 +15,7 @@
     </div>
   </div>
 </section>
-<!--================End Home Banner Area =================-->
+<!--=================================-->
 <!--================Contact Area =================-->
 <section class="contact_area p_120">
   <div class="container">
@@ -42,7 +42,7 @@
             <div class="phone-number">
               <a href="tel:+919385460145" style="color:#222222 !important; text-decoration:none !important; font-weight:bold !important;font-size:15px !important">+91 73388 99156</a>
             </div>
-            <p>Mon – Sat, 9:00 AM to 6:00 PM</p>
+            <p>Mon - Sat, 9:00 AM to 6:00 PM</p>
           </div>
           <div class="info_item">
             <i class="lnr lnr-envelope"></i> 
