@@ -258,7 +258,7 @@
 </section> -->
 
 <!--================ Achievements Area =================-->
-<section class="achievements_area p_120">
+<!-- <section class="achievements_area p_120">
   <div class="container">
     <div class="main_title text-center">
       <h2>Our Achievements</h2>
@@ -281,12 +281,12 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!--================ End Achievements Area =================-->
 
 
 <!--================ Placement Partners Area =================-->
-<section class="clients_area p_120">
+<!-- <section class="clients_area p_120">
   <div class="container">
     <div class="main_title text-center">
       <h2>Our Placement Partners</h2>
@@ -309,7 +309,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!--================ End Placement Partners Area =================-->
 
 <!--================End Impress Area =================-->

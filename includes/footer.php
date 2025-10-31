@@ -53,7 +53,8 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about-us.php">About</a></li>
                         <li><a href="courses.php">Courses</a></li>
-                        <li><a href="elements.php">Academy</a></li>
+                        <!-- <li><a href="blog.php">Research Publications</a></li>
+                        <li><a href="elements.php">Career</a></li> -->
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>

@@ -49,7 +49,7 @@
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="course_card">
           <div class="course_image">
-            <img src="img/courses/course-3.jpg" alt="Professional Diploma in Clinical Research">
+            <img src="img/PDCRcourse2.png" alt="Professional Diploma in Clinical Research">
             <div class="course_badge">Basic Course</div>
           </div>
           <div class="course_content">
@@ -63,7 +63,7 @@
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="course_card">
           <div class="course_image">
-            <img src="img/courses/course-2.jpg" alt="GCP Training Workshop">
+            <img src="img/GCPcourse3.png" alt="GCP Training Workshop">
             <div class="course_badge">Basic Course</div>
           </div>
           <div class="course_content">
@@ -93,7 +93,7 @@
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="course_card">
           <div class="course_image">
-            <img src="img/courses/course-4.jpg" alt="Project Management for Clinical Research">
+            <img src="img/PMcourse5.png" alt="Project Management for Clinical Research">
             <div class="course_badge advanced">Advanced Course</div>
           </div>
           <div class="course_content">
@@ -107,7 +107,7 @@
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="course_card">
           <div class="course_image">
-            <img src="img/courses/course-5.jpg" alt="Clinical Trial Management (CTM)">
+            <img src="img/CTMcourse6.png" alt="Clinical Trial Management (CTM)">
             <div class="course_badge advanced">Advanced Course</div>
           </div>
           <div class="course_content">
@@ -136,7 +136,7 @@
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="course_card">
           <div class="course_image">
-            <img src="img/courses/course-1.jpg" alt="21 CFR Part 11 Training">
+            <img src="img/CFRcourse8.png" alt="21 CFR Part 11 Training">
             <div class="course_badge specialty">Specialty Course</div>
           </div>
           <div class="course_content">
@@ -150,7 +150,7 @@
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="course_card">
           <div class="course_image">
-            <img src="img/courses/course-1.jpg" alt="Regulatory Affairs in Pharma">
+            <img src="img/Regulatorycourse9.png" alt="Regulatory Affairs in Pharma">
             <div class="course_badge specialty">Specialty Course</div>
           </div>
           <div class="course_content">
