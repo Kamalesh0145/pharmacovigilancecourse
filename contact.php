@@ -15,7 +15,7 @@
     </div>
   </div>
 </section>
-<!--=================================-->
+<!--================End Home Banner Area =================-->
 <!--================Contact Area =================-->
 <section class="contact_area p_120">
   <div class="container">
