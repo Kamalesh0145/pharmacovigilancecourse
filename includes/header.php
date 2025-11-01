@@ -5,8 +5,8 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- <link rel="icon" href="img/favicon.png" type="image/png"> -->
-	<title>Pharmacovigilance</title>
+	<link rel="icon" href="img/CYNTUREGLOBAL_logo.png" type="image/png">
+	<title>Cynture Global</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -52,8 +52,8 @@
 					/* Blink animation for icon and text */
 					@keyframes blink-bg {
 						0% {
-							background-color: #7b2cbf;
-							color: black;
+							background-color: white;
+							color: #7b2cbf;
 						}
 
 						50% {
@@ -62,8 +62,8 @@
 						}
 
 						100% {
-							background-color: #7b2cbf;
-							color: white;
+							background-color: white;
+							color: #7b2cbf;
 						}
 					}
 

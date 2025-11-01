@@ -36,12 +36,12 @@
         <div class="course_card">
           <div class="course_image">
             <img src="img/Professional Certificate1 .png" alt="Professional Certificate in Pharmacovigilance">
-            <div class="course_badge">Basic Course</div>
+            <div class="course_badge">Specialty Course</div>
           </div>
           <div class="course_content">
             <h4>Professional Certificate in Pharmacovigilance (PCPV)</h4>
             <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p>
-            <a href="course-pharmacovigilance.php" class="course_btn">Register Now</a>
+            <a href="course-pharmacovigilance.php" class="course_btn">Contact Us</a>
           </div>
         </div>
       </div>
@@ -50,12 +50,12 @@
         <div class="course_card">
           <div class="course_image">
             <img src="img/PDCRcourse2.png" alt="Professional Diploma in Clinical Research">
-            <div class="course_badge">Basic Course</div>
+            <div class="course_badge">Specialty Course</div>
           </div>
           <div class="course_content">
             <h4>Professional Diploma in Clinical Research (PDCR)</h4>
             <p>Comprehensive training in clinical trial design, conduct, and management for aspiring clinical research professionals.</p>
-            <a href="course-clinical-research-diploma.php" class="course_btn">Register Now</a>
+            <a href="course-clinical-research-diploma.php" class="course_btn">Contact Us</a>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@
         <div class="course_card">
           <div class="course_image">
             <img src="img/GCPcourse3.png" alt="GCP Training Workshop">
-            <div class="course_badge">Basic Course</div>
+            <div class="course_badge">Specialty Course</div>
           </div>
           <div class="course_content">
             <h4>GCP Training Workshop (GCP)</h4>
@@ -80,12 +80,12 @@
         <div class="course_card">
           <div class="course_image">
             <img src="img/Scientific_Writing.png" alt="Advanced Certificate in Scientific Writing">
-            <div class="course_badge advanced">Advanced Course</div>
+            <div class="course_badge advanced">Specialty Course</div>
           </div>
           <div class="course_content">
             <h4>Advanced Certificate Program in Scientific Writing (SW)</h4>
             <p>Develop skills to create precise clinical study reports, regulatory submissions, and pharmacovigilance narratives.</p>
-            <a href="course-scientific-writing.php" class="course_btn">Register Now</a>
+            <a href="course-scientific-writing.php" class="course_btn">Contact Us</a>
           </div>
         </div>
       </div>
@@ -94,12 +94,12 @@
         <div class="course_card">
           <div class="course_image">
             <img src="img/PMcourse5.png" alt="Project Management for Clinical Research">
-            <div class="course_badge advanced">Advanced Course</div>
+            <div class="course_badge advanced">Specialty Course</div>
           </div>
           <div class="course_content">
             <h4>Advanced Certificate Program in Project Management (PM)</h4>
             <p>Enhance planning, budgeting, and communication skills for effective management of clinical research projects.</p>
-            <a href="course-project-management.php" class="course_btn">Register Now</a>
+            <a href="course-project-management.php" class="course_btn">Contact Us</a>
           </div>
         </div>
       </div>
@@ -108,12 +108,12 @@
         <div class="course_card">
           <div class="course_image">
             <img src="img/CTMcourse6.png" alt="Clinical Trial Management (CTM)">
-            <div class="course_badge advanced">Advanced Course</div>
+            <div class="course_badge advanced">Specialty Course</div>
           </div>
           <div class="course_content">
             <h4>Advanced Certificate Program in Clinical Trial Monitoring (CTM)</h4>
             <p>Learn effective trial planning, site management, and regulatory compliance tips to succeed in clinical research projects.</p>
-            <a href="course-clinical-trial-management.php" class="course_btn">Register Now</a>
+            <a href="course-clinical-trial-management.php" class="course_btn">Contact Us</a>
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@
           <div class="course_content">
             <h4>Regulatory Affairs in Pharma</h4>
             <p>Master regulatory submissions, compliance requirements, and regulatory strategy for pharmaceutical products.</p>
-            <a href="course-regulatory-affairs.php" class="course_btn">Register Now</a>
+            <a href="course-regulatory-affairs.php" class="course_btn">Contact Us</a>
           </div>
         </div>
       </div>

@@ -100,13 +100,13 @@
                 <div class="course_card">
                     <div class="course_image">
                         <img src="img/Professional Certificate1 .png" alt="Professional Certificate in Pharmacovigilance">
-                        <div class="course_badge">Basic Course</div>
+                        <div class="course_badge">Specialty Course</div>
                     </div>
                     <div class="course_content">
                         <h4>Professional Certificate in Pharmacovigilance (PCPV)</h4>
                         <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p>
                         <!-- <div class="course_price">₹9,999/-</div> -->
-                        <a href="course-pharmacovigilance.php" class="course_btn">Register Now</a>
+                        <a href="course-pharmacovigilance.php" class="course_btn">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -116,13 +116,13 @@
                 <div class="course_card">
                     <div class="course_image">
                         <img src="img/courses/course-3.jpg" alt="Professional Diploma in Clinical Research">
-                        <div class="course_badge">Basic Course</div>
+                        <div class="course_badge">Specialty Course</div>
                     </div>
                     <div class="course_content">
                         <h4>Professional Diploma in Clinical Research (PDCR)</h4>
                         <p>Comprehensive training in clinical trial design, conduct, and management for aspiring clinical research professionals.</p>
                         <!-- <div class="course_price">₹9,999/-</div> -->
-                        <a href="course-clinical-research-diploma.php" class="course_btn">Register Now</a>
+                        <a href="course-clinical-research-diploma.php" class="course_btn">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -132,13 +132,13 @@
                 <div class="course_card">
                     <div class="course_image">
                         <img src="img/Scientific_Writing.png" alt="Advanced Certificate in Scientific Writing">
-                        <div class="course_badge advanced">Advanced Course</div>
+                        <div class="course_badge advanced">Specialty Course</div>
                     </div>
                     <div class="course_content">
                         <h4>Advanced Certificate Program in Scientific Writing (SW)</h4>
                         <p>Develop skills to create precise clinical study reports, regulatory submissions, and pharmacovigilance narratives.</p>
                         <!-- <div class="course_price">₹11,999/-</div> -->
-                        <a href="course-scientific-writing.php" class="course_btn">Register Now</a>
+                        <a href="course-scientific-writing.php" class="course_btn">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -271,72 +271,64 @@
 <!--================End Team Area =================-->
 
 <!--================Latest Cynture Global =================-->
-<section class="latest_blog_area p_120">
-    <div class="container">
-        <div class="main_title">
-            <h2>Essential Knowledge Areas in Pharmacovigilance and Clinical Research</h2>
-            <p>Stay informed with the latest trends, expert insights, and practical guidance in pharmaceutical and clinical research from Cynture Global’s knowledge hub.</p>
+    <!-- <section class="latest_blog_area p_120">
+        <div class="container">
+            <div class="main_title">
+                <h2>Essential Knowledge Areas in Pharmacovigilance and Clinical Research</h2>
+                <p>Stay informed with the latest trends, expert insights, and practical guidance in pharmaceutical and clinical research from Cynture Global’s knowledge hub.</p>
+            </div>
+
+
+            <div class="row latest_blog_inner">
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="l_blog_item">
+                        <img class="img-fluid" src="img/Pharmacovigilance.png" alt="Understanding Pharmacovigilance">
+                        <a class="date" href="#">10 October, 2025 | By Dr. S. Kumar</a>
+                        <a href="single-blog.php?post=pharmacovigilance">
+                            <h4>Understanding Pharmacovigilance: Key Concepts & Practices</h4>
+                        </a>
+                    
+                        <p>Explore the essentials of drug safety monitoring, adverse event reporting, and risk management in the pharmaceutical industry.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="l_blog_item">
+                        <img class="img-fluid" src="img/Clinical_Trial.png" alt="Clinical Trial Best Practices">
+                        <a class="date" href="#">15 October, 2025 | By Dr. A. Mehta</a>
+                        <a href="single-blog.php?post=clinical-trial">
+                            <h4>Clinical Trial Best Practices for Aspiring CRAs</h4>
+                        </a>
+                        <p>Learn effective trial planning, site management, and regulatory compliance tips to succeed in clinical research projects.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="l_blog_item">
+                        <img class="img-fluid" src="img/Scientific_Writing.png" alt="Scientific Writing Tips">
+                        <a class="date" href="#">18 October, 2025 | By Dr. P. Nair</a>
+                        <a href="single-blog.php?post=scientific-writing">
+                            <h4>Scientific Writing Tips for Regulatory Documents</h4>
+                        </a>
+                        <p>Enhance your scientific writing skills to create accurate study reports, safety narratives, and regulatory submissions.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="l_blog_item">
+                        <img class="img-fluid" src="img/Career_Growth.png" alt="Career Growth in Clinical Research">
+                        <a class="date" href="#">20 October, 2025 | By Dr. R. Sharma</a>
+                        <a href="single-blog.php?post=career-growth">
+                            <h4>Career Growth Strategies in Clinical Research</h4>
+                        </a>
+                        <p>Discover how to advance your career in the clinical research industry with certifications, practical experience, and mentorship.</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-
-        <div class="row latest_blog_inner">
-
-            <!-- 1 Cynture Global -->
-            <div class="col-lg-3 col-md-6">
-                <div class="l_blog_item">
-                    <img class="img-fluid" src="img/Pharmacovigilance.png" alt="Understanding Pharmacovigilance">
-                    <a class="date" href="#">10 October, 2025 | By Dr. S. Kumar</a>
-                    <!-- 1. Pharmacovigilance -->
-                    <a href="single-blog.php?post=pharmacovigilance">
-                        <h4>Understanding Pharmacovigilance: Key Concepts & Practices</h4>
-                    </a>
-                  
-                    <p>Explore the essentials of drug safety monitoring, adverse event reporting, and risk management in the pharmaceutical industry.</p>
-                </div>
-            </div>
-
-            <!--  2 Cynture Global-->
-            <div class="col-lg-3 col-md-6">
-                <div class="l_blog_item">
-                    <img class="img-fluid" src="img/Clinical_Trial.png" alt="Clinical Trial Best Practices">
-                    <a class="date" href="#">15 October, 2025 | By Dr. A. Mehta</a>
-                    <!-- 2. Clinical Trial -->
-                    <a href="single-blog.php?post=clinical-trial">
-                        <h4>Clinical Trial Best Practices for Aspiring CRAs</h4>
-                    </a>
-                    <p>Learn effective trial planning, site management, and regulatory compliance tips to succeed in clinical research projects.</p>
-                </div>
-            </div>
-
-            <!--  3 Cynture Global -->
-            <div class="col-lg-3 col-md-6">
-                <div class="l_blog_item">
-                    <img class="img-fluid" src="img/Scientific_Writing.png" alt="Scientific Writing Tips">
-                    <a class="date" href="#">18 October, 2025 | By Dr. P. Nair</a>
-                    <!-- 3. Scientific Writing -->
-                    <a href="single-blog.php?post=scientific-writing">
-                        <h4>Scientific Writing Tips for Regulatory Documents</h4>
-                    </a>
-                    <p>Enhance your scientific writing skills to create accurate study reports, safety narratives, and regulatory submissions.</p>
-                </div>
-            </div>
-
-            <!--  4 Cynture Global -->
-            <div class="col-lg-3 col-md-6">
-                <div class="l_blog_item">
-                    <img class="img-fluid" src="img/Career_Growth.png" alt="Career Growth in Clinical Research">
-                    <a class="date" href="#">20 October, 2025 | By Dr. R. Sharma</a>
-                    <!-- 4. Career Growth -->
-                    <a href="single-blog.php?post=career-growth">
-                        <h4>Career Growth Strategies in Clinical Research</h4>
-                    </a>
-                    <p>Discover how to advance your career in the clinical research industry with certifications, practical experience, and mentorship.</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
+    </section> -->
 <!--================End Latest Cynture Global =================-->
 
 <!--================Testimonials Area =================-->
