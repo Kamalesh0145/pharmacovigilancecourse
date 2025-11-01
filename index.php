@@ -188,7 +188,7 @@
 <!--================Courses Area =================-->
 
 
-<section class="team_area p_120">
+<!-- <section class="team_area p_120">
     <div class="container">
         <div class="main_title">
             <h2>Guidance from Clinical Research Experts</h2>
@@ -197,7 +197,6 @@
 
         <div class="row team_inner">
 
-            <!-- Faculty 1 -->
             <div class="col-lg-3 col-sm-6">
                 <div class="team_item">
                     <div class="team_img">
@@ -215,7 +214,6 @@
                 </div>
             </div>
 
-            <!-- Faculty 2 -->
             <div class="col-lg-3 col-sm-6">
                 <div class="team_item">
                     <div class="team_img">
@@ -233,7 +231,6 @@
                 </div>
             </div>
 
-            <!-- Faculty 3 -->
             <div class="col-lg-3 col-sm-6">
                 <div class="team_item">
                     <div class="team_img">
@@ -251,7 +248,6 @@
                 </div>
             </div>
 
-            <!-- Faculty 4 -->
             <div class="col-lg-3 col-sm-6">
                 <div class="team_item">
                     <div class="team_img">
@@ -271,7 +267,7 @@
 
         </div>
     </div>
-</section>
+</section> -->
 <!--================End Team Area =================-->
 
 <!--================Latest Cynture Global =================-->
@@ -344,7 +340,7 @@
 <!--================End Latest Cynture Global =================-->
 
 <!--================Testimonials Area =================-->
-<section class="testimonials_area p_120">
+<!-- <section class="testimonials_area p_120">
     <div class="container">
         <div class="main_title">
             <h2>What Our Students Say</h2>
@@ -353,7 +349,6 @@
 
         <div class="testi_slider owl-carousel">
 
-            <!-- Testimonial 1 -->
             <div class="item">
                 <div class="testi_item">
                     <img src="img/testimonials/testi-1.png" alt="Anita Verma">
@@ -369,7 +364,6 @@
                 </div>
             </div>
 
-            <!-- Testimonial 2 -->
             <div class="item">
                 <div class="testi_item">
                     <img src="img/testimonials/testi-2.png" alt="Rahul Singh">
@@ -385,7 +379,6 @@
                 </div>
             </div>
 
-            <!-- Testimonial 3 -->
             <div class="item">
                 <div class="testi_item">
                     <img src="img/testimonials/testi-3.png" alt="Priya Nair">
@@ -403,7 +396,7 @@
 
         </div>
     </div>
-</section>
+</section> -->
 <!--================End Testimonials Area =================-->
 <!--================Impress Area =================-->
 <section class="impress_area p_120">
