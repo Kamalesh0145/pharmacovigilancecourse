@@ -3238,7 +3238,9 @@ h6 {
   .footer-bottom .footer-text {
     color: black;
     font-size: larger;
-    opacity: 1; }
+    opacity: 1;
+    bottom: -100px;
+   }
     .footer-bottom .footer-text i {
       color: #7b2cbf;
       opacity: 1; }
@@ -3246,7 +3248,9 @@ h6 {
       color: #7b2cbf;
       opacity: 1; }
   .footer-bottom .footer-social {
-    text-align: right; }
+    text-align: right;
+    bottom: -90px;
+   }
     .footer-bottom .footer-social a {
       font-size: 14px;
       line-height: 30px;
