@@ -19,14 +19,14 @@
 <!--================Contact Area =================-->
 <section class="contact_area p_120">
   <div class="container">
-    <div id="mapBox" class="mapBox"
+    <!-- <div id="mapBox" class="mapBox"
       data-lat="19.0760"
       data-lon="72.8777"
       data-zoom="12"
       data-info="Cynture Global Pvt Ltd, Andheri East, Mumbai, India."
       data-mlat="19.0760"
       data-mlon="72.8777">
-    </div>
+    </div> -->
 
     <div class="row">
       <!-- Contact -->

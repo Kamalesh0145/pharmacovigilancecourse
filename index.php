@@ -399,7 +399,7 @@
 </section> -->
 <!--================End Testimonials Area =================-->
 <!--================Impress Area =================-->
-<section class="impress_area p_120">
+<!-- <section class="impress_area p_120">
     <div class="container">
         <div class="impress_inner text-center">
             <h2>Join Us as an Instructor</h2>
@@ -407,7 +407,7 @@
             <a class="main_btn2" href="#">Apply Now</a>
         </div>
     </div>
-</section>
+</section> -->
 
 <!--================End Impress Area =================-->
 
