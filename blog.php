@@ -1,6 +1,6 @@
 <?php include 'includes/header.php'; ?>
         
-        <!--================ Home Banner Area =================-->
+        <!--================ Start Home Banner Area =================-->
         <section class="home_banner_area blog_banner">
             <div class="banner_inner d-flex align-items-center">
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
