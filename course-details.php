@@ -38,9 +38,9 @@
           <li class="nav-item">
             <a class="nav-link" id="outline-tab" data-toggle="tab" href="#outline" role="tab" aria-controls="outline" aria-selected="false">Course Outline</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments" aria-selected="false">Reviews</a>
-          </li>
+          </li> -->
         </ul>
 
         <div class="tab-content" id="myTabContent">

@@ -38,9 +38,9 @@
           <li class="nav-item">
             <a class="nav-link" id="outline-tab" data-toggle="tab" href="#outline" role="tab" aria-controls="outline" aria-selected="false">Course Outline</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments" aria-selected="false">Reviews</a>
-          </li>
+          </li> -->
         </ul>
 
         <div class="tab-content" id="myTabContent">
@@ -90,75 +90,27 @@
           </div>
 
           <!-- Course Outline -->
-          <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
-            <div class="objctive_text">
-              <h4>Module 1: Introduction to Regulatory Affairs</h4>
-              <ul class="list">
-                <li>Role of regulatory affairs in pharmaceutical industry</li>
-                <li>Global regulatory landscape and key agencies</li>
-                <li>Regulatory strategy and planning</li>
-                <li>Regulatory intelligence and monitoring</li>
-              </ul>
-              
-              <h4>Module 2: Drug Development and Regulatory Process</h4>
-              <ul class="list">
-                <li>Pre-clinical regulatory requirements</li>
-                <li>IND/CTA submission process</li>
-                <li>Clinical trial regulatory approvals</li>
-                <li>Marketing authorization applications</li>
-              </ul>
-              
-              <h4>Module 3: Global Regulatory Guidelines</h4>
-              <ul class="list">
-                <li>ICH guidelines and harmonization</li>
-                <li>FDA regulations and requirements</li>
-                <li>EMA guidelines and procedures</li>
-                <li>Regional regulatory variations</li>
-              </ul>
-              
-              <h4>Module 4: Common Technical Document (CTD)</h4>
-              <ul class="list">
-                <li>CTD structure and format</li>
-                <li>Module 1: Regional administrative information</li>
-                <li>Module 2: Quality, non-clinical, and clinical summaries</li>
-                <li>Module 3: Quality information</li>
-                <li>Module 4: Non-clinical study reports</li>
-                <li>Module 5: Clinical study reports</li>
-              </ul>
-              
-              <h4>Module 5: Quality and Manufacturing Regulations</h4>
-              <ul class="list">
-                <li>Good Manufacturing Practice (GMP)</li>
-                <li>Quality by Design (QbD) principles</li>
-                <li>Process validation and control</li>
-                <li>Quality systems and documentation</li>
-              </ul>
-              
-              <h4>Module 6: Post-Marketing Regulatory Requirements</h4>
-              <ul class="list">
-                <li>Post-marketing surveillance</li>
-                <li>Periodic safety update reports</li>
-                <li>Labeling and packaging regulations</li>
-                <li>Advertising and promotion guidelines</li>
-              </ul>
-              
-              <h4>Module 7: Regulatory Compliance and Inspections</h4>
-              <ul class="list">
-                <li>Regulatory inspection preparation</li>
-                <li>Compliance monitoring and auditing</li>
-                <li>Corrective and preventive actions</li>
-                <li>Regulatory enforcement and penalties</li>
-              </ul>
-              
-              <h4>Module 8: Emerging Trends and Future Directions</h4>
-              <ul class="list">
-                <li>Digital health and technology regulations</li>
-                <li>Personalized medicine and biomarkers</li>
-                <li>Real-world evidence and health economics</li>
-                <li>Global harmonization initiatives</li>
-              </ul>
-            </div>
-          </div>
+<div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
+  <div class="objctive_text">
+    <ul class="list">
+      <li>Introduction to Pharmacovigilance</li>
+      <li>History of Pharmacovigilance</li>
+      <li>Pharmaceutical Regulatory Agencies and Organizations</li>
+      <li>Brief note on new drug registration process</li>
+      <li>Drugs withdrawals</li>
+      <li>Pharmacovigilance Methods</li>
+      <li>Causality assessment</li>
+      <li>Signal detection in Pharmacovigilance</li>
+      <li>Guidelines and standards Governing Pharmacovigilance</li>
+      <li>Individual Case Safety Reports (ICSRs)</li>
+      <li>AE reporting forms</li>
+      <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
+      <li>Aggregate safety reports</li>
+      <li>Pharmacovigilance Inspections</li>
+      <li>UMC Glossaries</li>
+    </ul>
+  </div>
+</div>
 
           <!-- Comments / Reviews -->
           <div class="tab-pane fade" id="comments" role="tabpanel" aria-labelledby="comments-tab">

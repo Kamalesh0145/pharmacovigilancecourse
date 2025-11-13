@@ -38,9 +38,9 @@
           <li class="nav-item">
             <a class="nav-link" id="outline-tab" data-toggle="tab" href="#outline" role="tab" aria-controls="outline" aria-selected="false">Course Outline</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments" aria-selected="false">Reviews</a>
-          </li>
+          </li> -->
         </ul>
 
         <div class="tab-content" id="myTabContent">
@@ -90,81 +90,27 @@
           </div>
 
           <!-- Course Outline -->
-          <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
-            <div class="objctive_text">
-              <h4>Module 1: Introduction to Clinical Research</h4>
-              <ul class="list">
-                <li>History and evolution of clinical research</li>
-                <li>Clinical trial phases and objectives</li>
-                <li>Key stakeholders and their roles</li>
-                <li>Ethics in clinical research</li>
-              </ul>
-              
-              <h4>Module 2: Drug Development Process</h4>
-              <ul class="list">
-                <li>Pre-clinical studies and IND process</li>
-                <li>Clinical trial phases (I, II, III, IV)</li>
-                <li>Regulatory submissions and approvals</li>
-                <li>Post-marketing surveillance</li>
-              </ul>
-              
-              <h4>Module 3: Regulatory Framework</h4>
-              <ul class="list">
-                <li>ICH guidelines and harmonization</li>
-                <li>FDA, EMA, and other regulatory bodies</li>
-                <li>Good Clinical Practice (GCP) guidelines</li>
-                <li>Regulatory compliance and inspections</li>
-              </ul>
-              
-              <h4>Module 4: Protocol Development</h4>
-              <ul class="list">
-                <li>Protocol structure and content</li>
-                <li>Study design and methodology</li>
-                <li>Inclusion and exclusion criteria</li>
-                <li>Safety and efficacy endpoints</li>
-              </ul>
-              
-              <h4>Module 5: Site Management and Monitoring</h4>
-              <ul class="list">
-                <li>Site selection and qualification</li>
-                <li>Site initiation and training</li>
-                <li>Monitoring visits and oversight</li>
-                <li>Site close-out procedures</li>
-              </ul>
-              
-              <h4>Module 6: Data Management and Quality Assurance</h4>
-              <ul class="list">
-                <li>Data collection and validation</li>
-                <li>Database design and management</li>
-                <li>Quality control and assurance</li>
-                <li>Audit preparation and response</li>
-              </ul>
-              
-              <h4>Module 7: Safety and Pharmacovigilance</h4>
-              <ul class="list">
-                <li>Adverse event reporting</li>
-                <li>Safety monitoring and assessment</li>
-                <li>Risk management strategies</li>
-                <li>Pharmacovigilance databases</li>
-              </ul>
-              
-              <h4>Module 8: Project Management and Leadership</h4>
-              <ul class="list">
-                <li>Project planning and execution</li>
-                <li>Resource allocation and budgeting</li>
-                <li>Team leadership and communication</li>
-                <li>Risk management and mitigation</li>
-              </ul>
-              
-              <h4>Module 9: Career Development and Industry Insights</h4>
-              <ul class="list">
-                <li>Career opportunities in clinical research</li>
-                <li>Industry networking and professional development</li>
-                <li>Resume building and interview preparation</li>
-                <li>Continuing education and certification</li>
-              </ul>
-            </div>
-          </div>
+       <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
+  <div class="objctive_text">
+    <ul class="list">
+      <li>Introduction to Pharmacovigilance</li>
+      <li>History of Pharmacovigilance</li>
+      <li>Pharmaceutical Regulatory Agencies and Organizations</li>
+      <li>Brief note on new drug registration process</li>
+      <li>Drugs withdrawals</li>
+      <li>Pharmacovigilance Methods</li>
+      <li>Causality assessment</li>
+      <li>Signal detection in Pharmacovigilance</li>
+      <li>Guidelines and standards Governing Pharmacovigilance</li>
+      <li>Individual Case Safety Reports (ICSRs)</li>
+      <li>AE reporting forms</li>
+      <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
+      <li>Aggregate safety reports</li>
+      <li>Pharmacovigilance Inspections</li>
+      <li>UMC Glossaries</li>
+    </ul>
+  </div>
+</div>
 
           <!-- Comments / Reviews -->
           <div class="tab-pane fade" id="comments" role="tabpanel" aria-labelledby="comments-tab">

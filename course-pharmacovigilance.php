@@ -38,9 +38,9 @@
           <li class="nav-item">
             <a class="nav-link" id="outline-tab" data-toggle="tab" href="#outline" role="tab" aria-controls="outline" aria-selected="false">Course Outline</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments" aria-selected="false">Reviews</a>
-          </li>
+          </li> -->
         </ul>
 
         <div class="tab-content" id="myTabContent">
@@ -59,7 +59,6 @@
                 <li>Master the fundamentals of pharmacovigilance and drug safety</li>
                 <li>Learn to identify and assess adverse drug reactions (ADRs)</li>
                 <li>Understand regulatory guidelines (ICH, WHO, EMA, USFDA)</li>
-                <li>Gain hands-on experience with pharmacovigilance databases</li>
                 <li>Develop skills in signal detection and risk assessment</li>
                 <li>Learn aggregate reporting (PSURs, DSURs)</li>
               </ul>
@@ -87,73 +86,27 @@
           </div>
 
           <!-- Course Outline -->
-          <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
-            <div class="objctive_text">
-              <h4>Module 1: Introduction to Pharmacovigilance</h4>
-              <ul class="list">
-                <li>History and evolution of pharmacovigilance</li>
-                <li>Basic concepts and terminology</li>
-                <li>Role of pharmacovigilance in drug development</li>
-                <li>Global pharmacovigilance landscape</li>
-              </ul>
-              
-              <h4>Module 2: Drug Development and Safety Regulations</h4>
-              <ul class="list">
-                <li>Drug development lifecycle</li>
-                <li>Pre-clinical and clinical safety assessment</li>
-                <li>Post-marketing surveillance</li>
-                <li>Regulatory framework and guidelines</li>
-              </ul>
-              
-              <h4>Module 3: Adverse Event Reporting & Case Processing</h4>
-              <ul class="list">
-                <li>Types of adverse events</li>
-                <li>Case processing workflow</li>
-                <li>Data quality and validation</li>
-                <li>Timeline requirements for reporting</li>
-              </ul>
-              
-              <h4>Module 4: Signal Detection and Risk Assessment</h4>
-              <ul class="list">
-                <li>Signal detection methodologies</li>
-                <li>Risk-benefit assessment</li>
-                <li>Risk management plans</li>
-                <li>Risk communication strategies</li>
-              </ul>
-              
-              <h4>Module 5: Regulatory Guidelines</h4>
-              <ul class="list">
-                <li>ICH guidelines (E2A, E2B, E2C, E2D)</li>
-                <li>WHO guidelines</li>
-                <li>EMA and USFDA requirements</li>
-                <li>Regional variations and compliance</li>
-              </ul>
-              
-              <h4>Module 6: Aggregate Reporting</h4>
-              <ul class="list">
-                <li>Periodic Safety Update Reports (PSURs)</li>
-                <li>Development Safety Update Reports (DSURs)</li>
-                <li>Risk Evaluation and Mitigation Strategies (REMS)</li>
-                <li>Benefit-Risk Assessment Reports</li>
-              </ul>
-              
-              <h4>Module 7: Pharmacovigilance Database Tools</h4>
-              <ul class="list">
-                <li>Introduction to safety databases</li>
-                <li>Data entry and case processing</li>
-                <li>Query building and reporting</li>
-                <li>Data analysis and visualization</li>
-              </ul>
-              
-              <h4>Module 8: Career Development in Drug Safety</h4>
-              <ul class="list">
-                <li>Career opportunities in pharmacovigilance</li>
-                <li>Industry networking and professional development</li>
-                <li>Certification and continuing education</li>
-                <li>Interview preparation and resume building</li>
-              </ul>
-            </div>
-          </div>
+<div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
+  <div class="objctive_text">
+    <ul class="list">
+      <li>Introduction to Pharmacovigilance</li>
+      <li>History of Pharmacovigilance</li>
+      <li>Pharmaceutical Regulatory Agencies and Organizations</li>
+      <li>Brief note on new drug registration process</li>
+      <li>Drugs withdrawals</li>
+      <li>Pharmacovigilance Methods</li>
+      <li>Causality assessment</li>
+      <li>Signal detection in Pharmacovigilance</li>
+      <li>Guidelines and standards Governing Pharmacovigilance</li>
+      <li>Individual Case Safety Reports (ICSRs)</li>
+      <li>AE reporting forms</li>
+      <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
+      <li>Aggregate safety reports</li>
+      <li>Pharmacovigilance Inspections</li>
+      <li>UMC Glossaries</li>
+    </ul>
+  </div>
+</div>
 
           <!-- Comments / Reviews -->
           <div class="tab-pane fade" id="comments" role="tabpanel" aria-labelledby="comments-tab">

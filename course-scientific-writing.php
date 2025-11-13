@@ -38,9 +38,9 @@
           <li class="nav-item">
             <a class="nav-link" id="outline-tab" data-toggle="tab" href="#outline" role="tab" aria-controls="outline" aria-selected="false">Course Outline</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments" aria-selected="false">Reviews</a>
-          </li>
+          </li> -->
         </ul>
 
         <div class="tab-content" id="myTabContent">
@@ -90,73 +90,29 @@
           </div>
 
           <!-- Course Outline -->
-          <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
-            <div class="objctive_text">
-              <h4>Module 1: Fundamentals of Scientific Writing</h4>
-              <ul class="list">
-                <li>Principles of clear and effective scientific communication</li>
-                <li>Structure and organization of scientific documents</li>
-                <li>Language and style guidelines</li>
-                <li>Common writing mistakes and how to avoid them</li>
-              </ul>
-              
-              <h4>Module 2: Clinical Study Protocols</h4>
-              <ul class="list">
-                <li>Protocol structure and content requirements</li>
-                <li>Study design and methodology sections</li>
-                <li>Safety and efficacy endpoints</li>
-                <li>Regulatory compliance and ICH guidelines</li>
-              </ul>
-              
-              <h4>Module 3: Clinical Study Reports (CSRs)</h4>
-              <ul class="list">
-                <li>CSR structure and ICH E3 guidelines</li>
-                <li>Results presentation and statistical analysis</li>
-                <li>Safety and efficacy summaries</li>
-                <li>Quality control and review processes</li>
-              </ul>
-              
-              <h4>Module 4: Regulatory Documents</h4>
-              <ul class="list">
-                <li>Common Technical Document (CTD) structure</li>
-                <li>Module 2 summaries and overviews</li>
-                <li>Module 5 clinical study reports</li>
-                <li>Regulatory submission strategies</li>
-              </ul>
-              
-              <h4>Module 5: Safety Documents</h4>
-              <ul class="list">
-                <li>Investigator's Brochure (IB) writing</li>
-                <li>Periodic Safety Update Reports (PSURs)</li>
-                <li>Development Safety Update Reports (DSURs)</li>
-                <li>Risk Management Plans (RMPs)</li>
-              </ul>
-              
-              <h4>Module 6: Publication Writing</h4>
-              <ul class="list">
-                <li>Journal article structure and guidelines</li>
-                <li>Abstract and manuscript preparation</li>
-                <li>Peer review process and response</li>
-                <li>Publication ethics and authorship</li>
-              </ul>
-              
-              <h4>Module 7: Technical Writing and Documentation</h4>
-              <ul class="list">
-                <li>Standard Operating Procedures (SOPs)</li>
-                <li>Training materials and user guides</li>
-                <li>Technical specifications and protocols</li>
-                <li>Document version control and management</li>
-              </ul>
-              
-              <h4>Module 8: Advanced Topics and Specializations</h4>
-              <ul class="list">
-                <li>Medical device documentation</li>
-                <li>Biomarker and companion diagnostic writing</li>
-                <li>Real-world evidence and health economics</li>
-                <li>Digital health and technology documentation</li>
-              </ul>
-            </div>
-          </div>
+   <!-- Course Outline -->
+<div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
+  <div class="objctive_text">
+    <ul class="list">
+      <li>Introduction to Pharmacovigilance</li>
+      <li>History of Pharmacovigilance</li>
+      <li>Pharmaceutical Regulatory Agencies and Organizations</li>
+      <li>Brief note on new drug registration process</li>
+      <li>Drugs withdrawals</li>
+      <li>Pharmacovigilance Methods</li>
+      <li>Causality assessment</li>
+      <li>Signal detection in Pharmacovigilance</li>
+      <li>Guidelines and standards Governing Pharmacovigilance</li>
+      <li>Individual Case Safety Reports (ICSRs)</li>
+      <li>AE reporting forms</li>
+      <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
+      <li>Aggregate safety reports</li>
+      <li>Pharmacovigilance Inspections</li>
+      <li>UMC Glossaries</li>
+    </ul>
+  </div>
+</div>
+
 
           <!-- Comments / Reviews -->
           <div class="tab-pane fade" id="comments" role="tabpanel" aria-labelledby="comments-tab">

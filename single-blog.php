@@ -159,7 +159,7 @@ switch ($post) {
         <p>Clinical Research Organizations (CROs), pharma companies, and regulatory agencies seek trained professionals across areas like pharmacovigilance, data management, and scientific writing. Understanding these functions helps you choose your career track wisely.</p>
 
         <h4>Step 2: Build a Strong Educational Foundation</h4>
-        <p>Pursue programs like PDCR, PCPV, or CTM that combine theoretical learning with practical exposure. Cynture Global’s industry-aligned curriculum ensures you gain hands-on knowledge with real-world tools.</p>
+        <p>Pursue programs like   , PCPV, or CTM that combine theoretical learning with practical exposure. Cynture Global’s industry-aligned curriculum ensures you gain hands-on knowledge with real-world tools.</p>
 
         <h4>Step 3: Develop Technical & Soft Skills</h4>
         <ul>

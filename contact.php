@@ -44,11 +44,17 @@
             </div>
             <p>Mon - Sat, 9:00 AM to 6:00 PM</p>
           </div>
-          <div class="info_item">
-            <i class="lnr lnr-envelope"></i> 
-            <h6><a href="mailto: cyntureglobal@gmail.com"> cyntureglobal@gmail.com</a></h6>
-            <p>We respond within 24 hours!</p>
-          </div>
+      <div class="info_item">
+  <i class="lnr lnr-envelope"></i>
+  <h6>
+    <a href="mailto:clinicalservices@cyntureglobal.com">clinicalservices@cyntureglobal.com</a>
+  </h6>
+  <h6>
+    <a href="mailto:sales@cyntureglobal.com">sales@cyntureglobal.com</a>
+  </h6>
+  <p>We respond within 24 hours!</p>
+</div>
+
         </div>
       </div>
 

@@ -27,14 +27,15 @@
 	<header class="header_area">
 		<div class="top_menu row m0">
 			<div class="container">
-				<div class="float-left">
-					<ul class="list header_social">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-						<li><a href="#"><i class="fa fa-behance"></i></a></li>
-					</ul>
-				</div>
+<div class="float-left">
+    <ul class="list header_social">
+        <li><a href="https://www.facebook.com/YourPageName" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/YourHandle" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://dribbble.com/YourProfile" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+        <li><a href="https://www.behance.net/YourProfile" target="_blank"><i class="fa fa-behance"></i></a></li>
+    </ul>
+</div>
+
 				<style>
 					/* Blink purple background for phone section Start*/
 					.blink-phone {
@@ -73,14 +74,51 @@
 					}
 				</style>
 
-				<div class="float-right">
-					<a class="dn_btn blink-phone" href="tel:+917338899156">
-						<i class="lnr lnr-phone-handset"></i> +91 73388 99156
-					</a>
-					&nbsp;&nbsp;
-					<i class="lnr lnr-envelope"></i>
-					<a class="dn_btn" href="mailto:cyntureglobal@gmail.com">cyntureglobal@gmail.com</a>
-				</div>
+	<style>
+  .contact-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 25px;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .contact-section a {
+    color: #fff; /* Change color if needed */
+    text-decoration: none;
+  }
+
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+
+  .contact-section i {
+    margin-right: 2px;
+  }
+
+  .email-block {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
+
+<div class="contact-section">
+  <div class="phone-block">
+    <a class="dn_btn blink-phone" href="tel:+917338899156">
+      <i class="lnr lnr-phone-handset"></i> +91 73388 99156
+    </a>
+  </div>
+  <div class="email-block">
+    <a class="dn_btn" href="mailto:clinicalservices@cyntureglobal.com">
+      <i class="lnr lnr-envelope"></i> clinicalservices@cyntureglobal.com
+    </a>
+	   <a class="dn_btn" href="mailto:sales@cyntureglobal.com">
+      <i class="lnr lnr-envelope"></i> sales@cyntureglobal.com
+    </a>
+  </div>
+</div>
+
 
 
 

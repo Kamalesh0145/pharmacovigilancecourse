@@ -38,9 +38,9 @@
           <li class="nav-item">
             <a class="nav-link" id="outline-tab" data-toggle="tab" href="#outline" role="tab" aria-controls="outline" aria-selected="false">Course Outline</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments" aria-selected="false">Reviews</a>
-          </li>
+          </li> -->
         </ul>
 
         <div class="tab-content" id="myTabContent">
@@ -89,73 +89,27 @@
           </div>
 
           <!-- Course Outline -->
-          <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
-            <div class="objctive_text">
-              <h4>Module 1: Introduction to Clinical Trial Management</h4>
-              <ul class="list">
-                <li>Overview of clinical trial phases</li>
-                <li>Key stakeholders and their roles</li>
-                <li>Regulatory landscape and guidelines</li>
-                <li>Ethics in clinical research</li>
-              </ul>
-              
-              <h4>Module 2: Protocol Development and Planning</h4>
-              <ul class="list">
-                <li>Protocol design and development</li>
-                <li>Study feasibility assessment</li>
-                <li>Timeline and milestone planning</li>
-                <li>Resource requirement analysis</li>
-              </ul>
-              
-              <h4>Module 3: Site Selection and Management</h4>
-              <ul class="list">
-                <li>Site identification and qualification</li>
-                <li>Site initiation and training</li>
-                <li>Ongoing site management</li>
-                <li>Site monitoring and oversight</li>
-              </ul>
-              
-              <h4>Module 4: Regulatory Compliance and Documentation</h4>
-              <ul class="list">
-                <li>Regulatory submissions and approvals</li>
-                <li>Essential documents management</li>
-                <li>Informed consent process</li>
-                <li>Audit preparation and response</li>
-              </ul>
-              
-              <h4>Module 5: Budget Planning and Financial Management</h4>
-              <ul class="list">
-                <li>Budget development and negotiation</li>
-                <li>Cost tracking and financial reporting</li>
-                <li>Vendor management and contracts</li>
-                <li>Payment processing and reconciliation</li>
-              </ul>
-              
-              <h4>Module 6: Risk Management and Quality Assurance</h4>
-              <ul class="list">
-                <li>Risk identification and assessment</li>
-                <li>Mitigation strategies and contingency planning</li>
-                <li>Quality management systems</li>
-                <li>Corrective and preventive actions</li>
-              </ul>
-              
-              <h4>Module 7: Data Management and Technology</h4>
-              <ul class="list">
-                <li>Electronic data capture (EDC) systems</li>
-                <li>Data validation and cleaning</li>
-                <li>Database lock and data transfer</li>
-                <li>Technology trends in clinical trials</li>
-              </ul>
-              
-              <h4>Module 8: Leadership and Communication</h4>
-              <ul class="list">
-                <li>Team leadership and motivation</li>
-                <li>Stakeholder communication strategies</li>
-                <li>Conflict resolution and negotiation</li>
-                <li>Professional development and networking</li>
-              </ul>
-            </div>
-          </div>
+<div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
+  <div class="objctive_text">
+    <ul class="list">
+      <li>Introduction to Pharmacovigilance</li>
+      <li>History of Pharmacovigilance</li>
+      <li>Pharmaceutical Regulatory Agencies and Organizations</li>
+      <li>Brief note on new drug registration process</li>
+      <li>Drugs withdrawals</li>
+      <li>Pharmacovigilance Methods</li>
+      <li>Causality assessment</li>
+      <li>Signal detection in Pharmacovigilance</li>
+      <li>Guidelines and standards Governing Pharmacovigilance</li>
+      <li>Individual Case Safety Reports (ICSRs)</li>
+      <li>AE reporting forms</li>
+      <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
+      <li>Aggregate safety reports</li>
+      <li>Pharmacovigilance Inspections</li>
+      <li>UMC Glossaries</li>
+    </ul>
+  </div>
+</div>
 
           <!-- Comments / Reviews -->
           <div class="tab-pane fade" id="comments" role="tabpanel" aria-labelledby="comments-tab">
