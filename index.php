@@ -15,6 +15,115 @@
 </section>
 <!--================End Home Banner Area =================-->
 
+<!--================Services Partitions Area =================-->
+<section class="services_partitions_area py-5">
+    <div class="container">
+        <div class="main_title text-center mb-5">
+            <h2>Our Services</h2>
+            <p>Choose your path to excellence in healthcare and clinical research</p>
+        </div>
+        
+        <div class="row">
+            <!-- Clinical Services Partition -->
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="service_partition_card h-100">
+                    <div class="service_image">
+                        <img src="img/ClinincalResearch.png" alt="Clinical Services" class="img-fluid">
+                    </div>
+                    <div class="service_content text-center p-4">
+                        <h3>Clinical Services</h3>
+                        <p>Comprehensive training programs in Pharmacovigilance, Clinical Research, and Scientific Writing</p>
+                        <a href="courses.php" class="course_btn">Explore Courses</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Healthcare Partition -->
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="service_partition_card h-100">
+                    <div class="service_image">
+                        <img src="img/Healthcare.png" alt="Healthcare Products" class="img-fluid">
+                    </div>
+                    <div class="service_content text-center p-4">
+                        <h3>Healthcare</h3>
+                        <p>Export quality pharmaceuticals, nutraceuticals, and healthcare products worldwide</p>
+                        <a href="elements.php" class="course_btn">View Products</a>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.services_partitions_area {
+    background: #f8f9fa;
+}
+
+.service_partition_card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.service_partition_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.service_image {
+    height: 250px;
+    overflow: hidden;
+}
+
+.service_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.service_partition_card:hover .service_image img {
+    transform: scale(1.05);
+}
+
+.service_content h3 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.service_content p {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.service_btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.service_btn:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+</style>
+<!--================End Services Partitions Area =================-->
+
 <!--================Finance Area =================-->
 <section class="finance_area">
     <div class="container">
@@ -106,7 +215,7 @@
                         <h4>Professional Certificate in Pharmacovigilance (PCPV)</h4>
                         <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p>
                         <!-- <div class="course_price">₹9,999/-</div> -->
-                        <a href="course-pharmacovigilance.php" class="course_btn">View course details</a>
+                        <a href="course-pharmacovigilance.php" class="course_btn">Course title itself</a>
                     </div>
                 </div>
             </div>
@@ -195,9 +304,22 @@
 </div>
 
 
-      <div class="text-center mt-5">
-            <a href="courses.php" class="main_btn">View All Courses</a>
         </div>
+
+      <div class="mt-5">
+            <a href="courses.php" class="main_btn" style="position: absolute; left:665px;">View All Courses</a>
+        </div>
+
+<style>
+@media (max-width: 768px) {
+  .main_btn {
+    position: relative !important;
+    left: auto !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
+</style>  
 
     </div>
 </section>

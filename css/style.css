@@ -3807,3 +3807,21 @@ h6 {
     
 }
 
+/* View All Courses Button Right Alignment */
+.view-all-right {
+  float: right !important;
+  margin-right: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .view-all-right {
+    float: none !important;
+    display: block;
+    margin: 0 auto !important;
+  }
+}
+/* View All Courses Button Center Alignment */
+.view-all-right {
+  display: block !important;
+  margin: 0 auto !important;
+}

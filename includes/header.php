@@ -74,50 +74,22 @@
 					}
 				</style>
 
-	<style>
-  .contact-section {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    gap: 25px;
-    line-height: 1.6;
-    text-align: left;
-  }
-
-  .contact-section a {
-    color: #fff; /* Change color if needed */
-    text-decoration: none;
-  }
-
-  .contact-section a:hover {
-    text-decoration: underline;
-  }
-
-  .contact-section i {
-    margin-right: 2px;
-  }
-
-  .email-block {
-    display: flex;
-    flex-direction: column;
-  }
-</style>
-
-<div class="contact-section">
-  <div class="phone-block">
+<div class="float-right">
     <a class="dn_btn blink-phone" href="tel:+917338899156">
-      <i class="lnr lnr-phone-handset"></i> +91 73388 99156
+        <i class="lnr lnr-phone-handset"></i> +91 73388 99156
     </a>
-  </div>
-  <div class="email-block">
+    &nbsp;&nbsp;
+    
+    <i class="lnr lnr-envelope"></i>
     <a class="dn_btn" href="mailto:clinicalservices@cyntureglobal.com">
-      <i class="lnr lnr-envelope"></i> clinicalservices@cyntureglobal.com
+        clinicalservices@cyntureglobal.com
     </a>
-	   <a class="dn_btn" href="mailto:sales@cyntureglobal.com">
-      <i class="lnr lnr-envelope"></i> sales@cyntureglobal.com
+    &nbsp;&nbsp;
+    <a class="dn_btn" href="mailto:sales@cyntureglobal.com">
+        sales@cyntureglobal.com
     </a>
-  </div>
 </div>
+
 
 
 
@@ -173,10 +145,14 @@
 							</li>
 							<!-- <li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'blog.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="blog.php">Research Publications</a>
-							</li>
-							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
+							</li> -->
+							<!-- <li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="elements.php">Career</a>
 							</li> -->
+	<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
+								<a class="nav-link" href="elements.php">Products</a>
+							</li>
+
 							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'contact.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="contact.php">Contact Us</a>
 							</li>

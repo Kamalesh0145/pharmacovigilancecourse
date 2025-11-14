@@ -58,6 +58,7 @@
                                 <li><a href="courses.php">Courses</a></li>
                                 <!-- <li><a href="blog.php">Research Publications</a></li>
                         <li><a href="elements.php">Career</a></li> -->
+                        <li><a href="elements.php">Products</a></li> 
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
@@ -81,7 +82,7 @@
     <div class="single-footer-widget tp_widgets">
         <h6 class="footer_title">Healthcare</h6>
         <ul class="list">
-            <li><a href="#">Pharmaceutical and Nutraceutical Products</a></li>
+            <li><a href="elements.php">Pharmaceutical and Nutraceutical Products</a></li>
         </ul>
     </div>
 </div>
