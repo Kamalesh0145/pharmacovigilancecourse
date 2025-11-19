@@ -159,7 +159,7 @@
         .category-header {
             background: linear-gradient(135deg, #7b2cbf 0%, #5a1d91 100%);
             color: #fff;
-            padding: 20px 25px;
+            padding:3px 25px;
             display: flex;
             justify-content: space-between;
             align-items: center;
