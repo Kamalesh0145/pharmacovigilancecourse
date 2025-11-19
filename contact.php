@@ -104,6 +104,50 @@
   color: #444;
 }
 
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .contact_area {
+    padding: 40px 20px;
+  }
+  
+  .contact_info .info_item {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 20px;
+  }
+  
+  .form_card {
+    margin-left: 0;
+    padding: 25px 20px;
+    margin-top: 20px;
+  }
+  
+  .banner_area h2 {
+    font-size: 28px;
+  }
+  
+  .contact_form .form-control,
+  .contact_form select,
+  .contact_form textarea {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact_area {
+    padding: 30px 15px;
+  }
+  
+  .form_card {
+    padding: 20px 15px;
+  }
+  
+  .banner_area h2 {
+    font-size: 24px;
+  }
+}
+
 
 </style>
 
