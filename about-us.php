@@ -114,8 +114,7 @@ document.querySelectorAll('.animated-title').forEach(title => {
 <!--================End Home Banner Area =================-->
 
 <!--================About Area =================-->
-<section class="about_area p_120">
-  <div class="container">
+
     <section class="about_area p_120">
       <div class="container">
 
@@ -240,8 +239,8 @@ document.querySelectorAll('.animated-title').forEach(title => {
           }
           
           .card-icon {
-            width: 70px;
-            height: 70px;
+            width: 20px;
+            height: 20px;
             background: linear-gradient(135deg, #7b2cbf, #9d4edd);
             border-radius: 50%;
             display: flex;
@@ -251,7 +250,7 @@ document.querySelectorAll('.animated-title').forEach(title => {
           }
           
           .card-icon i {
-            font-size: 28px;
+            font-size:10px;
             color: white;
           }
           
@@ -292,8 +291,8 @@ document.querySelectorAll('.animated-title').forEach(title => {
           }
           
           .vision-icon {
-            width: 60px;
-            height: 60px;
+            width: 20px;
+            height: 20px;
             background: linear-gradient(135deg, #7b2cbf, #9d4edd);
             border-radius: 50%;
             display: flex;
@@ -304,7 +303,7 @@ document.querySelectorAll('.animated-title').forEach(title => {
           }
           
           .vision-icon i {
-            font-size: 24px;
+            font-size:10px;
             color: white;
           }
           
@@ -354,8 +353,8 @@ document.querySelectorAll('.animated-title').forEach(title => {
           }
           
           .commitment-icon {
-            width: 50px;
-            height: 50px;
+            width: 20px;
+            height: 20px;
             background: linear-gradient(135deg, #7b2cbf, #9d4edd);
             border-radius: 50%;
             display: flex;
@@ -366,7 +365,7 @@ document.querySelectorAll('.animated-title').forEach(title => {
           }
           
           .commitment-icon i {
-            font-size: 20px;
+            font-size:10px;
             color: white;
           }
           
@@ -629,8 +628,7 @@ document.querySelectorAll('.animated-title').forEach(title => {
         </div>
       </div>
     </section>
-      </div>
-    </section>
+
     <!--================Team Area =================-->
 
     <!--================ Course Details Area =================-->

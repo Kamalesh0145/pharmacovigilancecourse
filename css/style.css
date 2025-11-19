@@ -233,7 +233,7 @@ button:focus {
   border: 0px;
   border-radius: 0px;
   background-color: white;
-  border-bottom: 2px solid #7b2cbf;
+  /* border-bottom: 2px solid #7b2cbf; */
 
 }
 
@@ -4409,7 +4409,7 @@ h6 {
 /*============== footer-area css ===============*/
 .footer-area {
   background: white;
-  border-top: 2px solid #7b2cbf;
+  /* border-top: 2px solid #7b2cbf; */
 }
 
 .single-footer-widget p {
