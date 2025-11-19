@@ -1,12 +1,27 @@
 <?php include 'includes/header.php'; ?>
 
+
+<section class="banner_area">
+  <div class="banner_inner d-flex align-items-center">
+    <div class="overlay bg-parallax" data-stellar-ratio="0.9"></div>
+    <div class="container">
+      <div class="banner_content text-center">
+        <h2>Contact Us</h2>
+        <div class="page_link">
+          <a href="index.php">Home</a>
+          <a href="contact.php">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <style>
 /* ===========================
    Contact Page UI Enhancements
    =========================== */
 
 .contact_area {
-  padding: 80px 0;
+  padding: 80px 140px;
 }
 
 /* Contact Info Cards */
@@ -26,9 +41,10 @@
 }
 
 .contact_info .info_item i {
-  font-size: 26px;
+  font-size: 15px;
   color: #6a11cb;
-  margin-bottom: 12px;
+  top: 24px;
+  margin-left:6px;
 }
 
 /* Form Inputs */
@@ -36,7 +52,7 @@
 .contact_form select,
 .contact_form textarea {
   border-radius: 10px;
-  padding: 12px 15px;
+  padding: 5px 25px;
   border: 1px solid #ddd;
   font-size: 15px;
   box-shadow: none;
@@ -92,20 +108,8 @@
 </style>
 
 <!--================Home Banner Area =================-->
-<section class="banner_area">
-  <div class="banner_inner d-flex align-items-center">
-    <div class="overlay bg-parallax" data-stellar-ratio="0.9"></div>
-    <div class="container">
-      <div class="banner_content text-center">
-        <h2>Contact Us</h2>
-        <div class="page_link">
-          <a href="index.php">Home</a>
-          <a href="contact.php">Contact</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
+
 
 <!--================Contact Area =================-->
 <section class="contact_area">
@@ -115,7 +119,6 @@
       <!-- Contact Info -->
       <div class="col-lg-3">
         <div class="contact_info">
-
           <div class="info_item">
             <i class="lnr lnr-home"></i>
             <h6>Cynture Global Pvt. LTD.</h6>

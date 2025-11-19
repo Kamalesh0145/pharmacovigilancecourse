@@ -1,6 +1,99 @@
 <?php include 'includes/header.php'; ?>
 
 <!--================Home Banner Area =================-->
+<!-- <section class="banner_area">
+  <div class="banner_inner d-flex align-items-center">
+    <div class="overlay bg-parallax"></div>
+
+  
+    <span class="banner_arrow_left">&#10094;</span>
+    <span class="banner_arrow_right">&#10095;</span>
+
+    <div class="container">
+      <div class="banner_content text-center">
+
+      
+        <h1 class="about-top-line animated-title">
+          Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
+        </h1>
+
+     
+        <h5 class="about-main-heading">
+          About Us
+        </h5>
+
+        <div class="page_link">
+          <a href="index.php">Home</a>
+          <a href="about-us.php">About Us</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+let images = [
+    "img/banner/Healthcare1.png",
+    "img/banner/Healthcare2.png",
+    "img/banner/Healthcare3.png"
+];
+
+let index = 0;
+const overlay = document.querySelector(".banner_inner .overlay");
+
+
+overlay.style.backgroundImage = `url('${images[index]}')`;
+
+
+function changeImage(next = true) {
+    const temp = document.createElement("div");
+    temp.className = "overlay bg-parallax";
+    temp.style.backgroundImage = `url('${images[next ? (index + 1) % images.length : (index - 1 + images.length) % images.length]}')`;
+    temp.style.opacity = 0;
+    temp.style.transition = "opacity 1s ease-in-out";
+    document.querySelector(".banner_inner").appendChild(temp);
+
+    setTimeout(() => temp.style.opacity = 0.7, 50);
+
+    setTimeout(() => {
+        overlay.style.backgroundImage = temp.style.backgroundImage;
+        overlay.style.opacity = 0.7;
+        temp.remove();
+        index = next ? (index + 1) % images.length : (index - 1 + images.length) % images.length;
+    }, 1050);
+}
+
+
+let autoSlide = setInterval(() => changeImage(true), 4000);
+
+
+document.querySelector(".banner_arrow_right").addEventListener("click", function () {
+    clearInterval(autoSlide);
+    changeImage(true);
+    autoSlide = setInterval(() => changeImage(true), 4000);
+});
+
+document.querySelector(".banner_arrow_left").addEventListener("click", function () {
+    clearInterval(autoSlide);
+    changeImage(false);
+    autoSlide = setInterval(() => changeImage(true), 4000);
+});
+
+
+document.querySelectorAll('.animated-title').forEach(title => {
+    let text = title.innerText;
+    title.innerHTML = '';
+    text.split('').forEach((char, i) => {
+        let span = document.createElement('span');
+        span.innerText = char;
+        span.style.animationDelay = (i * 0.05) + "s";
+        title.appendChild(span);
+    });
+});
+</script> -->
+
+
 <section class="banner_area">
   <div class="banner_inner d-flex align-items-center">
     <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
@@ -15,6 +108,9 @@
     </div>
   </div>
 </section>
+
+
+
 <!--================End Home Banner Area =================-->
 
 <!--================About Area =================-->
@@ -24,94 +120,388 @@
       <div class="container">
 
         <!-- Company Overview -->
-        <div class="main_title">
-          <h2>Company Overview</h2>
-          <p>
-            Cynture Global Pvt. Ltd is a leading healthcare company involved in trade, exports, and providing
-            clinical research, pharmacovigilance and scientific writing courses.
-          </p>
-          <p>
-            With regards to trade and exports, we have more than 5 years of experience in export of healthcare
-            products through our another concern <strong>Carexexports</strong>. We offer variety of Pharmaceutical
-            products and Nutraceuticals. We export products from well recognized premium GMP, MHRA, FDA and
-            TGA approved plants. We export high standard and high quality products. We always exceed customer expectations.
-          </p>
-          <p>
-            With regards training, we are one of the best clinical research and pharmacovigilance training providers.
-            We have students are from different countries. Our course materials are prepared by industrial experts having
-            10+ years experience. Unlike others, our materials are up to date.
-          </p>
+        <div class="content-section company-overview">
+          <div class="section-header">
+            <h2>Company Overview</h2>
+            <div class="section-divider"></div>
+          </div>
+          <div class="content-grid">
+            <div class="content-card">
+              <div class="card-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h4>Healthcare Excellence</h4>
+              <p>Cynture Global Pvt. Ltd is a leading healthcare company involved in trade, exports, and providing clinical research, pharmacovigilance and scientific writing courses.</p>
+            </div>
+            <div class="content-card">
+              <div class="card-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h4>Global Trade & Exports</h4>
+              <p>With more than 5 years of experience in export of healthcare products through our concern <strong>CAREXUS EXPORTS</strong>. We offer variety of Pharmaceutical products and Nutraceuticals from GMP, MHRA, FDA and TGA approved plants.</p>
+            </div>
+            <div class="content-card">
+              <div class="card-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h4>Premium Training</h4>
+              <p>We are one of the best clinical research and pharmacovigilance training providers with students from different countries. Our course materials are prepared by industrial experts having 10+ years experience.</p>
+            </div>
+          </div>
         </div>
 
         <!-- Our Vision -->
-        <div class="main_title mt-5">
-          <h2>Our Vision and Training Goals</h2>
-          <p>
-            At Cynture Global, we aim to empower aspiring professionals with practical skills and industry knowledge
-            in pharmaceutical and clinical research. And deliver high standard healthcare products to the domestic and international needs.
-          </p>
+        <div class="content-section vision-section">
+          <div class="section-header">
+            <h2>Our Vision and Training Goals</h2>
+            <div class="section-divider"></div>
+          </div>
+          <div class="vision-content">
+            <div class="vision-card">
+              <div class="vision-icon">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <div class="vision-text">
+                <h4>Quality Healthcare Products</h4>
+                <p>Deliver high standard healthcare products to meet domestic and international needs with excellence and reliability.</p>
+              </div>
+
+            </div>
+            <div class="vision-card">
+              <div class="vision-icon">
+                <i class="fas fa-rocket"></i>
+              </div>
+               <div class="vision-text">
+                <h4>Empowering Professionals</h4>
+                <p>At Cynture Global, we aim to empower aspiring professionals with practical skills and industry knowledge in pharmaceutical and clinical research.</p>
+              </div>
+            </div>
+          </div>
         </div>
+
+
         <style>
-          /* ===== About Us Page Styling ===== */
+          /* Enhanced About Us Page Styling */
           .about_area {
-            background-color: #f9f9f9;
-            padding: 80px 0;
-            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
           }
-
-          .about_area .main_title {
+          
+          /* Content Sections Styling */
+          .content-section {
+            margin-bottom: 60px;
+          }
+          
+          .section-header {
+            text-align: center;
             margin-bottom: 40px;
-            text-align: left;
           }
-
-          .about_area .main_title h2 {
-            font-size: 30px;
+          
+          .section-header h2 {
+            color: #7b2cbf;
             font-weight: 700;
-            color: #002147;
+            font-size: 32px;
             margin-bottom: 15px;
-            position: relative;
-            display: inline-block;
           }
-
-          .about_area .main_title h2::after {
-            content: "";
-            position: absolute;
-            width: 60px;
-            height: 3px;
-            background-color: #007bff;
-            bottom: -8px;
-            left: 0;
+          
+          .section-header h2 i {
+            margin-right: 10px;
+            color: #9d4edd;
+          }
+          
+          .section-divider {
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(135deg, #7b2cbf, #9d4edd);
+            margin: 0 auto;
             border-radius: 2px;
           }
-
-          .about_area .main_title p {
-            font-size: 16px;
-            color: #555;
-            line-height: 1.8;
+          
+          /* Company Overview Grid */
+          .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+          }
+          
+          .content-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(123, 44, 191, 0.1);
+            text-align: center;
+            transition: all 0.3s ease;
+            border-top: 4px solid #7b2cbf;
+          }
+          
+          .content-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(123, 44, 191, 0.2);
+          }
+          
+          .card-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #7b2cbf, #9d4edd);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+          }
+          
+          .card-icon i {
+            font-size: 28px;
+            color: white;
+          }
+          
+          .content-card h4 {
+            color: #7b2cbf;
+            font-weight: 600;
             margin-bottom: 15px;
+            font-size: 20px;
           }
-
-          .about_area .main_title strong {
-            color: #007bff;
+          
+          .content-card p {
+            color: #495057;
+            line-height: 1.7;
+            font-size: 15px;
           }
-
-          .about_area .mt-5 {
-            margin-top: 60px !important;
+          
+          /* Vision Section */
+          .vision-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
           }
-
-          /* Responsive Adjustments */
+          
+          .vision-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(123, 44, 191, 0.1);
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+          }
+          
+          .vision-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 12px 30px rgba(123, 44, 191, 0.15);
+          }
+          
+          .vision-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #7b2cbf, #9d4edd);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            flex-shrink: 0;
+          }
+          
+          .vision-icon i {
+            font-size: 24px;
+            color: white;
+          }
+          
+          .vision-text h4 {
+            color: #7b2cbf;
+            font-weight: 600;
+            margin-bottom: 10px;
+            font-size: 18px;
+          }
+          
+          .vision-text p {
+            color: #495057;
+            line-height: 1.6;
+            margin: 0;
+            font-size: 15px;
+          }
+          
+          /* Commitment Section */
+          .commitment-section {
+            background: white;
+            padding: 50px 40px;
+            border-radius: 20px;
+            margin-top: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+          }
+          
+          .commitment-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+          }
+          
+          .commitment-card {
+            display: flex;
+            align-items: flex-start;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-left: 5px solid #7b2cbf;
+            transition: all 0.3s ease;
+          }
+          
+          .commitment-card:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+          }
+          
+          .commitment-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #7b2cbf, #9d4edd);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            flex-shrink: 0;
+          }
+          
+          .commitment-icon i {
+            font-size: 20px;
+            color: white;
+          }
+          
+          .commitment-text h4 {
+            color: #7b2cbf;
+            font-weight: 600;
+            margin-bottom: 12px;
+            font-size: 18px;
+          }
+          
+          .commitment-text p {
+            color: #495057;
+            line-height: 1.7;
+            margin: 0;
+            font-size: 15px;
+          }
+          
+          /* Accordion Styling */
+          .accordion .card {
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(123, 44, 191, 0.1);
+            transition: all 0.3s ease;
+          }
+          
+          .accordion .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(123, 44, 191, 0.15);
+          }
+          
+          .accordion .card-header {
+            background: linear-gradient(135deg, #7b2cbf, #9d4edd);
+            border: none;
+            border-radius: 10px 10px 0 0;
+            padding: 0;
+          }
+          
+          .accordion .btn-link {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 20px 25px;
+            width: 100%;
+            text-align: left;
+            border-radius: 10px 10px 0 0;
+            position: relative;
+          }
+          
+          .accordion .btn-link:hover {
+            color: white;
+            text-decoration: none;
+          }
+          
+          .accordion .card-body {
+            padding: 25px;
+            background: white;
+            border-radius: 0 0 10px 10px;
+            color: #495057;
+            line-height: 1.7;
+          }
+          
+          .video_area {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+          }
+          
+          .video_area:hover {
+            transform: scale(1.02);
+          }
+          
+          .video_area img {
+            border-radius: 15px;
+          }
+          
+          .banner_content h2 {
+            color: white;
+            font-size: 48px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+          }
+          
+          .page_link a {
+            color: rgba(255,255,255,0.8);
+            transition: color 0.3s ease;
+          }
+          
+          .page_link a:hover {
+            color: white;
+          }
+          
+          /* Responsive Design */
           @media (max-width: 768px) {
-            .about_area {
-              padding: 60px 20px;
+            .content-grid {
+              grid-template-columns: 1fr;
             }
-
-            .about_area .main_title h2 {
-              font-size: 24px;
+            .vision-content {
+              grid-template-columns: 1fr;
             }
-
-            .about_area .main_title p {
-              font-size: 15px;
+            .commitment-content {
+              grid-template-columns: 1fr;
             }
+            .vision-card, .commitment-card {
+              flex-direction: column;
+              text-align: center;
+            }
+            .vision-icon, .commitment-icon {
+              margin-right: 0;
+              margin-bottom: 15px;
+            }
+          }
+          
+          /* Force footer to match other pages exactly */
+          .footer-area {
+            background: #fff !important;
+          }
+          .footer-bottom {
+            background-color: #7b2cbf !important;
+            padding: 20px 0 !important;
+          }
+          .footer-text {
+            color: white !important;
+            font-size: 14px !important;
+          }
+          .footer-social a {
+            color: white !important;
+          }
+          .footer_title {
+            color: black !important;
+          }
+          .tp_widgets .list li a {
+            color: #7b2cbf !important;
           }
         </style>
 
@@ -160,7 +550,7 @@
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                   <div class="card-body">
-                    Assistance to help students identify career paths, and excel in the pharmaceutical and clinical research industry.
+                    Assistance to help students to identify career paths, and excel in the pharmaceutical and clinical research industry.
                   </div>
                 </div>
               </div>
@@ -203,7 +593,7 @@
           <div class="col-lg-6">
             <div class="video_area" id="video">
               <img class="img-fluid" src="img/video-1.jpg" alt="Cynture Global Training Video">
-              <a class="popup-youtube" href="https://www.youtube.com/watch?v=VufDd-QL1c0">
+              <a class="popup-youtube" href="https://www.youtube.com/watch?v=wLNp3kgBuuQ">
                 <img src="img/icon/video-icon-1.png" alt="Play Video">
               </a>
             </div>
@@ -211,10 +601,34 @@
         </div>
 
         <!-- About Details -->
-        <div class="about_details">
-          <p>Cynture Global is committed to delivering industry-focused training that blends theoretical knowledge with hands-on practice. Our courses in pharmacovigilance, clinical research, project management, and scientific writing are designed to enhance employability and professional competence.</p>
-          <p>Through our expert-led programs, students gain insights into real-world scenarios, learn regulatory compliance, master project management, and develop effective communication skills to thrive in the pharmaceutical and clinical research landscape.</p>
+        <div class="commitment-section">
+          <div class="section-header">
+            <h2><i class="fas fa-handshake"></i> Cynture Global Commitment</h2>
+            <div class="section-divider"></div>
+          </div>
+          <div class="commitment-content">
+            <div class="commitment-card">
+              <div class="commitment-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <div class="commitment-text">
+                <h4>Industry-Focused Training</h4>
+                <p>Cynture Global is committed to delivering industry-focused training that blends theoretical knowledge with hands-on practice. Our courses in pharmacovigilance, clinical research, project management, and scientific writing are designed to enhance employability and professional competence.</p>
+              </div>
+            </div>
+            <div class="commitment-card">
+              <div class="commitment-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <div class="commitment-text">
+                <h4>Expert-Led Programs</h4>
+                <p>Through our expert-led programs, students gain insights into real-world scenarios, learn regulatory compliance, master project management, and develop effective communication skills to thrive in the pharmaceutical and clinical research landscape.</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
       </div>
     </section>
     <!--================Team Area =================-->

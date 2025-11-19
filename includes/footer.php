@@ -30,7 +30,7 @@
 
         </html>
         <!--================ Start Footer Area =================-->
-        <footer class="footer-area p_120">
+        <footer class="footer-area p_120" style="background: #fff !important; margin-top: 50px !important;">
             <div class="container">
                 <div class="row">
                     <!-- About / Programs -->
@@ -58,7 +58,7 @@
                                 <li><a href="courses.php">Courses</a></li>
                                 <!-- <li><a href="blog.php">Research Publications</a></li>
                         <li><a href="elements.php">Career</a></li> -->
-                        <li><a href="elements.php">Products</a></li> 
+                                <li><a href="elements.php">Products</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
@@ -78,14 +78,14 @@
                     </div>
 
                     <!-- Healthcare -->
-<div class="col-lg-2 col-md-6 col-sm-6">
-    <div class="single-footer-widget tp_widgets">
-        <h6 class="footer_title">Healthcare</h6>
-        <ul class="list">
-            <li><a href="elements.php">Pharmaceutical and Nutraceutical Products</a></li>
-        </ul>
-    </div>
-</div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                            <h6 class="footer_title">Healthcare</h6>
+                            <ul class="list">
+                                <li><a href="elements.php">Pharmaceutical and Nutraceutical Products</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
 
                     <!-- Newsletter -->
@@ -107,32 +107,109 @@
                         </aside>
                     </div> -->
                 </div>
-
-                <div class="row footer-bottom d-flex justify-content-between align-items-center">
-                    <p class="col-lg-8 col-md-8 footer-text m-0">
-                        Copyright &copy; <script>
-                            document.write(new Date().getFullYear());
-                        </script>
-                        <strong>Cynture Global Pvt Ltd</strong> | All Rights Reserved.
-                        Designed & Developed with <i class="fa fa-heart-o" aria-hidden="true"></i> SmartiApps Technologies.
-                    </p>
-                    <div class="col-lg-4 col-md-4 footer-social text-center text-md-right">
-                        <a href="https://www.facebook.com/YourPageName" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="https://www.linkedin.com/company/YourCompanyName" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://twitter.com/YourHandle" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/YourProfile" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a>
-                    </div>
-
-
-                    <!-- WhatsApp Floating Button -->
-                    <a href="https://wa.me/919876543210" class="whatsapp_float" target="_blank">
-                        <i class="fa fa-whatsapp whatsapp-icon"></i>
-                    </a>
-
-                </div>
-
             </div>
+            
+
+        <!-- WhatsApp Floating Button -->
+                    <a href="https://wa.m e/919876543210" class="whatsapp_float" target="_blank">
+            <i class="fa fa-whatsapp whatsapp-icon"></i>
+        </a>
+
+        <!--Start of Tawk.to Script-->
+                             
+        <script>
+        var Tawk_API = Tawk_API || {};
+
+        Tawk_API.onLoad = function () {
+
+            function injectStyle() {
+                var iframe = document.querySelector('iframe[title="chat widget"]');
+                if (!iframe) return;
+
+                var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                if (!iframeDoc) return;
+
+                var style = iframeDoc.getElementById("tawkResizeStyle");
+                if (!style) {
+                    style = iframeDoc.createElement("style");
+                    style.id = "tawkResizeStyle";
+                    iframeDoc.head.appendChild(style);
+                }
+
+                style.innerHTML = `
+                    .tawk-button-circle {
+                        width: 40px !important;
+                        height: 40px !important;
+                        top:0px !important;
+                        right: 10px !important;
+                    }
+                `;
+            }
+
+    // Run immediately
+            injectStyle();
+
+    // Watch for ANY change inside iframe — instant resize
+            var iframe = document.querySelector('iframe[title="chat widget"]');
+            if (iframe) {
+                var observer = new MutationObserver(injectStyle);
+
+                var check = setInterval(function () {
+                    var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+
+                    if (iframeDoc && iframeDoc.body) {
+                        observer.observe(iframeDoc.body, {
+                            childList: true,
+                            subtree: true,
+                            attributes: true
+                        });
+                        injectStyle();
+                        clearInterval(check);
+                    }
+                }, 200);
+            }
+        };
+        </script>
+
+
+        <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/691aba10dde8a319591808a4/1ja86dkri';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+        </script>
+
+
+        <!--End of Tawk.to Script-->
 
         </footer>
-
+            <div class="footer-bottom" style="background-color: #7b2cbf !important; padding: 0px 0 !important; margin-top: 50px !important; position: relative !important;">
+                <div class="container">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <p class="col-lg-8 col-md-8 footer-text m-0" style="color: white !important; font-size: 14px !important;">
+                            Copyright &copy; <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            <strong>Cynture Global Pvt Ltd</strong> | All Rights Reserved.
+                            Designed & Developed with <i class="fa fa-heart-o" aria-hidden="true" style="color: #ff6b6b !important;"></i> SmartiApps Technologies.
+                        </p>
+                        <div class="col-lg-4 col-md-4 footer-social text-center text-md-right">
+                            <a href="https://www.facebook.com/YourPageName" target="_blank" title="Facebook" style="color: white !important; margin: 0 5px !important; font-size: 16px !important;"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/YourCompanyName" target="_blank" title="LinkedIn" style="color: white !important; margin: 0 5px !important; font-size: 16px !important;"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://twitter.com/YourHandle" target="_blank" title="Twitter" style="color: white !important; margin: 0 5px !important; font-size: 16px !important;"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/YourProfile" target="_blank" title="Instagram" style="color: white !important; margin: 0 5px !important; font-size: 16px !important;"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         <!--================ End Footer Area =================-->

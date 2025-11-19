@@ -15,15 +15,82 @@
     </div>
   </div>
 </section>
-<!--================End Home Banner Area =================-->
+<!--================Finance Area =================-->
+<section class="finance_area">
+    <div class="container">
+        <div class="finance_inner row">
 
-<!--================End Home Banner Area =================-->
+            <!-- Feature 1 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="finance_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <i class="lnr lnr-rocket"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Advanced Pharmacovigilance</h5>
+                            <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="finance_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <i class="lnr lnr-earth"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Clinical Trial Management</h5>
+                            <p>Learn protocol development, site management, and regulatory compliance to lead successful clinical trials.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="finance_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <i class="lnr lnr-smile"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Project Management Skills</h5>
+                            <p>Enhance planning, budgeting, and communication skills for effective management of clinical research projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="finance_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <i class="lnr lnr-tag"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5>Scientific Writing Expertise</h5>
+                            <p>Develop skills to create precise clinical study reports, regulatory submissions, and pharmacovigilance narratives.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--================End Finance Area =================-
 
 <!--================Courses Area =================-->
 <section class="courses_area p_120">
   <div class="container">
     <div class="main_title">
-      <h2>SPECIALIZED CLINICAL RESEARCH, PHARMACOVIGILANCE AND SCIENTIFIC WRITING COURSES</h2>
+      <h2>SPECIALIZED CLINICAL RESEARCH, PHARMACOVIGILANCE, SCIENTIFIC WRITING & AI COURSES</h2>
       <p>India's largest Clinical Research & PVG Training Providers</p>
     </div>
 
@@ -42,7 +109,7 @@
           <div class="course_content">
             <h4>Professional Certificate in Pharmacovigilance (PCPV)</h4>
             <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p>
-            <a href="course-pharmacovigilance.php" class="course_btn"> Course title itself</a>
+            <a href="course-pharmacovigilance.php" class="course_btn"> View course details</a>
           </div>
         </div>
       </div>
@@ -56,7 +123,7 @@
           <div class="course_content">
             <h4>Professional Diploma in Clinical Research (PDCR)</h4>
             <p>Comprehensive training in clinical trial design, conduct, and management for aspiring clinical research professionals.</p>
-            <a href="course-clinical-research-diploma.php" class="course_btn"> Course title itself</a>
+            <a href="course-clinical-research-diploma.php" class="course_btn"> View course details</a>
           </div>
         </div>
       </div> -->
@@ -82,7 +149,7 @@
         <li>Regulatory Affairs</li>
         <li>Roles and Responsibilities of Clinical Trial Personnel</li>
       </ul>
-      <a href="course-clinical-research-diploma.php" class="course_btn">Course title itself</a>
+      <a href="course-clinical-research-diploma.php" class="course_btn">View course details</a>
     </div>
   </div>
 </div>
@@ -99,7 +166,7 @@
           <div class="course_content">
             <h4>Advanced Certificate Program in Scientific Writing (SW)</h4>
             <p>Develop skills to create precise clinical study reports, regulatory submissions, and pharmacovigilance narratives.</p>
-            <a href="course-scientific-writing.php" class="course_btn"> Course title itself</a>
+            <a href="course-scientific-writing.php" class="course_btn"> View course details</a>
           </div>
         </div>
       </div> -->
@@ -124,7 +191,7 @@
         <li>Aggregate Safety Reports</li>
         <li>Publication</li><br><br>
       </ul>
-      <a href="course-scientific-writing.php" class="course_btn">Course title itself</a>
+      <a href="course-scientific-writing.php" class="course_btn">View course details</a>
     </div>
   </div>
 </div>
@@ -139,7 +206,7 @@
           <div class="course_content">
             <h4>Advanced Certificate Program in Project Management (PM)</h4>
             <p>Enhance planning, budgeting, and communication skills for effective management of clinical research projects.</p>
-            <a href="course-project-management.php" class="course_btn"> Course title itself</a>
+            <a href="course-project-management.php" class="course_btn"> View course details</a>
           </div>
         </div>
       </div> -->
@@ -167,7 +234,7 @@
         <li>Regulatory Inspection</li>
         <li>Study Closeout</li>
       </ul>
-      <a href="course-project-management.php" class="course_btn">Course title itself</a>
+      <a href="course-project-management.php" class="course_btn">View course details</a>
     </div>
   </div>
 </div>
@@ -182,7 +249,7 @@
           <div class="course_content">
             <h4>Advanced Certificate Program in Clinical Trial Monitoring (CTM)</h4>
             <p>Learn effective trial planning, site management, and regulatory compliance tips to succeed in clinical research projects.</p>
-            <a href="course-clinical-trial-management.php" class="course_btn"> Course title itself</a>
+            <a href="course-clinical-trial-management.php" class="course_btn"> View course details</a>
           </div>
         </div>
       </div>
@@ -198,15 +265,17 @@
 
           <div class="stats_grid">
             <div class="stat_item">
-              <div class="stat_number">12000+</div>
-              <div class="stat_label">Participants</div>
-              <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Participants from different countries</p>
+              <!-- <div class="stat_number">12000+</div> -->
+              <!-- <div class="stat_label">Participants</div> -->
+              <!-- <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Participants from different countries</p> -->
+                         <div class="stat_label">Participants from different countries</div>
             </div>
 
             <div class="stat_item">
-              <div class="stat_number">200+</div>
-              <div class="stat_label">Cities</div>
-              <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Multiple locations across India and Other countries</p>
+              <!-- <div class="stat_number">200+</div> -->
+              <!-- <div class="stat_label">Cities</div> -->
+              <!-- <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Multiple locations across India and Other countries</p> -->
+                             <div class="stat_label">Multiple locations across India and Other countries</div>
             </div>
 
             <!-- <div class="stat_item">
@@ -215,9 +284,10 @@
               <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Global Outreach</p>
             </div> -->
             <div class="stat_item">
-              <div class="stat_number">10+</div>
+              <!-- <div class="stat_number">10+</div>
               <div class="stat_label">Years Experience</div>
-              <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Course materials from industrial experts having 10+ years experience</p>
+              <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Course materials from industrial experts having 10+ years experience</p> -->
+                          <div class="stat_label">Course materials from industrial experts having 10+ years experience</div>
             </div>
 
           </div>
@@ -229,7 +299,9 @@
 </section>
 <!--================End Courses Area =================-->
 
-<!--================Packages Area =================-->
+
+
+<!-================Packages Area =================-->
 <section class="packages_area p_120">
   <div class="container">
     <div class="row packages_inner">
@@ -237,8 +309,8 @@
       <!-- Section Text -->
       <div class="col-lg-4">
         <div class="packages_text">
-          <h3>Choose the <br />Right Training Package</h3>
-          <p>Select a course package that fits your learning goals. Each package is designed to give you practical skills, expert guidance, and certification in pharmaceutical and clinical research.</p>
+          <!-- <h3>Choose the <br />Right Training Package</h3> -->
+          <!-- <p>Select a course package that fits your learning goals. Each package is designed to give you practical skills, expert guidance, and certification in pharmaceutical and clinical research.</p> -->
         </div>
       </div>
 
@@ -292,6 +364,13 @@
       visibility: visible !important;    /* Ensure no hidden property */
       transition: none !important;       /* Disable hover animation */
   }
+  /* Style only the star symbol */
+.pack_body ul.list li span.star {
+    color: red;          /* Change star color */
+    font-weight: 700;    /* Make it bold */
+    font-size: 16px;     /* Slightly bigger */
+}
+
   </style>
 
   <!-- Package 2 -->
@@ -305,7 +384,7 @@
     <div class="pack_body">
       <ul class="list">
         <li>Program Fees</li>
-        <li>Indian Participants: Rs. 12,000</li>
+<li>Indian Participants: Rs. 12,000 <span class="star">*</span></li>
         <li>Participants Residing Overseas: US$ 250</li><br>
       </ul>
     </div>

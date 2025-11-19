@@ -27,14 +27,14 @@
 	<header class="header_area">
 		<div class="top_menu row m0">
 			<div class="container">
-<div class="float-left">
-    <ul class="list header_social">
-        <li><a href="https://www.facebook.com/YourPageName" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="https://twitter.com/YourHandle" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="https://dribbble.com/YourProfile" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-        <li><a href="https://www.behance.net/YourProfile" target="_blank"><i class="fa fa-behance"></i></a></li>
-    </ul>
-</div>
+				<div class="float-left">
+					<ul class="list header_social">
+						<li><a href="https://www.facebook.com/YourPageName" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/YourHandle" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://dribbble.com/YourProfile" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="https://www.behance.net/YourProfile" target="_blank"><i class="fa fa-behance"></i></a></li>
+					</ul>
+				</div>
 
 				<style>
 					/* Blink purple background for phone section Start*/
@@ -59,7 +59,7 @@
 
 						50% {
 							background-color: transparent;
-							color: black;
+							color: white;
 						}
 
 						100% {
@@ -74,21 +74,26 @@
 					}
 				</style>
 
-<div class="float-right">
-    <a class="dn_btn blink-phone" href="tel:+917338899156">
-        <i class="lnr lnr-phone-handset"></i> +91 73388 99156
-    </a>
-    &nbsp;&nbsp;
-    
-    <i class="lnr lnr-envelope"></i>
-    <a class="dn_btn" href="mailto:clinicalservices@cyntureglobal.com">
-        clinicalservices@cyntureglobal.com
-    </a>
-    &nbsp;&nbsp;
-    <a class="dn_btn" href="mailto:sales@cyntureglobal.com">
-        sales@cyntureglobal.com
-    </a>
-</div>
+				<div class="float-right contact-block">
+					<a class="dn_btn blink-phone" href="tel:+917338899156">
+						<i class="lnr lnr-phone-handset"></i> +91 73388 99156
+					</a>
+
+					&nbsp;&nbsp;
+
+					<i class="lnr lnr-envelope"></i>
+
+					<span class="email-wrap">
+						<a class="dn_btn email-link" href="mailto:clinicalservices@cyntureglobal.com">
+							clinicalservices@cyntureglobal.com
+						</a>
+						<a class="dn_btn email-link" href="mailto:sales@cyntureglobal.com">
+							sales@cyntureglobal.com
+						</a>
+					</span>
+				</div>
+
+
 
 
 
@@ -101,8 +106,8 @@
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a href="index.php" class="navbar-brand d-flex align-items-center">
-						<img src="img/CYNTUREGLOBAL_logo.png"
-							style="height:150px; width:150px; margin-right:10px; background-color:white; padding:5px; border-radius:5px;">
+						<img src="img/trailimg.png"
+							style="height:80px; width:80px; margin-right:10px; background-color:white; padding:5px; border-radius:5px;">
 						<!-- <span class="logo-text">CYNTURE GLOBAL</span> -->
 					</a>
 
@@ -149,7 +154,7 @@
 							<!-- <li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="elements.php">Career</a>
 							</li> -->
-	<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
+							<li class="nav-item <?php echo (basename($_SERVER['PHP_SELF']) == 'elements.php') ? 'active' : ''; ?>">
 								<a class="nav-link" href="elements.php">Products</a>
 							</li>
 

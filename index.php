@@ -2,18 +2,73 @@
 
 <!--================Home Banner Area =================-->
 <section class="home_banner_area">
-    <div class="banner_inner d-flex align-items-center">
-        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-        <div class="container">
-            <div class="banner_content text-center">
-                <h3>Building Strong Foundations <br />for a Smarter and Healthier World</h3>
-                <p>True progress in healthcare begins with knowledge — and at Cynture Global, we turn learning into meaningful impact through expert-led, hands-on training.</p>
-                <a class="main_btn" href="#">Get Started</a>
+
+    <div id="homeBannerCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="7000">
+        <div class="carousel-inner">
+
+            <!-- Image 1 + Content 1 -->
+            <div class="carousel-item active">
+                <img src="img/banner/Healthcare6.png" class="d-block w-100" alt="">
+                <div class="carousel-caption caption-mobile">
+                    <h2 class="animated-h2">
+                        Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
+                    </h2>
+                    <h4>Building Strong Foundations for a Smarter and Healthier World</h4>
+                    <p>True progress in healthcare begins with knowledge — and at Cynture Global, we turn learning into meaningful impact through expert-led, hands-on training.</p>
+                </div>
             </div>
+
+            <!--  Image 2 + Content 2 (Client AI Content) -->
+            <div class="carousel-item">
+                <img src="img/banner/Healthcare7.png" class="d-block w-100" alt="">
+                <div class="carousel-caption caption-mobile">
+                    <h2 class="animated-h2">
+                        Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
+                    </h2>
+                    <h4>Certification in Fundamentals of Artificial Intelligence in the Healthcare Industry</h4>
+                    <p>Gain essential AI knowledge tailored for modern healthcare applications, empowering you to adapt, innovate, and excel in a rapidly advancing industry.</p>
+
+                </div>
+            </div>
+
+            <!-- Image 3 + Content 3 (Waiting for your next content) -->
+            <div class="carousel-item">
+                <img src="img/banner/Healthcare8.png" class="d-block w-100" alt="">
+                <div class="carousel-caption caption-mobile">
+                    <h2 class="animated-h2">
+                        Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
+                    </h2>
+                    <h4>Transforming Skills Through Industry-Driven Healthcare Training</h4>
+                    <p>Empowering professionals with practical expertise, cutting-edge tools, and globally aligned learning programs designed to uplift careers and strengthen the healthcare ecosystem.</p>
+                </div>
+            </div>
+
         </div>
+
+        <!-- Left Arrow -->
+        <a class="carousel-control-prev" href="#homeBannerCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <!-- Right Arrow -->
+        <a class="carousel-control-next" href="#homeBannerCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
     </div>
+    <script>
+        document.querySelectorAll('.animated-h2').forEach(h2 => {
+            let text = h2.innerText;
+            h2.innerHTML = '';
+            text.split('').forEach((char, i) => {
+                let span = document.createElement('span');
+                span.innerText = char;
+                span.style.animationDelay = (i * 0.03) + "s";
+                h2.appendChild(span);
+            });
+        });
+    </script>
 </section>
-<!--================End Home Banner Area =================-->
+
 
 <!--================Services Partitions Area =================-->
 <section class="services_partitions_area py-5">
@@ -22,7 +77,7 @@
             <h2>Our Services</h2>
             <p>Choose your path to excellence in healthcare and clinical research</p>
         </div>
-        
+
         <div class="row">
             <!-- Clinical Services Partition -->
             <div class="col-lg-6 col-md-6 mb-4">
@@ -37,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Healthcare Partition -->
             <div class="col-lg-6 col-md-6 mb-4">
                 <div class="service_partition_card h-100">
@@ -59,141 +114,72 @@
 </section>
 
 <style>
-.services_partitions_area {
-    background: #f8f9fa;
-}
+    .services_partitions_area {
+        background: #f8f9fa;
+    }
 
-.service_partition_card {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden;
-}
+    .service_partition_card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+    }
 
-.service_partition_card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-}
+    .service_partition_card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
 
-.service_image {
-    height: 250px;
-    overflow: hidden;
-}
+    .service_image {
+        height: 250px;
+        overflow: hidden;
+    }
 
-.service_image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
+    .service_image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
 
-.service_partition_card:hover .service_image img {
-    transform: scale(1.05);
-}
+    .service_partition_card:hover .service_image img {
+        transform: scale(1.05);
+    }
 
-.service_content h3 {
-    color: #2c3e50;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
+    .service_content h3 {
+        color: #2c3e50;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
 
-.service_content p {
-    color: #666;
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
+    .service_content p {
+        color: #666;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
 
-.service_btn {
-    display: inline-block;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #fff;
-    padding: 12px 30px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
+    .service_btn {
+        display: inline-block;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: #fff;
+        padding: 12px 30px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
 
-.service_btn:hover {
-    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
-    color: #fff;
-    text-decoration: none;
-    transform: translateY(-2px);
-}
+    .service_btn:hover {
+        background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        color: #fff;
+        text-decoration: none;
+        transform: translateY(-2px);
+    }
 </style>
 <!--================End Services Partitions Area =================-->
 
-<!--================Finance Area =================-->
-<section class="finance_area">
-    <div class="container">
-        <div class="finance_inner row">
-
-            <!-- Feature 1 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="finance_item">
-                    <div class="media">
-                        <div class="d-flex">
-                            <i class="lnr lnr-rocket"></i>
-                        </div>
-                        <div class="media-body">
-                            <h5>Advanced Pharmacovigilance</h5>
-                            <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Feature 2 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="finance_item">
-                    <div class="media">
-                        <div class="d-flex">
-                            <i class="lnr lnr-earth"></i>
-                        </div>
-                        <div class="media-body">
-                            <h5>Clinical Trial Management</h5>
-                            <p>Learn protocol development, site management, and regulatory compliance to lead successful clinical trials.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Feature 3 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="finance_item">
-                    <div class="media">
-                        <div class="d-flex">
-                            <i class="lnr lnr-smile"></i>
-                        </div>
-                        <div class="media-body">
-                            <h5>Project Management Skills</h5>
-                            <p>Enhance planning, budgeting, and communication skills for effective management of clinical research projects.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Feature 4 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="finance_item">
-                    <div class="media">
-                        <div class="d-flex">
-                            <i class="lnr lnr-tag"></i>
-                        </div>
-                        <div class="media-body">
-                            <h5>Scientific Writing Expertise</h5>
-                            <p>Develop skills to create precise clinical study reports, regulatory submissions, and pharmacovigilance narratives.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!--================End Finance Area =================-->
+->
 
 <!--================Courses Preview Area =================-->
 <section class="courses_preview_area p_120">
@@ -213,9 +199,9 @@
                     </div>
                     <div class="course_content">
                         <h4>Professional Certificate in Pharmacovigilance (PCPV)</h4>
-                        <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p>
+                        <!-- <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p> -->
                         <!-- <div class="course_price">₹9,999/-</div> -->
-                        <a href="course-pharmacovigilance.php" class="course_btn">Course title itself</a>
+                        <a href="course-pharmacovigilance.php" class="course_btn">View course details</a>
                     </div>
                 </div>
             </div>
@@ -235,31 +221,31 @@
                     </div>
                 </div>
             </div> -->
-<div class="col-lg-4 col-md-6 mb-4">
-  <div class="course_card">
-    <div class="course_image">
-      <img src="img/PDCRcourse2.png" alt="Professional Diploma in Clinical Research">
-      <div class="course_badge">Specialty Course</div>
-    </div>
-    <div class="course_content">
-      <h4>Professional Diploma in Clinical Research (PDCR)</h4>
-      <ul class="list">
-        <li>Drug Development Process</li>
-        <li>New Drug Discovery</li>
-        <li>Clinical Development of Drug</li>
-        <li>Essential Clinical Trial Documents</li>
-        <li>Clinical Trials Terminology</li>
-        <li>GCP</li>
-        <li>Ethics in Clinical Research</li>
-        <li>Informed Consent</li>
-        <li>Biostatistics</li>
-        <li>Regulatory Affairs</li>
-        <li>Roles and Responsibilities of Clinical Trial Personnel</li>
-      </ul>
-      <a href="course-clinical-research-diploma.php" class="course_btn">Course title itself</a>
-    </div>
-  </div>
-</div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="course_card">
+                    <div class="course_image">
+                        <img src="img/PDCRcourse2.png" alt="Professional Diploma in Clinical Research">
+                        <div class="course_badge">Specialty Course</div>
+                    </div>
+                    <div class="course_content">
+                        <h4>Professional Diploma in Clinical Research (PDCR)</h4>
+                        <!-- <ul class="list">
+                            <li>Drug Development Process</li>
+                            <li>New Drug Discovery</li>
+                            <li>Clinical Development of Drug</li>
+                            <li>Essential Clinical Trial Documents</li>
+                            <li>Clinical Trials Terminology</li>
+                            <li>GCP</li>
+                            <li>Ethics in Clinical Research</li>
+                            <li>Informed Consent</li>
+                            <li>Biostatistics</li>
+                            <li>Regulatory Affairs</li>
+                            <li>Roles and Responsibilities of Clinical Trial Personnel</li>
+                        </ul> -->
+                        <a href="course-clinical-research-diploma.php" class="course_btn">View course details</a>
+                    </div>
+                </div>
+            </div>
 
 
 
@@ -279,47 +265,47 @@
                 </div>
             </div>
         </div> -->
-        <div class="col-lg-4 col-md-6 mb-4">
-  <div class="course_card">
-    <div class="course_image">
-      <img src="img/Scientific_Writing.png" alt="Advanced Certificate in Scientific Writing">
-      <div class="course_badge advanced">Specialty Course</div>
-    </div>
-    <div class="course_content">
-      <h4>Advanced Certificate Program in Scientific Writing (SW)</h4>
-      <ul class="list">
-        <li>Introduction to Clinical Research</li>
-        <li>Clinical Study Process</li>
-        <li>Development of Standard Operating Procedures (SOPs)</li>
-        <li>Protocol</li>
-        <li>Case Report Form (CRF)</li>
-        <li>Clinical Study Report</li>
-        <li>Other Regulatory Documents</li>
-        <li>Aggregate Safety Reports</li>
-        <li>Publication</li><br><br>
-      </ul>
-      <a href="course-scientific-writing.php" class="course_btn">Course title itself</a>
-    </div>
-  </div>
-</div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="course_card">
+                    <div class="course_image">
+                        <img src="img/Scientific_Writing.png" alt="Advanced Certificate in Scientific Writing">
+                        <div class="course_badge advanced">Specialty Course</div>
+                    </div>
+                    <div class="course_content">
+                        <h4>Advanced Certificate Program in Scientific Writing (SW)</h4>
+                        <!-- <ul class="list">
+                            <li>Introduction to Clinical Research</li>
+                            <li>Clinical Study Process</li>
+                            <li>Development of Standard Operating Procedures (SOPs)</li>
+                            <li>Protocol</li>
+                            <li>Case Report Form (CRF)</li>
+                            <li>Clinical Study Report</li>
+                            <li>Other Regulatory Documents</li>
+                            <li>Aggregate Safety Reports</li>
+                            <li>Publication</li><br><br>
+                        </ul> -->
+                        <a href="course-scientific-writing.php" class="course_btn">View course details</a>
+                    </div>
+                </div>
+            </div>
 
 
         </div>
 
-      <div class="mt-5">
-            <a href="courses.php" class="main_btn" style="position: absolute; left:665px;">View All Courses</a>
+        <div class="mt-5">
+            <a href="courses.php" class="main_btn" style="position: absolute; left:580px;">View All Courses</a>
         </div>
 
-<style>
-@media (max-width: 768px) {
-  .main_btn {
-    position: relative !important;
-    left: auto !important;
-    display: block;
-    margin: 0 auto;
-  }
-}
-</style>  
+        <style>
+            @media (max-width: 768px) {
+                .main_btn {
+                    position: relative !important;
+                    left: auto !important;
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        </style>
 
     </div>
 </section>
@@ -331,30 +317,33 @@
         <div class="stats_inner">
             <h2 class="stats_title">Our aspects</h2>
             <p class="stats_subtitle">Best Clinical Research, SW & PV Training Providers</p>
-            
-            <div class="stats_grid">
-             <div class="stat_item">
-    <div class="stat_number">12000+</div>
-    <div class="stat_label">Participants</div>
-    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Participants from different countries</p>
-</div>
 
-          <div class="stat_item">
-    <div class="stat_number">200+</div>
-    <div class="stat_label">Cities</div>
-    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Multiple locations across India and Other countries</p>
-</div>
+            <div class="stats_grid">
+                <div class="stat_item">
+                    <!-- <div class="stat_number">12000+</div>
+                    <div class="stat_label">Participants</div>
+                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Participants from different countries</p> -->
+                    <div class="stat_label">Participants from different countries</div>
+                </div>
+
+                <div class="stat_item">
+                    <!-- <div class="stat_number">200+</div>
+                    <div class="stat_label">Cities</div>
+                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Multiple locations across India and Other countries</p> -->
+                    <div class="stat_label">Multiple locations across India and Other countries</div>
+                </div>
 
                 <!-- <div class="stat_item">
                     <div class="stat_number">30+</div>
                     <div class="stat_label">Countries & Counting</div>
                     <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Global Outreach</p>
                 </div> -->
-              <div class="stat_item">
-    <div class="stat_number">10+</div>
-    <div class="stat_label">Years Experience</div>
-    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Course materials from industrial experts having 10+ years experience</p>
-</div>
+                <div class="stat_item">
+                    <!-- <div class="stat_number">10+</div>
+                    <div class="stat_label">Years Experience</div>
+                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Course materials from industrial experts having 10+ years experience</p> -->
+                    <div class="stat_label">Course materials from industrial experts having 10+ years experience</div>
+                </div>
 
             </div>
         </div>
@@ -448,7 +437,7 @@
 <!--================End Team Area =================-->
 
 <!--================Latest Cynture Global =================-->
-    <!-- <section class="latest_blog_area p_120">
+<!-- <section class="latest_blog_area p_120">
         <div class="container">
             <div class="main_title">
                 <h2>Essential Knowledge Areas in Pharmacovigilance and Clinical Research</h2>

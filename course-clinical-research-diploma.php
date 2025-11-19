@@ -1,4 +1,5 @@
 <?php include 'includes/header.php'; ?>
+<link rel="stylesheet" href="css/course-details-enhanced.css">
         
         <!--================Home Banner Area =================-->
         <section class="banner_area">
@@ -26,17 +27,18 @@
       <div class="col-lg-8">
         <div class="c_details_img">
           <img class="img-fluid" src="img/courses/course-3.jpg" alt="Professional Diploma in Clinical Research">
+          <div class="course_badge_overlay">Diploma Program</div>
         </div>
 
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" id="objectives-tab" data-toggle="tab" href="#objectives" role="tab" aria-controls="objectives" aria-selected="true">Course Objectives</a>
+            <a class="nav-link active" id="objectives-tab" data-toggle="tab" href="#objectives" role="tab" aria-controls="objectives" aria-selected="true">🎯 Course Objectives</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="eligibility-tab" data-toggle="tab" href="#eligibility" role="tab" aria-controls="eligibility" aria-selected="false">Eligibility</a>
+            <a class="nav-link" id="eligibility-tab" data-toggle="tab" href="#eligibility" role="tab" aria-controls="eligibility" aria-selected="false">👥 Eligibility</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="outline-tab" data-toggle="tab" href="#outline" role="tab" aria-controls="outline" aria-selected="false">Course Outline</a>
+            <a class="nav-link" id="outline-tab" data-toggle="tab" href="#outline" role="tab" aria-controls="outline" aria-selected="false">📚 Course Outline</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments" aria-selected="false">Reviews</a>
@@ -92,7 +94,7 @@
           <!-- Course Outline -->
        <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
   <div class="objctive_text">
-    <ul class="list">
+        <ul class="list">
       <li>Introduction to Pharmacovigilance</li>
       <li>History of Pharmacovigilance</li>
       <li>Pharmaceutical Regulatory Agencies and Organizations</li>
@@ -108,7 +110,7 @@
       <li>Aggregate safety reports</li>
       <li>Pharmacovigilance Inspections</li>
       <li>UMC Glossaries</li>
-    </ul>
+      </ul>
   </div>
 </div>
 
@@ -183,7 +185,7 @@
       </div>
 
       <!-- Right Section -->
-      <div class="col-lg-4">
+      <!-- <div class="col-lg-4">
         <div class="c_details_list">
           <ul class="list">
             <li><a href="#">Trainer's Name <span>Dr. P. Kumar</span></a></li>
@@ -197,10 +199,11 @@
           </ul>
           <a class="main_btn" href="#">Enroll Now</a>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
 <!--================ End Course Details Area =================-->
 
+<script src="js/course-details-enhanced.js"></script>
 <?php include 'includes/footer.php'; ?>

@@ -1,0 +1,544 @@
+/* Enhanced Course Details UI Styling */
+
+/* Course Details Container */
+.course_details_area {
+    background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+    padding: 60px 0;
+}
+
+.course_details_inner {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+/* Course Image Enhancement */
+.c_details_img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+    height: 350px;
+}
+
+.c_details_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.c_details_img:hover img {
+    transform: scale(1.05);
+}
+
+/* Course Badge Overlay */
+.course_badge_overlay {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(123, 44, 191, 0.95);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    backdrop-filter: blur(10px);
+}
+
+/* Enhanced Navigation Tabs */
+.nav.nav-tabs {
+    border: none;
+    background: #f8f9ff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav.nav-tabs .nav-item {
+    margin: 0;
+    flex: 1;
+}
+
+.nav.nav-tabs .nav-link {
+    border: none;
+    background: transparent;
+    color: #666;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav.nav-tabs .nav-link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #7b2cbf 0%, #9b5cf6 100%);
+    transition: left 0.3s ease;
+    z-index: -1;
+}
+
+.nav.nav-tabs .nav-link.active,
+.nav.nav-tabs .nav-link:hover {
+    color: #fff;
+    background: linear-gradient(135deg, #7b2cbf 0%, #9b5cf6 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(123, 44, 191, 0.3);
+}
+
+.nav.nav-tabs .nav-link.active:before,
+.nav.nav-tabs .nav-link:hover:before {
+    left: 0;
+}
+
+/* Tab Content Enhancement */
+.tab-content {
+    background: #fff;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+}
+
+.objctive_text {
+    padding: 40px;
+    border: none;
+    background: #fff;
+}
+
+.objctive_text h4 {
+    color: #222;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.objctive_text h4:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(135deg, #7b2cbf 0%, #9b5cf6 100%);
+    border-radius: 2px;
+}
+
+.objctive_text p {
+    color: #666;
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* Enhanced List Styling */
+.objctive_text .list {
+    padding: 0;
+    margin: 30px 0;
+}
+
+.objctive_text .list li {
+    background: #f8f9ff;
+    margin-bottom: 15px;
+    padding: 18px 25px;
+    border-radius: 12px;
+    border-left: 4px solid #7b2cbf;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.objctive_text .list li:before {
+    content: '✓';
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: #7b2cbf;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    transition: left 0.3s ease;
+}
+
+.objctive_text .list li:hover {
+    background: #fff;
+    box-shadow: 0 8px 25px rgba(123, 44, 191, 0.15);
+    transform: translateX(10px);
+    padding-left: 60px;
+}
+
+.objctive_text .list li:hover:before {
+    left: 20px;
+}
+
+.objctive_text .list li a {
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.objctive_text .list li:hover a {
+    color: #7b2cbf;
+}
+
+/* Course Outline Special Styling */
+#outline .objctive_text .list li {
+    background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+    border-left: 4px solid #7b2cbf;
+    position: relative;
+    counter-increment: course-counter;
+}
+
+#outline .objctive_text .list {
+    counter-reset: course-counter;
+}
+
+#outline .objctive_text .list li:before {
+    content: counter(course-counter);
+    position: absolute;
+    left: -45px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(135deg, #7b2cbf 0%, #9b5cf6 100%);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(123, 44, 191, 0.3);
+}
+
+#outline .objctive_text .list li:hover:before {
+    left: 15px;
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* Comments Section Enhancement */
+.comments-area {
+    background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+    border: none;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.comments-area h4 {
+    color: #222;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.comments-area h4:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(135deg, #7b2cbf 0%, #9b5cf6 100%);
+    border-radius: 2px;
+}
+
+/* Comment Item Enhancement */
+.comment-list {
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.comment-list:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.single-comment .thumb {
+    margin-right: 20px;
+}
+
+.single-comment .thumb img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #7b2cbf;
+    object-fit: cover;
+}
+
+.single-comment .desc h5 {
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.single-comment .desc h5 a {
+    color: #222;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.single-comment .desc h5 a:hover {
+    color: #7b2cbf;
+}
+
+.single-comment .date {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.single-comment .comment {
+    color: #666;
+    line-height: 1.7;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Comment Form Enhancement */
+.comment-form {
+    background: linear-gradient(135deg, #7b2cbf 0%, #9b5cf6 100%);
+    border: none;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.comment-form h4 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.comment-form .form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 15px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.comment-form .form-control:focus {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.comment-form .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.comment-form .submit_btn {
+    background: #fff;
+    color: #7b2cbf;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 40px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.comment-form .submit_btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .course_details_inner {
+        margin: 15px;
+        border-radius: 15px;
+    }
+    
+    .c_details_img {
+        height: 250px;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .nav.nav-tabs {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .nav.nav-tabs .nav-item {
+        margin-bottom: 10px;
+    }
+    
+    .nav.nav-tabs .nav-link {
+        padding: 12px 15px;
+        text-align: center;
+    }
+    
+    .objctive_text {
+        padding: 25px 20px;
+    }
+    
+    .objctive_text h4 {
+        font-size: 20px;
+    }
+    
+    .objctive_text .list li {
+        padding: 15px 20px;
+        margin-bottom: 12px;
+    }
+    
+    .objctive_text .list li:hover {
+        padding-left: 50px;
+    }
+    
+    .comments-area,
+    .comment-form {
+        padding: 25px 20px;
+        margin: 20px 15px;
+    }
+    
+    .single-comment .thumb {
+        margin-right: 15px;
+    }
+    
+    .single-comment .thumb img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .course_details_area {
+        padding: 30px 0;
+    }
+    
+    .c_details_img {
+        height: 200px;
+    }
+    
+    .objctive_text h4 {
+        font-size: 18px;
+    }
+    
+    .objctive_text p {
+        font-size: 14px;
+    }
+    
+    .objctive_text .list li {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+    
+    .comments-area h4,
+    .comment-form h4 {
+        font-size: 22px;
+    }
+    
+    .single-comment .desc h5 {
+        font-size: 16px;
+    }
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply animations */
+.course_details_inner {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.nav.nav-tabs .nav-link {
+    animation: slideInRight 0.4s ease-out;
+}
+
+.objctive_text .list li {
+    animation: fadeInUp 0.4s ease-out;
+}
+
+/* Loading animation for tabs */
+.tab-pane {
+    animation: fadeInUp 0.3s ease-out;
+}
+
+/* Hover effects for better interactivity */
+.course_details_inner:hover {
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+}
+
+/* Enhanced scrollbar for better UX */
+.objctive_text::-webkit-scrollbar {
+    width: 6px;
+}
+
+.objctive_text::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.objctive_text::-webkit-scrollbar-thumb {
+    background: #7b2cbf;
+    border-radius: 3px;
+}
+
+.objctive_text::-webkit-scrollbar-thumb:hover {
+    background: #5a1d91;
+}

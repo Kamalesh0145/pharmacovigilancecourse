@@ -142,20 +142,83 @@
             text-transform: uppercase;
         }
         
+        .category-section {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .category-section:hover {
+            box-shadow: 0 8px 25px rgba(123, 44, 191, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        .category-header {
+            background: linear-gradient(135deg, #7b2cbf 0%, #5a1d91 100%);
+            color: #fff;
+            padding: 20px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .category-header h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .product-count {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .products-grid {
+            padding: 20px 25px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 12px;
+        }
+        
+        .product-item {
+            background: #f8f9ff;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #333;
+            border-left: 4px solid #7b2cbf;
+            transition: all 0.3s ease;
+        }
+        
+        .product-item:hover {
+            background: #e8ebff;
+            transform: translateX(5px);
+        }
+        
         @media (max-width: 768px) {
-            .pharma-table-container {
-                overflow-x: auto;
-            }
-            
-            .pharma-table th,
-            .pharma-table td {
-                padding: 10px 15px;
-                font-size: 13px;
-            }
-            
-            .table-stats {
+            .category-header {
                 flex-direction: column;
                 gap: 10px;
+                text-align: center;
+            }
+            
+            .products-grid {
+                grid-template-columns: 1fr;
+                padding: 15px 20px;
+            }
+            
+            .product-item {
+                font-size: 13px;
+                padding: 10px 14px;
             }
         }
     </style>
@@ -163,20 +226,23 @@
 <body>
     <?php include 'includes/header.php'; ?>
     
-    <section class="banner_area">
-        <div class="banner_inner d-flex align-items-center">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="banner_content text-center">
-                    <h2>Pharmaceutical Elements Database</h2>
-                    <div class="page_link">
-                        <a href="index.php">Home</a>
-                        <a href="elements.php">Elements</a>
-                    </div>
-                </div>
-            </div>
+  <section class="banner_area">
+  <div class="banner_inner d-flex align-items-center">
+    <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+    <div class="container">
+      <div class="banner_content text-center">
+        <h2>products</h2>
+        <div class="page_link">
+          <a href="index.php">Home</a>
+          <a href="elements.php">products</a>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
     <style>
   .healthcare-section {
@@ -201,29 +267,67 @@
 
   .health-card {
     background: #ffffff;
-    padding: 30px;
-    border-radius: 16px;
-    box-shadow: 0px 4px 20px rgba(0,0,0,0.08);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     margin-bottom: 20px;
+    border-left: 5px solid #7b2cbf;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .health-card:hover {
+    box-shadow: 0 8px 25px rgba(123, 44, 191, 0.15);
+    transform: translateY(-3px);
+  }
+
+  .health-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(135deg, #7b2cbf 0%, #5a1d91 100%);
   }
 
   .health-card h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
-    margin-bottom: 15px;
-    color: #444;
+    margin-bottom: 18px;
+    color: #7b2cbf;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .health-card h3::before {
+    content: '💊';
+    font-size: 18px;
   }
 
   .health-card ul {
     margin: 0;
-    padding-left: 18px;
+    padding-left: 0;
+    list-style: none;
   }
 
   .health-card ul li {
-    margin-bottom: 6px;
-    font-size: 15px;
+    margin-bottom: 8px;
+    font-size: 14px;
     line-height: 1.6;
-    color: #333;
+    color: #555;
+    padding: 8px 12px;
+    background: #f8f9ff;
+    border-radius: 6px;
+    border-left: 3px solid #7b2cbf;
+    transition: all 0.2s ease;
+  }
+
+  .health-card ul li:hover {
+    background: #e8ebff;
+    transform: translateX(5px);
   }
  table td.sno-cell,
 table th.sno-cell {
@@ -315,6 +419,9 @@ table th.sno-cell {
     <!-- Card 8 -->
     <div class="health-card">
       <h3>All Types of Herbs & Herbal Products</h3>
+      <ul>
+        <li>Comprehensive herbal product database</li>
+      </ul>
     </div>
 
   </div>
@@ -324,226 +431,321 @@ table th.sno-cell {
     <section class="p_120">
         <div class="container">
             <div class="main_title">
-                <h2>Healthcare & Pharmaceutical Products</h2>
-                <p>Comprehensive database of pharmaceutical drugs, nutraceuticals, vitamins, minerals, and herbal products organized by therapeutic categories for pharmacovigilance studies and clinical research.</p>
+                <h2>Pharmaceutical Categories Database</h2>
+                <p>Comprehensive database organized by therapeutic categories for pharmacovigilance studies and clinical research.</p>
             </div>
             
-            <div class="pharma-table-container">
-                <div class="table-header">
-                    <h2><i class="fa fa-pills"></i> Drug Categories & Products</h2>
+            <div class="search-container">
+                <input type="text" class="search-input" id="searchInput" placeholder="Search by category or drug name...">
+                <i class="fa fa-search search-icon"></i>
+            </div>
+            
+            <!-- Vitamins & Minerals Category -->
+            <div class="category-section" data-category="vitamins-minerals">
+                <div class="category-header">
+                    <h3><i class="fa fa-capsules"></i> Vitamins & Minerals</h3>
+                    <span class="product-count">14 Products</span>
                 </div>
-                
-                <div class="table-stats">
-                    <div class="stat-item">
-                        <div class="stat-number" id="totalCategories">0</div>
-                        <div class="stat-label">Categories</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" id="totalDrugs">0</div>
-                        <div class="stat-label">Total Products</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" id="filteredResults">0</div>
-                        <div class="stat-label">Showing</div>
-                    </div>
+                <div class="products-grid">
+                    <div class="product-item">Vitamin A (Palmitate)</div>
+                    <div class="product-item">Vitamin A (Acetate)</div>
+                    <div class="product-item">Vitamin A (Beta Carotene)</div>
+                    <div class="product-item">Vitamin A & D Combinations</div>
+                    <div class="product-item">Vitamin E (Natural)</div>
+                    <div class="product-item">Vitamin E (Synthetic)</div>
+                    <div class="product-item">Vitamin E (Water Dispersible)</div>
+                    <div class="product-item">Vitamin E (Mixed Tocopherols)</div>
+                    <div class="product-item">Vitamin B1</div>
+                    <div class="product-item">Vitamin B2</div>
+                    <div class="product-item">Vitamin B6</div>
+                    <div class="product-item">Vitamin B12</div>
+                    <div class="product-item">Nicotinamide</div>
+                    <div class="product-item">Calcium Pantothenate</div>
                 </div>
-                
-                <div class="search-container">
-                    <input type="text" class="search-input" id="searchInput" placeholder="Search by category or drug name...">
-                    <i class="fa fa-search search-icon"></i>
+            </div>
+            
+            <!-- Herbal Concentrates Category -->
+            <div class="category-section" data-category="herbal-concentrates">
+                <div class="category-header">
+                    <h3><i class="fa fa-leaf"></i> Herbal Concentrates</h3>
+                    <span class="product-count">13 Products</span>
                 </div>
-                
-                <table class="pharma-table" id="pharmaTable">
-                    <thead>
-                        <tr>
-                             <th>Si No</th>
-                            <th>Category</th>
-                            <th>Drug Name</th>
-                           
-                        </tr>
-                    </thead>
-                    <tbody>
-
-
-                        <!-- HEALTHCARE: NUTRACEUTICALS -->
-                        <!-- 1. Vitamins & Minerals -->
-                        <tr><td class="sno-cell">1</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin A (Palmitate)</td></tr>
-                        <tr><td class="sno-cell">2</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin A (Acetate)</td></tr>
-                        <tr><td class="sno-cell">3</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin A (Beta Carotene)</td></tr>
-                        <tr><td class="sno-cell">4</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin A & D Combinations</td></tr>
-                        <tr><td class="sno-cell">5</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin E (Natural)</td></tr>
-                        <tr><td class="sno-cell">6</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin E (Synthetic)</td></tr>
-                        <tr><td class="sno-cell">7</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin E (Water Dispersible)</td></tr>
-                        <tr><td class="sno-cell">8</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin E (Mixed Tocopherols)</td></tr>
-                        <tr><td class="sno-cell">9</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin B1</td></tr>
-                        <tr><td class="sno-cell">10</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin B2</td></tr>
-                        <tr><td class="sno-cell">11</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin B6</td></tr>
-                        <tr><td class="sno-cell">12</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Vitamin B12</td></tr>
-                        <tr><td class="sno-cell">13</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Nicotinamide</td></tr>
-                        <tr><td class="sno-cell">14</td><td class="category-cell">VITAMINS & MINERALS</td><td class="drug-cell">Calcium Pantothenate</td></tr>
-                        
-                        <!-- 2. Herbal Concentrate Products -->
-                        <tr><td class="sno-cell">15</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Garlic Oil</td></tr>
-                        <tr><td class="sno-cell">16</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Odourless Garlic Extracts</td></tr>
-                        <tr><td class="sno-cell">17</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Aloe Vera</td></tr>
-                        <tr><td class="sno-cell">18</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Bilberry</td></tr>
-                        <tr><td class="sno-cell">19</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Korean Ginseng</td></tr>
-                        <tr><td class="sno-cell">20</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Siberian Ginseng</td></tr>
-                        <tr><td class="sno-cell">21</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Milk Thistle</td></tr>
-                        <tr><td class="sno-cell">22</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Grape Seed</td></tr>
-                        <tr><td class="sno-cell">23</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Green Tea</td></tr>
-                        <tr><td class="sno-cell">24</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Ginkgo Biloba</td></tr>
-                        <tr><td class="sno-cell">25</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Lutein</td></tr>
-                        <tr><td class="sno-cell">26</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Cranberry</td></tr>
-                        <tr><td class="sno-cell">27</td><td class="category-cell">HERBAL CONCENTRATES</td><td class="drug-cell">Juniper Berry</td></tr>
-                        
-                        <!-- 3. Essential Fatty Acids -->
-                        <tr><td class="sno-cell">27</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Flaxseed</td></tr>
-                        <tr><td class="sno-cell">28</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Evening Primrose</td></tr>
-                        <tr><td class="sno-cell">29</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Pumpkin Seed</td></tr>
-                        <tr><td class="sno-cell">30</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Safflower</td></tr>
-                        <tr><td class="sno-cell">31</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Sunflower</td></tr>
-                        <tr><td class="sno-cell">32</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Coconut</td></tr>
-                        <tr><td class="sno-cell">33</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Rice Bran</td></tr>
-                        <tr><td class="sno-cell">34</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Avocado</td></tr>
-                        <tr><td class="sno-cell">35</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Oregano</td></tr>
-                        <tr><td class="sno-cell">36</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Black Currant</td></tr>
-                        <tr><td class="sno-cell">37</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Borage</td></tr>
-                        <tr><td class="sno-cell">38</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Hemp</td></tr>
-                        <tr><td class="sno-cell">39</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Perilla</td></tr>
-                        <tr><td class="sno-cell">40</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Pomegranate</td></tr>
-                        <tr><td class="sno-cell">41</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Peppermint</td></tr>
-                        <tr><td class="sno-cell">42</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Fennel</td></tr>
-                        <tr><td class="sno-cell">43</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Ginger</td></tr>
-                        <tr><td class="sno-cell">44</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Wheat Germ</td></tr>
-                        <tr><td class="sno-cell">45</td><td class="category-cell">ESSENTIAL FATTY ACIDS</td><td class="drug-cell">Sea Buckthorn</td></tr>
-                        
-                        <!-- 4. Marine Lipid Concentrates -->
-                        <tr><td class="sno-cell">46</td><td class="category-cell">MARINE LIPID CONCENTRATES</td><td class="drug-cell">Fish Oils (EPA/DHA variants)</td></tr>
-                        <tr><td class="sno-cell">47</td><td class="category-cell">MARINE LIPID CONCENTRATES</td><td class="drug-cell">Cod Liver</td></tr>
-                        <tr><td class="sno-cell">48</td><td class="category-cell">MARINE LIPID CONCENTRATES</td><td class="drug-cell">Salmon</td></tr>
-                        <tr><td class="sno-cell">49</td><td class="category-cell">MARINE LIPID CONCENTRATES</td><td class="drug-cell">Tuna</td></tr>
-                        <tr><td class="sno-cell">50</td><td class="category-cell">MARINE LIPID CONCENTRATES</td><td class="drug-cell">Krill</td></tr>
-                        <tr><td class="sno-cell">51</td><td class="category-cell">MARINE LIPID CONCENTRATES</td><td class="drug-cell">Squalene</td></tr>
-                        <tr><td class="sno-cell">52</td><td class="category-cell">MARINE LIPID CONCENTRATES</td><td class="drug-cell">Shark Liver</td></tr>
-                        <tr><td class="sno-cell">53</td><td class="category-cell">MARINE LIPID CONCENTRATES</td><td class="drug-cell">Seal Oil</td></tr>
-                        
-                        <!-- 5. Speciality Products -->
-                        <tr><td class="sno-cell">54</td><td class="category-cell">SPECIALITY PRODUCTS</td><td class="drug-cell">Co-Enzyme Q10 variants</td></tr>
-                        <tr><td class="sno-cell">55</td><td class="category-cell">SPECIALITY PRODUCTS</td><td class="drug-cell">Collagen</td></tr>
-                        <tr><td class="sno-cell">56</td><td class="category-cell">SPECIALITY PRODUCTS</td><td class="drug-cell">Hyaluronic Acid</td></tr>
-                        <tr><td class="sno-cell">57</td><td class="category-cell">SPECIALITY PRODUCTS</td><td class="drug-cell">Lycopene</td></tr>
-                        <tr><td class="sno-cell">58</td><td class="category-cell">SPECIALITY PRODUCTS</td><td class="drug-cell">Glucosamine-Chondroitin</td></tr>
-                        <tr><td class="sno-cell">59</td><td class="category-cell">SPECIALITY PRODUCTS</td><td class="drug-cell">Nattokinase</td></tr>
-                        <tr><td class="sno-cell">60</td><td class="category-cell">SPECIALITY PRODUCTS</td><td class="drug-cell">Policosanol</td></tr>
-                        <tr><td class="sno-cell">61</td><td class="category-cell">SPECIALITY PRODUCTS</td><td class="drug-cell">Red Yeast Extract</td></tr>
-                        <tr><td class="sno-cell">62</td><td class="category-cell">SPECIALITY PRODUCTS</td><td class="drug-cell">Bee Propolis</td></tr>
-                        <tr><td class="sno-cell">63</td><td class="category-cell">SPECIALITY PRODUCTS</td><td class="drug-cell">Royal Jelly</td></tr>
-                        
-                        <!-- 6. Calcitriol & Calcium Capsules -->
-                        <tr><td class="sno-cell">64</td><td class="category-cell">CALCITRIOL & CALCIUM</td><td class="drug-cell">Vitamin D3</td></tr>
-                        <tr><td class="sno-cell">65</td><td class="category-cell">CALCITRIOL & CALCIUM</td><td class="drug-cell">Calcium Carbonate</td></tr>
-                        <tr><td class="sno-cell">66</td><td class="category-cell">CALCITRIOL & CALCIUM</td><td class="drug-cell">Zinc</td></tr>
-                        <tr><td class="sno-cell">67</td><td class="category-cell">CALCITRIOL & CALCIUM</td><td class="drug-cell">Supporting Minerals</td></tr>
-                        
-                        <!-- 7. Multivitamins & Multiminerals -->
-                        <tr><td class="sno-cell">70</td><td class="category-cell">MULTIVITAMINS & MULTIMINERALS</td><td class="drug-cell">Basic Formulations</td></tr>
-                        <tr><td class="sno-cell">71</td><td class="category-cell">MULTIVITAMINS & MULTIMINERALS</td><td class="drug-cell">Advanced Blends with Herbal Extracts</td></tr>
-                        <tr><td class="sno-cell">72</td><td class="category-cell">MULTIVITAMINS & MULTIMINERALS</td><td class="drug-cell">Amino Acids</td></tr>
-                        <tr><td class="sno-cell">73</td><td class="category-cell">MULTIVITAMINS & MULTIMINERALS</td><td class="drug-cell">Antioxidants</td></tr>
-                        <tr><td class="sno-cell">74</td><td class="category-cell">MULTIVITAMINS & MULTIMINERALS</td><td class="drug-cell">Trace Elements</td></tr>
-                        
-                        <!-- 8. All types of herbs and herbal products -->
-                        <tr><td class="sno-cell">75</td><td class="category-cell">HERBAL PRODUCTS</td><td class="drug-cell">All Types of Herbs</td></tr>
-                        <tr><td class="sno-cell">76</td><td class="category-cell">HERBAL PRODUCTS</td><td class="drug-cell">Herbal Products</td></tr>
-                        
-                        <!-- PHARMACEUTICALS -->
-                        <tr><td class="sno-cell">77</td><td class="category-cell">PHARMACEUTICALS</td><td class="drug-cell">Pharmaceutical Products (included, but not limited to)</td></tr>
-                        <tr><td class="sno-cell">78</td><td class="category-cell">Anti cough</td><td class="drug-cell">Ambroxol + carbocistene</td></tr>
-                        <tr><td class="sno-cell">79</td><td class="category-cell">Anti cough</td><td class="drug-cell">Paracetamol + CPM + Cetirizine + Detromethorphan HBR</td></tr>
-                        <tr><td class="sno-cell">80</td><td class="category-cell">Anti cough</td><td class="drug-cell">Levocet + phenyleph + Ambroxol HCL + Guaiphenesin</td></tr>
-                        <tr><td class="sno-cell">81</td><td class="category-cell">Anti cough</td><td class="drug-cell">Ambroxol + salbutamol + guaiphenesin</td></tr>
-                        <tr><td class="sno-cell">82</td><td class="category-cell">Anti cough</td><td class="drug-cell">Cetirizine + Phenylephrine + Menthol + Dextromethorphan Hydrobromide</td></tr>
-                        <tr><td class="sno-cell">83</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Glibenclamide + Metformin hydrochloride</td></tr>
-                        <tr><td class="sno-cell">84</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">GLIMEPRIDE + Metformin hydrochloride HCL</td></tr>
-                        <tr><td class="sno-cell">85</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">GLIPIZIDE</td></tr>
-                        <tr><td class="sno-cell">86</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">GLIPIZIDE + METFORMIN HYDROCHLORIDE</td></tr>
-                        <tr><td class="sno-cell">87</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">PIOGLITAZONE HYDROCHLORIDE + METFORMIN HYDROCHLORIDE</td></tr>
-                        <tr><td class="sno-cell">88</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">METFORMIN HYDROCHLORIDE</td></tr>
-                        <tr><td class="sno-cell">89</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">PIOGLITAZONE + METFORMIN</td></tr>
-                        <tr><td class="sno-cell">90</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">GLIMEPRIDE + PIOGLITAZONE + METFORMIN</td></tr>
-                        <tr><td class="sno-cell">91</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">GLIMEPRIDE + PIOGLITAZONE</td></tr>
-                        <tr><td class="sno-cell">92</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Glimepride + Metformin</td></tr>
-                        <tr><td class="sno-cell">93</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Rosiglitazone + Metformin</td></tr>
-                        <tr><td class="sno-cell">94</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Metformin + Glimepride + Rosiglitazone</td></tr>
-                        <tr><td class="sno-cell">95</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Rosiglitazone + Gliclazide</td></tr>
-                        <tr><td class="sno-cell">96</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Acarbose</td></tr>
-                        <tr><td class="sno-cell">97</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Gliclazide + Metformin</td></tr>
-                        <tr><td class="sno-cell">98</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Metformin + Mecobalamin</td></tr>
-                        <tr><td class="sno-cell">99</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Glimepride Tablets</td></tr>
-                        <tr><td class="sno-cell">100</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Glimepiride + Metformin hydrochloride</td></tr>
-                        <tr><td class="sno-cell">101</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Pioglitazone HCL + Metformin HCL</td></tr>
-                        <tr><td class="sno-cell">102</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Glimepiride, Pioglitazone & Metformin HCL SR</td></tr>
-                        <tr><td class="sno-cell">103</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Pioglitazone + Metformin SR + Glimepiride</td></tr>
-                        <tr><td class="sno-cell">104</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Pioglitazone hydrochloride</td></tr>
-                        <tr><td class="sno-cell">105</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Pioglitazone HCL + Metformin HCL + Glimepiride</td></tr>
-                        <tr><td class="sno-cell">106</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Rosiglitazone maleate</td></tr>
-                        <tr><td class="sno-cell">107</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Glimepiride Pioglitazone & Metformin HCL SR</td></tr>
-                        <tr><td class="sno-cell">108</td><td class="category-cell">Anti diabetic</td><td class="drug-cell">Metformin HCL SR + Pioglitazone + Glibenclamide</td></tr>
-                        <tr><td class="sno-cell">109</td><td class="category-cell">Anti Emetic</td><td class="drug-cell">Mosapride</td></tr>
-                        <tr><td class="sno-cell">110</td><td class="category-cell">Anti Emetic</td><td class="drug-cell">Domperidone</td></tr>
-                        <tr><td class="sno-cell">111</td><td class="category-cell">Anti Emetic</td><td class="drug-cell">Granisetron</td></tr>
-                        <tr><td class="sno-cell">112</td><td class="category-cell">Anti Emetic</td><td class="drug-cell">Ondensteron + Paracetamol</td></tr>
-                        <tr><td class="sno-cell">113</td><td class="category-cell">Anti fungal</td><td class="drug-cell">CLOTRIMAZOLE CREAM</td></tr>
-                        <tr><td class="sno-cell">114</td><td class="category-cell">Anti fungal</td><td class="drug-cell">Fluconazole</td></tr>
-                        <tr><td class="sno-cell">115</td><td class="category-cell">Anti histaminic</td><td class="drug-cell">Levocetrizine + Phenylepherine HCL</td></tr>
-                        <tr><td class="sno-cell">116</td><td class="category-cell">Anti histaminic</td><td class="drug-cell">Paracetamol + Levocetrizine + Phenylepherine</td></tr>
-                        <tr><td class="sno-cell">117</td><td class="category-cell">Anti histaminic</td><td class="drug-cell">Fexofenadine</td></tr>
-                        <tr><td class="sno-cell">118</td><td class="category-cell">Anti histaminic</td><td class="drug-cell">Diephen hydramine HCL + Ammonium Cl + Sodium Cit.</td></tr>
-                        <tr><td class="sno-cell">119</td><td class="category-cell">Anti histaminic</td><td class="drug-cell">Levocetrizine</td></tr>
-                        <tr><td class="sno-cell">120</td><td class="category-cell">Anti histaminic</td><td class="drug-cell">Cypropheptadine</td></tr>
-                        <tr><td class="sno-cell">121</td><td class="category-cell">Anti histaminic</td><td class="drug-cell">Phenylepherine + Chlorphenyramine Maleate</td></tr>
-                        <tr><td class="sno-cell">122</td><td class="category-cell">Anti histaminic</td><td class="drug-cell">Levocetrizine Dihydrochloride</td></tr>
-                        <tr><td class="sno-cell">123</td><td class="category-cell">Anti histaminic</td><td class="drug-cell">Montelukast Sodium</td></tr>
-                        <tr><td class="sno-cell">124</td><td class="category-cell">Anti histaminic</td><td class="drug-cell">Levocertirizine</td></tr>
-                        <tr><td class="sno-cell">125</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">METOPROLOL SUCCINATE USP</td></tr>
-                        <tr><td class="sno-cell">126</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Telmisartan</td></tr>
-                        <tr><td class="sno-cell">127</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">TELMISARTAN + HYDROCHLOROTHIAZIDE</td></tr>
-                        <tr><td class="sno-cell">128</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Metroprolol</td></tr>
-                        <tr><td class="sno-cell">129</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Metroprolol + Amlodipine</td></tr>
-                        <tr><td class="sno-cell">130</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Esamlodipine + Atendol</td></tr>
-                        <tr><td class="sno-cell">131</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Esamlodipine + Losartan Potassium</td></tr>
-                        <tr><td class="sno-cell">132</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Losartan Potassium</td></tr>
-                        <tr><td class="sno-cell">133</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Metoprolol Hydrochlorthiazide</td></tr>
-                        <tr><td class="sno-cell">134</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Metoprolol Succinate</td></tr>
-                        <tr><td class="sno-cell">135</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Metoprolol + Amlodipine</td></tr>
-                        <tr><td class="sno-cell">136</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Amlodipine + Bisoprolol</td></tr>
-                        <tr><td class="sno-cell">137</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Losartan + HTZ</td></tr>
-                        <tr><td class="sno-cell">138</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Amlodipine Besilate</td></tr>
-                        <tr><td class="sno-cell">139</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Amlodipine + Benazepril</td></tr>
-                        <tr><td class="sno-cell">140</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Amlodipine + Losartan Potassium</td></tr>
-                        <tr><td class="sno-cell">141</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Amiodarone Tablet IP</td></tr>
-                        <tr><td class="sno-cell">142</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Ramipril</td></tr>
-                        <tr><td class="sno-cell">143</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Ramipril + Amlodipine</td></tr>
-                        <tr><td class="sno-cell">144</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Metoprolol Succinate Extended Release</td></tr>
-                        <tr><td class="sno-cell">145</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Metroprolol Succinate ER and Amlodipine Tablets</td></tr>
-                        <tr><td class="sno-cell">146</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Amlodipine</td></tr>
-                        <tr><td class="sno-cell">147</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Telmisartan + Amlodipine</td></tr>
-                        <tr><td class="sno-cell">148</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Losartan Potassium + Amlodipine</td></tr>
-                        <tr><td class="sno-cell">149</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">S(-) Amlodipine Besilate Tablets</td></tr>
-                        <tr><td class="sno-cell">150</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Atorvastatin & Amlodipine Tablets</td></tr>
-                        <tr><td class="sno-cell">151</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Losartan Potassium and Ramipril</td></tr>
-                        <tr><td class="sno-cell">152</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Metroprolol Succinate (ER) and Amlodipine Besilate</td></tr>
-                        <tr><td class="sno-cell">153</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Metroprolol Succinate (ER) and Hydrochlorothiazide</td></tr>
-                        <tr><td class="sno-cell">154</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Ramipril & Hydrochlorothiazide</td></tr>
-                        <tr><td class="sno-cell">155</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Propranolol HCL Sustained Release</td></tr>
-                        <tr><td class="sno-cell">156</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Nifedipine Sustained Release</td></tr>
-                        <tr><td class="sno-cell">157</td><td class="category-cell">Anti hypertensive</td><td class="drug-cell">Metoprolol Succinate (ER) and Amlodipine Besilate</td></tr>
-                        <tr><td class="sno-cell">158</td><td class="category-cell">Anti Ilipedimic</td><td class="drug-cell">Atorvastatin</td></tr>
-                        <tr><td class="sno-cell">159</td><td class="category-cell">Anti Ilipedimic</td><td class="drug-cell">Atorvastatin + Ezetimibe</td></tr>
-                        <tr><td class="sno-cell">160</td><td class="category-cell">Anti Ilipedimic</td><td class="drug-cell">Atorvastatin + Fenofibrate</td></tr>
-                    </tbody>
-                </table>
+                <div class="products-grid">
+                    <div class="product-item">Garlic Oil</div>
+                    <div class="product-item">Odourless Garlic Extracts</div>
+                    <div class="product-item">Aloe Vera</div>
+                    <div class="product-item">Bilberry</div>
+                    <div class="product-item">Korean Ginseng</div>
+                    <div class="product-item">Siberian Ginseng</div>
+                    <div class="product-item">Milk Thistle</div>
+                    <div class="product-item">Grape Seed</div>
+                    <div class="product-item">Green Tea</div>
+                    <div class="product-item">Ginkgo Biloba</div>
+                    <div class="product-item">Lutein</div>
+                    <div class="product-item">Cranberry</div>
+                    <div class="product-item">Juniper Berry</div>
+                </div>
+            </div>
+            
+            <!-- Essential Fatty Acids Category -->
+            <div class="category-section" data-category="essential-fatty-acids">
+                <div class="category-header">
+                    <h3><i class="fa fa-seedling"></i> Essential Fatty Acids</h3>
+                    <span class="product-count">19 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">Flaxseed</div>
+                    <div class="product-item">Evening Primrose</div>
+                    <div class="product-item">Pumpkin Seed</div>
+                    <div class="product-item">Safflower</div>
+                    <div class="product-item">Sunflower</div>
+                    <div class="product-item">Coconut</div>
+                    <div class="product-item">Rice Bran</div>
+                    <div class="product-item">Avocado</div>
+                    <div class="product-item">Oregano</div>
+                    <div class="product-item">Black Currant</div>
+                    <div class="product-item">Borage</div>
+                    <div class="product-item">Hemp</div>
+                    <div class="product-item">Perilla</div>
+                    <div class="product-item">Pomegranate</div>
+                    <div class="product-item">Peppermint</div>
+                    <div class="product-item">Fennel</div>
+                    <div class="product-item">Ginger</div>
+                    <div class="product-item">Wheat Germ</div>
+                    <div class="product-item">Sea Buckthorn</div>
+                </div>
+            </div>
+            
+            <!-- Marine Lipid Concentrates Category -->
+            <div class="category-section" data-category="marine-lipids">
+                <div class="category-header">
+                    <h3><i class="fa fa-fish"></i> Marine Lipid Concentrates</h3>
+                    <span class="product-count">8 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">Fish Oils (EPA/DHA variants)</div>
+                    <div class="product-item">Cod Liver</div>
+                    <div class="product-item">Salmon</div>
+                    <div class="product-item">Tuna</div>
+                    <div class="product-item">Krill</div>
+                    <div class="product-item">Squalene</div>
+                    <div class="product-item">Shark Liver</div>
+                    <div class="product-item">Seal Oil</div>
+                </div>
+            </div>
+            
+            <!-- Specialty Products Category -->
+            <div class="category-section" data-category="specialty-products">
+                <div class="category-header">
+                    <h3><i class="fa fa-star"></i> Specialty Products</h3>
+                    <span class="product-count">10 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">Co-Enzyme Q10 variants</div>
+                    <div class="product-item">Collagen</div>
+                    <div class="product-item">Hyaluronic Acid</div>
+                    <div class="product-item">Lycopene</div>
+                    <div class="product-item">Glucosamine-Chondroitin</div>
+                    <div class="product-item">Nattokinase</div>
+                    <div class="product-item">Policosanol</div>
+                    <div class="product-item">Red Yeast Extract</div>
+                    <div class="product-item">Bee Propolis</div>
+                    <div class="product-item">Royal Jelly</div>
+                </div>
+            </div>
+            
+            <!-- Calcitriol & Calcium Category -->
+            <div class="category-section" data-category="calcitriol-calcium">
+                <div class="category-header">
+                    <h3><i class="fa fa-bone"></i> Calcitriol & Calcium</h3>
+                    <span class="product-count">4 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">Vitamin D3</div>
+                    <div class="product-item">Calcium Carbonate</div>
+                    <div class="product-item">Zinc</div>
+                    <div class="product-item">Supporting Minerals</div>
+                </div>
+            </div>
+            
+            <!-- Multivitamins & Multiminerals Category -->
+            <div class="category-section" data-category="multivitamins">
+                <div class="category-header">
+                    <h3><i class="fa fa-tablets"></i> Multivitamins & Multiminerals</h3>
+                    <span class="product-count">5 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">Basic Formulations</div>
+                    <div class="product-item">Advanced Blends with Herbal Extracts</div>
+                    <div class="product-item">Amino Acids</div>
+                    <div class="product-item">Antioxidants</div>
+                    <div class="product-item">Trace Elements</div>
+                </div>
+            </div>
+            
+            <!-- Herbal Products Category -->
+            <div class="category-section" data-category="herbal-products">
+                <div class="category-header">
+                    <h3><i class="fa fa-spa"></i> Herbal Products</h3>
+                    <span class="product-count">2 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">All Types of Herbs</div>
+                    <div class="product-item">Herbal Products</div>
+                </div>
+            </div>
+            
+            <!-- Anti Cough Category -->
+            <div class="category-section" data-category="anti-cough">
+                <div class="category-header">
+                    <h3><i class="fa fa-lungs"></i> Anti Cough</h3>
+                    <span class="product-count">5 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">Ambroxol + carbocistene</div>
+                    <div class="product-item">Paracetamol + CPM + Cetirizine + Detromethorphan HBR</div>
+                    <div class="product-item">Levocet + phenyleph + Ambroxol HCL + Guaiphenesin</div>
+                    <div class="product-item">Ambroxol + salbutamol + guaiphenesin</div>
+                    <div class="product-item">Cetirizine + Phenylephrine + Menthol + Dextromethorphan Hydrobromide</div>
+                </div>
+            </div>
+            
+            <!-- Anti Diabetic Category -->
+            <div class="category-section" data-category="anti-diabetic">
+                <div class="category-header">
+                    <h3><i class="fa fa-heartbeat"></i> Anti Diabetic</h3>
+                    <span class="product-count">31 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">Glibenclamide + Metformin hydrochloride</div>
+                    <div class="product-item">GLIMEPRIDE + Metformin hydrochloride HCL</div>
+                    <div class="product-item">GLIPIZIDE</div>
+                    <div class="product-item">GLIPIZIDE + METFORMIN HYDROCHLORIDE</div>
+                    <div class="product-item">PIOGLITAZONE HYDROCHLORIDE + METFORMIN HYDROCHLORIDE</div>
+                    <div class="product-item">METFORMIN HYDROCHLORIDE</div>
+                    <div class="product-item">PIOGLITAZONE + METFORMIN</div>
+                    <div class="product-item">GLIMEPRIDE + PIOGLITAZONE + METFORMIN</div>
+                    <div class="product-item">GLIMEPRIDE + PIOGLITAZONE</div>
+                    <div class="product-item">Glimepride + Metformin</div>
+                    <div class="product-item">Rosiglitazone + Metformin</div>
+                    <div class="product-item">Metformin + Glimepride + Rosiglitazone</div>
+                    <div class="product-item">Rosiglitazone + Gliclazide</div>
+                    <div class="product-item">Acarbose</div>
+                    <div class="product-item">Gliclazide + Metformin</div>
+                    <div class="product-item">Metformin + Mecobalamin</div>
+                    <div class="product-item">Glimepride Tablets</div>
+                    <div class="product-item">Glimepiride + Metformin hydrochloride</div>
+                    <div class="product-item">Pioglitazone HCL + Metformin HCL</div>
+                    <div class="product-item">Glimepiride, Pioglitazone & Metformin HCL SR</div>
+                    <div class="product-item">Pioglitazone + Metformin SR + Glimepiride</div>
+                    <div class="product-item">Pioglitazone hydrochloride</div>
+                    <div class="product-item">Pioglitazone HCL + Metformin HCL + Glimepiride</div>
+                    <div class="product-item">Rosiglitazone maleate</div>
+                    <div class="product-item">Glimepiride Pioglitazone & Metformin HCL SR</div>
+                    <div class="product-item">Metformin HCL SR + Pioglitazone + Glibenclamide</div>
+                </div>
+            </div>
+            
+            <!-- Anti Emetic Category -->
+            <div class="category-section" data-category="anti-emetic">
+                <div class="category-header">
+                    <h3><i class="fa fa-pills"></i> Anti Emetic</h3>
+                    <span class="product-count">4 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">Mosapride</div>
+                    <div class="product-item">Domperidone</div>
+                    <div class="product-item">Granisetron</div>
+                    <div class="product-item">Ondensteron + Paracetamol</div>
+                </div>
+            </div>
+            
+            <!-- Anti Fungal Category -->
+            <div class="category-section" data-category="anti-fungal">
+                <div class="category-header">
+                    <h3><i class="fa fa-shield-alt"></i> Anti Fungal</h3>
+                    <span class="product-count">2 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">CLOTRIMAZOLE CREAM</div>
+                    <div class="product-item">Fluconazole</div>
+                </div>
+            </div>
+            
+            <!-- Anti Histaminic Category -->
+            <div class="category-section" data-category="anti-histaminic">
+                <div class="category-header">
+                    <h3><i class="fa fa-allergies"></i> Anti Histaminic</h3>
+                    <span class="product-count">10 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">Levocetrizine + Phenylepherine HCL</div>
+                    <div class="product-item">Paracetamol + Levocetrizine + Phenylepherine</div>
+                    <div class="product-item">Fexofenadine</div>
+                    <div class="product-item">Diephen hydramine HCL + Ammonium Cl + Sodium Cit.</div>
+                    <div class="product-item">Levocetrizine</div>
+                    <div class="product-item">Cypropheptadine</div>
+                    <div class="product-item">Phenylepherine + Chlorphenyramine Maleate</div>
+                    <div class="product-item">Levocetrizine Dihydrochloride</div>
+                    <div class="product-item">Montelukast Sodium</div>
+                    <div class="product-item">Levocertirizine</div>
+                </div>
+            </div>
+            
+            <!-- Anti Hypertensive Category -->
+            <div class="category-section" data-category="anti-hypertensive">
+                <div class="category-header">
+                    <h3><i class="fa fa-heart"></i> Anti Hypertensive</h3>
+                    <span class="product-count">33 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">METOPROLOL SUCCINATE USP</div>
+                    <div class="product-item">Telmisartan</div>
+                    <div class="product-item">TELMISARTAN + HYDROCHLOROTHIAZIDE</div>
+                    <div class="product-item">Metroprolol</div>
+                    <div class="product-item">Metroprolol + Amlodipine</div>
+                    <div class="product-item">Esamlodipine + Atendol</div>
+                    <div class="product-item">Esamlodipine + Losartan Potassium</div>
+                    <div class="product-item">Losartan Potassium</div>
+                    <div class="product-item">Metoprolol Hydrochlorthiazide</div>
+                    <div class="product-item">Metoprolol Succinate</div>
+                    <div class="product-item">Metoprolol + Amlodipine</div>
+                    <div class="product-item">Amlodipine + Bisoprolol</div>
+                    <div class="product-item">Losartan + HTZ</div>
+                    <div class="product-item">Amlodipine Besilate</div>
+                    <div class="product-item">Amlodipine + Benazepril</div>
+                    <div class="product-item">Amlodipine + Losartan Potassium</div>
+                    <div class="product-item">Amiodarone Tablet IP</div>
+                    <div class="product-item">Ramipril</div>
+                    <div class="product-item">Ramipril + Amlodipine</div>
+                    <div class="product-item">Metoprolol Succinate Extended Release</div>
+                    <div class="product-item">Metroprolol Succinate ER and Amlodipine Tablets</div>
+                    <div class="product-item">Amlodipine</div>
+                    <div class="product-item">Telmisartan + Amlodipine</div>
+                    <div class="product-item">Losartan Potassium + Amlodipine</div>
+                    <div class="product-item">S(-) Amlodipine Besilate Tablets</div>
+                    <div class="product-item">Atorvastatin & Amlodipine Tablets</div>
+                    <div class="product-item">Losartan Potassium and Ramipril</div>
+                    <div class="product-item">Metroprolol Succinate (ER) and Amlodipine Besilate</div>
+                    <div class="product-item">Metroprolol Succinate (ER) and Hydrochlorothiazide</div>
+                    <div class="product-item">Ramipril & Hydrochlorothiazide</div>
+                    <div class="product-item">Propranolol HCL Sustained Release</div>
+                    <div class="product-item">Nifedipine Sustained Release</div>
+                    <div class="product-item">Metoprolol Succinate (ER) and Amlodipine Besilate</div>
+                </div>
+            </div>
+            
+            <!-- Anti Lipidemic Category -->
+            <div class="category-section" data-category="anti-lipidemic">
+                <div class="category-header">
+                    <h3><i class="fa fa-chart-line"></i> Anti Lipidemic</h3>
+                    <span class="product-count">3 Products</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">Atorvastatin</div>
+                    <div class="product-item">Atorvastatin + Ezetimibe</div>
+                    <div class="product-item">Atorvastatin + Fenofibrate</div>
+                </div>
             </div>
         </div>
     </section>
@@ -559,40 +761,25 @@ table th.sno-cell {
         // Search functionality
         document.getElementById('searchInput').addEventListener('keyup', function() {
             const searchTerm = this.value.toLowerCase();
-            const table = document.getElementById('pharmaTable');
-            const rows = table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
-            let visibleCount = 0;
+            const sections = document.querySelectorAll('.category-section');
             
-            for (let i = 0; i < rows.length; i++) {
-                const category = rows[i].cells[0].textContent.toLowerCase();
-                const drug = rows[i].cells[1].textContent.toLowerCase();
+            sections.forEach(section => {
+                const categoryName = section.querySelector('.category-header h3').textContent.toLowerCase();
+                const products = section.querySelectorAll('.product-item');
+                let hasVisibleProducts = false;
                 
-                if (category.includes(searchTerm) || drug.includes(searchTerm)) {
-                    rows[i].style.display = '';
-                    visibleCount++;
-                } else {
-                    rows[i].style.display = 'none';
-                }
-            }
-            
-            // Update filtered results count
-            document.getElementById('filteredResults').textContent = visibleCount;
-        });
-        
-        // Count unique categories and total drugs on page load
-        document.addEventListener('DOMContentLoaded', function() {
-            const table = document.getElementById('pharmaTable');
-            const rows = table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
-            const categories = new Set();
-            
-            for (let i = 0; i < rows.length; i++) {
-                const category = rows[i].cells[0].textContent.trim();
-                categories.add(category);
-            }
-            
-            document.getElementById('totalCategories').textContent = categories.size;
-            document.getElementById('totalDrugs').textContent = rows.length;
-            document.getElementById('filteredResults').textContent = rows.length;
+                products.forEach(product => {
+                    const productName = product.textContent.toLowerCase();
+                    if (categoryName.includes(searchTerm) || productName.includes(searchTerm)) {
+                        product.style.display = '';
+                        hasVisibleProducts = true;
+                    } else {
+                        product.style.display = 'none';
+                    }
+                });
+                
+                section.style.display = hasVisibleProducts ? '' : 'none';
+            });
         });
     </script>
 </body>
