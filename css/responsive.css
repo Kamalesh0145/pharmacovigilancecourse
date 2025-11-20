@@ -392,15 +392,24 @@
 
 @media (max-width:480px){
 	.top_menu .dn_btn {
-		font-size: 9px;
-		padding: 3px 6px;
-		margin-right: 5px;
+		font-size: 5px;
+		padding: 0px 0px;
+		margin-right: 0px;
 	}
 	.top_menu .dn_btn:last-child {
 		margin-right: 0;
 	}
 }
-
+@media (max-width:480px){
+	.top_menu .dn_btn {
+		font-size: 5px;
+		padding: 0px 0px;
+		margin-right: 0px;
+	}
+	.top_menu .dn_btn:last-child {
+		margin-right: 0;
+	}
+}
 @media (max-width:575px){
 	.top_menu {
 		display: block;

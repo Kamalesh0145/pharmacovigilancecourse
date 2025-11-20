@@ -39,7 +39,7 @@
 				<style>
 					/* Blink purple background for phone section Start*/
 					.blink-phone {
-						background-color: #7b2cbf;
+						background-color: white;
 						color: white;
 						border-radius: 0px;
 						padding: 0px 0px;
@@ -53,18 +53,18 @@
 					/* Blink animation for icon and text */
 					@keyframes blink-bg {
 						0% {
-							background-color: white;
-							color: #7b2cbf;
+							background-color: #7b2cbf;
+							color: white;
 						}
 
 						50% {
 							background-color: transparent;
-							color: white;
+							color: #7b2cbf;
 						}
 
 						100% {
-							background-color: white;
-							color: #7b2cbf;
+							background-color: #7b2cbf;
+							color: white;
 						}
 					}
 

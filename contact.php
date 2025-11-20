@@ -46,6 +46,13 @@
   top: 24px;
   margin-left:6px;
 }
+@media (max-width: 768px) {
+  .contact_info .info_item i {
+    top: 19px !important;
+    margin-left:0px !important;
+    font-size:15px;
+  }
+}
 
 /* Form Inputs */
 .contact_form .form-control,
@@ -129,7 +136,7 @@
   .contact_form .form-control,
   .contact_form select,
   .contact_form textarea {
-    padding: 12px 15px;
+    padding: 6px 28px;
     font-size: 14px;
   }
 }

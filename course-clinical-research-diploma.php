@@ -26,7 +26,7 @@
       <!-- Left Section -->
       <div class="col-lg-8">
         <div class="c_details_img">
-          <img class="img-fluid" src="img/courses/course-3.jpg" alt="Professional Diploma in Clinical Research">
+          <img class="img-fluid" src="img/courses/Course6.png" alt="Professional Diploma in Clinical Research">
           <div class="course_badge_overlay">Diploma Program</div>
         </div>
 
