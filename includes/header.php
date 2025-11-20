@@ -162,6 +162,18 @@
 								<a class="nav-link" href="contact.php">Contact Us</a>
 							</li>
 						</ul>
+						<script>
+    window.addEventListener("scroll", function () {
+        let navbar = document.querySelector(".navbar");
+
+        if (window.scrollY > 10) {
+            navbar.classList.add("navbar-scrolled");
+        } else {
+            navbar.classList.remove("navbar-scrolled");
+        }
+    });
+</script>
+
 					</div>
 				</div>
 			</nav>
