@@ -30,13 +30,13 @@
 
         </html>
         <!--================ Start Footer Area =================-->
-        <footer class="footer-area" style="background: #fff !important; padding: 60px 0 30px 0 !important; margin-top: 50px !important; border-top: 1px solid #e9ecef !important;">
+        <footer class="footer-area" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%) !important; padding: 60px 0 30px 0 !important; margin-top: 50px !important; box-shadow: 0 -5px 20px rgba(0,0,0,0.1) !important;">
             <div class="container">
                 <div class="row justify-content-center">
                     <!-- Our Programs -->
                     <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title" style="color: Black !important; font-weight: 600 !important; margin-bottom: 20px !important; font-size: 16px !important;">Our Programs</h6>
+                            <h6 class="footer_title" style="color: Black!important; font-weight: 700 !important; margin-bottom: 25px !important; font-size: 18px !important; position: relative !important; padding-bottom: 10px !important;">📚 Our Programs</h6>
                             <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
                                 <li style="margin-bottom: 8px !important;"><a href="course-pharmacovigilance.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Pharmacovigilance</a></li>
                                 <li style="margin-bottom: 8px !important;"><a href="course-clinical-research-diploma.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Clinical Research</a></li>
@@ -50,7 +50,7 @@
                     <!-- Quick Links -->
                     <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title" style="color: Black !important; font-weight: 600 !important; margin-bottom: 20px !important; font-size: 16px !important;">Quick Links</h6>
+                            <h6 class="footer_title" style="color: Black!important; font-weight: 700 !important; margin-bottom: 25px !important; font-size: 18px !important; position: relative !important; padding-bottom: 10px !important;">🔗 Quick Links</h6>
                             <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
                                 <li style="margin-bottom: 8px !important;"><a href="index.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Home</a></li>
                                 <li style="margin-bottom: 8px !important;"><a href="about-us.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">About</a></li>
@@ -64,7 +64,7 @@
                     <!-- Student Support -->
                     <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title" style="color: Black !important; font-weight: 600 !important; margin-bottom: 20px !important; font-size: 16px !important;">Student Support</h6>
+                            <h6 class="footer_title" style="color: Black!important; font-weight: 700 !important; margin-bottom: 25px !important; font-size: 18px !important; position: relative !important; padding-bottom: 10px !important;">🎓 Student Support</h6>
                             <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
                                 <li style="margin-bottom: 8px !important;"><a href="faq.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">FAQs</a></li>
                                 <li style="margin-bottom: 8px !important;"><a href="contact.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Learning Portal</a></li>
@@ -76,7 +76,7 @@
                     <!-- Healthcare -->
                     <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title" style="color: Black !important; font-weight: 600 !important; margin-bottom: 20px !important; font-size: 16px !important;">Healthcare</h6>
+                            <h6 class="footer_title" style="color: Black!important; font-weight: 700 !important; margin-bottom: 25px !important; font-size: 18px !important; position: relative !important; padding-bottom: 10px !important;">🏥 Healthcare</h6>
                             <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
                                 <li style="margin-bottom: 8px !important;"><a href="elements.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Pharmaceutical and Nutraceutical Products</a></li>
                             </ul>
@@ -93,14 +93,59 @@
 
         <!-- Footer Custom Styles -->
         <style>
-        .footer-area .single-footer-widget ul li a:hover {
-            color:#007bff !important;
-            padding-left: 5px !important;
+        .footer_title::after {
+            content: '' !important;
+            position: absolute !important;
+            bottom: 0 !important;
+            left: 0 !important;
+            width: 40px !important;
+            height: 3px !important;
+            background: linear-gradient(90deg, #007bff, #0056b3) !important;
+            border-radius: 2px !important;
         }
+        @media (max-width: 576px) {
+    .footer_title {
+        position: relative !important;
+        text-align: center !important;
+    }
 
+    .footer_title::after {
+        left:40% !important;
+        transform: translateX(-50%) !important;
+    }
+}
+
+        .single-footer-widget {
+            padding: 20px !important;
+            border-radius: 10px !important;
+            background: rgba(255,255,255,0.8) !important;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05) !important;
+            transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+        }
+        .single-footer-widget:hover {
+            transform: translateY(-5px) !important;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1) !important;
+        }
+        .footer-area .single-footer-widget ul li {
+            position: relative !important;
+            padding-left: 15px !important;
+        }
+        .footer-area .single-footer-widget ul li::before {
+            content: '▶' !important;
+            position: absolute !important;
+            left: 0 !important;
+            color: #007bff !important;
+            font-size: 10px !important;
+            top: 2px !important;
+        }
+        .footer-area .single-footer-widget ul li a:hover {
+            color: #007bff !important;
+            padding-left: 10px !important;
+            font-weight: 500 !important;
+        }
         .footer-social a:hover {
             color: #ff6b6b !important;
-            transform: translateY(-2px) !important;
+            transform: translateY(-3px) scale(1.1) !important;
         }
         @media (max-width: 768px) {
             .footer-area {
@@ -111,6 +156,9 @@
             }
             .footer-bottom p {
                 font-size: 12px !important;
+            }
+            .single-footer-widget {
+                margin-bottom: 30px !important;
             }
         }
         </style>
@@ -210,11 +258,11 @@
 
         </footer>
             <!-- Footer Bottom -->
-            <div class="footer-bottom" style="background-color: #7b2cbf !important; padding: 0px 0 !important; margin-top: 0 !important; border-top: 1px solid #e9ecef !important;">
+            <div class="footer-bottom" style="background: linear-gradient(135deg, #7b2cbf 0%, #6a1b9a 100%) !important; padding:0px 0 !important; margin-top: 0 !important; border-top: 1px solid #e9ecef !important; box-shadow: 0 -2px 10px rgba(0,0,0,0.1) !important;">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-8 col-md-7 col-sm-12 text-center text-md-left mb-3 mb-md-0">
-                            <p class="footer-text m-0" style="color: white !important; font-size: 13px !important; line-height: 1.5 !important;">
+                            <p class="footer-text m-0" style="color: white !important; font-size: 13px !important; line-height: 1.5 !important;font-weight:600 !important; font-style:italic !important;">
                                 Copyright &copy; <script>document.write(new Date().getFullYear());</script>
                                 <strong>Cynture Global Pvt Ltd</strong> | All Rights Reserved.<br class="d-sm-block d-md-none">
                                 Designed & Developed with <i class="fa fa-heart-o" aria-hidden="true" style="color: #ff6b6b !important;"></i> by SmartiApps Technologies.
