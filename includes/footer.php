@@ -30,82 +30,58 @@
 
         </html>
         <!--================ Start Footer Area =================-->
-        <footer class="footer-area p_120" style="background: #fff !important; margin-top: 50px !important;">
+        <footer class="footer-area" style="background: #fff !important; padding: 60px 0 30px 0 !important; margin-top: 50px !important; border-top: 1px solid #e9ecef !important;">
             <div class="container">
-                <div class="row">
-                    <!-- About / Programs -->
-                    <div class="col-lg-2 col-md-6 col-sm-6">
-                        <div class="single-footer-widget tp_widgets">
-                            <h6 class="footer_title">Our Programs</h6>
-                            <ul class="list">
-                                <li><a href="course-pharmacovigilance.php">Pharmacovigilance</a></li>
-                                <li><a href="course-clinical-research-diploma.php">Clinical Research</a></li>
-                                <li><a href="course-scientific-writing.php">Medical Writing</a></li>
-                                <li><a href="course-clinical-trial-management.php">Clinical Trial Management</a></li>
-                                <li><a href="course-project-management.php">Project Management</a></li>
+                <div class="row justify-content-center">
+                    <!-- Our Programs -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="single-footer-widget">
+                            <h6 class="footer_title" style="color: Black !important; font-weight: 600 !important; margin-bottom: 20px !important; font-size: 16px !important;">Our Programs</h6>
+                            <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
+                                <li style="margin-bottom: 8px !important;"><a href="course-pharmacovigilance.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Pharmacovigilance</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="course-clinical-research-diploma.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Clinical Research</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="course-scientific-writing.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Medical Writing</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="course-clinical-trial-management.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Clinical Trial Management</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="course-project-management.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Project Management</a></li>
                             </ul>
                         </div>
                     </div>
 
-
                     <!-- Quick Links -->
-                    <div class="col-lg-2 col-md-6 col-sm-6">
-                        <div class="single-footer-widget tp_widgets">
-                            <h6 class="footer_title">Quick Links</h6>
-                            <ul class="list">
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="about-us.php">About</a></li>
-                                <li><a href="courses.php">Courses</a></li>
-                                <!-- <li><a href="blog.php">Research Publications</a></li>
-                        <li><a href="elements.php">Career</a></li> -->
-                                <li><a href="elements.php">Products</a></li>
-                                <li><a href="contact.php">Contact</a></li>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="single-footer-widget">
+                            <h6 class="footer_title" style="color: Black !important; font-weight: 600 !important; margin-bottom: 20px !important; font-size: 16px !important;">Quick Links</h6>
+                            <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
+                                <li style="margin-bottom: 8px !important;"><a href="index.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Home</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="about-us.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">About</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="courses.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Courses</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="elements.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Products</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="contact.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Contact</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <!-- Student Support -->
-                    <div class="col-lg-2 col-md-6 col-sm-6">
-                        <div class="single-footer-widget tp_widgets">
-                            <h6 class="footer_title">Student Support</h6>
-                            <ul class="list">
-                                <li><a href="faq.php">FAQs</a></li>
-                                <!-- <li><a href="#">Placement Assistance</a></li> -->
-                                <li><a href="contact.php">Learning Portal</a></li>
-                                <li><a href="certification-process.php">Certification Process</a></li>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="single-footer-widget">
+                            <h6 class="footer_title" style="color: Black !important; font-weight: 600 !important; margin-bottom: 20px !important; font-size: 16px !important;">Student Support</h6>
+                            <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
+                                <li style="margin-bottom: 8px !important;"><a href="faq.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">FAQs</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="contact.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Learning Portal</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="certification-process.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Certification Process</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <!-- Healthcare -->
-                    <div class="col-lg-2 col-md-6 col-sm-6">
-                        <div class="single-footer-widget tp_widgets">
-                            <h6 class="footer_title">Healthcare</h6>
-                            <ul class="list">
-                                <li><a href="elements.php">Pharmaceutical and Nutraceutical Products</a></li>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="single-footer-widget">
+                            <h6 class="footer_title" style="color: Black !important; font-weight: 600 !important; margin-bottom: 20px !important; font-size: 16px !important;">Healthcare</h6>
+                            <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
+                                <li style="margin-bottom: 8px !important;"><a href="elements.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Pharmaceutical and Nutraceutical Products</a></li>
                             </ul>
                         </div>
                     </div>
-
-
-                    <!-- Newsletter -->
-                    <!-- <div class="col-lg-4 col-md-6 col-sm-6">
-                        <aside class="f_widget news_widget">
-                            <div class="f_title">
-                                <h3 class="footer_title">Subscribe to Our Newsletter</h3>
-                            </div>
-                            <p>Stay updated with the latest trends and news in the pharmaceutical and clinical research industry.</p>
-                            <div id="mc_embed_signup">
-                                <form target="_blank" action="#" method="get" class="subscribe_form relative">
-                                    <div class="input-group d-flex flex-row">
-                                        <input name="EMAIL" placeholder="Enter your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" required="" type="email">
-                                        <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-                                    </div>
-                                    <div class="mt-10 info"></div>
-                                </form>
-                            </div>
-                        </aside>
-                    </div> -->
                 </div>
             </div>
             
@@ -114,6 +90,47 @@
                     <a href="https://wa.m e/919876543210" class="whatsapp_float" target="_blank">
             <i class="fa fa-whatsapp whatsapp-icon"></i>
         </a>
+
+        <!-- Footer Custom Styles -->
+        <style>
+        .footer-area .single-footer-widget ul li a:hover {
+            color:#007bff !important;
+            padding-left: 5px !important;
+        }
+
+        .footer-social a:hover {
+            color: #ff6b6b !important;
+            transform: translateY(-2px) !important;
+        }
+        @media (max-width: 768px) {
+            .footer-area {
+                text-align: center !important;
+            }
+            .footer-bottom .row {
+                text-align: center !important;
+            }
+            .footer-bottom p {
+                font-size: 12px !important;
+            }
+        }
+        </style>
+        
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const footerLinks = document.querySelectorAll('.footer-area .single-footer-widget ul li a');
+            
+            footerLinks.forEach(link => {
+                link.addEventListener('mouseenter', function() {
+                    this.style.color = '#007bff';
+                    this.style.paddingLeft = '5px';
+                });
+                link.addEventListener('mouseleave', function() {
+                    this.style.color = '#666';
+                    this.style.paddingLeft = '0px';
+                });
+            });
+        });
+        </script>
 
         <!--Start of Tawk.to Script-->
                              
@@ -192,24 +209,26 @@
         <!--End of Tawk.to Script-->
 
         </footer>
-            <div class="footer-bottom" style="background-color: #7b2cbf !important; padding: 0px 0 !important; margin-top: 50px !important; position: relative !important;">
+            <!-- Footer Bottom -->
+            <div class="footer-bottom" style="background-color: #7b2cbf !important; padding: 0px 0 !important; margin-top: 0 !important; border-top: 1px solid #e9ecef !important;">
                 <div class="container">
-                    <div class="row d-flex justify-content-between align-items-center">
-                        <p class="col-lg-8 col-md-8 footer-text m-0" style="color: white !important; font-size: 14px !important;">
-                            Copyright &copy; <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            <strong>Cynture Global Pvt Ltd</strong> | All Rights Reserved.
-                            Designed & Developed with <i class="fa fa-heart-o" aria-hidden="true" style="color: #ff6b6b !important;"></i> SmartiApps Technologies.
-                        </p>
-                        <div class="col-lg-4 col-md-4 footer-social text-center text-md-right">
-                            <a href="https://www.facebook.com/YourPageName" target="_blank" title="Facebook" style="color: white !important; margin: 0 5px !important; font-size: 16px !important;"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.linkedin.com/company/YourCompanyName" target="_blank" title="LinkedIn" style="color: white !important; margin: 0 5px !important; font-size: 16px !important;"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://twitter.com/YourHandle" target="_blank" title="Twitter" style="color: white !important; margin: 0 5px !important; font-size: 16px !important;"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/YourProfile" target="_blank" title="Instagram" style="color: white !important; margin: 0 5px !important; font-size: 16px !important;"><i class="fa fa-instagram"></i></a>
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 col-md-7 col-sm-12 text-center text-md-left mb-3 mb-md-0">
+                            <p class="footer-text m-0" style="color: white !important; font-size: 13px !important; line-height: 1.5 !important;">
+                                Copyright &copy; <script>document.write(new Date().getFullYear());</script>
+                                <strong>Cynture Global Pvt Ltd</strong> | All Rights Reserved.<br class="d-sm-block d-md-none">
+                                Designed & Developed with <i class="fa fa-heart-o" aria-hidden="true" style="color: #ff6b6b !important;"></i> by SmartiApps Technologies.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-sm-12 text-center text-md-right">
+                            <div class="footer-social">
+                                <a href="https://www.facebook.com/YourPageName" target="_blank" title="Facebook" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/company/YourCompanyName" target="_blank" title="LinkedIn" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://twitter.com/YourHandle" target="_blank" title="Twitter" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/YourProfile" target="_blank" title="Instagram" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-instagram"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
         <!--================ End Footer Area =================-->
