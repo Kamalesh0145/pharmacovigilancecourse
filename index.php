@@ -6,7 +6,7 @@
     <div id="homeBannerCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="7000">
         <div class="carousel-inner">
 
-            <!-- Image 1 + Content 1 -->
+            <!-- Image 1 + Content 1 -->    
             <div class="carousel-item active">
                 <img src="img/banner/Healthcare6.png" class="d-block w-100" alt="">
                 <div class="carousel-caption caption-mobile">
