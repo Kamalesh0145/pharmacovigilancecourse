@@ -182,7 +182,7 @@
 ->
 
 <!--================Courses Preview Area =================-->
-<section class="courses_preview_area p_120">
+<section class="courses_preview_area p_110">
     <div class="container">
         <div class="main_title">
             <h2>SPECIALIZED CLINICAL RESEARCH, PHARMACOVIGILANCE AND SCIENTIFIC WRITING COURSES</h2>
@@ -293,7 +293,7 @@
         </div>
 
         <div class="mt-5">
-            <a href="courses.php" class="main_btn" style="position: absolute; left:580px;">View All Courses</a>
+            <a href="courses.php" class="main_btn" style="position: absolute; left:580px;margin-top:-60px;">View All Courses</a>
         </div>
 
         <style>

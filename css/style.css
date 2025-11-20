@@ -730,11 +730,32 @@ button:focus {
     margin-top: 160px;
   }
 }
+/* Home tab Image Arrow Animation End */
 
+/* Home tab image & Service space Remove Start */
 
+/* Remove unwanted spacing below banner */
+.home_banner_area {
+    padding: 0 !important;
+    margin-bottom: 0px !important;  
+}
 
+/* Make carousel image height proper */
+.home_banner_area .carousel-item img {
+    height: 100vh;   /* Full screen height */
+    object-fit: cover;
+}
 
+/* Adjust caption position */
+.carousel-caption {
+    bottom: 20%;
+}
 
+/* Reduce top spacing for services section */
+.services_partitions_area {
+    padding-top: 10px !important;
+}
+/* Home tab image & Service space Remove end */
 
 
 
@@ -4722,7 +4743,7 @@ h6 {
 
 /* Email id style header Start */
 
-/* Home tab Image Arrow Animation End */
+
 
 .email-wrap {
     /* display: flex; */
