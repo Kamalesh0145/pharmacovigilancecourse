@@ -113,7 +113,39 @@
     </div>
 </section>
 
+
 <style>
+    .main_title {
+        margin-bottom: 50px;
+    }
+
+    .main_title h2 {
+        /* font-size: 2.5rem; */
+        font-weight: 700;
+        color: #2c3e50;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .main_title h2::after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 3px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 2px;
+    }
+
+    .main_title p {
+        font-size: 1.1rem;
+        color: #666;
+        margin-top: 20px;
+        line-height: 1.6;
+    }
+
     .services_partitions_area {
         background: #f8f9fa;
     }
