@@ -88,16 +88,27 @@
 		bottom: 6px;
 		position: relative;
 	}
-	.navbar-toggler span{
-		display: block;
-		width: 25px;
-		height: 3px;
+/* Hamburger default color (before scroll) */
+.navbar-toggler span{
+    display: block;
+    width: 25px;
+    height: 3px;
 		background: #7b2cbf;
-		margin: auto;
-		margin-bottom: 4px;
-		transition: all 400ms linear;
-		cursor: pointer;
-	}
+    margin: auto;
+    margin-bottom: 4px;
+    transition: all 400ms linear;
+    cursor: pointer;
+}
+
+	/* After Menu scroll - change hamburger color to white */
+.navbar-scrolled .navbar-toggler span {
+    background: white !important;
+}
+@media (max-width: 767px) {
+    .navbar-scrolled .nav-link {
+        color: black !important;
+    }
+}
     .navbar .container{
         padding-left: 15px;
         padding-right: 15px;
@@ -129,7 +140,7 @@
         text-align: left;
         font-size: 16px;
         font-weight: 500;
-        color: #333;
+        color: black;
         transition: all 0.3s ease;
     }
     .header_area .navbar .navbar-nav .nav-item .nav-link:hover,

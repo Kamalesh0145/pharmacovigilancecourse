@@ -236,6 +236,39 @@ button:focus {
   /* border-bottom: 2px solid #7b2cbf; */
 
 }
+/*After Menu scroll change the background colur Start  */
+.header_area .navbar {
+    position:relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: background-color 0.4s ease;
+}
+/* Default - Before scroll */
+.navbar-custom {
+    background-color: white !important;
+}
+
+.navbar-custom .nav-link {
+    color: #7b2cbf !important;   /* violet */
+}
+
+/* After Scroll */
+.navbar-scrolled {
+    background-color: #7b2cbf !important; /* violet */
+}
+
+.navbar-scrolled .nav-link {
+    color: white !important;
+}
+
+
+/* Active tab after scroll also BLUE */
+.navbar-scrolled .nav-link.active,
+.navbar-scrolled .active > .nav-link {
+    color: blue!important;
+}
+/* * Menu scroll change the background colur End */
 .header_area .navbar .nav .nav-item {
   margin-right: 45px;
 }
