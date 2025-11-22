@@ -2170,6 +2170,8 @@ button:focus {
 
 .contact_form .form-group textarea.form-control {
   height: 140px;
+      margin-top: 15px;
+
 }
 
 .contact_form .submit_btn {
