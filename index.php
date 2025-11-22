@@ -3,46 +3,59 @@
 <!--================Home Banner Area =================-->
 <section class="home_banner_area">
 
-    <div id="homeBannerCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="7000">
+    <div id="homeBannerCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="9900">
         <div class="carousel-inner">
 
             <!-- Image 1 + Content 1 -->    
             <div class="carousel-item active">
-                <img src="img/banner/Healthcare6.png" class="d-block w-100" alt="">
+                <img src="img/banner/one.jpeg" class="d-block w-100" alt="">
                 <div class="carousel-caption caption-mobile">
                     <h2 class="animated-h2">
                         Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
-                    </h2>
-                    <h4>Building Strong Foundations for a Smarter and Healthier World</h4>
-                    <p>True progress in healthcare begins with knowledge — and at Cynture Global, we turn learning into meaningful impact through expert-led, hands-on training.</p>
+                    </h2><br>
+                    <h4>We pioneer the future of healthcare through specialized education, blending cutting-edge technology with actionable industry insights to ensure lasting success.</h4>
+                    <!-- <p>True progress in healthcare begins with knowledge — and at Cynture Global, we turn learning into meaningful impact through expert-led, hands-on training.</p> -->
                 </div>
             </div>
 
             <!--  Image 2 + Content 2 (Client AI Content) -->
             <div class="carousel-item">
-                <img src="img/banner/Healthcare7.png" class="d-block w-100" alt="">
+                <img src="img/banner/two.jpeg" class="d-block w-100" alt="">
                 <div class="carousel-caption caption-mobile">
                     <h2 class="animated-h2">
                         Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
-                    </h2>
-                    <h4>Certification in Fundamentals of Artificial Intelligence in the Healthcare Industry</h4>
-                    <p>Gain essential AI knowledge tailored for modern healthcare applications, empowering you to adapt, innovate, and excel in a rapidly advancing industry.</p>
+                    </h2><br>
+                    <h4>We believe every patient deserves high quality medicine, and our company strives to make that a reality.</h4>
+                    <!-- <p>Gain essential AI knowledge tailored for modern healthcare applications, empowering you to adapt, innovate, and excel in a rapidly advancing industry.</p> -->
 
+                </div>
+            </div>
+
+         <!-- Image 4 + Content 4 (Waiting for your next content) -->
+                        <div class="carousel-item">
+                <img src="img/banner/four.jpeg" class="d-block w-100" alt="">
+                <div class="carousel-caption caption-mobile">
+                    <h2 class="animated-h2">
+                        Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
+                    </h2><br>
+                    <h4>We uphold ethics and integrity as the driving force behind all that we do.</h4>
+                    <!-- <p>Empowering professionals with practical expertise, cutting-edge tools, and globally aligned learning programs designed to uplift careers and strengthen the healthcare ecosystem.</p> -->
                 </div>
             </div>
 
             <!-- Image 3 + Content 3 (Waiting for your next content) -->
             <div class="carousel-item">
-                <img src="img/banner/Healthcare8.png" class="d-block w-100" alt="">
+                <img src="img/banner/three.jpeg" class="d-block w-100" alt="">
                 <div class="carousel-caption caption-mobile">
                     <h2 class="animated-h2">
                         Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
-                    </h2>
-                    <h4>Transforming Skills Through Industry-Driven Healthcare Training</h4>
-                    <p>Empowering professionals with practical expertise, cutting-edge tools, and globally aligned learning programs designed to uplift careers and strengthen the healthcare ecosystem.</p>
+                    </h2><br>
+                    <h4>Trust shapes our vision and guides our mission.</h4>
+                    <!-- <p>Empowering professionals with practical expertise, cutting-edge tools, and globally aligned learning programs designed to uplift careers and strengthen the healthcare ecosystem.</p> -->
                 </div>
             </div>
-
+ 
+               
         </div>
 
         <!-- Left Arrow -->

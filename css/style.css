@@ -656,39 +656,45 @@ button:focus {
   /* ensures proper centering */
 }
 
+/* Banner Content Words Bright Show Start */
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
 
+  background: linear-gradient(
+      rgba(0,0,0,0.70), 
+      rgba(0,0,0,0.40)
+  );
+}
 
+/* Banner Content Words Bright Show end */
+
+/* banner Words Animated start */
 .animated-h2 span {
   display: inline-block;
-  color: rgb(173, 94, 94);
-  /* normal color */
-  animation: colorRun 5s linear infinite;
+  color: white; /* Start in RED */
+  animation: fadeToWhite 3s ease forwards; /* Only once */
 }
 
-@keyframes colorRun {
-  0% {
-    color:rgb(173, 94, 94);
-  }
-
-  50% {
-    color: darkmagenta;
-  }
-
-  /* GOLD highlight (super visible on sky blue) */
-  100% {
-    color:rgb(173, 94, 94);
-;
-  }
+@keyframes fadeToWhite {
+  0% { color: blue; }
+  100% { color: white; }
 }
-
+/* banner Words Animated End */
 
 .home_banner_area .carousel-caption h4 {
-  color: red !important;
+  color: white !important;
   /* Gold - premium and visible */
 }
 
 .home_banner_area .carousel-caption p {
-  color: blue !important;
+  color: white !important;
   /* Soft warm cream - good contrast */
 }
 
@@ -731,6 +737,46 @@ button:focus {
   }
 }
 /* Home tab Image Arrow Animation End */
+
+/* ULTRA SLOW MOTION ZOOM ANIMATION Start*/
+.carousel-item img {
+    animation: slowGifUltra 40s ease-in-out infinite; /* VERY SLOW */
+    transform-origin: center;
+}
+
+@keyframes slowGifUltra {
+    0% {
+        transform: scale(1); /* normal */
+    }
+    25% {
+        transform: scale(1.20); /* slow zoom IN */
+    }
+    50% {
+        transform: scale(1); /* slow zoom OUT */
+    }
+    75% {
+        transform: scale(1.15); /* small slow zoom IN */
+    }
+    100% {
+        transform: scale(1); /* back to normal */
+    }
+}
+/* ULTRA SLOW MOTION ZOOM ANIMATION End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Home tab image & Service space Remove Start */
 
@@ -898,6 +944,9 @@ button:focus {
     height: 155%;
     z-index: -1;
     opacity: 1;
+       /* 🔥 Dark Overlay Add */
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.55);
 }
 
 

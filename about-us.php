@@ -591,10 +591,10 @@ document.querySelectorAll('.animated-title').forEach(title => {
           <!-- Video Section -->
           <div class="col-lg-6">
             <div class="video_area" id="video">
-              <img class="img-fluid" src="img/video-1.jpg" alt="Cynture Global Training Video">
-              <a class="popup-youtube" href="https://www.youtube.com/watch?v=wLNp3kgBuuQ">
+              <img class="img-fluid" src="img/video_img.png" alt="Cynture Global Training Video">
+              <!-- <a class="popup-youtube" href="https://www.youtube.com/watch?v=wLNp3kgBuuQ">
                 <img src="img/icon/video-icon-1.png" alt="Play Video">
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
