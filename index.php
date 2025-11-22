@@ -7,7 +7,7 @@
         <div class="carousel-inner">
 
             <!-- Image 1 + Content 1 -->    
-            <div class="carousel-item active">
+            <div class="carousel-item">
                 <img src="img/banner/one.jpeg" class="d-block w-100" alt="">
                 <div class="carousel-caption caption-mobile">
                     <h2 class="animated-h2">
@@ -19,7 +19,7 @@
             </div>
 
             <!--  Image 2 + Content 2 (Client AI Content) -->
-            <div class="carousel-item">
+            <div class="carousel-item active">
                 <img src="img/banner/two.jpeg" class="d-block w-100" alt="">
                 <div class="carousel-caption caption-mobile">
                     <h2 class="animated-h2">
