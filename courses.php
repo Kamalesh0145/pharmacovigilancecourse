@@ -411,12 +411,12 @@
       margin-top: 10px;
   }
   
-  .course_btn:hover {
+  /* .course_btn:hover {
       background: #7b2cbf;
       transform: translateY(-2px);
       color: white;
       text-decoration: none;
-  }
+  } */
   /* Packages fee styling */
   .packages_item .pack_body ul.list li {
       font-size: 14px;
