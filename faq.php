@@ -16,6 +16,8 @@
           <h2 class="mb-0">
             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1">
               Who can join the courses?
+              <i class="lnr lnr-chevron-down"></i>
+              <i class="lnr lnr-chevron-up"></i>
             </button>
           </h2>
         </div>
@@ -33,6 +35,8 @@
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2">
               How to join the course?
+              <i class="lnr lnr-chevron-down"></i>
+              <i class="lnr lnr-chevron-up"></i>
             </button>
           </h2>
         </div>
@@ -49,6 +53,8 @@
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3">
               What is the course duration?
+              <i class="lnr lnr-chevron-down"></i>
+              <i class="lnr lnr-chevron-up"></i>
             </button>
           </h2>
         </div>
@@ -65,6 +71,8 @@
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4">
               Do I have exams?
+              <i class="lnr lnr-chevron-down"></i>
+              <i class="lnr lnr-chevron-up"></i>
             </button>
           </h2>
         </div>
@@ -81,6 +89,8 @@
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5">
               Will you provide job assistance?
+              <i class="lnr lnr-chevron-down"></i>
+              <i class="lnr lnr-chevron-up"></i>
             </button>
           </h2>
         </div>
@@ -97,6 +107,8 @@
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6">
               Do you provide any classroom or online training?
+              <i class="lnr lnr-chevron-down"></i>
+              <i class="lnr lnr-chevron-up"></i>
             </button>
           </h2>
         </div>
@@ -113,6 +125,8 @@
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse7">
               Why should I choose Cynture Global?
+              <i class="lnr lnr-chevron-down"></i>
+              <i class="lnr lnr-chevron-up"></i>
             </button>
           </h2>
         </div>
@@ -129,6 +143,8 @@
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse8">
               What about the opportunities?
+              <i class="lnr lnr-chevron-down"></i>
+              <i class="lnr lnr-chevron-up"></i>
             </button>
           </h2>
         </div>
@@ -209,6 +225,36 @@
 .faq_area .btn-link:focus {
   box-shadow: none;
   text-decoration: none;
+}
+
+/* Arrow icon styling */
+.faq_area .card-header button i {
+  float: right;
+  transition: all 0.3s ease;
+  color: #000;
+}
+
+.faq_area .card-header button .lnr-chevron-up {
+  display: none;
+  color: #dc3545 !important;
+}
+/* OPEN state → arrow WHITE */
+.accordion .card-header .btn i.lnr {
+    color: #7b2cbf !important;
+	font-size: larger;
+}
+.faq_area .card-header button[aria-expanded="true"] .lnr-chevron-down {
+  display: none;
+}
+
+.faq_area .card-header button[aria-expanded="true"] .lnr-chevron-up {
+  display: inline-block;
+  color: #7b2cbf !important;
+}
+
+/* Default open FAQ (Q1) arrow color */
+#heading1 button .lnr-chevron-up {
+  color: #7b2cbf !important;
 }
 
 @media (max-width: 768px) {
