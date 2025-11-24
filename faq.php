@@ -212,11 +212,29 @@
 }
 
 @media (max-width: 768px) {
+  .faq_area {
+    padding: 60px 0;
+  }
   .faq_area .main_title h2 {
     font-size: 24px;
   }
+  .faq_area .card-header {
+    padding: 12px 15px;
+  }
   .faq_area .card-header button {
     font-size: 16px;
+    line-height: 1.4;
+    padding: 0;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  .faq_area .card-body {
+    padding: 15px;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .faq_area .accordion .card {
+    margin-bottom: 10px;
   }
 }
 </style>
