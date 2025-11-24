@@ -87,10 +87,9 @@
             
 
         <!-- WhatsApp Floating Button -->
-                    <a href="https://wa.m e/919876543210" class="whatsapp_float" target="_blank">
+                    <a href="https://wa.me/919876543210" class="whatsapp_float" target="_blank">
             <i class="fa fa-whatsapp whatsapp-icon"></i>
         </a>
-
         <!-- Footer Custom Styles -->
         <style>
         .footer_title::after {
