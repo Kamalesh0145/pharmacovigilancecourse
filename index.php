@@ -338,7 +338,7 @@
         </div>
 
         <div class="mt-5">
-            <a href="courses.php" class="main_btn" style="position: absolute; left:580px;margin-top:-60px;">View All Courses</a>
+            <a href="courses.php" class="main_btn" style="position: absolute; left:660px;margin-top:-60px;">View All Courses</a>
         </div>
 
         <style>
