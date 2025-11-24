@@ -336,41 +336,118 @@
         </div>
       </div> -->
   <style>
+  /* Course Cards Styling Only */
+  .course_card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      overflow: hidden;
+      height: 100%;
+  }
+  
+  .course_card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  }
+  
+  .course_image img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+  }
+  
+  .course_card:hover .course_image img {
+      transform: scale(1.03);
+  }
+  
+  .course_badge {
+      background:white;
+      color: #7b2cbf;
+      padding: 5px 10px;
+      border-radius: 15px;
+      font-size: 11px;
+      font-weight: 600;
+  }
+  
+  .course_content {
+      padding: 20px;
+  }
+  
+  .course_content h4 {
+      color: #2c3e50;
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 12px;
+  }
+  
+  .course_content ul.list li {
+      color: #666;
+      font-size: 13px;
+      margin-bottom: 6px;
+      padding-left: 15px;
+      position: relative;
+  }
+  
+  .course_content ul.list li:before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #28a745;
+      font-weight: bold;
+  }
+  
+  .course_btn {
+      background:white;
+      color: #7b2cbf;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 13px;
+      transition: all 0.3s ease;
+      display: inline-block;
+      margin-top: 10px;
+  }
+  
+  .course_btn:hover {
+      background: #7b2cbf;
+      transform: translateY(-2px);
+      color: white;
+      text-decoration: none;
+  }
   /* Packages fee styling */
   .packages_item .pack_body ul.list li {
-      font-size: 14px;       /* Slightly smaller text */
-      font-weight: 500;      /* Medium weight for clarity */
-      margin-bottom: 6px;    /* Space between lines */
-      color: #333;           /* Dark grey text */
-      list-style: none;      /* Remove bullets */
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 6px;
+      color: #333;
+      list-style: none;
   }
 
   .packages_item .pack_body ul.list li:first-child {
-      font-weight: 700;      /* Make 'Program Fee' bold */
+      font-weight: 700;
       margin-top: 0;
       margin-bottom: 10px;
-      color: #007bff;        /* Highlighted color for header */
+      color: #007bff;
   }
 
-  /* Smaller Register Now button */
   .packages_item .pack_footer .main_btn {
       padding: 6px 12px;
       font-size: 14px;
       line-height: 1.2;
+      display: inline-block !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      transition: none !important;
   }
-  .packages_item .pack_footer .main_btn {
-      display: inline-block !important;  /* Ensure it's visible */
-      opacity: 1 !important;             /* Make fully visible */
-      visibility: visible !important;    /* Ensure no hidden property */
-      transition: none !important;       /* Disable hover animation */
-  }
-  /* Style only the star symbol */
-.pack_body ul.list li span.star {
-    color: red;          /* Change star color */
-    font-weight: 700;    /* Make it bold */
-    font-size: 16px;     /* Slightly bigger */
-}
 
+  .pack_body ul.list li span.star {
+      color: red;
+      font-weight: 700;
+      font-size: 16px;
+  }
   </style>
 
   <!-- Package 2 -->
