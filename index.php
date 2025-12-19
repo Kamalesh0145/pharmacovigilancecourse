@@ -6,56 +6,70 @@
     <div id="homeBannerCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="9900">
         <div class="carousel-inner">
 
-            <!-- Image 1 + Content 1 -->    
-            <div class="carousel-item">
-                <img src="img/banner/one.jpeg" class="d-block w-100" alt="">
-                <div class="carousel-caption caption-mobile">
-                    <h2 class="animated-h2">
-                        Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
-                    </h2><br>
-                    <h4>We pioneer the future of healthcare through specialized education, blending cutting-edge technology with actionable industry insights to ensure lasting success.</h4>
-                    <!-- <p>True progress in healthcare begins with knowledge — and at Cynture Global, we turn learning into meaningful impact through expert-led, hands-on training.</p> -->
-                </div>
-            </div>
 
-            <!--  Image 2 + Content 2 (Client AI Content) -->
+
+            <!--  Image 1 + Content 1 (Client AI Content) -->
             <div class="carousel-item active">
                 <img src="img/banner/two.jpeg" class="d-block w-100" alt="">
                 <div class="carousel-caption caption-mobile">
                     <h2 class="animated-h2">
-                        Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
+                        Elevating people Expanding Horizons
                     </h2><br>
-                    <h4>We believe every patient deserves high quality medicine, and our company strives to make that a reality.</h4>
+                    <!-- <h4>We believe every patient deserves high quality medicine, and our company strives to make that a reality.</h4> -->
                     <!-- <p>Gain essential AI knowledge tailored for modern healthcare applications, empowering you to adapt, innovate, and excel in a rapidly advancing industry.</p> -->
+
 
                 </div>
             </div>
-
-         <!-- Image 4 + Content 4 (Waiting for your next content) -->
-                        <div class="carousel-item">
+            <!-- Image 2 + Content 2 -->
+            <div class="carousel-item">
+                <img src="img/banner/one.jpeg" class="d-block w-100" alt="">
+                <div class="carousel-caption caption-mobile">
+                    <h2 class="animated-h2">
+                        We believe every patient deserves high quality medicine, <br>
+                        and our company strives to make that a reality
+                    </h2><br>
+                    <!-- <h4>We pioneer the future of healthcare through specialized education, blending cutting-edge technology with actionable industry insights to ensure lasting success.</h4> -->
+                    <!-- <p>True progress in healthcare begins with knowledge — and at Cynture Global, we turn learning into meaningful impact through expert-led, hands-on training.</p> -->
+                </div>
+            </div>
+            <!-- Image 3 + Content 3 (Waiting for your next content) -->
+            <div class="carousel-item">
                 <img src="img/banner/four.jpeg" class="d-block w-100" alt="">
                 <div class="carousel-caption caption-mobile">
                     <h2 class="animated-h2">
-                        Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
+                        We uphold ethics and integrity as the driving force behind all that we do.
                     </h2><br>
-                    <h4>We uphold ethics and integrity as the driving force behind all that we do.</h4>
+                    <!-- <h4>We uphold ethics and integrity as the driving force behind all that we do.</h4> -->
                     <!-- <p>Empowering professionals with practical expertise, cutting-edge tools, and globally aligned learning programs designed to uplift careers and strengthen the healthcare ecosystem.</p> -->
                 </div>
             </div>
 
-            <!-- Image 3 + Content 3 (Waiting for your next content) -->
+            <!-- Image 4 + Content 4 (Waiting for your next content) -->
             <div class="carousel-item">
                 <img src="img/banner/three.jpeg" class="d-block w-100" alt="">
                 <div class="carousel-caption caption-mobile">
                     <h2 class="animated-h2">
-                        Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
+                        Trust shapes our vision and guides our mission.
                     </h2><br>
-                    <h4>Trust shapes our vision and guides our mission.</h4>
+                    <!-- <h4>Trust shapes our vision and guides our mission.</h4> -->
                     <!-- <p>Empowering professionals with practical expertise, cutting-edge tools, and globally aligned learning programs designed to uplift careers and strengthen the healthcare ecosystem.</p> -->
                 </div>
             </div>
- 
-               
+
+            <!-- Image 5 + Content 5 (Waiting for your next content) -->
+            <div class="carousel-item">
+                <img src="img/banner/Five.jpeg" class="d-block w-100" alt="">
+                <div class="carousel-caption caption-mobile">
+                    <h2 class="animated-h2">
+                        We pioneer the future of healthcare through specialized education,<br>
+                        blending cutting-edge technology with actionable industry insights to ensure lasting success.
+                    </h2><br>
+                    <!-- <h4>Trust shapes our vision and guides our mission.</h4> -->
+                    <!-- <p>Empowering professionals with practical expertise, cutting-edge tools, and globally aligned learning programs designed to uplift careers and strengthen the healthcare ecosystem.</p> -->
+                </div>
+            </div>
+
         </div>
 
         <!-- Left Arrow -->
@@ -100,7 +114,7 @@
                     </div>
                     <div class="service_content text-center p-4">
                         <h3>Clinical Services</h3>
-                        <p>Comprehensive training programs in Pharmacovigilance, Clinical Research, and Scientific Writing</p>
+                        <p>Develop skills to create precise clinical study reports, SOPs, protocols, CRFs, etc.</p>
                         <a href="courses.php" class="course_btn">Explore Courses</a>
                     </div>
                 </div>
@@ -113,13 +127,19 @@
                         <img src="img/Healthcare.png" alt="Healthcare Products" class="img-fluid">
                     </div>
                     <div class="service_content text-center p-4">
-                        <h3>Healthcare</h3>
-                        <p>Export quality pharmaceuticals, nutraceuticals, and healthcare products worldwide</p>
-                        <a href="elements.php" class="course_btn">View Products</a>
-
-
-
+                        <h3>Healthcare Products</h3>
+                        <p>
+                            Cyntureglobal is a well-established and trusted exporter of high-quality pharmaceutical and nutraceutical products,
+                            with over five years of strong expertise in supplying to various international markets.
+                        </p>
+                        <p>
+                            We believe that every patient deserves access to safe, effective, and affordable medicines.
+                            Based on customer requirements, we supply a wide range of pharmaceutical and nutraceutical products
+                            manufactured in facilities approved by leading global regulatory authorities.
+                        </p>
+                        <a href="elements.php" class="course_btn">View products</a>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -221,140 +241,46 @@
         text-decoration: none;
         transform: translateY(-2px);
     }
+
+    /* View All Courses Button Center Alignment & Center place btn Alingn */
+    .view-all-right {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    .service_content .course_btn {
+        margin: auto auto 0 auto;
+        /* horizontal center + bottom align */
+        width: fit-content;
+        /* button width content-ku mattum */
+        padding: 8px 18px;
+        /* small & neat size */
+        text-align: center;
+    }
+
+    .service_partition_card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .service_content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .service_content p {
+        flex-grow: 1;
+    }
+
+    .service_content .course_btn {
+        margin-top: auto;
+    }
 </style>
 <!--================End Services Partitions Area =================-->
 
 
-
-<!--================Courses Preview Area =================-->
-<section class="courses_preview_area p_110">
-    <div class="container">
-        <div class="main_title">
-            <h2>SPECIALIZED CLINICAL RESEARCH, PHARMACOVIGILANCE AND SCIENTIFIC WRITING COURSES</h2>
-            <p>India's largest Clinical Research & PVG Training Providers</p>
-        </div>
-
-        <div class="row courses_preview_inner">
-            <!-- Course 1 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="course_card">
-                    <div class="course_image">
-                        <img src="img/Professional Certificate1 .png" alt="Professional Certificate in Pharmacovigilance">
-                        <div class="course_badge">Specialty Course</div>
-                    </div>
-                    <div class="course_content">
-                        <h4>Professional Certificate in Pharmacovigilance (PCPV)</h4>
-                        <!-- <p>Master drug safety monitoring, adverse event reporting, and risk management with real-world case studies.</p> -->
-                        <!-- <div class="course_price">₹9,999/-</div> -->
-                        <a href="course-pharmacovigilance.php" class="course_btn">View course details</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Course 2 -->
-            <!-- <div class="col-lg-4 col-md-6 mb-4">
-                <div class="course_card">
-                    <div class="course_image">
-                        <img src="img/courses/course-3.jpg" alt="Professional Diploma in Clinical Research">
-                        <div class="course_badge">Specialty Course</div>
-                    </div>
-                    <div class="course_content">
-                        <h4>Professional Diploma in Clinical Research (PDCR)</h4>
-                        <p>Comprehensive training in clinical trial design, conduct, and management for aspiring clinical research professionals.</p>
-                        <div class="course_price">₹9,999/-</div>
-                        <a href="course-clinical-research-diploma.php" class="course_btn">View course details</a>
-                    </div>
-                </div>
-            </div> -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="course_card">
-                    <div class="course_image">
-                        <img src="img/PDCRcourse2.png" alt="Professional Diploma in Clinical Research">
-                        <div class="course_badge">Specialty Course</div>
-                    </div>
-                    <div class="course_content">
-                        <h4>Professional Diploma in Clinical Research (PDCR)</h4>
-                        <!-- <ul class="list">
-                            <li>Drug Development Process</li>
-                            <li>New Drug Discovery</li>
-                            <li>Clinical Development of Drug</li>
-                            <li>Essential Clinical Trial Documents</li>
-                            <li>Clinical Trials Terminology</li>
-                            <li>GCP</li>
-                            <li>Ethics in Clinical Research</li>
-                            <li>Informed Consent</li>
-                            <li>Biostatistics</li>
-                            <li>Regulatory Affairs</li>
-                            <li>Roles and Responsibilities of Clinical Trial Personnel</li>
-                        </ul> -->
-                        <a href="course-clinical-research-diploma.php" class="course_btn">View course details</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!-- Course 3 -->
-            <!-- <div class="col-lg-4 col-md-6 mb-4">
-                <div class="course_card">
-                    <div class="course_image">
-                        <img src="img/Scientific_Writing.png" alt="Advanced Certificate in Scientific Writing">
-                        <div class="course_badge advanced">Specialty Course</div>
-                    </div>
-                    <div class="course_content">
-                        <h4>Advanced Certificate Program in Scientific Writing (SW)</h4>
-                        <p>Develop skills to create precise clinical study reports, regulatory submissions, and pharmacovigilance narratives.</p>
-                        <div class="course_price">₹11,999/-</div>
-                        <a href="course-scientific-writing.php" class="course_btn">View course details</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="course_card">
-                    <div class="course_image">
-                        <img src="img/Scientific_Writing.png" alt="Advanced Certificate in Scientific Writing">
-                        <div class="course_badge advanced">Specialty Course</div>
-                    </div>
-                    <div class="course_content">
-                        <h4>Advanced Certificate Program in Scientific Writing (SW)</h4>
-                        <!-- <ul class="list">
-                            <li>Introduction to Clinical Research</li>
-                            <li>Clinical Study Process</li>
-                            <li>Development of Standard Operating Procedures (SOPs)</li>
-                            <li>Protocol</li>
-                            <li>Case Report Form (CRF)</li>
-                            <li>Clinical Study Report</li>
-                            <li>Other Regulatory Documents</li>
-                            <li>Aggregate Safety Reports</li>
-                            <li>Publication</li><br><br>
-                        </ul> -->
-                        <a href="course-scientific-writing.php" class="course_btn">View course details</a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="mt-5">
-            <a href="courses.php" class="main_btn" style="position: absolute; left:660px;margin-top:-60px;">View All Courses</a>
-        </div>
-
-        <style>
-            @media (max-width: 768px) {
-                .main_btn {
-                    position: relative !important;
-                    left: auto !important;
-                    display: block;
-                    margin: 0 auto;
-                }
-            }
-        </style>
-
-    </div>
-</section>
-<!--================End Courses Preview Area =================-->
 
 <!--================Statistics Area =================-->
 <section class="stats_section">
@@ -396,221 +322,10 @@
 </section>
 <!--================End Statistics Area =================-->
 
-<!--================Courses Area =================-->
 
-
-<!-- <section class="team_area p_120">
-    <div class="container">
-        <div class="main_title">
-            <h2>Guidance from Clinical Research Experts</h2>
-            <p>Learn from experienced professionals and industry experts who bring real-world knowledge, hands-on experience, and mentorship to guide your journey in pharmaceutical and clinical research.</p>
-        </div>
-
-        <div class="row team_inner">
-
-            <div class="col-lg-3 col-sm-6">
-                <div class="team_item">
-                    <div class="team_img">
-                        <img class="rounded-circle" src="img/team/team-1.jpg" alt="Dr. S. Kumar">
-                        <div class="hover">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team_name">
-                        <h4>Dr. S. Kumar</h4>
-                        <p>Pharmacovigilance Expert</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-                <div class="team_item">
-                    <div class="team_img">
-                        <img class="rounded-circle" src="img/team/team-2.jpg" alt="Dr. A. Mehta">
-                        <div class="hover">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team_name">
-                        <h4>Dr. A. Mehta</h4>
-                        <p>Clinical Trial Management Specialist</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-                <div class="team_item">
-                    <div class="team_img">
-                        <img class="rounded-circle" src="img/team/team-3.jpg" alt="Dr. R. Sharma">
-                        <div class="hover">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team_name">
-                        <h4>Dr. R. Sharma</h4>
-                        <p>Project Management Trainer</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-                <div class="team_item">
-                    <div class="team_img">
-                        <img class="rounded-circle" src="img/team/team-4.jpg" alt="Dr. P. Nair">
-                        <div class="hover">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team_name">
-                        <h4>Dr. P. Nair</h4>
-                        <p>Scientific Writing Mentor</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section> -->
-<!--================End Team Area =================-->
-
-<!--================Latest Cynture Global =================-->
-<!-- <section class="latest_blog_area p_120">
-        <div class="container">
-            <div class="main_title">
-                <h2>Essential Knowledge Areas in Pharmacovigilance and Clinical Research</h2>
-                <p>Stay informed with the latest trends, expert insights, and practical guidance in pharmaceutical and clinical research from Cynture Global’s knowledge hub.</p>
-            </div>
-
-
-            <div class="row latest_blog_inner">
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="l_blog_item">
-                        <img class="img-fluid" src="img/Pharmacovigilance.png" alt="Understanding Pharmacovigilance">
-                        <a class="date" href="#">10 October, 2025 | By Dr. S. Kumar</a>
-                        <a href="single-blog.php?post=pharmacovigilance">
-                            <h4>Understanding Pharmacovigilance: Key Concepts & Practices</h4>
-                        </a>
-                    
-                        <p>Explore the essentials of drug safety monitoring, adverse event reporting, and risk management in the pharmaceutical industry.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="l_blog_item">
-                        <img class="img-fluid" src="img/Clinical_Trial.png" alt="Clinical Trial Best Practices">
-                        <a class="date" href="#">15 October, 2025 | By Dr. A. Mehta</a>
-                        <a href="single-blog.php?post=clinical-trial">
-                            <h4>Clinical Trial Best Practices for Aspiring CRAs</h4>
-                        </a>
-                        <p>Learn effective trial planning, site management, and regulatory compliance tips to succeed in clinical research projects.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="l_blog_item">
-                        <img class="img-fluid" src="img/Scientific_Writing.png" alt="Scientific Writing Tips">
-                        <a class="date" href="#">18 October, 2025 | By Dr. P. Nair</a>
-                        <a href="single-blog.php?post=scientific-writing">
-                            <h4>Scientific Writing Tips for Regulatory Documents</h4>
-                        </a>
-                        <p>Enhance your scientific writing skills to create accurate study reports, safety narratives, and regulatory submissions.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="l_blog_item">
-                        <img class="img-fluid" src="img/Career_Growth.png" alt="Career Growth in Clinical Research">
-                        <a class="date" href="#">20 October, 2025 | By Dr. R. Sharma</a>
-                        <a href="single-blog.php?post=career-growth">
-                            <h4>Career Growth Strategies in Clinical Research</h4>
-                        </a>
-                        <p>Discover how to advance your career in the clinical research industry with certifications, practical experience, and mentorship.</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> -->
-<!--================End Latest Cynture Global =================-->
-
-<!--================Testimonials Area =================-->
-<!-- <section class="testimonials_area p_120">
-    <div class="container">
-        <div class="main_title">
-            <h2>What Our Students Say</h2>
-            <p>Hear from learners who have gained skills and confidence through our practical, industry-focused training programs.</p>
-        </div>
-
-        <div class="testi_slider owl-carousel">
-
-            <div class="item">
-                <div class="testi_item">
-                    <img src="img/testimonials/testi-1.png" alt="Anita Verma">
-                    <h4>Anita Verma</h4>
-                    <ul class="list">
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                    </ul>
-                    <p>The Pharmacovigilance course helped me understand drug safety monitoring in real-world scenarios. The hands-on training and mentorship were excellent.</p>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="testi_item">
-                    <img src="img/testimonials/testi-2.png" alt="Rahul Singh">
-                    <h4>Rahul Singh</h4>
-                    <ul class="list">
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                    </ul>
-                    <p>The Clinical Trial Management course gave me confidence to manage trials efficiently. The trainers shared real case studies which were very helpful.</p>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="testi_item">
-                    <img src="img/testimonials/testi-3.png" alt="Priya Nair">
-                    <h4>Priya Nair</h4>
-                    <ul class="list">
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                        <li><a href="#"><i class="fa fa-star"></i></a></li>
-                    </ul>
-                    <p>The Scientific Writing course improved my ability to create accurate study reports and regulatory documents. The guidance from experts was invaluable.</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section> -->
 <!--================End Testimonials Area =================-->
 <!--================Impress Area =================-->
-<!-- <section class="impress_area p_120">
-    <div class="container">
-        <div class="impress_inner text-center">
-            <h2>Join Us as an Instructor</h2>
-            <p>Share your expertise and industry experience with aspiring professionals in pharmaceutical and clinical research. Guide learners, conduct workshops, and shape the next generation of experts.</p>
-            <a class="main_btn2" href="#">Apply Now</a>
-        </div>
-    </div>
-</section> -->
+
 
 <!--================End Impress Area =================-->
 
