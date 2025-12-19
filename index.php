@@ -12,7 +12,7 @@
             <div class="carousel-item active">
                 <img src="img/banner/two.jpeg" class="d-block w-100" alt="">
                 <div class="carousel-caption caption-mobile">
-                    <h2 class="animated-h2">
+                    <h2 class="animated-h2"><br>
                         Elevating people Expanding Horizons
                     </h2><br>
                     <!-- <h4>We believe every patient deserves high quality medicine, and our company strives to make that a reality.</h4> -->
