@@ -791,7 +791,7 @@ button:focus {
 
 /* Make carousel image height proper */
 .home_banner_area .carousel-item img {
-    height: 100vh;   /* Full screen height */
+    height: 65vh;   /* Full screen height */
     object-fit: cover;
 }
 
@@ -802,7 +802,8 @@ button:focus {
 
 /* Reduce top spacing for services section */
 .services_partitions_area {
-    padding-top: 10px !important;
+  position: relative;
+  bottom: 220px;
 }
 /* Home tab image & Service space Remove end */
 
@@ -810,7 +811,7 @@ button:focus {
 .home_banner_area {
   position: relative;
   z-index: 1;
-  min-height: 780px;
+  /* min-height: 780px; */
 }
 
 .home_banner_area .banner_inner {
