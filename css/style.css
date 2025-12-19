@@ -627,6 +627,8 @@ button:focus {
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
+  position: relative;
+  bottom: 50px;
 }
 /* Move arrows upward */
 .carousel-control-prev,
@@ -761,8 +763,6 @@ button:focus {
         transform: scale(1); /* back to normal */
     }
 }
-/* ULTRA SLOW MOTION ZOOM ANIMATION End*/
-
 
 .course_card {
   height: 100%;
@@ -791,7 +791,7 @@ button:focus {
 
 /* Make carousel image height proper */
 .home_banner_area .carousel-item img {
-    height: 65vh;   /* Full screen height */
+    height: 50vh;   /* Full screen height */
     object-fit: cover;
 }
 
@@ -803,7 +803,7 @@ button:focus {
 /* Reduce top spacing for services section */
 .services_partitions_area {
   position: relative;
-  bottom: 220px;
+  bottom: 300px;
 }
 /* Home tab image & Service space Remove end */
 
@@ -4171,7 +4171,6 @@ h6 {
   color: #222222;
   border-bottom: 1px solid transparent;
 }
-
 .course_details_inner .nav.nav-tabs li a.active {
   border-color: #7b2cbf;
 }
