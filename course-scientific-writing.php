@@ -1,24 +1,26 @@
 <?php include 'includes/header.php'; ?>
 <link rel="stylesheet" href="css/course-details-enhanced.css">
-        
-        <!--================Home Banner Area =================-->
-        <section class="banner_area">
-            <div class="banner_inner d-flex align-items-center">
-            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-				<div class="container">
-					<div class="banner_content text-center">
-						<h2>Scientific Writing in Pharma</h2>
-						<div class="page_link">
-							<a href="index.php">Home</a>
-							<a href="courses.php">Courses</a>
-							<a href="course-scientific-writing.php">Scientific Writing</a>
-						</div>
-					</div>
-				</div>
-            </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-        
+
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+  <div class="banner_inner d-flex align-items-center">
+    <div class="overlay bg-parallax"></div>
+
+    <div class="container">
+      <div class="banner_content text-center">
+        <!-- NEW breadcrumb wrapper -->
+        <div class="custom-breadcrumb">
+          <a href="index.php">Home</a>
+          <span>-></span>
+          <a href="courses.php">Courses</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!--================End Home Banner Area =================-->
+
 <!--================ Course Details Area =================-->
 <section class="course_details_area p_120">
   <div class="container">
@@ -92,28 +94,28 @@
           </div>
 
           <!-- Course Outline -->
-   <!-- Course Outline -->
-<div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
-  <div class="objctive_text">
-    <ul class="list">
-      <li>Introduction to Pharmacovigilance</li>
-      <li>History of Pharmacovigilance</li>
-      <li>Pharmaceutical Regulatory Agencies and Organizations</li>
-      <li>Brief note on new drug registration process</li>
-      <li>Drugs withdrawals</li>
-      <li>Pharmacovigilance Methods</li>
-      <li>Causality assessment</li>
-      <li>Signal detection in Pharmacovigilance</li>
-      <li>Guidelines and standards Governing Pharmacovigilance</li>
-      <li>Individual Case Safety Reports (ICSRs)</li>
-      <li>AE reporting forms</li>
-      <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
-      <li>Aggregate safety reports</li>
-      <li>Pharmacovigilance Inspections</li>
-      <li>UMC Glossaries</li>
-    </ul>
-  </div>
-</div>
+          <!-- Course Outline -->
+          <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
+            <div class="objctive_text">
+              <ul class="list">
+                <li>Introduction to Pharmacovigilance</li>
+                <li>History of Pharmacovigilance</li>
+                <li>Pharmaceutical Regulatory Agencies and Organizations</li>
+                <li>Brief note on new drug registration process</li>
+                <li>Drugs withdrawals</li>
+                <li>Pharmacovigilance Methods</li>
+                <li>Causality assessment</li>
+                <li>Signal detection in Pharmacovigilance</li>
+                <li>Guidelines and standards Governing Pharmacovigilance</li>
+                <li>Individual Case Safety Reports (ICSRs)</li>
+                <li>AE reporting forms</li>
+                <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
+                <li>Aggregate safety reports</li>
+                <li>Pharmacovigilance Inspections</li>
+                <li>UMC Glossaries</li>
+              </ul>
+            </div>
+          </div>
 
 
           <!-- Comments / Reviews -->

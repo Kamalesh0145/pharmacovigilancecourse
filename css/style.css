@@ -5385,4 +5385,26 @@ h6 {
   }
 }
 
+/* Courses page select course choose banner style */
+ /* New breadcrumb style */
+.custom-breadcrumb {
+  margin-top: 140px;            
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
 
+/* Links */
+.custom-breadcrumb a {
+     font-size: 14px;
+    color: white;
+  position: relative;
+}
+
+/* Slash */
+.custom-breadcrumb span {
+    font-size: 14px;
+    color: white;
+    /* font-family: "Roboto", sans-serif; */
+}

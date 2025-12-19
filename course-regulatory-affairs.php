@@ -4,19 +4,23 @@
 <!--================Home Banner Area =================-->
 <section class="banner_area">
   <div class="banner_inner d-flex align-items-center">
-    <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+    <div class="overlay bg-parallax"></div>
+
     <div class="container">
       <div class="banner_content text-center">
-        <h2>Regulatory Affairs in Pharma</h2>
-        <div class="page_link">
+        <!-- NEW breadcrumb wrapper -->
+        <div class="custom-breadcrumb">
           <a href="index.php">Home</a>
+          <span>-></span>
           <a href="courses.php">Courses</a>
-          <a href="course-regulatory-affairs.php">Regulatory Affairs</a>
         </div>
+
       </div>
     </div>
   </div>
 </section>
+
+
 <!--================End Home Banner Area =================-->
 
 <!--================ Course Details Area =================-->
