@@ -160,8 +160,6 @@
 
 <!--================Home Banner Area =================-->
 
-
-
 <!--================Contact Area =================-->
 <section class="contact_area">
   <div class="container">
