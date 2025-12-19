@@ -43,6 +43,7 @@
                                 <li style="margin-bottom: 8px !important;"><a href="course-scientific-writing.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Medical Writing</a></li>
                                 <li style="margin-bottom: 8px !important;"><a href="course-clinical-trial-management.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Clinical Trial Management</a></li>
                                 <li style="margin-bottom: 8px !important;"><a href="course-project-management.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Project Management</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="course-regulatory-affairs.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">AI in healthcare</a></li>
                             </ul>
                         </div>
                     </div>

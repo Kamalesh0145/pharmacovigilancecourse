@@ -1,24 +1,24 @@
 <?php include 'includes/header.php'; ?>
 <link rel="stylesheet" href="css/course-details-enhanced.css">
-        
-        <!--================Home Banner Area =================-->
-        <section class="banner_area">
-            <div class="banner_inner d-flex align-items-center">
-            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-				<div class="container">
-					<div class="banner_content text-center">
-						<h2>Regulatory Affairs in Pharma</h2>
-						<div class="page_link">
-							<a href="index.php">Home</a>
-							<a href="courses.php">Courses</a>
-							<a href="course-regulatory-affairs.php">Regulatory Affairs</a>
-						</div>
-					</div>
-				</div>
-            </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-        
+
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+  <div class="banner_inner d-flex align-items-center">
+    <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+    <div class="container">
+      <div class="banner_content text-center">
+        <h2>Regulatory Affairs in Pharma</h2>
+        <div class="page_link">
+          <a href="index.php">Home</a>
+          <a href="courses.php">Courses</a>
+          <a href="course-regulatory-affairs.php">Regulatory Affairs</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--================End Home Banner Area =================-->
+
 <!--================ Course Details Area =================-->
 <section class="course_details_area p_120">
   <div class="container">
@@ -50,20 +50,20 @@
           <div class="tab-pane fade show active" id="objectives" role="tabpanel" aria-labelledby="objectives-tab">
             <div class="objctive_text">
               <p>
-                The <strong>Regulatory Affairs in Pharma</strong> program provides comprehensive training in pharmaceutical regulations, compliance, and regulatory submissions.
-                This course equips professionals with the knowledge and skills needed to navigate complex regulatory environments and ensure compliance with global pharmaceutical regulations.
+                Artificial Intelligence (AI) is rapidly becoming a powerful partner across industries, with a significant impact on the healthcare sector.
+                AI is transforming healthcare by improving accuracy, enabling personalized care, and enhancing efficiency for patients, healthcare professionals, and researchers.
               </p>
               <p>
-                Participants will learn to prepare regulatory submissions, manage compliance requirements, and understand the regulatory landscape across different markets.
+                The <strong>Certification in Fundamentals of Artificial Intelligence in the Healthcare Industry</strong> program is designed to help students and working professionals
+                understand the core concepts and foundational principles of AI as applied to healthcare.
+                This program provides essential knowledge to build awareness of AI-driven solutions shaping the future of the healthcare industry.
               </p>
+
               <h4>Key Learning Outcomes:</h4>
               <ul class="list">
-                <li>Master global pharmaceutical regulations and guidelines</li>
-                <li>Learn to prepare and submit regulatory documents</li>
-                <li>Understand regulatory compliance and quality systems</li>
-                <li>Develop skills in regulatory strategy and planning</li>
-                <li>Gain expertise in post-marketing regulatory requirements</li>
-                <li>Learn to manage regulatory inspections and audits</li>
+                <li>Understand and gain knowledge about Artificial intelligence</li>
+                <li>Learn basics and fundamentals of AI</li>
+                <li>Optimize Healthcare Operations</li>
               </ul>
             </div>
           </div>
@@ -73,13 +73,12 @@
             <div class="objctive_text">
               <h4>Who Should Enroll:</h4>
               <ul class="list">
-                <li>Regulatory Affairs professionals and managers</li>
-                <li>Quality Assurance professionals in pharma</li>
-                <li>Clinical Research professionals</li>
-                <li>Medical Affairs and Medical Writing professionals</li>
-                <li>Graduates in Pharmacy, Life Sciences, or Medicine</li>
-                <li>Professionals seeking career transition to regulatory affairs</li>
+                <li>Healthcare professionals seeking to enhance their skills and stay competitive in a rapidly evolving industry</li>
+                <li>Data scientists, researchers, and professionals looking to transition into the healthcare sector</li>
+                <li>Individuals aiming to deepen their knowledge of AI and ML applications in healthcare</li>
+                <li>Healthcare professionals interested in understanding emerging technological advancements</li>
               </ul>
+
               <h4>Prerequisites:</h4>
               <ul class="list">
                 <li>Bachelor's degree in Pharmacy, Life Sciences, or related field</li>
@@ -92,27 +91,20 @@
           </div>
 
           <!-- Course Outline -->
-<div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
-  <div class="objctive_text">
-    <ul class="list">
-      <li>Introduction to Pharmacovigilance</li>
-      <li>History of Pharmacovigilance</li>
-      <li>Pharmaceutical Regulatory Agencies and Organizations</li>
-      <li>Brief note on new drug registration process</li>
-      <li>Drugs withdrawals</li>
-      <li>Pharmacovigilance Methods</li>
-      <li>Causality assessment</li>
-      <li>Signal detection in Pharmacovigilance</li>
-      <li>Guidelines and standards Governing Pharmacovigilance</li>
-      <li>Individual Case Safety Reports (ICSRs)</li>
-      <li>AE reporting forms</li>
-      <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
-      <li>Aggregate safety reports</li>
-      <li>Pharmacovigilance Inspections</li>
-      <li>UMC Glossaries</li>
-    </ul>
-  </div>
-</div>
+          <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
+            <div class="objctive_text">
+              <ul class="list">
+                <li>Introduction to AI in Healthcare</li>
+                <li>Core AI Concepts</li>
+                <li>Healthcare Data Management</li>
+                <li>AI Applications in Healthcare</li>
+                <li>AI in Drug Discovery & Clinical Research</li>
+                <li>Regulatory, Ethical & Safety Framework</li>
+                <li>Brief Note on AI Tools</li>
+                <li>Future Trends & Workforce Transformation</li>
+              </ul>
+            </div>
+          </div>
 
           <!-- Comments / Reviews -->
           <div class="tab-pane fade" id="comments" role="tabpanel" aria-labelledby="comments-tab">

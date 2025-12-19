@@ -63,7 +63,7 @@
               <ul class="list">
                 <li>Graduates or postgraduates in Life Sciences, Pharmacy, Medicine, Nursing, or Allied Health fields.</li>
                 <li>Professionals working in Clinical Research, Drug Safety, or Regulatory Affairs who wish to enhance their skills.</li>
-                <li>Students aspiring to start a career in the Pharmaceutical or CRO industry.</li>
+                <li>Eligible students or working professionals aspiring to start a career pharmacovigilance domain.</li>
               </ul>
             </div>
           </div>
