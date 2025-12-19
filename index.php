@@ -109,9 +109,14 @@
             <!-- Clinical Services Partition -->
             <div class="col-lg-6 col-md-6 mb-4">
                 <div class="service_partition_card h-100">
-                    <div class="service_image">
-                        <img src="img/ClinincalResearch.png" alt="Clinical Services" class="img-fluid">
-                    </div>
+                    <!-- Image clickable -->
+                    <a href="courses.php" class="service_image_link">
+                        <div class="service_image">
+                            <img src="img/ClinincalResearch.png"
+                                alt="Clinical Services"
+                                class="img-fluid">
+                        </div>
+                    </a>
                     <div class="service_content text-center p-4">
                         <h3>Clinical Services</h3>
                         <p>Develop skills to create precise clinical study reports, SOPs, protocols, CRFs, etc.</p>
@@ -123,9 +128,14 @@
             <!-- Healthcare Partition -->
             <div class="col-lg-6 col-md-6 mb-4">
                 <div class="service_partition_card h-100">
-                    <div class="service_image">
-                        <img src="img/Healthcare.png" alt="Healthcare Products" class="img-fluid">
-                    </div>
+                    <!-- Image clickable -->
+                    <a href="elements.php" class="service_image_link">
+                        <div class="service_image">
+                            <img src="img/Healthcare.png"
+                                alt="Healthcare Products"
+                                class="img-fluid">
+                        </div>
+                    </a>
                     <div class="service_content text-center p-4">
                         <h3>Healthcare Products</h3>
                         <p>
@@ -139,9 +149,9 @@
                         </p>
                         <a href="elements.php" class="course_btn">View products</a>
                     </div>
-
                 </div>
             </div>
+
         </div>
     </div>
 </section>
