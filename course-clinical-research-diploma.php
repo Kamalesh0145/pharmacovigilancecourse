@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 <link rel="stylesheet" href="css/course-details-enhanced.css">
-        
-        <!--================Home Banner Area =================-->
+
+<!--================Home Banner Area =================-->
 <section class="banner_area">
   <div class="banner_inner d-flex align-items-center">
     <div class="overlay bg-parallax"></div>
@@ -19,8 +19,8 @@
     </div>
   </div>
 </section>
-        <!--================End Home Banner Area =================-->
-        
+<!--================End Home Banner Area =================-->
+
 <!--================ Course Details Area =================-->
 <section class="course_details_area p_120">
   <div class="container">
@@ -29,7 +29,7 @@
       <div class="col-lg-8">
         <div class="c_details_img">
           <img class="img-fluid" src="img/courses/Course6.png" alt="Professional Diploma in Clinical Research">
-          <div class="course_badge_overlay">Diploma Program</div>
+          <div class="course_badge_overlay">Certificate Program</div>
         </div>
 
         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -52,7 +52,7 @@
           <div class="tab-pane fade show active" id="objectives" role="tabpanel" aria-labelledby="objectives-tab">
             <div class="objctive_text">
               <p>
-                The <strong>Professional Diploma in Clinical Research</strong> is a comprehensive program that provides in-depth knowledge and practical skills in all aspects of clinical research.
+                The <strong>Professional Certificate in Clinical Research</strong> is a comprehensive program that provides in-depth knowledge and practical skills in all aspects of clinical research.
                 This diploma program is designed to prepare professionals for successful careers in the pharmaceutical, biotechnology, and clinical research industries.
               </p>
               <p>
@@ -94,27 +94,24 @@
           </div>
 
           <!-- Course Outline -->
-       <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
-  <div class="objctive_text">
-        <ul class="list">
-      <li>Introduction to Pharmacovigilance</li>
-      <li>History of Pharmacovigilance</li>
-      <li>Pharmaceutical Regulatory Agencies and Organizations</li>
-      <li>Brief note on new drug registration process</li>
-      <li>Drugs withdrawals</li>
-      <li>Pharmacovigilance Methods</li>
-      <li>Causality assessment</li>
-      <li>Signal detection in Pharmacovigilance</li>
-      <li>Guidelines and standards Governing Pharmacovigilance</li>
-      <li>Individual Case Safety Reports (ICSRs)</li>
-      <li>AE reporting forms</li>
-      <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
-      <li>Aggregate safety reports</li>
-      <li>Pharmacovigilance Inspections</li>
-      <li>UMC Glossaries</li>
-      </ul>
-  </div>
-</div>
+          <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
+            <div class="objctive_text">
+              <ul class="list">
+                <li>Drug Development Process</li>
+                <li>New Drug Discovery</li>
+                <li>Clinical Development of Drug</li>
+                <li>Essential Clinical Trial Documents</li>
+                <li>Clinical Trials Terminology</li>
+                <li>GCP</li>
+                <li>Ethics in Clinical Research</li>
+                <li>Informed Consent</li>
+                <li>Biostatistics</li>
+                <li>Regulatory Affairs</li>
+                <li>Roles and Responsibilities of Clinical Trial Personnel</li>
+              </ul>
+
+            </div>
+          </div>
 
           <!-- Comments / Reviews -->
           <div class="tab-pane fade" id="comments" role="tabpanel" aria-labelledby="comments-tab">

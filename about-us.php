@@ -767,10 +767,10 @@ document.querySelectorAll('.animated-title').forEach(title => {
 <!--================ Placement Area =================-->
 <section class="achievements_area p_120">
   <div class="container">
-    <div class="main_title text-center">
+    <!-- <div class="main_title text-center">
       <h2>Our Placement & Hiring Partners</h2>
       <h5>We are proud to be associated with leading organizations that recognize the quality of our training programs and recruit skilled professionals from our institute</h5>
-    </div>
+    </div> -->
     <div class="logo_slider">
       <div class="logo_track">
         <img src="img/Placement(1).png" alt="Achievement 1">

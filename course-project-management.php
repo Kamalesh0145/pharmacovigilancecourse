@@ -97,23 +97,21 @@
           <!-- Course Outline -->
 <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
   <div class="objctive_text">
-    <ul class="list">
-      <li>Introduction to Pharmacovigilance</li>
-      <li>History of Pharmacovigilance</li>
-      <li>Pharmaceutical Regulatory Agencies and Organizations</li>
-      <li>Brief note on new drug registration process</li>
-      <li>Drugs withdrawals</li>
-      <li>Pharmacovigilance Methods</li>
-      <li>Causality assessment</li>
-      <li>Signal detection in Pharmacovigilance</li>
-      <li>Guidelines and standards Governing Pharmacovigilance</li>
-      <li>Individual Case Safety Reports (ICSRs)</li>
-      <li>AE reporting forms</li>
-      <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
-      <li>Aggregate safety reports</li>
-      <li>Pharmacovigilance Inspections</li>
-      <li>UMC Glossaries</li>
-    </ul>
+            <ul class="list">
+              <li>Introduction to Clinical Research</li>
+              <li>Project Milestones Planning and Forecasting</li>
+              <li>Cost Estimate and Financial Planning</li>
+              <li>Logistics Planning, Vendor Selection and Management</li>
+              <li>Creation of Trial Master File</li>
+              <li>Management of Regulatory Document Submission</li>
+              <li>Co-ordination of Individual Site Set-up Activities</li>
+              <li>Import Export Requirements for Clinical Trials</li>
+              <li>Organization of Investigator Training Meeting</li>
+              <li>Study Initiation, Conduct and Milestones Tracking</li>
+              <li>Audits and Quality Assurance</li>
+              <li>Regulatory Inspection</li>
+              <li>Study Closeout</li>
+            </ul>
   </div>
 </div>
 

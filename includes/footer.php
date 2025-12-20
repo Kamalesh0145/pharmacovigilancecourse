@@ -285,10 +285,10 @@
                     </div>
                     <div class="col-lg-4 col-md-5 col-sm-12 text-center text-md-right">
                         <div class="footer-social">
-                            <a href="https://www.facebook.com/YourPageName" target="_blank" title="Facebook" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.linkedin.com/company/YourCompanyName" target="_blank" title="LinkedIn" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://twitter.com/YourHandle" target="_blank" title="Twitter" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/YourProfile" target="_blank" title="Instagram" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61584674056039" target="_blank" title="Facebook" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/cynture-global-b0537339b/" target="_blank" title="LinkedIn" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-linkedin"></i></a>
+                            <!-- <a href="https://twitter.com/YourHandle" target="_blank" title="Twitter" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-twitter"></i></a> -->
+                            <a href="https://www.instagram.com/cyntureglobal/" target="_blank" title="Instagram" style="color: white !important; margin: 0 8px !important; font-size: 18px !important; display: inline-block !important; transition: color 0.3s ease !important;"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

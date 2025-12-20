@@ -277,7 +277,7 @@
                         </li>
                         <li class="nav-item" role="presentation">
                             <a class="nav-link" id="pharmaceutical-tab" data-toggle="tab" href="#pharmaceutical" role="tab" aria-controls="pharmaceutical" aria-selected="false">
-                                Pharmaceutical Categories Database
+                                PHARMACEUTICAL - PRODUCTS
                             </a>
                         </li>
                     </ul>
@@ -543,7 +543,7 @@
         <div class="tab-pane fade" id="pharmaceutical" role="tabpanel" aria-labelledby="pharmaceutical-tab">
             <section class="healthcare-section">
                 <div class="healthcare-container">
-                    <h2 class="healthcare-title">Pharmaceutical Categories Database</h2>
+                    <h2 class="healthcare-title">Our High-quality pharmaceutical products for global healthcare markets</h2>
                     <p style="text-align: center; font-size: 16px; color: #666; margin-bottom: 40px;">Comprehensive database organized by therapeutic categories for pharmacovigilance studies and clinical research.</p>
                     <div class="search-container">
                         <input type="text" class="search-input" id="searchInput" placeholder="Search by category or drug name...">

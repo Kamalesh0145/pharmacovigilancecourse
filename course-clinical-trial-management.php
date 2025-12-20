@@ -97,21 +97,16 @@
 <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
   <div class="objctive_text">
     <ul class="list">
-      <li>Introduction to Pharmacovigilance</li>
-      <li>History of Pharmacovigilance</li>
-      <li>Pharmaceutical Regulatory Agencies and Organizations</li>
-      <li>Brief note on new drug registration process</li>
-      <li>Drugs withdrawals</li>
-      <li>Pharmacovigilance Methods</li>
-      <li>Causality assessment</li>
-      <li>Signal detection in Pharmacovigilance</li>
-      <li>Guidelines and standards Governing Pharmacovigilance</li>
-      <li>Individual Case Safety Reports (ICSRs)</li>
-      <li>AE reporting forms</li>
-      <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
-      <li>Aggregate safety reports</li>
-      <li>Pharmacovigilance Inspections</li>
-      <li>UMC Glossaries</li>
+              <li>Fundamentals of Clinical Research</li>
+              <li>Regulatory and Ethical Framework</li>
+              <li>Clinical Trial Protocol and Documentation</li>
+              <li>Site Management and Regulatory Compliance</li>
+              <li>Data Management</li>
+              <li>Pharmacovigilance and Safety Reporting</li>
+              <li>Biostatistics Requirements</li>
+              <li>Quality Assurance and Risk-Based Monitoring</li>
+              <li>Clinical Supply and Logistics</li>
+              <li>Clinical Project Management</li>
     </ul>
   </div>
 </div>

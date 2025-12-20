@@ -119,7 +119,7 @@
                     </a>
                     <div class="service_content text-center p-4">
                         <h3>Clinical Services</h3>
-                        <p>Develop skills to create precise clinical study reports, SOPs, protocols, CRFs, etc.</p>
+                        <p>Specialized Clinical Research, Pharmacovigilance, Scientific Writing & AI Courses</p>
                         <a href="courses.php" class="course_btn">Explore Courses</a>
                     </div>
                 </div>
@@ -280,55 +280,6 @@
         margin-top: auto;
     }
 </style>
-<!--================End Services Partitions Area =================-->
 
-
-
-<!--================Statistics Area =================-->
-<section class="stats_section">
-    <div class="container">
-        <div class="stats_inner">
-            <h2 class="stats_title">Our aspects</h2>
-            <p class="stats_subtitle">Best Clinical Research, SW & PV Training Providers</p>
-
-            <div class="stats_grid">
-                <div class="stat_item">
-                    <!-- <div class="stat_number">12000+</div>
-                    <div class="stat_label">Participants</div>
-                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Participants from different countries</p> -->
-                    <div class="stat_label">Participants from different countries</div>
-                </div>
-
-                <div class="stat_item">
-                    <!-- <div class="stat_number">200+</div>
-                    <div class="stat_label">Cities</div>
-                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Multiple locations across India and Other countries</p> -->
-                    <div class="stat_label">Multiple locations across India and Other countries</div>
-                </div>
-
-                <!-- <div class="stat_item">
-                    <div class="stat_number">30+</div>
-                    <div class="stat_label">Countries & Counting</div>
-                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Global Outreach</p>
-                </div> -->
-                <div class="stat_item">
-                    <!-- <div class="stat_number">10+</div>
-                    <div class="stat_label">Years Experience</div>
-                    <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Course materials from industrial experts having 10+ years experience</p> -->
-                    <div class="stat_label">Course materials from industrial experts having 10+ years experience</div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<!--================End Statistics Area =================-->
-
-
-<!--================End Testimonials Area =================-->
-<!--================Impress Area =================-->
-
-
-<!--================End Impress Area =================-->
 
 <?php include 'includes/footer.php'; ?>

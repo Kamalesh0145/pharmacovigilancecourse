@@ -97,23 +97,18 @@
           <!-- Course Outline -->
           <div class="tab-pane fade" id="outline" role="tabpanel" aria-labelledby="outline-tab">
             <div class="objctive_text">
-              <ul class="list">
-                <li>Introduction to Pharmacovigilance</li>
-                <li>History of Pharmacovigilance</li>
-                <li>Pharmaceutical Regulatory Agencies and Organizations</li>
-                <li>Brief note on new drug registration process</li>
-                <li>Drugs withdrawals</li>
-                <li>Pharmacovigilance Methods</li>
-                <li>Causality assessment</li>
-                <li>Signal detection in Pharmacovigilance</li>
-                <li>Guidelines and standards Governing Pharmacovigilance</li>
-                <li>Individual Case Safety Reports (ICSRs)</li>
-                <li>AE reporting forms</li>
-                <li>Medical Dictionary for Drug Regulatory Activities (MedDRA)</li>
-                <li>Aggregate safety reports</li>
-                <li>Pharmacovigilance Inspections</li>
-                <li>UMC Glossaries</li>
-              </ul>
+<ul class="list">
+  <li>Introduction to Clinical Research</li>
+  <li>Clinical Study Process</li>
+  <li>Development of Standard Operating Procedures (SOPs)</li>
+  <li>Protocol</li>
+  <li>Case Report Form (CRF)</li>
+  <li>Clinical Study Report</li>
+  <li>Other Regulatory Documents</li>
+  <li>Aggregate Safety Reports</li>
+  <li>Publications</li>
+</ul>
+
             </div>
           </div>
 
