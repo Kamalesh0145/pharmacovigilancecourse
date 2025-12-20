@@ -241,10 +241,118 @@
   </div>
 </section>
 
+<!-- Company Description Section -->
+<section class="company-description py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="description-content">
+                    <div class="company-text">
+                        <strong>Cyntureglobal</strong> is a well-established and trusted exporter of high-quality pharmaceutical and
+                        nutraceutical products, with over <strong>5 years</strong> of strong expertise in supplying to various international
+                        markets.<br><br>
+                        We firmly believe that every patient deserves access to safe, effective, and affordable medicines—
+                        and our mission is to make that a reality. Based on the customer's requirements, we can supply a
+                        wide range of pharmaceutical and nutraceutical products manufactured in facilities approved by
+                        leading global regulatory authorities.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- Product Tabs Section -->
+<section class="product-tabs-section py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-tabs product-nav-tabs justify-content-center" id="productTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="healthcare-tab" data-toggle="tab" href="#healthcare" role="tab" aria-controls="healthcare" aria-selected="true">
+                            Healthcare - Nutraceuticals
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pharmaceutical-tab" data-toggle="tab" href="#pharmaceutical" role="tab" aria-controls="pharmaceutical" aria-selected="false">
+                            Pharmaceutical Categories Database
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
+<div class="tab-content" id="productTabsContent">
+    <!-- Healthcare Tab Content -->
+    <div class="tab-pane fade show active" id="healthcare" role="tabpanel" aria-labelledby="healthcare-tab">
 
     <style>
+        .company-description {
+            background: #f8f9fa;
+        }
+        
+        .company-text {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #444;
+            margin: 0;
+            padding: 40px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            border-left: 5px solid #7b2cbf;
+            position: relative;
+        }
+        
+        .company-text::before {
+            content: '🏥';
+            font-size: 30px;
+            position: absolute;
+            top: 15px;
+            left: 20px;
+        }
+        
+        .company-text strong {
+            color: #7b2cbf;
+            font-weight: 600;
+        }
+        
+        .product-tabs-section {
+            background: #fff;
+            /* border-bottom: 1px solid #eee; */
+        }
+        
+        /* .product-nav-tabs {
+            border-bottom: 2px solid #7b2cbf;
+        }
+         */
+        .product-nav-tabs .nav-link {
+            color: #666;
+            font-weight: 600;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 0;
+            background: transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .product-nav-tabs .nav-link:hover {
+            color: #7b2cbf;
+            background: #f8f9ff;
+        }
+        
+        .product-nav-tabs .nav-link.active {
+            color: blue;
+            background: #fff;
+            border-bottom: 2px solid blue;
+        }
+        
+        .tab-content {
+            background: #f8f9fb;
+        }
   .healthcare-section {
     background: #f8f9fb;
     padding: 60px 0;
@@ -255,11 +363,12 @@
     width: 90%;
     max-width: 1100px;
     margin: auto;
+    margin-top: 0px;
   }
 
   .healthcare-title {
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     color: #7b2cbf;
     margin-bottom: 40px;
@@ -346,6 +455,7 @@ table th.sno-cell {
 <section class="healthcare-section">
   <div class="healthcare-container">
     <h2 class="healthcare-title">Healthcare - Nutraceuticals</h2>
+    <p style="text-align: center; font-size: 16px; color: #666; margin-bottom: 40px;">High-quality nutraceutical products for global healthcare markets</p>
 
     <!-- Card 1 -->
     <div class="health-card">
@@ -426,15 +536,15 @@ table th.sno-cell {
 
   </div>
 </section>
-
-
-    <section class="p_120">
-        <div class="container">
-            <div class="main_title">
-                <h2>Pharmaceutical Categories Database</h2>
-                <p>Comprehensive database organized by therapeutic categories for pharmacovigilance studies and clinical research.</p>
-            </div>
-            
+    </div>
+    
+    <!-- Pharmaceutical Tab Content -->
+    <div class="tab-pane fade" id="pharmaceutical" role="tabpanel" aria-labelledby="pharmaceutical-tab">
+    <section class="healthcare-section">
+        <div class="healthcare-container">
+            <h2 class="healthcare-title">Pharmaceutical Categories Database</h2>
+            <p style="text-align: center; font-size: 16px; color: #666; margin-bottom: 40px;">Comprehensive database organized by therapeutic categories for pharmacovigilance studies and clinical research.</p>
+        
             <div class="search-container">
                 <input type="text" class="search-input" id="searchInput" placeholder="Search by category or drug name...">
                 <i class="fa fa-search search-icon"></i>
@@ -749,6 +859,8 @@ table th.sno-cell {
             </div>
         </div>
     </section>
+    </div>
+</div>
 
     <?php include 'includes/footer.php'; ?>
 

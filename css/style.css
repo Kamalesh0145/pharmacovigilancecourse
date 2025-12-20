@@ -199,8 +199,8 @@ button:focus {
 }
 
 .main_title h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 36px;
+  font-family: none;
+  font-size: 25px;
   color: #222222;
   margin-bottom: 12px;
 }

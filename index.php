@@ -138,15 +138,7 @@
                     </a>
                     <div class="service_content text-center p-4">
                         <h3>Healthcare Products</h3>
-                        <p>
-                            Cyntureglobal is a well-established and trusted exporter of high-quality pharmaceutical and nutraceutical products,
-                            with over five years of strong expertise in supplying to various international markets.
-                        </p>
-                        <p>
-                            We believe that every patient deserves access to safe, effective, and affordable medicines.
-                            Based on customer requirements, we supply a wide range of pharmaceutical and nutraceutical products
-                            manufactured in facilities approved by leading global regulatory authorities.
-                        </p>
+                        Export quality pharmaceuticals, nutraceuticals, and healthcare products worldwide
                         <a href="elements.php" class="course_btn">View products</a>
                     </div>
                 </div>
