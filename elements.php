@@ -277,7 +277,7 @@
                         </li>
                         <li class="nav-item" role="presentation">
                             <a class="nav-link" id="pharmaceutical-tab" data-toggle="tab" href="#pharmaceutical" role="tab" aria-controls="pharmaceutical" aria-selected="false">
-                                PHARMACEUTICAL - PRODUCTS
+                                Pharmaceutical - Products
                             </a>
                         </li>
                     </ul>
