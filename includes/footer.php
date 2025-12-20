@@ -33,18 +33,40 @@
         <footer class="footer-area" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%) !important; padding: 60px 0 30px 0 !important; margin-top: 50px !important; box-shadow: 0 -5px 20px rgba(0,0,0,0.1) !important;">
             <div class="container">
                 <div class="row justify-content-center">
-                    <!-- Our Programs -->
+
+                                    <!-- Healthcare -->
                     <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title" style="color: Black!important; font-weight: 700 !important; margin-bottom: 25px !important; font-size: 18px !important; position: relative !important; padding-bottom: 10px !important;">📚 Our Programs</h6>
+                            <h6 class="footer_title" style="color: Black!important; font-weight: 700 !important; margin-bottom: 25px !important; font-size: 18px !important; position: relative !important; padding-bottom: 10px !important;">🏥 Healthcare</h6>
                             <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
-                                <li style="margin-bottom: 8px !important;"><a href="course-pharmacovigilance.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Pharmacovigilance</a></li>
-                                <li style="margin-bottom: 8px !important;"><a href="course-clinical-research-diploma.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Clinical Research</a></li>
-                                <li style="margin-bottom: 8px !important;"><a href="course-scientific-writing.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Medical Writing</a></li>
-                                <li style="margin-bottom: 8px !important;"><a href="course-clinical-trial-management.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Clinical Trial Management</a></li>
-                                <li style="margin-bottom: 8px !important;"><a href="course-project-management.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Project Management</a></li>
-                                <li style="margin-bottom: 8px !important;"><a href="course-regulatory-affairs.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">AI in healthcare</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="elements.php?tab=healthcare" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Healthcare Nutraceuticals</a></li>
+                                <li style="margin-bottom: 8px !important;"><a href="elements.php?tab=pharmaceutical" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Pharmaceutical Product</a></li>
                             </ul>
+                        </div>
+                    </div>
+                    <!-- Our courses -->
+                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4">
+                        <div class="single-footer-widget">
+                            <h6 class="footer_title" style="color: Black!important; font-weight: 700 !important; margin-bottom: 25px !important; font-size: 18px !important; position: relative !important; padding-bottom: 10px !important;">📚 Our Courses</h6>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
+                                        <li style="margin-bottom: 8px !important;"><a href="course-pharmacovigilance.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Pharmacovigilance</a></li>
+                                        <li style="margin-bottom: 8px !important;"><a href="course-clinical-research-diploma.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Clinical Research</a></li>
+                                        <li style="margin-bottom: 8px !important;"><a href="course-scientific-writing.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Medical Writing</a></li>
+                                        <li style="margin-bottom: 8px !important;"><a href="course-clinical-trial-management.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Clinical Trial Management</a></li>
+                                        <li style="margin-bottom: 8px !important;"><a href="course-project-management.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Project Management</a></li>
+                                        <li style="margin-bottom: 8px !important;"><a href="course-regulatory-affairs.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">AI in healthcare</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
+                                        <li style="margin-bottom: 8px !important;"><a href="faq.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">FAQs</a></li>
+                                        <li style="margin-bottom: 8px !important;"><a href="contact.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Learning Portal</a></li>
+                                        <li style="margin-bottom: 8px !important;"><a href="certification-process.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Certification Process</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -58,28 +80,6 @@
                                 <li style="margin-bottom: 8px !important;"><a href="courses.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Courses</a></li>
                                 <li style="margin-bottom: 8px !important;"><a href="elements.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Products</a></li>
                                 <li style="margin-bottom: 8px !important;"><a href="contact.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Student Support -->
-                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
-                        <div class="single-footer-widget">
-                            <h6 class="footer_title" style="color: Black!important; font-weight: 700 !important; margin-bottom: 25px !important; font-size: 18px !important; position: relative !important; padding-bottom: 10px !important;">🎓 Student Support</h6>
-                            <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
-                                <li style="margin-bottom: 8px !important;"><a href="faq.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">FAQs</a></li>
-                                <li style="margin-bottom: 8px !important;"><a href="contact.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Learning Portal</a></li>
-                                <li style="margin-bottom: 8px !important;"><a href="certification-process.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Certification Process</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Healthcare -->
-                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
-                        <div class="single-footer-widget">
-                            <h6 class="footer_title" style="color: Black!important; font-weight: 700 !important; margin-bottom: 25px !important; font-size: 18px !important; position: relative !important; padding-bottom: 10px !important;">🏥 Healthcare</h6>
-                            <ul class="list" style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
-                                <li style="margin-bottom: 8px !important;"><a href="elements.php" style="color: #666 !important; text-decoration: none !important; font-size: 14px !important; transition: color 0.3s ease !important;">Pharmaceutical and Nutraceutical Products</a></li>
                             </ul>
                         </div>
                     </div>

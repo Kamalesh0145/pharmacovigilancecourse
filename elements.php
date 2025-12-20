@@ -1317,6 +1317,18 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script>
+        // Auto-switch to tab based on URL parameter
+        $(document).ready(function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const tab = urlParams.get('tab');
+            
+            if (tab === 'healthcare') {
+                $('#healthcare-tab').tab('show');
+            } else if (tab === 'pharmaceutical') {
+                $('#pharmaceutical-tab').tab('show');
+            }
+        });
+
         // Search functionality
         document.getElementById('searchInput').addEventListener('keyup', function() {
             const searchTerm = this.value.toLowerCase();
