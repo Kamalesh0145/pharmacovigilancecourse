@@ -764,36 +764,7 @@ document.querySelectorAll('.animated-title').forEach(title => {
 
 
 
-<!--================ Placement Area =================-->
-<section class="achievements_area p_120">
-  <div class="container">
-    <!-- <div class="main_title text-center">
-      <h2>Our Placement & Hiring Partners</h2>
-      <h5>We are proud to be associated with leading organizations that recognize the quality of our training programs and recruit skilled professionals from our institute</h5>
-    </div> -->
-    <div class="logo_slider">
-      <div class="logo_track">
-        <img src="img/Placement(1).png" alt="Achievement 1">
-        <img src="img/Placement(2).png" alt="Achievement 2">
-        <img src="img/Placement(3).png" alt="Achievement 3">`
-        <img src="img/Placement(4).png" alt="Achievement 4">
-        <img src="img/Placement(5).png" alt="Achievement 5">
-        <img src="img/Placement(6).png" alt="Achievement 6">
-        <img src="img/Placement(7).png" alt="Achievement 7">
-        <img src="img/Placement(8).png" alt="Achievement 8">
-        <img src="img/Placement(9).png" alt="Achievement 9">
-        <img src="img/Placement(11).png" alt="Achievement 11">
-        <img src="img/Placement(12).png" alt="Achievement 12">
-        <img src="img/Placement(13).png" alt="Achievement 13">
-        <img src="img/Placement(14).png" alt="Achievement 14">
-        <img src="img/Placement(15).png" alt="Achievement 15">
-        <img src="img/Placement(16).png" alt="Achievement 16">
-        <img src="img/Placement(17).png" alt="Achievement 17">
-        <img src="img/Placement(18).png" alt="Achievement 18">
-      </div>
-    </div>
-  </div>
-</section>
+
 
 
 <!--================End Impress Area =================-->
