@@ -275,8 +275,8 @@
     </div>
 
 
-<style>
-   /* Commitment Section */
+    <style>
+      /* Commitment Section */
       .commitment-section {
         background: white;
         padding: 50px 40px;
@@ -337,27 +337,44 @@
         margin: 0;
         font-size: 15px;
       }
+
       /* Responsive Design */
       @media (max-width: 768px) {
         .content-grid {
           grid-template-columns: 1fr;
         }
+
         .commitment-content {
           grid-template-columns: 1fr;
         }
+
         .commitment-card {
           flex-direction: column;
           text-align: center;
         }
+
         .commitment-icon {
           margin-right: 0;
           margin-bottom: 15px;
         }
       }
-      
-  </style>
 
-      <!-- About Details -->
+      /* Potential Opportunities Section Styling */
+      .achievements_area {
+        padding: 20px 0 10px 0;
+      }
+
+      .achievements_area .main_title h2 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #7b2cbf;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+    </style>
+
+    <!-- About Details -->
     <div class="commitment-section">
       <!-- <div class="section-header">
             <h2><i class="fas fa-handshake"></i> Cynture Global Commitment</h2>
@@ -428,17 +445,16 @@
 </section>
 
 
-<section class="achievements_area p_120">
+<section class="achievements_area">
   <div class="container">
     <div class="main_title text-center">
       <h2>Potential Opportunities In</h2>
-      <!-- <h5>We are proud to be associated with leading organizations that recognize the quality of our training programs and recruit skilled professionals from our institute</h5> -->
     </div>
     <div class="logo_slider">
       <div class="logo_track">
         <img src="img/team/image (0).png" alt="Achievement 1">
         <img src="img/team/image (1).png" alt="Achievement 2">
-        <img src="img/team/image (2).png" alt="Achievement 3">`
+        <img src="img/team/image (2).png" alt="Achievement 3">
         <img src="img/team/image (3).png" alt="Achievement 4">
         <img src="img/team/image (4).png" alt="Achievement 5">
         <img src="img/team/image (5).png" alt="Achievement 6">
@@ -634,7 +650,7 @@
           </div>
         </div> -->
 
-<!--================ Placement Area =================-->
+      <!--================ Placement Area =================-->
 
 
     </div>
