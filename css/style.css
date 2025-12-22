@@ -4832,42 +4832,33 @@ h6 {
 /* Achievements & Placements Logos Start */
 .logo_slider {
   overflow: hidden;
-  position: relative;
   width: 100%;
 }
 
 .logo_track {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  /* evenly distribute logos */
   gap: 160px;
-  /* space between each logo */
   width: max-content;
-  animation: scroll 100s linear infinite;
+  animation: scroll 50s linear infinite;
 }
 
 .logo_track img {
   width: 120px;
   height: 120px;
-  filter: grayscale(0%);
-  /* show color by default */
-  transition: all 0.3s ease;
-}
-
-.logo_track img:hover {
-  transform: scale(1.1);
+  object-fit: contain;
 }
 
 @keyframes scroll {
-  0% {
+  from {
     transform: translateX(0);
   }
-
-  100% {
+  to {
     transform: translateX(-50%);
   }
 }
+
+
 /* Logo clarity & brightness fix */
 .logo_track img {
   width: 120px;

@@ -466,14 +466,23 @@
         <img src="img/team/image (11).png" alt="Achievement 13">
         <img src="img/team/image (12).png" alt="Achievement 14">
         <img src="img/team/image (13).png" alt="Achievement 15">
-        <img src="img/team/image (14).png" alt="Achievement 16">
-        <img src="img/team/image (15).png" alt="Achievement 17">
-        <img src="img/team/image (16).png" alt="Achievement 18">
-        <img src="img/team/image (17).png" alt="Achievement 18">
+        <img src="img/team/image (14).jfif" alt="Achievement 16">
+        <img src="img/team/image (15).jfif" alt="Achievement 17">
+        <img src="img/team/image (16).jfif" alt="Achievement 18">
+        <img src="img/team/image (17).jfif" alt="Achievement 18">
       </div>
     </div>
   </div>
 </section>
+<script>
+  const track = document.querySelector('.logo_track');
+  const logos = Array.from(track.children);
+
+  logos.forEach(logo => {
+    const clone = logo.cloneNode(true);
+    track.appendChild(clone);
+  });
+</script>
 
 <!--================End Courses Area =================-->
 

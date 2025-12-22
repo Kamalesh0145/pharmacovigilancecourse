@@ -1,99 +1,5 @@
 <?php include 'includes/header.php'; ?>
 
-<!--================Home Banner Area =================-->
-<!-- <section class="banner_area">
-  <div class="banner_inner d-flex align-items-center">
-    <div class="overlay bg-parallax"></div>
-
-  
-    <span class="banner_arrow_left">&#10094;</span>
-    <span class="banner_arrow_right">&#10095;</span>
-
-    <div class="container">
-      <div class="banner_content text-center">
-
-      
-        <h1 class="about-top-line animated-title">
-          Elevating People, Expanding Horizons — Under Cynture Global’s Expert Guidance
-        </h1>
-
-     
-        <h5 class="about-main-heading">
-          About Us
-        </h5>
-
-        <div class="page_link">
-          <a href="index.php">Home</a>
-          <a href="about-us.php">About Us</a>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-<script>
-let images = [
-    "img/banner/Healthcare1.png",
-    "img/banner/Healthcare2.png",
-    "img/banner/Healthcare3.png"
-];
-
-let index = 0;
-const overlay = document.querySelector(".banner_inner .overlay");
-
-
-overlay.style.backgroundImage = `url('${images[index]}')`;
-
-
-function changeImage(next = true) {
-    const temp = document.createElement("div");
-    temp.className = "overlay bg-parallax";
-    temp.style.backgroundImage = `url('${images[next ? (index + 1) % images.length : (index - 1 + images.length) % images.length]}')`;
-    temp.style.opacity = 0;
-    temp.style.transition = "opacity 1s ease-in-out";
-    document.querySelector(".banner_inner").appendChild(temp);
-
-    setTimeout(() => temp.style.opacity = 0.7, 50);
-
-    setTimeout(() => {
-        overlay.style.backgroundImage = temp.style.backgroundImage;
-        overlay.style.opacity = 0.7;
-        temp.remove();
-        index = next ? (index + 1) % images.length : (index - 1 + images.length) % images.length;
-    }, 1050);
-}
-
-
-let autoSlide = setInterval(() => changeImage(true), 4000);
-
-
-document.querySelector(".banner_arrow_right").addEventListener("click", function () {
-    clearInterval(autoSlide);
-    changeImage(true);
-    autoSlide = setInterval(() => changeImage(true), 4000);
-});
-
-document.querySelector(".banner_arrow_left").addEventListener("click", function () {
-    clearInterval(autoSlide);
-    changeImage(false);
-    autoSlide = setInterval(() => changeImage(true), 4000);
-});
-
-
-document.querySelectorAll('.animated-title').forEach(title => {
-    let text = title.innerText;
-    title.innerHTML = '';
-    text.split('').forEach((char, i) => {
-        let span = document.createElement('span');
-        span.innerText = char;
-        span.style.animationDelay = (i * 0.05) + "s";
-        title.appendChild(span);
-    });
-});
-</script> -->
-
-
 <section class="banner_area">
   <div class="banner_inner d-flex align-items-center">
     <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
@@ -176,40 +82,6 @@ document.querySelectorAll('.animated-title').forEach(title => {
         </div>
       </div>
     </div>
-
-    <!-- Specialization Areas -->
-    <!-- <div class="content-section specialization-section">
-      <div class="section-header">
-        <h2>Our Specialization Areas</h2>
-        <div class="section-divider"></div>
-      </div>
-      <div class="specialization-grid">
-        <div class="spec-card">
-          <div class="spec-image">
-            <img src="img/Pharmacovigilance.png" alt="Pharmacovigilance">
-          </div>
-          <h5>Pharmacovigilance</h5>
-        </div>
-        <div class="spec-card">
-          <div class="spec-image">
-            <img src="img/Clinical_Trial.png" alt="Clinical Research">
-          </div>
-          <h5>Clinical Research</h5>
-        </div>
-        <div class="spec-card">
-          <div class="spec-image">
-            <img src="img/Scientific_Writing.png" alt="Scientific Writing">
-          </div>
-          <h5>Scientific Writing</h5>
-        </div>
-        <div class="spec-card">
-          <div class="spec-image">
-            <img src="img/ClinincalResearch.png" alt="Clinical Research">
-          </div>
-          <h5>Project Management</h5>
-        </div>
-      </div>
-    </div> -->
 
 
     <style>
@@ -402,20 +274,20 @@ document.querySelectorAll('.animated-title').forEach(title => {
         .content-grid {
           grid-template-columns: 1fr;
         }
-        
+
         .vision-content {
           grid-template-columns: 1fr;
         }
-        
+
         .vision-card {
           flex-direction: column;
           text-align: center;
         }
-        
+
         .vision-image {
           margin: 0 auto 20px;
         }
-        
+
         .specialization-grid {
           grid-template-columns: repeat(2, 1fr);
         }
@@ -705,60 +577,16 @@ document.querySelectorAll('.animated-title').forEach(title => {
               </div>
             </div>
           </div>
-
-          <!-- <div class="card">
-                <div class="card-header" id="headingFive">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Trade and Exports
-                    <i class="lnr lnr-chevron-down"></i>
-                    <i class="lnr lnr-chevron-up"></i>
-                  </button>
-                </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Boasts dynamic team of experienced, accomplished, and well-trained professionals who are well-versed in the latest advancements in healthcare.
-                  </div>
-                </div>
-              </div> -->
-
         </div>
       </div>
 
       <!-- Video Section -->
       <div class="col-lg-6">
         <div class="video_area" id="video">
-          <img class="img-fluid" src="img/video_img.png" alt="Cynture Global Training Video">       
+          <img class="img-fluid" src="img/video_img.png" alt="Cynture Global Training Video">
         </div>
       </div>
     </div>
-
-    <!-- About Details -->
-    <!-- <div class="commitment-section">
-      <div class="section-header">
-            <h2><i class="fas fa-handshake"></i> Cynture Global Commitment</h2>
-            <div class="section-divider"></div>
-          </div>
-      <div class="commitment-content">
-        <div class="commitment-card">
-          <div class="commitment-icon">
-            <i class="fas fa-cogs"></i>
-          </div>
-          <div class="commitment-text">
-            <h4>Industry-Focused Training</h4>
-            <p>Cynture Global is committed to delivering industry-focused training that blends theoretical knowledge with hands-on practice. Our courses in pharmacovigilance, clinical research, project management, and scientific writing are designed to enhance employability and professional competence.</p>
-          </div>
-        </div>
-        <div class="commitment-card">
-          <div class="commitment-icon">
-            <i class="fas fa-cogs"></i>
-          </div>
-          <div class="commitment-text">
-            <h4>Expert-Led Programs</h4>
-            <p>Through our expert-led programs, students gain insights into real-world scenarios, learn regulatory compliance, master project management, and develop effective communication skills to thrive in the pharmaceutical and clinical research landscape.</p>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </div>
 </section>
 
