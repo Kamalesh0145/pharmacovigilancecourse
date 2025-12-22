@@ -4880,6 +4880,174 @@ h6 {
 
 /* Achievements & Placements Logos End */
 
+
+/* Products page logos circular arrangement CSS Start */
+.regulatory-section {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.regulatory-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+/* ===== Center Circle ===== */
+.center-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 40px 20px;
+  /* Gradient border ONLY */
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(135deg, #8a4bff, #00c6ff) border-box;
+  border: 2px solid transparent;
+  box-shadow: 0 0 40px rgba(136, 84, 255, 0.25);
+}
+.center-circle h2 {
+  font-size: 18px;
+  margin: 15px 0px 0px;
+  font-weight: 600;
+}
+.center-circle h3 {
+  font-size: 22px;
+  color: #8a4bff;
+  margin: 0;
+  font-weight: 700;
+}
+/* ===== Icons ===== */
+.icon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  /* Gradient border ONLY */
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(135deg, #8a4bff, #00c6ff) border-box;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon img {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+}
+/* ===== Positions ===== */
+.icon-top {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icon-top-right {
+  top: 20%;
+  right: 0;
+}
+.icon-bottom-right {
+  bottom: 20%;
+  right: 0;
+}
+.icon-bottom {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icon-bottom-left {
+  bottom: 20%;
+  left: 0;
+}
+.icon-top-left {
+  top: 20%;
+  left: 0;
+}
+/* ===============================
+   RESPONSIVE FIX (ALL DEVICES)
+================================ */
+/* Large screens / Mac / big monitors */
+@media (min-width: 1400px) {
+  .regulatory-container {
+    width: 520px;
+    height: 520px;
+  }
+}
+/* Laptop */
+@media (max-width: 1200px) {
+  .regulatory-container {
+    width: 480px;
+    height: 480px;
+  }
+}
+/* Tablet */
+@media (max-width: 991px) {
+  .regulatory-container {
+    width: 420px;
+    height: 420px;
+  }
+  .center-circle {
+    width: 200px;
+    height: 200px;
+  }
+  .icon {
+    width: 90px;
+    height: 90px;
+  }
+  .icon img {
+    width: 55px;
+  }
+}
+/* Mobile */
+@media (max-width: 576px) {
+  .regulatory-container {
+    width: 320px;
+    height: 320px;
+  }
+  .center-circle {
+    width: 160px;
+    height: 160px;
+    padding: 25px 15px;
+  }
+  .center-circle h2 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .center-circle h3 {
+    font-size: 16px;
+  }
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
+  .icon img {
+    width: 40px;
+  }
+}
+.section-heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #8a4bff;
+}
+
+@media (max-width: 576px) {
+  .section-heading {
+    font-size: 22px;
+  }
+}
+
+/* Products page logos circular arrangement CSS End */
+
+
 /* Modern Course Cards */
 .course_card {
   background: #fff;

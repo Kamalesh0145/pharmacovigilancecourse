@@ -264,6 +264,49 @@
         </div>
     </section>
 
+
+<section class="regulatory-section">
+      <h2 class="section-heading">Accredited by Global Regulatory Authorities</h2>
+
+  <div class="regulatory-container">
+
+    <!-- Center Content -->
+    <div class="center-circle">
+      <h2>ACCREDITED BY MAJOR</h2>
+      <h3>GLOBAL REGULATORIES</h3>
+    </div>
+
+    <!-- Surround Icons -->
+    <div class="icon icon-top">
+      <img src="img/team/ppt(1).png">
+    </div>
+
+    <div class="icon icon-top-right">
+      <img src="img/team/ppt(2).png">
+    </div>
+
+    <div class="icon icon-bottom-right">
+      <img src="img/team/ppt(3).jfif">
+    </div>
+
+    <div class="icon icon-bottom">
+      <img src="img/team/ppt(4).png">
+    </div>
+
+    <div class="icon icon-bottom-left">
+      <img src="img/team/ppt(5).png">
+    </div>
+
+    <div class="icon icon-top-left">
+      <img src="img/team/ppt(6).png">
+    </div>
+
+  </div>
+</section>
+
+
+
+
     <!-- Product Tabs Section -->
     <section class="product-tabs-section py-4">
         <div class="container">
