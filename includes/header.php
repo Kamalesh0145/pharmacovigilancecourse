@@ -5,7 +5,7 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/CYNTUREGLOBAL_logo.png" type="image/png">
+	<link rel="icon" href="/img/cynture_logo.png" type="image/png">
 	<title>Cynture Global</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -109,7 +109,7 @@
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a href="index.php" class="navbar-brand d-flex align-items-center">
-						<img src="img/trailimg.png"
+						<img src="/img/cynture_logo.png"
 							style="height:80px; width:80px; margin-right:10px; background-color:white; padding:5px; border-radius:5px;">
 						<!-- <span class="logo-text">CYNTURE GLOBAL</span> -->
 					</a>
