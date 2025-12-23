@@ -587,7 +587,7 @@
             <section class="healthcare-section">
                 <div class="healthcare-container">
                     <h2 class="healthcare-title">Our High-quality pharmaceutical products for global healthcare markets</h2>
-                    <p style="text-align: center; font-size: 16px; color: #666; margin-bottom: 40px;">Comprehensive database organized by therapeutic categories for pharmacovigilance studies and clinical research.</p>
+                    <!-- <p style="text-align: center; font-size: 16px; color: #666; margin-bottom: 40px;">Comprehensive database organized by therapeutic categories for pharmacovigilance studies and clinical research.</p> -->
                     <div class="search-container">
                         <input type="text" class="search-input" id="searchInput" placeholder="Search by category or drug name...">
                         <i class="fa fa-search search-icon"></i>
