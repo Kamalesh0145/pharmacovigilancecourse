@@ -15,8 +15,6 @@
   </div>
 </section>
 
-
-
 <!--================End Home Banner Area =================-->
 
 <!--================About Area =================-->
@@ -82,7 +80,6 @@
         </div>
       </div>
     </div>
-
 
     <style>
       /* Enhanced About Us Page Styling */
