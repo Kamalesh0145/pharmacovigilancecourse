@@ -147,8 +147,44 @@
         </div>
     </div>
 </section>
-
-
+                    <!-- Email Client Update Section -->
+<section class="py-5 bg-light" style="margin-top: -350px; position: relative; z-index: 10;">
+        <div class="container text-center">
+        <h3 class="mb-2 font-weight-bold" style="color: #7a329d;">Registration QR Code</h3>
+        <p class="mb-4 text-muted">Scan this QR code or click it to fill the student form.</p>
+        
+        <div class="qr-container d-inline-block p-4 bg-white shadow-sm border" style="border-radius: 20px;">
+            <a href="student_form.php" title=""> <!-- Button hover  --> 
+               
+                <?php                  
+                    $protocol = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http");
+                    $host = $_SERVER['HTTP_HOST'];                    
+                    $directory = dirname($_SERVER['SCRIPT_NAME']);
+                    // Final URL for the QR
+                    $form_url = $protocol . "://" . $host . $directory . "/student_form.php"; 
+                    // QR API Link
+                    $qr_api = "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=" . urlencode($form_url);
+                ?>
+                
+                <img src="<?php echo $qr_api; ?>" 
+                     alt="Scan to register" 
+                     class="img-fluid border-0 shadow-sm" 
+                     style="max-width: 220px; min-height: 220px; background: #fff; padding: 10px;">
+                
+                <div class="mt-3">
+                    <span class="badge rounded-pill p-2 px-4" style="background-color: #7a329d; color: white;">
+                        Click to Open Form
+                    </span>
+                </div>
+            </a>
+        </div>
+        
+        <!-- <p class="mt-3 small text-muted">
+            URL in QR: <strong><?php echo $form_url; ?></strong>
+        </p> -->
+    </div>
+</section>
+ <!-- Email Client Update Section -->
 <style>
     .main_title {
         margin-bottom: 50px;
