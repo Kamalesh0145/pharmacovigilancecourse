@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // --- 2. Recipients ---
         $mail->setFrom('kamalragu5@gmail.com', 'Cynture Global');
-        $mail->addAddress('vigneshvijay2704@gmail.com');
+        $mail->addAddress('clinicalservices@cyntureglobal.com');
 
         // --- 3. Email Content
         $mail->isHTML(true); 

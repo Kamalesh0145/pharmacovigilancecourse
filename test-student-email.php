@@ -2,7 +2,7 @@
 
 echo "<h2>Pharmacovigilance Student Email Test (PHP mail)</h2>";
 
-$toEmail = 'vigneshvijay2704@gmail.com'; // change to your email
+$toEmail = 'clinicalservices@cyntureglobal.com'; // change to your email
 $subject = "Test Email from Pharmacovigilance Site";
 $message = "This is a plain test email from the Pharmacovigilance project.\nTime: " . date('Y-m-d H:i:s');
 
