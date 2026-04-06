@@ -6,7 +6,7 @@ $toEmail = 'clinicalservices@cyntureglobal.com'; // change to your email
 $subject = "Test Email from Pharmacovigilance Site";
 $message = "This is a plain test email from the Pharmacovigilance project.\nTime: " . date('Y-m-d H:i:s');
 
-$fromEmail = 'kamalragu5@gmail.com';
+$fromEmail = 'cyntureglobal@gmail.com';
 
 $headers  = "From: Cynture Global <{$fromEmail}>\r\n";
 $headers .= "MIME-Version: 1.0\r\n";

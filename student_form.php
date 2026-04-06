@@ -19,13 +19,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'kamalragu5@gmail.com';
-        $mail->Password   = 'xfyi zfck grpk ngfu';
+        $mail->Username   = 'cyntureglobal@gmail.com';
+        $mail->Password   = 'qggw fibr pjoq lqpb';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
         // --- 2. Recipients ---
-        $mail->setFrom('kamalragu5@gmail.com', 'Cynture Global');
+        $mail->setFrom('cyntureglobal@gmail.com', 'Cynture Global');
         $mail->addAddress('clinicalservices@cyntureglobal.com');
 
         // --- 3. Email Content
