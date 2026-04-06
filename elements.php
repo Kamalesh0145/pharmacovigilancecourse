@@ -263,9 +263,11 @@
                 </div>
             </div>
         </div>
+
+
     </section>
-
-
+       
+    
 <section class="regulatory-section">
       <h2 class="section-heading">Accredited by Global Regulatory Authorities</h2>
 
@@ -305,7 +307,143 @@
   </div>
 </section>
 
+ <div style="text-align: center; margin: 30px 0;">
+    <h2 class="products-heading">Click here to download products</h2>
+    <a href="img/products.pdf" class="download_btn_red" download="Cynture_Global_products" onclick="showToast()">
+        ⬇️ Products Details
+    </a>
+  </div>
+  <div id="toast-container">
+    <div class="toast-icon-box">
+        <img src="https://img.icons8.com/color/48/adobe-acrobat.png" width="24" height="24" alt="logo">
+    </div>
+    
+    <div class="toast-details">
+        <!-- <div class="toast-status">Success</div> -->
+        <p class="toast-text">PDF downloaded successfully!</p>
+    </div>
 
+    <button class="toast-close-btn" onclick="closeToast()">&times;</button>
+    </div>
+  <script>
+    let toastTimer;
+
+function showToast() {
+    var toast = document.getElementById("toast-container");
+    
+    clearTimeout(toastTimer);
+    toast.className = "show";
+    
+    toastTimer = setTimeout(function(){ 
+        closeToast(); 
+    }, 4000);
+}
+function closeToast() {
+    var toast = document.getElementById("toast-container");
+    toast.className = toast.className.replace("show", "");
+}
+</script>
+<style>
+      /* --- Old Button Styles (Keep these) --- */
+.products-heading {
+    font-family: sans-serif;
+    color: #7b2cbf;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.download_btn_red {
+    color: #ffffff !important;
+    display: inline-block;
+    padding: 6px 15px;
+    background: #dc3545;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    font-family: sans-serif;
+}
+
+/* Toast Container - Screenshot style layout */
+#toast-container {
+    visibility: hidden;
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e7f0fa; 
+    border: 1px solid #e7f0fa;
+    border-radius: 8px;
+    padding: 12px 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); 
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#toast-container.show {
+    visibility: visible;
+    -webkit-animation: slideDown 0.4s ease-out;
+    animation: slideDown 0.4s ease-out;
+}
+
+/* Slide Down Animation */
+@keyframes slideDown {
+    from { top: -100px; opacity: 0; }
+    to { top: 30px; opacity: 1; }
+}
+
+/* Icon Section */
+.toast-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+/* Success & Message Styles */
+.toast-details {
+    flex-grow: 1;
+}
+
+.toast-status {
+    color: #444;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.toast-text {
+    color: #666;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Close Button (X) */
+.toast-close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+}
+
+.toast-close-btn:hover {
+    color: #333;
+}
+  
+</style>
 
 
     <!-- Product Tabs Section -->
@@ -326,7 +464,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div>+
         </div>
     </section>
 
