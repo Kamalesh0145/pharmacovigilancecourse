@@ -274,7 +274,6 @@
 
     </div>
 
-
     <style>
       /* Commitment Section */
       .commitment-section {
@@ -372,14 +371,146 @@
         text-transform: uppercase;
         letter-spacing: 1px;
       }
+  /* --- Old Button Styles (Keep these) --- */
+.brochure-heading {
+    font-family: sans-serif;
+    color: #7b2cbf;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.download_btn_red {
+    color: #ffffff !important;
+    display: inline-block;
+    padding: 6px 15px;
+    background: #dc3545;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    font-family: sans-serif;
+}
+
+/* Toast Container - Screenshot style layout */
+#toast-container {
+    visibility: hidden;
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e7f0fa; 
+    border: 1px solid #e7f0fa;
+    border-radius: 8px;
+    padding: 12px 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); 
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#toast-container.show {
+    visibility: visible;
+    -webkit-animation: slideDown 0.4s ease-out;
+    animation: slideDown 0.4s ease-out;
+}
+
+/* Slide Down Animation */
+@keyframes slideDown {
+    from { top: -100px; opacity: 0; }
+    to { top: 30px; opacity: 1; }
+}
+
+/* Icon Section */
+.toast-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+/* Success & Message Styles */
+.toast-details {
+    flex-grow: 1;
+}
+
+.toast-status {
+    color: #444;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.toast-text {
+    color: #666;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Close Button (X) */
+.toast-close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+}
+
+.toast-close-btn:hover {
+    color: #333;
+}
     </style>
+    
 
     <!-- About Details -->
     <div class="commitment-section">
-      <!-- <div class="section-header">
-            <h2><i class="fas fa-handshake"></i> Cynture Global Commitment</h2>
-            <div class="section-divider"></div>
-          </div> -->
+   <div style="text-align: center; margin: 30px 0;">
+    <h2 class="brochure-heading">Click here to download brochure</h2>
+    <a href="img/Brochure.pdf" class="download_btn_red" download="Cynture_Global_Brochure" onclick="showToast()">
+        ⬇️ Course Details
+    </a>
+  </div>
+  <div id="toast-container">
+    <div class="toast-icon-box">
+        <img src="https://img.icons8.com/color/48/adobe-acrobat.png" width="24" height="24" alt="logo">
+    </div>
+    
+    <div class="toast-details">
+        <!-- <div class="toast-status">Success</div> -->
+        <p class="toast-text">PDF downloaded successfully!</p>
+    </div>
+
+    <button class="toast-close-btn" onclick="closeToast()">&times;</button>
+    </div>
+  <script>
+    let toastTimer;
+
+function showToast() {
+    var toast = document.getElementById("toast-container");
+    
+    clearTimeout(toastTimer);
+    toast.className = "show";
+    
+    toastTimer = setTimeout(function(){ 
+        closeToast(); 
+    }, 4000);
+}
+function closeToast() {
+    var toast = document.getElementById("toast-container");
+    toast.className = toast.className.replace("show", "");
+}
+</script>
+
       <div class="commitment-content">
         <div class="commitment-card">
           <div class="commitment-icon">
@@ -411,29 +542,14 @@
 
           <div class="stats_grid">
             <div class="stat_item">
-              <!-- <div class="stat_number">12000+</div> -->
-              <!-- <div class="stat_label">Participants</div> -->
-              <!-- <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Participants from different countries</p> -->
               <div class="stat_label">Participants from different countries</div>
             </div>
 
             <div class="stat_item">
-              <!-- <div class="stat_number">200+</div> -->
-              <!-- <div class="stat_label">Cities</div> -->
-              <!-- <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Multiple locations across India and Other countries</p> -->
-              <div class="stat_label">Multiple locations across India and Other countries</div>
+                  <div class="stat_label">Multiple locations across India and Other countries</div>
             </div>
-
-            <!-- <div class="stat_item">
-              <div class="stat_number">30+</div>
-              <div class="stat_label">Countries & Counting</div>
-              <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Global Outreach</p>
-            </div> -->
             <div class="stat_item">
-              <!-- <div class="stat_number">10+</div>
-              <div class="stat_label">Years Experience</div>
-              <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Course materials from industrial experts having 10+ years experience</p> -->
-              <div class="stat_label">Course materials from industrial experts having 10+ years experience</div>
+             <div class="stat_label">Course materials from industrial experts having 10+ years experience</div>
             </div>
 
           </div>
@@ -496,32 +612,9 @@
       <!-- Section Text -->
       <div class="col-lg-4">
         <div class="packages_text">
-          <!-- <h3>Choose the <br />Right Training Package</h3> -->
-          <!-- <p>Select a course package that fits your learning goals. Each package is designed to give you practical skills, expert guidance, and certification in pharmaceutical and clinical research.</p> -->
-        </div>
+          </div>
       </div>
-
-      <!-- Package 1 -->
-      <!-- <div class="col-lg-4">
-        <div class="packages_item">
-          <div class="pack_head">
-            <i class="lnr lnr-graduation-hat"></i>
-            <h3>Basic</h3>
-            <p>For Beginners</p>
-          </div>
-          <div class="pack_body">
-            <ul class="list">
-              <li><a href="#">Access to One Course of Choice</a></li>
-              <li><a href="#">Hands-On Practical Assignments</a></li>
-              <li><a href="#">Certificate of Completion</a></li>
-            </ul>
-          </div>
-          <div class="pack_footer">
-            <h4>₹15,000</h4>
-            <a class="main_btn" href="#">Enroll Now</a>
-          </div>
-        </div>
-      </div> -->
+      <!-- Package 1 -->  
       <style>
         /* Course Cards Styling Only */
         .course_card {
@@ -637,28 +730,7 @@
         }
       </style>
 
-      <!-- Package 2 -->
-      <!-- <div class="col-lg-4">
-          <div class="packages_item">
-            <div class="pack_head">
-              <i class="lnr lnr-diamond"></i>
-              <h3>Premium</h3>
-            </div>
-            <div class="pack_body">
-              <ul class="list">
-                <li>Program Fees</li>
-                <li>Indian Participants: Rs. 12,000 <span class="star">*</span></li>
-                <li>Participants Residing Overseas: US$ 250</li><br>
-              </ul>
-            </div>
-            <div class="pack_footer">
-
-              <a class="main_btn" href="#">Register Now</a>
-
-            </div>
-          </div>
-        </div> -->
-
+     
       <!--================ Placement Area =================-->
 
 

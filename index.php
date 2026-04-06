@@ -150,7 +150,7 @@
                     <!-- Email Client Update Section -->
 <section class="py-5 bg-light" style="margin-top: -350px; position: relative; z-index: 10;">
         <div class="container text-center">
-        <h3 class="mb-2 font-weight-bold" style="color: #7a329d;">Registration QR Code</h3>
+        <h3 class="mb-2 font-weight-bold" style="color: #7a329d;">Registration for Free Online Session</h3>
         <p class="mb-4 text-muted">Scan this QR code or click it to fill the student form.</p>
         
         <div class="qr-container d-inline-block p-4 bg-white shadow-sm border" style="border-radius: 20px;">

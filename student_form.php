@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <td style="padding: 12px; border: 1px solid #eee;">'.htmlspecialchars($_POST['studies'] ?? '').'</td>
                     </tr>
                     <tr style="background-color: #f9f9f9;">
-                        <td style="padding: 12px; border: 1px solid #eee; font-weight: bold; color: #eee;">Course Interest</td>
+                        <td style="padding: 12px; border: 1px solid #eee; font-weight: bold;">Course Interest</td>
                         <td style="padding: 12px; border: 1px solid #eee;">'.htmlspecialchars($_POST['course'] ?? '').'</td>
                     </tr>
                     <tr>
