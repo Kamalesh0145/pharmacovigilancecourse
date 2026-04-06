@@ -16,145 +16,146 @@
   </div>
 </section>
 <style>
-/* ===========================
+  /* ===========================
    Contact Page UI Enhancements
    =========================== */
 
-.contact_area {
-  padding: 80px 140px;
-}
-
-/* Contact Info Cards */
-.contact_info .info_item {
-  background: #fff;
-  width:300px;
-  padding: 25px;
-  border-radius: 12px;
-  margin-bottom: 20px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-  transition: 0.3s ease;
-}
-
-.contact_info .info_item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
-}
-
-.contact_info .info_item i {
-  font-size: 15px;
-  color: #6a11cb;
-  top: 24px;
-  margin-left:6px;
-}
-@media (max-width: 768px) {
-  .contact_info .info_item i {
-    top: 19px !important;
-    margin-left:0px !important;
-    font-size:15px;
-  }
-}
-
-/* Form Inputs */
-.contact_form .form-control,
-.contact_form select,
-.contact_form textarea {
-  border-radius: 10px;
-  padding: 5px 25px;
-  border: 1px solid #ddd;
-  font-size: 15px;
-  box-shadow: none;
-  transition: 0.3s ease;
-}
-
-.contact_form .form-control:focus,
-.contact_form select:focus,
-.contact_form textarea:focus {
-  border-color: #5e2ced;
-  box-shadow: 0 0 8px rgba(94,44,237,0.3);
-}
-
-/* Submit Button */
-.submit_btn {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: #fff !important;
-  padding: 12px 28px;
-  border-radius: 30px;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  transition: 0.3s ease;
-}
-
-.submit_btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
-}
-
-.form_card {
-  background: #ffffff;
-  padding: 35px;
-  border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-
-  margin-left:200px; /* 👉 Moves card to the right */
-}
-
-/* Banner Heading */
-.banner_area h2 {
-  font-size: 42px;
-  font-weight: 700;
-}
-
-.page_link a {
-  font-weight: 600;
-  font-size: 15px;
-  color: #444;
-}
-
-/* Mobile Responsive Styles */
-@media (max-width: 768px) {
   .contact_area {
-    padding: 40px 20px;
+    padding: 80px 140px;
   }
-  
+
+  /* Contact Info Cards */
   .contact_info .info_item {
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 20px;
+    background: #fff;
+    width: 300px;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
   }
-  
-  .form_card {
-    margin-left: 0;
-    padding: 25px 20px;
-    margin-top: 20px;
+
+  .contact_info .info_item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
   }
-  
-  .banner_area h2 {
-    font-size: 28px;
+
+  .contact_info .info_item i {
+    font-size: 15px;
+    color: #6a11cb;
+    top: 24px;
+    margin-left: 6px;
   }
-  
+
+  @media (max-width: 768px) {
+    .contact_info .info_item i {
+      top: 19px !important;
+      margin-left: 0px !important;
+      font-size: 15px;
+    }
+  }
+
+  /* Form Inputs */
   .contact_form .form-control,
   .contact_form select,
   .contact_form textarea {
-    padding: 6px 28px;
-    font-size: 14px;
+    border-radius: 10px;
+    padding: 5px 25px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    box-shadow: none;
+    transition: 0.3s ease;
   }
-}
 
-@media (max-width: 480px) {
-  .contact_area {
-    padding: 30px 15px;
+  .contact_form .form-control:focus,
+  .contact_form select:focus,
+  .contact_form textarea:focus {
+    border-color: #5e2ced;
+    box-shadow: 0 0 8px rgba(94, 44, 237, 0.3);
   }
-  
+
+  /* Submit Button */
+  .submit_btn {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff !important;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s ease;
+  }
+
+  .submit_btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  }
+
   .form_card {
-    padding: 20px 15px;
-  }
-  
-  .banner_area h2 {
-    font-size: 24px;
-  }
-}
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 
+    margin-left: 200px;
+    /* 👉 Moves card to the right */
+  }
+
+  /* Banner Heading */
+  .banner_area h2 {
+    font-size: 42px;
+    font-weight: 700;
+  }
+
+  .page_link a {
+    font-weight: 600;
+    font-size: 15px;
+    color: #444;
+  }
+
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    .contact_area {
+      padding: 40px 20px;
+    }
+
+    .contact_info .info_item {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 20px;
+    }
+
+    .form_card {
+      margin-left: 0;
+      padding: 25px 20px;
+      margin-top: 20px;
+    }
+
+    .banner_area h2 {
+      font-size: 28px;
+    }
+
+    .contact_form .form-control,
+    .contact_form select,
+    .contact_form textarea {
+      padding: 6px 28px;
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .contact_area {
+      padding: 30px 15px;
+    }
+
+    .form_card {
+      padding: 20px 15px;
+    }
+
+    .banner_area h2 {
+      font-size: 24px;
+    }
+  }
 </style>
 
 <!--================Home Banner Area =================-->
