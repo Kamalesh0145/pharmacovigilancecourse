@@ -183,14 +183,25 @@ include 'includes/header.php';
                                     <label class="form-label font-weight-bold">Phone Number</label>
                                     <input type="tel" name="phone" class="form-control"
                                         value="+91 "
+                                        required
+                                        minlength="14"
+                                        maxlength="14"
+                                        pattern="^\+91 \d{10}$"
+
                                         onfocus="if(this.value === '+91 ') this.setSelectionRange(this.value.length, this.value.length);"
+
                                         oninput="
                                         if (!this.value.startsWith('+91 ')) {
-                                            this.value = '+91 ' + this.value.replace(/[^0-9]/g, '');
-                                        }
-                                        let numbers = this.value.replace('+91 ', '').replace(/[^0-9]/g, '').slice(0,10);
-                                        this.value = '+91 ' + numbers; "
-                                        required>
+                                        this.value = '+91 ' + this.value.replace(/[^0-9]/g, '');
+                                         }
+                                         let numbers = this.value.replace('+91 ', '').replace(/[^0-9]/g, '').slice(0,10);
+                                         this.value = '+91 ' + numbers;
+
+                                         if(numbers.length < 10){
+                                        this.setCustomValidity('Please match the requested format.\nPlease enter exactly 10 digits');    
+                                           }
+                                        else {
+                                          this.setCustomValidity(''); } "onblur=" this.reportValidity(); ">
                                 </div>
                             </div>
                             <div class="mb-4">

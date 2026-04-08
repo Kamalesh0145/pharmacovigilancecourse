@@ -577,6 +577,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                   class="form-control"
                   style="border-radius: 8px;"
                   value="+91 "
+                  required
+                  minlength="14"
+                  maxlength="14"
+                  pattern="^\+91 \d{10}$"
+                  title="Please enter exactly 10 digits"
                   onfocus="if(this.value === '+91 ') this.setSelectionRange(this.value.length, this.value.length);"
                   oninput="
                if (!this.value.startsWith('+91 ')) {
@@ -584,8 +589,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                }
                let numbers = this.value.replace('+91 ', '').replace(/[^0-9]/g, '').slice(0,10);
                this.value = '+91 ' + numbers; 
-           "
-                  required>
+           ">
               </div>
               <input type="hidden" name="action" value="brochure_download">
             </div>

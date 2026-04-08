@@ -404,19 +404,22 @@
                                   class="form-control"
                                   style="border-radius: 8px;"
                                   value="+91 "
+                                  required
+                                  minlength="14"
+                                  maxlength="14"
+                                  pattern="^\+91 \d{10}$"
+                                  title="Please enter exactly 10 digits"
                                   onfocus="if(this.value === '+91 ') this.setSelectionRange(this.value.length, this.value.length);"
                                   oninput="
-               if (!this.value.startsWith('+91 ')) {
-                   this.value = '+91 ' + this.value.replace(/[^0-9]/g, '');
-               }
-               let numbers = this.value.replace('+91 ', '').replace(/[^0-9]/g, '').slice(0,10);
-               this.value = '+91 ' + numbers;
-           "
-                                  required>
-                          </div>
-                          <input type="hidden" name="action" value="products_download">
-                      </div>
-                      <div class="modal-footer" style="border: none; padding: 0 30px 30px;">
+                                  if (!this.value.startsWith('+91 ')) {
+                                      this.value = '+91 ' + this.value.replace(/[^0-9]/g, '');
+                                  }
+                                  let numbers = this.value.replace('+91 ', '').replace(/[^0-9]/g, '').slice(0,10);
+                                  this.value = '+91 ' + numbers;   ">
+                                             </div>
+                                             <input type="hidden" name="action" value="products_download">
+                                         </div>
+                                         <div class="modal-footer" style="border: none; padding: 0 30px 30px;">
                           <button type="submit" class="btn w-100" style="background: #7b2cbf; color: white; border-radius: 8px; padding: 12px; font-weight: bold;">
                               Submit & Download PDF
                           </button>
