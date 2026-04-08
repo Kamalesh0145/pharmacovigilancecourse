@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->addAddress('clinicalservices@cyntureglobal.com');
 
         // --- 3. Email Content
-        $mail->isHTML(true); 
+        $mail->isHTML(true);
         $mail->Subject = 'New Student Registration: ' . ($_POST['name'] ?? 'No Name');
 
         // Professional Email Body
@@ -42,35 +42,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
                     <tr style="background-color: #f9f9f9;">
                         <td style="padding: 12px; border: 1px solid #eee; font-weight: bold; width: 40%;">Student Name</td>
-                        <td style="padding: 12px; border: 1px solid #eee;">'.htmlspecialchars($_POST['name'] ?? '').'</td>
+                        <td style="padding: 12px; border: 1px solid #eee;">' . htmlspecialchars($_POST['name'] ?? '') . '</td>
                     </tr>
                     <tr>
                         <td style="padding: 12px; border: 1px solid #eee; font-weight: bold;">Studies</td>
-                        <td style="padding: 12px; border: 1px solid #eee;">'.htmlspecialchars($_POST['studies'] ?? '').'</td>
+                        <td style="padding: 12px; border: 1px solid #eee;">' . htmlspecialchars($_POST['studies'] ?? '') . '</td>
                     </tr>
                     <tr style="background-color: #f9f9f9;">
                         <td style="padding: 12px; border: 1px solid #eee; font-weight: bold;">Course Interest</td>
-                        <td style="padding: 12px; border: 1px solid #eee;">'.htmlspecialchars($_POST['course'] ?? '').'</td>
+                        <td style="padding: 12px; border: 1px solid #eee;">' . htmlspecialchars($_POST['course'] ?? '') . '</td>
                     </tr>
                     <tr>
                         <td style="padding: 12px; border: 1px solid #eee; font-weight: bold;">College Name</td>
-                        <td style="padding: 12px; border: 1px solid #eee;">'.htmlspecialchars($_POST['college'] ?? '').'</td>
+                        <td style="padding: 12px; border: 1px solid #eee;">' . htmlspecialchars($_POST['college'] ?? '') . '</td>
                     </tr>
                     <tr style="background-color: #f9f9f9;">
                         <td style="padding: 12px; border: 1px solid #eee; font-weight: bold;">Pass Out Year</td>
-                        <td style="padding: 12px; border: 1px solid #eee;">'.htmlspecialchars($_POST['passout_year'] ?? '').'</td>
+                        <td style="padding: 12px; border: 1px solid #eee;">' . htmlspecialchars($_POST['passout_year'] ?? '') . '</td>
                     </tr>
                     <tr>
                         <td style="padding: 12px; border: 1px solid #eee; font-weight: bold;">Email ID</td>
-                        <td style="padding: 12px; border: 1px solid #eee;"><a href="mailto:'.htmlspecialchars($_POST['email'] ?? '').'">'.htmlspecialchars($_POST['email'] ?? '').'</a></td>
+                        <td style="padding: 12px; border: 1px solid #eee;"><a href="mailto:' . htmlspecialchars($_POST['email'] ?? '') . '">' . htmlspecialchars($_POST['email'] ?? '') . '</a></td>
                     </tr>
                     <tr style="background-color: #f9f9f9;">
                         <td style="padding: 12px; border: 1px solid #eee; font-weight: bold;">Phone Number</td>
-                        <td style="padding: 12px; border: 1px solid #eee;">'.htmlspecialchars($_POST['phone'] ?? '').'</td>
+                        <td style="padding: 12px; border: 1px solid #eee;">' . htmlspecialchars($_POST['phone'] ?? '') . '</td>
                     </tr>
                 </table>
                 <div style="margin-top: 25px; text-align: center;">
-                    <a href="tel:'.htmlspecialchars($_POST['phone'] ?? '').'" style="background-color: #7b2cbf; color: white; padding: 12px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">Call Student Now</a>
+                    <a href="tel:' . htmlspecialchars($_POST['phone'] ?? '') . '" style="background-color: #28a745; color: white; padding: 12px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">📞 Call Student Now</a>
                 </div>
             </div>
             <div style="background-color: #f4f4f4; color: #888; padding: 15px; text-align: center; font-size: 12px;">
@@ -95,11 +95,39 @@ include 'includes/header.php';
 ?>
 
 <style>
-    .form-section { background-color: #f8f9fa; }
-    .card { border-radius: 15px; border: none; overflow: hidden; }
-    .bg-violet { background-color: #7b2cbf !important; padding-top: 40px !important; padding-bottom: 5px !important; }
-    .enroll-desc { opacity: 0.95; font-size: 1.1rem; font-weight: 500; margin-top: 25px; }
-    .btn-submit { background-color: #7b2cbf; color: white; border: none; border-radius: 8px; padding: 10px 40px; font-weight: bold; transition: 0.3s; display: inline-block; }
+    .form-section {
+        background-color: #f8f9fa;
+    }
+
+    .card {
+        border-radius: 15px;
+        border: none;
+        overflow: hidden;
+    }
+
+    .bg-violet {
+        background-color: #7b2cbf !important;
+        padding-top: 40px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .enroll-desc {
+        opacity: 0.95;
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-top: 25px;
+    }
+
+    .btn-submit {
+        background-color: #7b2cbf;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 40px;
+        font-weight: bold;
+        transition: 0.3s;
+        display: inline-block;
+    }
 </style>
 
 <section class="py-5 form-section">
@@ -128,9 +156,18 @@ include 'includes/header.php';
                                     <label class="form-label font-weight-bold">Studies</label>
                                     <input type="text" name="studies" class="form-control" placeholder="Enter Your Studies" required>
                                 </div>
-                                <div class="col-md-6 mb-3">
-                                    <label class="form-label font-weight-bold">Course Interest</label>
-                                    <input type="text" name="course" class="form-control" placeholder="Enter Course Interest" required>
+
+                                <div class="col-md-6 mb-3"> <label class="form-label font-weight-bold">Course Interest</label> <select name="course"
+                                        class="form-select" required>
+                                        <option value="" disabled selected>Select a Course</option>
+                                        <option value="PCPV">PCPV</option>
+                                        <option value="PCCR">PCCR</option>
+                                        <option value="Scientific Writing">Scientific Writing</option>
+                                        <option value="Project Management">Project Management</option>
+                                        <option value="Clinical Trial Monitoring">Clinical Trial Monitoring</option>
+                                        <option value="Artificial intelligence in Healthcare industry">Artificial intelligence in Healthcare industry
+                                        </option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="mb-3">
@@ -144,7 +181,16 @@ include 'includes/header.php';
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label class="form-label font-weight-bold">Phone Number</label>
-                                    <input type="tel" name="phone" class="form-control" placeholder="Enter Your Phone Number" pattern="[0-9]{10}" maxlength="10" oninput="this.value = this.value.replace(/[^0-9]/g, '');" required>
+                                    <input type="tel" name="phone" class="form-control"
+                                        value="+91 "
+                                        onfocus="if(this.value === '+91 ') this.setSelectionRange(this.value.length, this.value.length);"
+                                        oninput="
+                                        if (!this.value.startsWith('+91 ')) {
+                                            this.value = '+91 ' + this.value.replace(/[^0-9]/g, '');
+                                        }
+                                        let numbers = this.value.replace('+91 ', '').replace(/[^0-9]/g, '').slice(0,10);
+                                        this.value = '+91 ' + numbers; "
+                                        required>
                                 </div>
                             </div>
                             <div class="mb-4">

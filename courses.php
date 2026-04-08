@@ -1,3 +1,68 @@
+<?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'PHPMailer/Exception.php';
+require 'PHPMailer/PHPMailer.php';
+require 'PHPMailer/SMTP.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['action'] === 'brochure_download') {
+  $mail = new PHPMailer(true);
+  try {
+    $mail->isSMTP();
+    $mail->Host       = 'smtp.gmail.com';
+    $mail->SMTPAuth   = true;
+    $mail->Username   = 'cyntureglobal@gmail.com';
+    $mail->Password   = 'qggw fibr pjoq lqpb';
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port       = 587;
+
+    $mail->setFrom('cyntureglobal@gmail.com', 'Cynture Global');
+    $mail->addAddress('clinicalservices@cyntureglobal.com');
+
+    $mail->isHTML(true);
+    $mail->Subject = 'New Student Download: Brochure';
+
+    // Simplified Professional Email Body
+    $bodyContent = '
+        <div style="font-family: Arial, sans-serif; max-width: 500px; margin: auto; border: 2px solid #7b2cbf; border-radius: 12px; overflow: hidden;">
+            <div style="background-color: #7b2cbf; color: white; padding: 15px; text-align: center;">
+                <h2 style="margin: 0; font-size: 18px; text-transform: uppercase;">New Student Download</h2>
+            </div>
+            <div style="padding: 25px; background-color: #ffffff;">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 15px; border: 1px solid #eee; background-color: #fcfcfc; font-weight: bold; color: #555; width: 40%;">Email ID</td>
+                        <td style="padding: 15px; border: 1px solid #eee; color: #7b2cbf; font-weight: bold;">' . htmlspecialchars($_POST['dl_email']) . '</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 15px; border: 1px solid #eee; background-color: #fcfcfc; font-weight: bold; color: #555;">Phone Number</td>
+                        <td style="padding: 15px; border: 1px solid #eee; font-weight: bold; color: #333;">' . htmlspecialchars($_POST['dl_phone']) . '</td>
+                    </tr>
+                </table>
+                <div style="margin-top: 20px; text-align: center;">
+                    <a href="tel:' . htmlspecialchars($_POST['dl_phone']) . '" style="background-color: #28a745; color: white; padding: 12px 25px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">📞 Call Student Now</a>
+                </div>
+            </div>
+            <div style="background-color: #f4f4f4; color: #999; padding: 10px; text-align: center; font-size: 11px;">
+                Cynture Global
+            </div>
+        </div>';
+
+    $mail->Body = $bodyContent;
+    $mail->AltBody = "Lead: Email: {$_POST['dl_email']}, Phone: {$_POST['dl_phone']}";
+
+    $mail->send();
+
+    header("Location: " . $_SERVER['PHP_SELF'] . "?download=success");
+    exit();
+  } catch (Exception $e) {
+    echo "<script>alert('Error: Mail send aagala.');</script>";
+  }
+}
+?>
+
 <?php include 'includes/header.php'; ?>
 
 <!--================Home Banner Area =================-->
@@ -371,191 +436,260 @@
         text-transform: uppercase;
         letter-spacing: 1px;
       }
-  /* --- Old Button Styles (Keep these) --- */
-.brochure-heading {
-    font-family: sans-serif;
-    color: #7b2cbf;
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-weight: 600;
-}
 
-.download_btn_red {
-    color: #ffffff !important;
-    display: inline-block;
-    padding: 6px 15px;
-    background: #dc3545;
-    text-decoration: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    transition: background 0.3s ease;
-    font-family: sans-serif;
-}
+      /* --- Old Button Styles (Keep these) --- */
+      .brochure-heading {
+        font-family: sans-serif;
+        color: #7b2cbf;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
 
-/* Toast Container - Screenshot style layout */
-#toast-container {
-    visibility: hidden;
-    position: fixed;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #e7f0fa; 
-    border: 1px solid #e7f0fa;
-    border-radius: 8px;
-    padding: 12px 20px;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); 
-    z-index: 10000;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    min-width: 350px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+      .download_btn_red {
+        color: #ffffff !important;
+        display: inline-block;
+        padding: 6px 15px;
+        background: #dc3545;
+        text-decoration: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        transition: background 0.3s ease;
+        font-family: sans-serif;
+      }
 
-#toast-container.show {
-    visibility: visible;
-    -webkit-animation: slideDown 0.4s ease-out;
-    animation: slideDown 0.4s ease-out;
-}
+      /* Toast Container - Screenshot style layout */
+      #toast-container {
+        visibility: hidden;
+        position: fixed;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #e7f0fa;
+        border: 1px solid #e7f0fa;
+        border-radius: 8px;
+        padding: 12px 20px;
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+        z-index: 10000;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        min-width: 350px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
 
-/* Slide Down Animation */
-@keyframes slideDown {
-    from { top: -100px; opacity: 0; }
-    to { top: 30px; opacity: 1; }
-}
+      #toast-container.show {
+        visibility: visible;
+        -webkit-animation: slideDown 0.4s ease-out;
+        animation: slideDown 0.4s ease-out;
+      }
 
-/* Icon Section */
-.toast-icon-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #ffffff;
-    padding: 8px;
-    border-radius: 6px;
-    border: 1px solid #eee;
-}
+      /* Slide Down Animation */
+      @keyframes slideDown {
+        from {
+          top: -100px;
+          opacity: 0;
+        }
 
-/* Success & Message Styles */
-.toast-details {
-    flex-grow: 1;
-}
+        to {
+          top: 30px;
+          opacity: 1;
+        }
+      }
 
-.toast-status {
-    color: #444;
-    font-weight: 600;
-    font-size: 14px;
-    margin-bottom: 2px;
-}
+      /* Icon Section */
+      .toast-icon-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #ffffff;
+        padding: 8px;
+        border-radius: 6px;
+        border: 1px solid #eee;
+      }
 
-.toast-text {
-    color: #666;
-    font-size: 13px;
-    margin: 0;
-}
+      /* Success & Message Styles */
+      .toast-details {
+        flex-grow: 1;
+      }
 
-/* Close Button (X) */
-.toast-close-btn {
-    background: none;
-    border: none;
-    font-size: 20px;
-    color: #999;
-    cursor: pointer;
-    padding: 0;
-    line-height: 1;
-}
+      .toast-status {
+        color: #444;
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 2px;
+      }
 
-.toast-close-btn:hover {
-    color: #333;
-}
+      .toast-text {
+        color: #666;
+        font-size: 13px;
+        margin: 0;
+      }
+
+      /* Close Button (X) */
+      .toast-close-btn {
+        background: none;
+        border: none;
+        font-size: 20px;
+        color: #999;
+        cursor: pointer;
+        padding: 0;
+        line-height: 1;
+      }
+
+      .toast-close-btn:hover {
+        color: #333;
+      }
     </style>
-    
 
-    <!-- About Details -->
+
     <div class="commitment-section">
-   <div style="text-align: center; margin: 30px 0;">
-    <h2 class="brochure-heading">Click here to download brochure</h2>
-    <a href="img/Brochure.pdf" class="download_btn_red" download="Cynture_Global_Brochure" onclick="showToast()">
-        ⬇️ Course Details
-    </a>
-  </div>
-  <div id="toast-container">
-    <div class="toast-icon-box">
+      <div style="text-align: center; margin: 30px 0;">
+        <h2 class="brochure-heading">Click here to download brochure</h2>
+        <button type="button" class="download_btn_red" data-toggle="modal" data-target="#downloadModal">
+          ⬇️ Course Details
+        </button>
+      </div>
+    </div>
+
+    <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" style="border-radius: 15px; overflow: hidden; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+          <div class="modal-header" style="background: #7b2cbf; color: white; border: none; padding: 20px;">
+            <h5 class="modal-title" style="font-weight: 600;">Brochure Download</h5>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form id="brochureLeadForm" method="POST" action="">
+            <div class="modal-body" style="padding: 30px;">
+              <!-- <p class="text-muted mb-4" style="font-size: 14px;">Enter your details to download the brochure.</p> -->
+              <div class="form-group mb-3">
+                <label style="font-weight: 600; font-size: 14px; color: #333;">Email Address</label>
+                <input type="email" name="dl_email" class="form-control" placeholder="example@gmail.com" required style="border-radius: 8px;">
+              </div>
+              <div class="form-group mb-4">
+                <label style="font-weight: 600; font-size: 14px; color: #333;">Phone Number</label>
+                <input type="tel"
+                  name="dl_phone"
+                  class="form-control"
+                  style="border-radius: 8px;"
+                  value="+91 "
+                  onfocus="if(this.value === '+91 ') this.setSelectionRange(this.value.length, this.value.length);"
+                  oninput="
+               if (!this.value.startsWith('+91 ')) {
+                   this.value = '+91 ' + this.value.replace(/[^0-9]/g, '');
+               }
+               let numbers = this.value.replace('+91 ', '').replace(/[^0-9]/g, '').slice(0,10);
+               this.value = '+91 ' + numbers; 
+           "
+                  required>
+              </div>
+              <input type="hidden" name="action" value="brochure_download">
+            </div>
+            <div class="modal-footer" style="border: none; padding: 0 30px 30px;">
+              <button type="submit" class="btn w-100" style="background: #7b2cbf; color: white; border-radius: 8px; padding: 12px; font-weight: bold; transition: 0.3s;">
+                Submit & Download PDF
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast-container">
+      <div class="toast-icon-box">
         <img src="https://img.icons8.com/color/48/adobe-acrobat.png" width="24" height="24" alt="logo">
-    </div>
-    
-    <div class="toast-details">
-        <!-- <div class="toast-status">Success</div> -->
+      </div>
+      <div class="toast-details">
         <p class="toast-text">PDF downloaded successfully!</p>
+      </div>
+      <button class="toast-close-btn" onclick="closeToast()">&times;</button>
     </div>
 
-    <button class="toast-close-btn" onclick="closeToast()">&times;</button>
-    </div>
-  <script>
-    let toastTimer;
+    <script>
+      let toastTimer;
 
-function showToast() {
-    var toast = document.getElementById("toast-container");
-    
-    clearTimeout(toastTimer);
-    toast.className = "show";
-    
-    toastTimer = setTimeout(function(){ 
-        closeToast(); 
-    }, 4000);
-}
-function closeToast() {
-    var toast = document.getElementById("toast-container");
-    toast.className = toast.className.replace("show", "");
-}
-</script>
+      function showToast() {
+        var toast = document.getElementById("toast-container");
+        clearTimeout(toastTimer);
+        toast.className = "show";
+        toastTimer = setTimeout(function() {
+          closeToast();
+        }, 5000);
+      }
 
-      <div class="commitment-content">
-        <div class="commitment-card">
-          <div class="commitment-icon">
-            <i class="fas fa-cogs"></i>
-          </div>
-          <div class="commitment-text">
-            <h4>Industry-Focused Training</h4>
-            <p>Cynture Global is committed to delivering industry-focused training that blends theoretical knowledge with hands-on practice. Our courses in pharmacovigilance, clinical research, project management, and scientific writing are designed to enhance employability and professional competence.</p>
-          </div>
+      function closeToast() {
+        var toast = document.getElementById("toast-container");
+        toast.className = toast.className.replace("show", "");
+      }
+
+      // Handle the redirect and download trigger
+      <?php if (isset($_GET['download']) && $_GET['download'] == 'success'): ?>
+        window.onload = function() {
+          showToast();
+          var link = document.createElement('a');
+          link.href = 'img/Brochure.pdf';
+          link.download = 'Cynture_Global_Brochure.pdf';
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+
+          // Cleanup URL after download start
+          setTimeout(function() {
+            window.history.replaceState({}, document.title, window.location.pathname);
+          }, 1000);
+        };
+      <?php endif; ?>
+    </script>
+
+    <div class="commitment-content">
+      <div class="commitment-card">
+        <div class="commitment-icon">
+          <i class="fas fa-cogs"></i>
         </div>
-        <div class="commitment-card">
-          <div class="commitment-icon">
-            <i class="fas fa-cogs"></i>
-          </div>
-          <div class="commitment-text">
-            <h4>Expert-Led Programs</h4>
-            <p>Through our expert-led programs, students gain insights into real-world scenarios, learn regulatory compliance, master project management, and develop effective communication skills to thrive in the pharmaceutical and clinical research landscape.</p>
-          </div>
+        <div class="commitment-text">
+          <h4>Industry-Focused Training</h4>
+          <p>Cynture Global is committed to delivering industry-focused training that blends theoretical knowledge with hands-on practice. Our courses in pharmacovigilance, clinical research, project management, and scientific writing are designed to enhance employability and professional competence.</p>
+        </div>
+      </div>
+      <div class="commitment-card">
+        <div class="commitment-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <div class="commitment-text">
+          <h4>Expert-Led Programs</h4>
+          <p>Through our expert-led programs, students gain insights into real-world scenarios, learn regulatory compliance, master project management, and develop effective communication skills to thrive in the pharmaceutical and clinical research landscape.</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Statistics Section -->
-    <div class="stats_section">
-      <div class="container">
-        <div class="stats_inner">
-          <h2 class="stats_title">Our aspects</h2>
-          <p class="stats_subtitle">Best Clinical Research, SW & PV Training Providers</p>
+  <!-- Statistics Section -->
+  <div class="stats_section">
+    <div class="container">
+      <div class="stats_inner">
+        <h2 class="stats_title">Our aspects</h2>
+        <p class="stats_subtitle">Best Clinical Research, SW & PV Training Providers</p>
 
-          <div class="stats_grid">
-            <div class="stat_item">
-              <div class="stat_label">Participants from different countries</div>
-            </div>
-
-            <div class="stat_item">
-                  <div class="stat_label">Multiple locations across India and Other countries</div>
-            </div>
-            <div class="stat_item">
-             <div class="stat_label">Course materials from industrial experts having 10+ years experience</div>
-            </div>
-
+        <div class="stats_grid">
+          <div class="stat_item">
+            <div class="stat_label">Participants from different countries</div>
           </div>
+
+          <div class="stat_item">
+            <div class="stat_label">Multiple locations across India and Other countries</div>
+          </div>
+          <div class="stat_item">
+            <div class="stat_label">Course materials from industrial experts having 10+ years experience</div>
+          </div>
+
         </div>
       </div>
     </div>
+  </div>
 
   </div>
 </section>
@@ -612,9 +746,9 @@ function closeToast() {
       <!-- Section Text -->
       <div class="col-lg-4">
         <div class="packages_text">
-          </div>
+        </div>
       </div>
-      <!-- Package 1 -->  
+      <!-- Package 1 -->
       <style>
         /* Course Cards Styling Only */
         .course_card {
@@ -730,7 +864,7 @@ function closeToast() {
         }
       </style>
 
-     
+
       <!--================ Placement Area =================-->
 
 
