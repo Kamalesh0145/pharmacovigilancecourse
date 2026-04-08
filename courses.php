@@ -566,10 +566,39 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
           <form id="brochureLeadForm" method="POST" action="">
             <div class="modal-body" style="padding: 30px;">
               <!-- <p class="text-muted mb-4" style="font-size: 14px;">Enter your details to download the brochure.</p> -->
-              <div class="form-group mb-3">
-                <label style="font-weight: 600; font-size: 14px; color: #333;">Email Address</label>
-                <input type="email" name="dl_email" class="form-control" placeholder="example@gmail.com" required style="border-radius: 8px;">
-              </div>
+           <div class="form-group mb-3">
+  <label style="font-weight: 600; font-size: 14px; color: #333;">Email Address</label>
+
+  <input 
+    type="email" 
+    name="dl_email" 
+    class="form-control" 
+    placeholder="example@gmail.com" 
+    required 
+    style="border-radius: 8px;"
+
+    oninput="
+      let emailVal = this.value;
+
+      let emailPattern = /^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/;
+
+      if (!emailVal.includes('@')) {
+        this.setCustomValidity('Email must contain @ (Example: example@gmail.com)');
+      } 
+      else if (!emailVal.includes('.')) {
+        this.setCustomValidity('Email must contain dot (.) (Example: example@gmail.com)');
+      }
+      else if (!emailPattern.test(emailVal)) {
+        this.setCustomValidity('Enter valid email (Example: example@gmail.com)');
+      } 
+      else {
+        this.setCustomValidity('');
+      }
+    "
+
+    onblur="this.reportValidity();"
+  >
+</div>
               <div class="form-group mb-4">
                 <label style="font-weight: 600; font-size: 14px; color: #333;">Phone Number</label>
                 <input type="tel"

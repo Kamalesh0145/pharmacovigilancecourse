@@ -395,7 +395,33 @@
                       <div class="modal-body" style="padding: 30px;">
                           <div class="form-group mb-3">
                               <label style="font-weight: 600; font-size: 14px; color: #333;">Email Address</label>
-                              <input type="email" name="dl_email" class="form-control" placeholder="example@gmail.com" required style="border-radius: 8px;">
+                              <input
+                                  type="email"
+                                  name="dl_email"
+                                  class="form-control"
+                                  placeholder="example@gmail.com"
+                                  required
+                                  style="border-radius: 8px;"
+
+                                  oninput="
+                                  let emailVal = this.value;
+                            
+                                  let emailPattern = /^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/;
+                            
+                                  if (!emailVal.includes('@')) {
+                                    this.setCustomValidity('Email must contain @ (Example: example@gmail.com)');
+                                  } 
+                                  else if (!emailVal.includes('.')) {
+                                    this.setCustomValidity('Email must contain dot (.) (Example: example@gmail.com)');
+                                  }
+                                  else if (!emailPattern.test(emailVal)) {
+                                    this.setCustomValidity('Enter valid email (Example: example@gmail.com)');
+                                  } 
+                                  else {
+                                    this.setCustomValidity('');
+                                  }
+                                "
+                                  onblur="this.reportValidity();">
                           </div>
                           <div class="form-group mb-4">
                               <label style="font-weight: 600; font-size: 14px; color: #333;">Phone Number</label>
@@ -416,10 +442,10 @@
                                   }
                                   let numbers = this.value.replace('+91 ', '').replace(/[^0-9]/g, '').slice(0,10);
                                   this.value = '+91 ' + numbers;   ">
-                                             </div>
-                                             <input type="hidden" name="action" value="products_download">
-                                         </div>
-                                         <div class="modal-footer" style="border: none; padding: 0 30px 30px;">
+                          </div>
+                          <input type="hidden" name="action" value="products_download">
+                      </div>
+                      <div class="modal-footer" style="border: none; padding: 0 30px 30px;">
                           <button type="submit" class="btn w-100" style="background: #7b2cbf; color: white; border-radius: 8px; padding: 12px; font-weight: bold;">
                               Submit & Download PDF
                           </button>

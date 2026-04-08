@@ -201,12 +201,38 @@ include 'includes/header.php';
                                         this.setCustomValidity('Please match the requested format.\nPlease enter exactly 10 digits');    
                                            }
                                         else {
-                                          this.setCustomValidity(''); } "onblur=" this.reportValidity(); ">
+                                          this.setCustomValidity(''); } " onblur=" this.reportValidity(); ">
                                 </div>
                             </div>
                             <div class="mb-4">
                                 <label class="form-label font-weight-bold">Email Address</label>
-                                <input type="email" name="email" class="form-control" placeholder="example@gmail.com" required>
+
+                                <input
+                                    type="email"
+                                    name="email"
+                                    class="form-control"
+                                    placeholder="example@gmail.com"
+                                    required
+
+                                    oninput="
+                                     let value = this.value;
+
+                                     let emailPattern = /^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/;
+
+                                     if (!value.includes('@')) {
+                                       this.setCustomValidity('Email must contain @ (Example: example@gmail.com)');
+                                     } 
+                                     else if (!value.includes('.')) {
+                                       this.setCustomValidity('Email must contain dot (.) (Example: example@gmail.com)');
+                                     }
+                                     else if (!emailPattern.test(value)) {
+                                       this.setCustomValidity('Enter valid email (Example: example@gmail.com)');
+                                     } 
+                                     else {
+                                       this.setCustomValidity('');
+                                     }
+                                   "
+                                    onblur="this.reportValidity();">
                             </div>
                             <div class="text-center mt-2">
                                 <button type="submit" class="btn btn-submit shadow-sm">Submit</button>
